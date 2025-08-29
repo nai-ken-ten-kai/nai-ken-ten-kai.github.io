@@ -1,23 +1,44 @@
 @media (max-width: 600px) {
+  .titles {
+    top: 0;
+    padding-bottom: 4px;
+    position: static;
+    width: 100vw;
+    max-width: 100vw;
+    background: #fff;
+    z-index: 11;
+  }
   .main-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem !important;
   }
   .subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem !important;
   }
-  .overlap, .overlap-en {
-    font-size: 1em;
-    left: 0.4em;
-  }
+  /* Do not override .overlap, .overlap-en for mobile to preserve overlap effect */
   .indent {
-    margin-left: 0.2em;
+    margin-left: 0.15em;
   }
   .main-img {
-    height: 50vh;
-    max-height: 50vh;
+    height: 65vh;
+    max-height: 75vh;
+    width: 98vw;
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .main-img img {
+    max-width: 96vw;
+    max-height: 80vh;
+    width: 96vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
   }
   .viewer {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 .subtitle {
@@ -212,6 +233,9 @@ body {
   box-shadow: none;
   border-radius: 0;
 }
+
+/* mobile styles */
+
 @media (max-width: 600px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);

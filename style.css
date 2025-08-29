@@ -1,3 +1,25 @@
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .overlap, .overlap-en {
+    font-size: 1em;
+    left: 0.4em;
+  }
+  .indent {
+    margin-left: 0.2em;
+  }
+  .main-img {
+    height: 50vh;
+    max-height: 50vh;
+  }
+  .viewer {
+    justify-content: center;
+  }
+}
 .subtitle {
   font-size: 1.2rem;
   font-weight: 300;

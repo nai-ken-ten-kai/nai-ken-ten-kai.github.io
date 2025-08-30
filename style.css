@@ -133,8 +133,8 @@ html, body {
 body {
   font-family: "Noto Serif JP", Arial, serif;
   min-height: 100vh;
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh; */
+  /* overflow: hidden; */
 }
 #app {
   display: flex;

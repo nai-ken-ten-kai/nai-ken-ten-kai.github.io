@@ -1,0 +1,2660 @@
+[
+  {
+    "id": 1,
+    "title": "Space 1",
+    "description": "a poster is hanging on the side of a building",
+    "images": [
+      "img/0001.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 2,
+    "title": "Space 2",
+    "description": "a cat is sitting on the steps of a wooden building",
+    "images": [
+      "img/0002.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 3,
+    "title": "Space 3",
+    "description": "a metal bell hanging on a wooden door",
+    "images": [
+      "img/0003.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 4,
+    "title": "Space 4",
+    "description": "a wooden bird house with a wooden door",
+    "images": [
+      "img/0004.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 5,
+    "title": "Space 5",
+    "description": "a giraffe sitting on top of a building",
+    "images": [
+      "img/0005.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 6,
+    "title": "Space 6",
+    "description": "a man is sitting on a bench in front of a building",
+    "images": [
+      "img/0006.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 7,
+    "title": "Space 7",
+    "description": "a blackboard with a blackboard on it",
+    "images": [
+      "img/0007.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 8,
+    "title": "Space 8",
+    "description": "a brown roof",
+    "images": [
+      "img/0008.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 9,
+    "title": "Space 9",
+    "description": "a close up of a metal vent grate",
+    "images": [
+      "img/0009.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 10,
+    "title": "Space 10",
+    "description": "a wooden gate with bamboo sticks on it",
+    "images": [
+      "img/0010.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 11,
+    "title": "Space 11",
+    "description": "a tree with a tv antenna",
+    "images": [
+      "img/0011.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 12,
+    "title": "Space 12",
+    "description": "a wooden roof with a metal rod hanging from it",
+    "images": [
+      "img/0012.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 13,
+    "title": "Space 13",
+    "description": "a stone basin with a wooden handle",
+    "images": [
+      "img/0013.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "resting"
+  },
+  {
+    "id": 14,
+    "title": "Space 14",
+    "description": "a wooden floor with a bench",
+    "images": [
+      "img/0014.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 15,
+    "title": "Space 15",
+    "description": "a wooden table with a plastic bag in it",
+    "images": [
+      "img/0015.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 16,
+    "title": "Space 16",
+    "description": "a wooden door with a cross on it",
+    "images": [
+      "img/0016.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 17,
+    "title": "Space 17",
+    "description": "a light fixture on a wall",
+    "images": [
+      "img/0017.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "lying"
+  },
+  {
+    "id": 18,
+    "title": "Space 18",
+    "description": "a close up of a wooden shelf with a brown stain",
+    "images": [
+      "img/0018.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 19,
+    "title": "Space 19",
+    "description": "a window with a black bird in it",
+    "images": [
+      "img/0019.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 20,
+    "title": "Space 20",
+    "description": "a wooden door with paper taped to it",
+    "images": [
+      "img/0020.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 21,
+    "title": "Space 21",
+    "description": "a close up of a wooden wall with a wooden frame",
+    "images": [
+      "img/0021.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 22,
+    "title": "Space 22",
+    "description": "a wooden table with a wooden frame and a wooden table top",
+    "images": [
+      "img/0022.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 23,
+    "title": "Space 23",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0023.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 24,
+    "title": "Space 24",
+    "description": "a close up of a wooden window frame",
+    "images": [
+      "img/0024.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 25,
+    "title": "Space 25",
+    "description": "a wooden frame with a wooden frame",
+    "images": [
+      "img/0025.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 26,
+    "title": "Space 26",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0026.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 27,
+    "title": "Space 27",
+    "description": "a small wooden shelf with a small wooden rod",
+    "images": [
+      "img/0027.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 28,
+    "title": "Space 28",
+    "description": "a wooden shelf with a small nail in it",
+    "images": [
+      "img/0028.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 29,
+    "title": "Space 29",
+    "description": "a shelf with a shelf on it",
+    "images": [
+      "img/0029.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "alcove",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 30,
+    "title": "Space 30",
+    "description": "a small bug on the edge of a wooden door",
+    "images": [
+      "img/0030.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 31,
+    "title": "Space 31",
+    "description": "a desk with a laptop on top of it",
+    "images": [
+      "img/0031.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "corner",
+    "clip_activity": "meditating"
+  },
+  {
+    "id": 32,
+    "title": "Space 32",
+    "description": "a small metal hook on the wall of a room",
+    "images": [
+      "img/0032.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 33,
+    "title": "Space 33",
+    "description": "a curtain rod hanging from the ceiling",
+    "images": [
+      "img/0033.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 34,
+    "title": "Space 34",
+    "description": "a small wooden shelf with a wooden shelf",
+    "images": [
+      "img/0034.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 35,
+    "title": "Space 35",
+    "description": "a window with a small window on it",
+    "images": [
+      "img/0035.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying"
+  },
+  {
+    "id": 36,
+    "title": "Space 36",
+    "description": "a small bug on the window sill",
+    "images": [
+      "img/0036.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 37,
+    "title": "Space 37",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0037.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 38,
+    "title": "Space 38",
+    "description": "a close up of a wooden shelf with a wooden frame",
+    "images": [
+      "img/0038.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 39,
+    "title": "Space 39",
+    "description": "a close up of a wooden frame with a wooden frame",
+    "images": [
+      "img/0039.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 40,
+    "title": "Space 40",
+    "description": "a wooden door with a metal bracket on it",
+    "images": [
+      "img/0040.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 41,
+    "title": "Space 41",
+    "description": "a wooden door with a metal handle",
+    "images": [
+      "img/0041.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 42,
+    "title": "Space 42",
+    "description": "a wooden floor with a drain",
+    "images": [
+      "img/0042.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 43,
+    "title": "Space 43",
+    "description": "a sign on a door",
+    "images": [
+      "img/0043.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 44,
+    "title": "Space 44",
+    "description": "a close up of a wooden ceiling",
+    "images": [
+      "img/0044.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying"
+  },
+  {
+    "id": 45,
+    "title": "Space 45",
+    "description": "a stained glass pendant light hanging from a wooden ceiling",
+    "images": [
+      "img/0045.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 46,
+    "title": "Space 46",
+    "description": "a stained glass light hanging from a wooden ceiling",
+    "images": [
+      "img/0046.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 47,
+    "title": "Space 47",
+    "description": "a hook hanging on the wall of a room",
+    "images": [
+      "img/0047.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 48,
+    "title": "Space 48",
+    "description": "a hook on the wall of a room",
+    "images": [
+      "img/0048.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 49,
+    "title": "Space 49",
+    "description": "a wooden shelf with nails on it",
+    "images": [
+      "img/0049.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 50,
+    "title": "Space 50",
+    "description": "a wooden shelf with a nail sticking out of it",
+    "images": [
+      "img/0050.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 51,
+    "title": "Space 51",
+    "description": "a close up of a wooden door with a small bug",
+    "images": [
+      "img/0051.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 52,
+    "title": "Space 52",
+    "description": "a close up of a wooden door with a metal handle",
+    "images": [
+      "img/0052.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 53,
+    "title": "Space 53",
+    "description": "a small insect is sitting on the edge of a table",
+    "images": [
+      "img/0053.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 54,
+    "title": "Space 54",
+    "description": "a small wooden door with a wooden frame",
+    "images": [
+      "img/0054.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 55,
+    "title": "Space 55",
+    "description": "a wooden shelf on the wall of a room",
+    "images": [
+      "img/0055.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 56,
+    "title": "Space 56",
+    "description": "a wooden shelf with a piece of wood on it",
+    "images": [
+      "img/0056.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 57,
+    "title": "Space 57",
+    "description": "a wooden beam hanging from a wall",
+    "images": [
+      "img/0057.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 58,
+    "title": "Space 58",
+    "description": "a small hole in the surface of a brown table",
+    "images": [
+      "img/0058.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "ceiling",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 59,
+    "title": "Space 59",
+    "description": "a small hole in the wall of a room",
+    "images": [
+      "img/0059.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 60,
+    "title": "Space 60",
+    "description": "a small room with a bed and a small table",
+    "images": [
+      "img/0060.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 61,
+    "title": "Space 61",
+    "description": "a doorway with a wooden floor",
+    "images": [
+      "img/0061.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "corridor",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 62,
+    "title": "Space 62",
+    "description": "a door with a handle in the background",
+    "images": [
+      "img/0062.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 63,
+    "title": "Space 63",
+    "description": "a small bug on the edge of a wooden shelf",
+    "images": [
+      "img/0063.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 64,
+    "title": "Space 64",
+    "description": "a close up of a wooden window frame",
+    "images": [
+      "img/0064.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 65,
+    "title": "Space 65",
+    "description": "a wooden ceiling with a brown trim",
+    "images": [
+      "img/0065.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 66,
+    "title": "Space 66",
+    "description": "a wooden ceiling with a hook hanging from it",
+    "images": [
+      "img/0066.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 67,
+    "title": "Space 67",
+    "description": "a wooden ceiling with a paper towel hanging from it",
+    "images": [
+      "img/0067.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 68,
+    "title": "Space 68",
+    "description": "a room with a bed and a curtain",
+    "images": [
+      "img/0068.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 69,
+    "title": "Space 69",
+    "description": "a window in a japanese house with wooden shutters",
+    "images": [
+      "img/0069.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 70,
+    "title": "Space 70",
+    "description": "a window with a wooden frame and shutters",
+    "images": [
+      "img/0070.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 71,
+    "title": "Space 71",
+    "description": "a woman is sitting in front of a window",
+    "images": [
+      "img/0071.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 72,
+    "title": "Space 72",
+    "description": "a window with a wooden frame and a window",
+    "images": [
+      "img/0072.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 73,
+    "title": "Space 73",
+    "description": "a close up of a wooden shelf with a brown stain",
+    "images": [
+      "img/0073.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 74,
+    "title": "Space 74",
+    "description": "a window with a small window in it",
+    "images": [
+      "img/0074.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 75,
+    "title": "Space 75",
+    "description": "a small wooden shelf with a metal frame",
+    "images": [
+      "img/0075.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 76,
+    "title": "Space 76",
+    "description": "a window with a wooden floor and a view of a pond",
+    "images": [
+      "img/0076.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sitting"
+  },
+  {
+    "id": 77,
+    "title": "Space 77",
+    "description": "a wooden door with a wooden frame",
+    "images": [
+      "img/0077.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 78,
+    "title": "Space 78",
+    "description": "a wooden ceiling with a light shining on it",
+    "images": [
+      "img/0078.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 79,
+    "title": "Space 79",
+    "description": "a wooden ceiling with a wooden beam",
+    "images": [
+      "img/0079.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 80,
+    "title": "Space 80",
+    "description": "a small room with a desk and a window",
+    "images": [
+      "img/0080.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "meditating"
+  },
+  {
+    "id": 81,
+    "title": "Space 81",
+    "description": "a small room with a lamp and a door",
+    "images": [
+      "img/0081.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 82,
+    "title": "Space 82",
+    "description": "a room with a window and a tatami mat",
+    "images": [
+      "img/0082.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "meditating"
+  },
+  {
+    "id": 83,
+    "title": "Space 83",
+    "description": "a small table with a black top on a mat",
+    "images": [
+      "img/0083.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "sitting"
+  },
+  {
+    "id": 84,
+    "title": "Space 84",
+    "description": "a small wooden table in a room with a rug",
+    "images": [
+      "img/0084.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 85,
+    "title": "Space 85",
+    "description": "a small piece of wood with a small piece of wood",
+    "images": [
+      "img/0085.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 86,
+    "title": "Space 86",
+    "description": "a wooden door with a wooden rod hanging from it",
+    "images": [
+      "img/0086.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 87,
+    "title": "Space 87",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0087.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 88,
+    "title": "Space 88",
+    "description": "a window with a light shining through it",
+    "images": [
+      "img/0088.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 89,
+    "title": "Space 89",
+    "description": "a wooden shelf with a wooden railing",
+    "images": [
+      "img/0089.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying"
+  },
+  {
+    "id": 90,
+    "title": "Space 90",
+    "description": "a wooden building with a metal pipe",
+    "images": [
+      "img/0090.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 91,
+    "title": "Space 91",
+    "description": "a window with a wooden frame and a wooden shutter",
+    "images": [
+      "img/0091.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "meditating"
+  },
+  {
+    "id": 92,
+    "title": "Space 92",
+    "description": "a window in a japanese house with a view of a tree",
+    "images": [
+      "img/0092.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 93,
+    "title": "Space 93",
+    "description": "a window with a wooden floor and a mirror",
+    "images": [
+      "img/0093.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "resting"
+  },
+  {
+    "id": 94,
+    "title": "Space 94",
+    "description": "a window with a windowpane in it",
+    "images": [
+      "img/0094.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 95,
+    "title": "Space 95",
+    "description": "a man is holding a cigarette",
+    "images": [
+      "img/0095.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 96,
+    "title": "Space 96",
+    "description": "a man is sitting in a chair",
+    "images": [
+      "img/0096.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 97,
+    "title": "Space 97",
+    "description": "a small wooden bench is surrounded by a tree and rocks",
+    "images": [
+      "img/0097.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "resting"
+  },
+  {
+    "id": 98,
+    "title": "Space 98",
+    "description": "a tree trunk with a tree growing out of it",
+    "images": [
+      "img/0098.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 99,
+    "title": "Space 99",
+    "description": "a rock covered in ivy",
+    "images": [
+      "img/0099.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 100,
+    "title": "Space 100",
+    "description": "a tree trunk with a bird on it",
+    "images": [
+      "img/0100.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 101,
+    "title": "Space 101",
+    "description": "a tree with a barbed wire fence",
+    "images": [
+      "img/0101.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 102,
+    "title": "Space 102",
+    "description": "a tree trunk with a rope hanging from it",
+    "images": [
+      "img/0102.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 103,
+    "title": "Space 103",
+    "description": "a metal rod hanging from a wooden ceiling",
+    "images": [
+      "img/0103.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 104,
+    "title": "Space 104",
+    "description": "a cat sitting on a window",
+    "images": [
+      "img/0104.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 105,
+    "title": "Space 105",
+    "description": "a wooden window with a wooden rod in it",
+    "images": [
+      "img/0105.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 106,
+    "title": "Space 106",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0106.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 107,
+    "title": "Space 107",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0107.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 108,
+    "title": "Space 108",
+    "description": "a wooden beam with a small hole in it",
+    "images": [
+      "img/0108.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 109,
+    "title": "Space 109",
+    "description": "a wooden window frame",
+    "images": [
+      "img/0109.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 110,
+    "title": "Space 110",
+    "description": "a wooden window with a hook hanging from it",
+    "images": [
+      "img/0110.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 111,
+    "title": "Space 111",
+    "description": "a wooden floor with a wooden window",
+    "images": [
+      "img/0111.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 112,
+    "title": "Space 112",
+    "description": "a wooden beam is hanging from a wall",
+    "images": [
+      "img/0112.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 113,
+    "title": "Space 113",
+    "description": "a wooden wall with a brown woven pattern",
+    "images": [
+      "img/0113.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "ceiling",
+    "clip_activity": "meditating"
+  },
+  {
+    "id": 114,
+    "title": "Space 114",
+    "description": "a close up of a wooden beam",
+    "images": [
+      "img/0114.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 115,
+    "title": "Space 115",
+    "description": "a wooden beam is hanging from the ceiling of a room",
+    "images": [
+      "img/0115.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "reading"
+  },
+  {
+    "id": 116,
+    "title": "Space 116",
+    "description": "a window with a bunch of green keys hanging from it",
+    "images": [
+      "img/0116.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 117,
+    "title": "Space 117",
+    "description": "a wooden ceiling with a wire hanging from it",
+    "images": [
+      "img/0117.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 118,
+    "title": "Space 118",
+    "description": "a wooden window with a hook hanging from it",
+    "images": [
+      "img/0118.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 119,
+    "title": "Space 119",
+    "description": "a green ring hanging from a window sill",
+    "images": [
+      "img/0119.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 120,
+    "title": "Space 120",
+    "description": "a window with a wooden frame and a window",
+    "images": [
+      "img/0120.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 121,
+    "title": "Space 121",
+    "description": "a green ring hanging from a window sill",
+    "images": [
+      "img/0121.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 122,
+    "title": "Space 122",
+    "description": "a small bird sitting on a window sill",
+    "images": [
+      "img/0122.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 123,
+    "title": "Space 123",
+    "description": "a window with a blue and green hanging ornament",
+    "images": [
+      "img/0123.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 124,
+    "title": "Space 124",
+    "description": "a small blue snail hanging from a window sill",
+    "images": [
+      "img/0124.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 125,
+    "title": "Space 125",
+    "description": "a green clothespin hanging from a window",
+    "images": [
+      "img/0125.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 126,
+    "title": "Space 126",
+    "description": "a blue glass hanging from a window sill",
+    "images": [
+      "img/0126.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "balcony",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 127,
+    "title": "Space 127",
+    "description": "a blurry image of a tree in the background",
+    "images": [
+      "img/0127.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 128,
+    "title": "Space 128",
+    "description": "a blurry image of a tree in the background",
+    "images": [
+      "img/0128.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "walking"
+  },
+  {
+    "id": 129,
+    "title": "Space 129",
+    "description": "a close up of a metal door with a metal handle",
+    "images": [
+      "img/0129.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 130,
+    "title": "Space 130",
+    "description": "a small shelf in a room with a window",
+    "images": [
+      "img/0130.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 131,
+    "title": "Space 131",
+    "description": "a wooden door with a paper covering on it",
+    "images": [
+      "img/0131.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 132,
+    "title": "Space 132",
+    "description": "a wooden doorway with a wooden frame",
+    "images": [
+      "img/0132.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 133,
+    "title": "Space 133",
+    "description": "a wooden slatted screen in a room",
+    "images": [
+      "img/0133.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 134,
+    "title": "Space 134",
+    "description": "a wooden floor with a rug on it",
+    "images": [
+      "img/0134.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 135,
+    "title": "Space 135",
+    "description": "a small room with a bed and a dresser",
+    "images": [
+      "img/0135.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "sleeping"
+  },
+  {
+    "id": 136,
+    "title": "Space 136",
+    "description": "a wooden cabinet with drawers in it",
+    "images": [
+      "img/0136.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 137,
+    "title": "Space 137",
+    "description": "a wooden door with a knob on it",
+    "images": [
+      "img/0137.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing"
+  },
+  {
+    "id": 138,
+    "title": "Space 138",
+    "description": "a bathroom with a toilet and a sink",
+    "images": [
+      "img/0138.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging"
+  },
+  {
+    "id": 139,
+    "title": "Space 139",
+    "description": "a blue door with a ring on it",
+    "images": [
+      "img/0139.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "playing"
+  }
+]

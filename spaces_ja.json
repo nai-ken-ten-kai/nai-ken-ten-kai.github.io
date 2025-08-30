@@ -1,0 +1,2938 @@
+[
+  {
+    "id": 1,
+    "title": "1",
+    "description": "a poster is hanging on the side of a building",
+    "images": [
+      "img/0001.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "reading",
+    "title_ja": "1",
+    "description_ja": "ポスターが建物の横にぶら下がっています"
+  },
+  {
+    "id": 2,
+    "title": "2",
+    "description": "a cat is sitting on the steps of a wooden building",
+    "images": [
+      "img/0002.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "2",
+    "description_ja": "猫が木製の建物の階段に座っています"
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "a metal bell hanging on a wooden door",
+    "images": [
+      "img/0003.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "3",
+    "description_ja": "木製のドアにぶら下がっている金属ベル"
+  },
+  {
+    "id": 4,
+    "title": "4",
+    "description": "a wooden bird house with a wooden door",
+    "images": [
+      "img/0004.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "4",
+    "description_ja": "木製のドアが付いた木製の鳥の家"
+  },
+  {
+    "id": 5,
+    "title": "5",
+    "description": "a giraffe sitting on top of a building",
+    "images": [
+      "img/0005.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "standing",
+    "title_ja": "5",
+    "description_ja": "建物の上に座っているキリン"
+  },
+  {
+    "id": 6,
+    "title": "6",
+    "description": "a man is sitting on a bench in front of a building",
+    "images": [
+      "img/0006.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "title_ja": "6",
+    "description_ja": "男が建物の前のベンチに座っています"
+  },
+  {
+    "id": 7,
+    "title": "7",
+    "description": "a blackboard with a blackboard on it",
+    "images": [
+      "img/0007.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "7",
+    "description_ja": "黒板が付いた黒板"
+  },
+  {
+    "id": 8,
+    "title": "8",
+    "description": "a brown roof",
+    "images": [
+      "img/0008.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging",
+    "title_ja": "8",
+    "description_ja": "茶色の屋根"
+  },
+  {
+    "id": 9,
+    "title": "9",
+    "description": "a close up of a metal vent grate",
+    "images": [
+      "img/0009.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "title_ja": "9",
+    "description_ja": "金属換気のクローズアップ"
+  },
+  {
+    "id": 10,
+    "title": "10",
+    "description": "a wooden gate with bamboo sticks on it",
+    "images": [
+      "img/0010.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "title_ja": "10",
+    "description_ja": "竹の棒が付いた木製の門"
+  },
+  {
+    "id": 11,
+    "title": "11",
+    "description": "a tree with a tv antenna",
+    "images": [
+      "img/0011.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "title_ja": "11",
+    "description_ja": "テレビアンテナのある木"
+  },
+  {
+    "id": 12,
+    "title": "12",
+    "description": "a wooden roof with a metal rod hanging from it",
+    "images": [
+      "img/0012.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "12",
+    "description_ja": "そこから垂れ下がった金属棒のある木製の屋根"
+  },
+  {
+    "id": 13,
+    "title": "13",
+    "description": "a stone basin with a wooden handle",
+    "images": [
+      "img/0013.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "resting",
+    "title_ja": "13",
+    "description_ja": "木製のハンドルが付いた石盆地"
+  },
+  {
+    "id": 14,
+    "title": "14",
+    "description": "a wooden floor with a bench",
+    "images": [
+      "img/0014.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "standing",
+    "title_ja": "14",
+    "description_ja": "ベンチ付きの木製の床"
+  },
+  {
+    "id": 15,
+    "title": "15",
+    "description": "a wooden table with a plastic bag in it",
+    "images": [
+      "img/0015.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading",
+    "title_ja": "15",
+    "description_ja": "ビニール袋が入った木製のテーブル"
+  },
+  {
+    "id": 16,
+    "title": "16",
+    "description": "a wooden door with a cross on it",
+    "images": [
+      "img/0016.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "16",
+    "description_ja": "十字架のある木製のドア"
+  },
+  {
+    "id": 17,
+    "title": "17",
+    "description": "a light fixture on a wall",
+    "images": [
+      "img/0017.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "lying",
+    "title_ja": "17",
+    "description_ja": "壁の照明器具"
+  },
+  {
+    "id": 18,
+    "title": "18",
+    "description": "a close up of a wooden shelf with a brown stain",
+    "images": [
+      "img/0018.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "18",
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
+  },
+  {
+    "id": 19,
+    "title": "19",
+    "description": "a window with a black bird in it",
+    "images": [
+      "img/0019.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "19",
+    "description_ja": "黒い鳥が入った窓"
+  },
+  {
+    "id": 20,
+    "title": "20",
+    "description": "a wooden door with paper taped to it",
+    "images": [
+      "img/0020.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "title_ja": "20",
+    "description_ja": "紙が貼り付けられた木製のドア"
+  },
+  {
+    "id": 21,
+    "title": "21",
+    "description": "a close up of a wooden wall with a wooden frame",
+    "images": [
+      "img/0021.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "21",
+    "description_ja": "木製の壁のある木製の壁のクローズアップ"
+  },
+  {
+    "id": 22,
+    "title": "22",
+    "description": "a wooden table with a wooden frame and a wooden table top",
+    "images": [
+      "img/0022.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "22",
+    "description_ja": "木製のフレームと木製のテーブルトップのある木製のテーブル"
+  },
+  {
+    "id": 23,
+    "title": "23",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0023.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "23",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 24,
+    "title": "24",
+    "description": "a close up of a wooden window frame",
+    "images": [
+      "img/0024.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "24",
+    "description_ja": "木製の窓枠のクローズアップ"
+  },
+  {
+    "id": 25,
+    "title": "25",
+    "description": "a wooden frame with a wooden frame",
+    "images": [
+      "img/0025.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "reading",
+    "title_ja": "25",
+    "description_ja": "木製のフレームの木製フレーム"
+  },
+  {
+    "id": 26,
+    "title": "26",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0026.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "26",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 27,
+    "title": "27",
+    "description": "a small wooden shelf with a small wooden rod",
+    "images": [
+      "img/0027.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "27",
+    "description_ja": "小さな木製の棒が付いた小さな木製の棚"
+  },
+  {
+    "id": 28,
+    "title": "28",
+    "description": "a wooden shelf with a small nail in it",
+    "images": [
+      "img/0028.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "28",
+    "description_ja": "小さな爪が入った木製の棚"
+  },
+  {
+    "id": 29,
+    "title": "29",
+    "description": "a shelf with a shelf on it",
+    "images": [
+      "img/0029.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "alcove",
+    "clip_activity": "standing",
+    "title_ja": "29",
+    "description_ja": "棚が付いた棚"
+  },
+  {
+    "id": 30,
+    "title": "30",
+    "description": "a small bug on the edge of a wooden door",
+    "images": [
+      "img/0030.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "30",
+    "description_ja": "木製のドアの端にある小さな虫"
+  },
+  {
+    "id": 31,
+    "title": "31",
+    "description": "a desk with a laptop on top of it",
+    "images": [
+      "img/0031.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "corner",
+    "clip_activity": "meditating",
+    "title_ja": "31",
+    "description_ja": "その上にラップトップを備えた机"
+  },
+  {
+    "id": 32,
+    "title": "32",
+    "description": "a small metal hook on the wall of a room",
+    "images": [
+      "img/0032.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "32",
+    "description_ja": "部屋の壁にある小さな金属フック"
+  },
+  {
+    "id": 33,
+    "title": "33",
+    "description": "a curtain rod hanging from the ceiling",
+    "images": [
+      "img/0033.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "33",
+    "description_ja": "天井からぶら下がっているカーテンロッド"
+  },
+  {
+    "id": 34,
+    "title": "34",
+    "description": "a small wooden shelf with a wooden shelf",
+    "images": [
+      "img/0034.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "34",
+    "description_ja": "木製の棚のある小さな木製の棚"
+  },
+  {
+    "id": 35,
+    "title": "35",
+    "description": "a window with a small window on it",
+    "images": [
+      "img/0035.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying",
+    "title_ja": "35",
+    "description_ja": "小さな窓のある窓"
+  },
+  {
+    "id": 36,
+    "title": "36",
+    "description": "a small bug on the window sill",
+    "images": [
+      "img/0036.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "36",
+    "description_ja": "窓枠の小さなバグ"
+  },
+  {
+    "id": 37,
+    "title": "37",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0037.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping",
+    "title_ja": "37",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 38,
+    "title": "38",
+    "description": "a close up of a wooden shelf with a wooden frame",
+    "images": [
+      "img/0038.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "38",
+    "description_ja": "木製のフレームのある木製の棚のクローズアップ"
+  },
+  {
+    "id": 39,
+    "title": "39",
+    "description": "a close up of a wooden frame with a wooden frame",
+    "images": [
+      "img/0039.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "sleeping",
+    "title_ja": "39",
+    "description_ja": "木製のフレームの木製フレームのクローズアップ"
+  },
+  {
+    "id": 40,
+    "title": "40",
+    "description": "a wooden door with a metal bracket on it",
+    "images": [
+      "img/0040.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "40",
+    "description_ja": "金属製のブラケットが付いた木製のドア"
+  },
+  {
+    "id": 41,
+    "title": "41",
+    "description": "a wooden door with a metal handle",
+    "images": [
+      "img/0041.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "41",
+    "description_ja": "金属製のハンドル付きの木製のドア"
+  },
+  {
+    "id": 42,
+    "title": "42",
+    "description": "a wooden floor with a drain",
+    "images": [
+      "img/0042.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "title_ja": "42",
+    "description_ja": "排水溝のある木製の床"
+  },
+  {
+    "id": 43,
+    "title": "43",
+    "description": "a sign on a door",
+    "images": [
+      "img/0043.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "43",
+    "description_ja": "ドアのサイン"
+  },
+  {
+    "id": 44,
+    "title": "44",
+    "description": "a close up of a wooden ceiling",
+    "images": [
+      "img/0044.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying",
+    "title_ja": "44",
+    "description_ja": "木製の天井のクローズアップ"
+  },
+  {
+    "id": 45,
+    "title": "45",
+    "description": "a stained glass pendant light hanging from a wooden ceiling",
+    "images": [
+      "img/0045.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging",
+    "title_ja": "45",
+    "description_ja": "木製の天井からぶら下がっているステンドグラスペンダントライト"
+  },
+  {
+    "id": 46,
+    "title": "46",
+    "description": "a stained glass light hanging from a wooden ceiling",
+    "images": [
+      "img/0046.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging",
+    "title_ja": "46",
+    "description_ja": "木製の天井からぶら下がっているステンドグラスのライト"
+  },
+  {
+    "id": 47,
+    "title": "47",
+    "description": "a hook hanging on the wall of a room",
+    "images": [
+      "img/0047.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "47",
+    "description_ja": "部屋の壁にぶら下がっているフック"
+  },
+  {
+    "id": 48,
+    "title": "48",
+    "description": "a hook on the wall of a room",
+    "images": [
+      "img/0048.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "48",
+    "description_ja": "部屋の壁にフック"
+  },
+  {
+    "id": 49,
+    "title": "49",
+    "description": "a wooden shelf with nails on it",
+    "images": [
+      "img/0049.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "49",
+    "description_ja": "爪が付いた木製の棚"
+  },
+  {
+    "id": 50,
+    "title": "50",
+    "description": "a wooden shelf with a nail sticking out of it",
+    "images": [
+      "img/0050.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "50",
+    "description_ja": "爪が突き出た木製の棚"
+  },
+  {
+    "id": 51,
+    "title": "51",
+    "description": "a close up of a wooden door with a small bug",
+    "images": [
+      "img/0051.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "sleeping",
+    "title_ja": "51",
+    "description_ja": "小さな虫のある木製のドアのクローズアップ"
+  },
+  {
+    "id": 52,
+    "title": "52",
+    "description": "a close up of a wooden door with a metal handle",
+    "images": [
+      "img/0052.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "52",
+    "description_ja": "金属製のハンドルを備えた木製のドアのクローズアップ"
+  },
+  {
+    "id": 53,
+    "title": "53",
+    "description": "a small insect is sitting on the edge of a table",
+    "images": [
+      "img/0053.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging",
+    "title_ja": "53",
+    "description_ja": "小さな昆虫がテーブルの端に座っています"
+  },
+  {
+    "id": 54,
+    "title": "54",
+    "description": "a small wooden door with a wooden frame",
+    "images": [
+      "img/0054.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "54",
+    "description_ja": "木製のフレームのある小さな木製のドア"
+  },
+  {
+    "id": 55,
+    "title": "55",
+    "description": "a wooden shelf on the wall of a room",
+    "images": [
+      "img/0055.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "55",
+    "description_ja": "部屋の壁に木製の棚"
+  },
+  {
+    "id": 56,
+    "title": "56",
+    "description": "a wooden shelf with a piece of wood on it",
+    "images": [
+      "img/0056.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "56",
+    "description_ja": "その上に木片が付いた木製の棚"
+  },
+  {
+    "id": 57,
+    "title": "57",
+    "description": "a wooden beam hanging from a wall",
+    "images": [
+      "img/0057.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "57",
+    "description_ja": "壁からぶら下がっている木製の梁"
+  },
+  {
+    "id": 58,
+    "title": "58",
+    "description": "a small hole in the surface of a brown table",
+    "images": [
+      "img/0058.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "ceiling",
+    "clip_activity": "sleeping",
+    "title_ja": "58",
+    "description_ja": "茶色のテーブルの表面の小さな穴"
+  },
+  {
+    "id": 59,
+    "title": "59",
+    "description": "a small hole in the wall of a room",
+    "images": [
+      "img/0059.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "sleeping",
+    "title_ja": "59",
+    "description_ja": "部屋の壁の小さな穴"
+  },
+  {
+    "id": 60,
+    "title": "60",
+    "description": "a small room with a bed and a small table",
+    "images": [
+      "img/0060.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "title_ja": "60",
+    "description_ja": "ベッドと小さなテーブルのある小さな部屋"
+  },
+  {
+    "id": 61,
+    "title": "61",
+    "description": "a doorway with a wooden floor",
+    "images": [
+      "img/0061.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "corridor",
+    "clip_activity": "standing",
+    "title_ja": "61",
+    "description_ja": "木製の床がある戸口"
+  },
+  {
+    "id": 62,
+    "title": "62",
+    "description": "a door with a handle in the background",
+    "images": [
+      "img/0062.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "62",
+    "description_ja": "背景にハンドルがあるドア"
+  },
+  {
+    "id": 63,
+    "title": "63",
+    "description": "a small bug on the edge of a wooden shelf",
+    "images": [
+      "img/0063.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "title_ja": "63",
+    "description_ja": "木製の棚の端にある小さな虫"
+  },
+  {
+    "id": 64,
+    "title": "64",
+    "description": "a close up of a wooden window frame",
+    "images": [
+      "img/0064.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging",
+    "title_ja": "64",
+    "description_ja": "木製の窓枠のクローズアップ"
+  },
+  {
+    "id": 65,
+    "title": "65",
+    "description": "a wooden ceiling with a brown trim",
+    "images": [
+      "img/0065.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "65",
+    "description_ja": "茶色のトリムのある木製の天井"
+  },
+  {
+    "id": 66,
+    "title": "66",
+    "description": "a wooden ceiling with a hook hanging from it",
+    "images": [
+      "img/0066.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "66",
+    "description_ja": "フックがぶら下がっている木製の天井"
+  },
+  {
+    "id": 67,
+    "title": "67",
+    "description": "a wooden ceiling with a paper towel hanging from it",
+    "images": [
+      "img/0067.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "67",
+    "description_ja": "ペーパータオルがぶら下がっている木製の天井"
+  },
+  {
+    "id": 68,
+    "title": "68",
+    "description": "a room with a bed and a curtain",
+    "images": [
+      "img/0068.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "68",
+    "description_ja": "ベッドとカーテンのある部屋"
+  },
+  {
+    "id": 69,
+    "title": "69",
+    "description": "a window in a japanese house with wooden shutters",
+    "images": [
+      "img/0069.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "69",
+    "description_ja": "木製のシャッター付きの日本の家の窓"
+  },
+  {
+    "id": 70,
+    "title": "70",
+    "description": "a window with a wooden frame and shutters",
+    "images": [
+      "img/0070.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "70",
+    "description_ja": "木製のフレームとシャッターのある窓"
+  },
+  {
+    "id": 71,
+    "title": "71",
+    "description": "a woman is sitting in front of a window",
+    "images": [
+      "img/0071.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "71",
+    "description_ja": "女性が窓の前に座っています"
+  },
+  {
+    "id": 72,
+    "title": "72",
+    "description": "a window with a wooden frame and a window",
+    "images": [
+      "img/0072.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "72",
+    "description_ja": "木製のフレームと窓のある窓"
+  },
+  {
+    "id": 73,
+    "title": "73",
+    "description": "a close up of a wooden shelf with a brown stain",
+    "images": [
+      "img/0073.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "73",
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
+  },
+  {
+    "id": 74,
+    "title": "74",
+    "description": "a window with a small window in it",
+    "images": [
+      "img/0074.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "74",
+    "description_ja": "小さな窓のある窓"
+  },
+  {
+    "id": 75,
+    "title": "75",
+    "description": "a small wooden shelf with a metal frame",
+    "images": [
+      "img/0075.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading",
+    "title_ja": "75",
+    "description_ja": "金属フレームのある小さな木製の棚"
+  },
+  {
+    "id": 76,
+    "title": "76",
+    "description": "a window with a wooden floor and a view of a pond",
+    "images": [
+      "img/0076.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sitting",
+    "title_ja": "76",
+    "description_ja": "木製の床と池の景色を望む窓"
+  },
+  {
+    "id": 77,
+    "title": "77",
+    "description": "a wooden door with a wooden frame",
+    "images": [
+      "img/0077.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "77",
+    "description_ja": "木製のフレーム付きの木製のドア"
+  },
+  {
+    "id": 78,
+    "title": "78",
+    "description": "a wooden ceiling with a light shining on it",
+    "images": [
+      "img/0078.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "78",
+    "description_ja": "光が輝いている木製の天井"
+  },
+  {
+    "id": 79,
+    "title": "79",
+    "description": "a wooden ceiling with a wooden beam",
+    "images": [
+      "img/0079.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "79",
+    "description_ja": "木製の梁のある木製の天井"
+  },
+  {
+    "id": 80,
+    "title": "80",
+    "description": "a small room with a desk and a window",
+    "images": [
+      "img/0080.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "meditating",
+    "title_ja": "80",
+    "description_ja": "机と窓のある小さな部屋"
+  },
+  {
+    "id": 81,
+    "title": "81",
+    "description": "a small room with a lamp and a door",
+    "images": [
+      "img/0081.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging",
+    "title_ja": "81",
+    "description_ja": "ランプとドアのある小さな部屋"
+  },
+  {
+    "id": 82,
+    "title": "82",
+    "description": "a room with a window and a tatami mat",
+    "images": [
+      "img/0082.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "meditating",
+    "title_ja": "82",
+    "description_ja": "窓とタータミマットのある部屋"
+  },
+  {
+    "id": 83,
+    "title": "83",
+    "description": "a small table with a black top on a mat",
+    "images": [
+      "img/0083.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "sitting",
+    "title_ja": "83",
+    "description_ja": "マットの上に黒いトップがある小さなテーブル"
+  },
+  {
+    "id": 84,
+    "title": "84",
+    "description": "a small wooden table in a room with a rug",
+    "images": [
+      "img/0084.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "reading",
+    "title_ja": "84",
+    "description_ja": "敷物のある部屋の小さな木製のテーブル"
+  },
+  {
+    "id": 85,
+    "title": "85",
+    "description": "a small piece of wood with a small piece of wood",
+    "images": [
+      "img/0085.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading",
+    "title_ja": "85",
+    "description_ja": "小さな木片のある小さな木片"
+  },
+  {
+    "id": 86,
+    "title": "86",
+    "description": "a wooden door with a wooden rod hanging from it",
+    "images": [
+      "img/0086.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "86",
+    "description_ja": "木製のドアからぶら下がっている木製のドア"
+  },
+  {
+    "id": 87,
+    "title": "87",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0087.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "title_ja": "87",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 88,
+    "title": "88",
+    "description": "a window with a light shining through it",
+    "images": [
+      "img/0088.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping",
+    "title_ja": "88",
+    "description_ja": "光が輝いている窓"
+  },
+  {
+    "id": 89,
+    "title": "89",
+    "description": "a wooden shelf with a wooden railing",
+    "images": [
+      "img/0089.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying",
+    "title_ja": "89",
+    "description_ja": "木製の手すりのある木製の棚"
+  },
+  {
+    "id": 90,
+    "title": "90",
+    "description": "a wooden building with a metal pipe",
+    "images": [
+      "img/0090.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "title_ja": "90",
+    "description_ja": "金属パイプのある木製の建物"
+  },
+  {
+    "id": 91,
+    "title": "91",
+    "description": "a window with a wooden frame and a wooden shutter",
+    "images": [
+      "img/0091.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "meditating",
+    "title_ja": "91",
+    "description_ja": "木製のフレームと木製のシャッター付きの窓"
+  },
+  {
+    "id": 92,
+    "title": "92",
+    "description": "a window in a japanese house with a view of a tree",
+    "images": [
+      "img/0092.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping",
+    "title_ja": "92",
+    "description_ja": "木の景色を望む日本の家の窓"
+  },
+  {
+    "id": 93,
+    "title": "93",
+    "description": "a window with a wooden floor and a mirror",
+    "images": [
+      "img/0093.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "resting",
+    "title_ja": "93",
+    "description_ja": "木製の床と鏡のある窓"
+  },
+  {
+    "id": 94,
+    "title": "94",
+    "description": "a window with a windowpane in it",
+    "images": [
+      "img/0094.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "94",
+    "description_ja": "窓のある窓が入っています"
+  },
+  {
+    "id": 95,
+    "title": "95",
+    "description": "a man is holding a cigarette",
+    "images": [
+      "img/0095.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "title_ja": "95",
+    "description_ja": "男がタバコを持っています"
+  },
+  {
+    "id": 96,
+    "title": "96",
+    "description": "a man is sitting in a chair",
+    "images": [
+      "img/0096.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "title_ja": "96",
+    "description_ja": "男が椅子に座っています"
+  },
+  {
+    "id": 97,
+    "title": "97",
+    "description": "a small wooden bench is surrounded by a tree and rocks",
+    "images": [
+      "img/0097.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "resting",
+    "title_ja": "97",
+    "description_ja": "小さな木製のベンチは木と岩に囲まれています"
+  },
+  {
+    "id": 98,
+    "title": "98",
+    "description": "a tree trunk with a tree growing out of it",
+    "images": [
+      "img/0098.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing",
+    "title_ja": "98",
+    "description_ja": "木が成長している木の幹"
+  },
+  {
+    "id": 99,
+    "title": "99",
+    "description": "a rock covered in ivy",
+    "images": [
+      "img/0099.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing",
+    "title_ja": "99",
+    "description_ja": "ツタで覆われた岩"
+  },
+  {
+    "id": 100,
+    "title": "100",
+    "description": "a tree trunk with a bird on it",
+    "images": [
+      "img/0100.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "hanging",
+    "title_ja": "100",
+    "description_ja": "鳥が付いた木の幹"
+  },
+  {
+    "id": 101,
+    "title": "101",
+    "description": "a tree with a barbed wire fence",
+    "images": [
+      "img/0101.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing",
+    "title_ja": "101",
+    "description_ja": "有刺鉄線のフェンスが付いた木"
+  },
+  {
+    "id": 102,
+    "title": "102",
+    "description": "a tree trunk with a rope hanging from it",
+    "images": [
+      "img/0102.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "title_ja": "102",
+    "description_ja": "ロープがぶら下がっている木の幹"
+  },
+  {
+    "id": 103,
+    "title": "103",
+    "description": "a metal rod hanging from a wooden ceiling",
+    "images": [
+      "img/0103.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "103",
+    "description_ja": "木製の天井からぶら下がっている金属棒"
+  },
+  {
+    "id": 104,
+    "title": "104",
+    "description": "a cat sitting on a window",
+    "images": [
+      "img/0104.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "104",
+    "description_ja": "窓に座っている猫"
+  },
+  {
+    "id": 105,
+    "title": "105",
+    "description": "a wooden window with a wooden rod in it",
+    "images": [
+      "img/0105.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "title_ja": "105",
+    "description_ja": "木製の窓が入った木製の窓"
+  },
+  {
+    "id": 106,
+    "title": "106",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0106.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "title_ja": "106",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 107,
+    "title": "107",
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      "img/0107.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "107",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 108,
+    "title": "108",
+    "description": "a wooden beam with a small hole in it",
+    "images": [
+      "img/0108.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "108",
+    "description_ja": "小さな穴のある木製の梁"
+  },
+  {
+    "id": 109,
+    "title": "109",
+    "description": "a wooden window frame",
+    "images": [
+      "img/0109.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "title_ja": "109",
+    "description_ja": "木製の窓枠"
+  },
+  {
+    "id": 110,
+    "title": "110",
+    "description": "a wooden window with a hook hanging from it",
+    "images": [
+      "img/0110.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "110",
+    "description_ja": "フックがぶら下がっている木製の窓"
+  },
+  {
+    "id": 111,
+    "title": "111",
+    "description": "a wooden floor with a wooden window",
+    "images": [
+      "img/0111.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "111",
+    "description_ja": "木製の窓のある木製の床"
+  },
+  {
+    "id": 112,
+    "title": "112",
+    "description": "a wooden beam is hanging from a wall",
+    "images": [
+      "img/0112.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "112",
+    "description_ja": "木製の梁が壁からぶら下がっています"
+  },
+  {
+    "id": 113,
+    "title": "113",
+    "description": "a wooden wall with a brown woven pattern",
+    "images": [
+      "img/0113.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "ceiling",
+    "clip_activity": "meditating",
+    "title_ja": "113",
+    "description_ja": "茶色の織りパターンの木製の壁"
+  },
+  {
+    "id": 114,
+    "title": "114",
+    "description": "a close up of a wooden beam",
+    "images": [
+      "img/0114.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "114",
+    "description_ja": "木製の梁のクローズアップ"
+  },
+  {
+    "id": 115,
+    "title": "115",
+    "description": "a wooden beam is hanging from the ceiling of a room",
+    "images": [
+      "img/0115.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "reading",
+    "title_ja": "115",
+    "description_ja": "部屋の天井から木製の梁がぶら下がっています"
+  },
+  {
+    "id": 116,
+    "title": "116",
+    "description": "a window with a bunch of green keys hanging from it",
+    "images": [
+      "img/0116.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "116",
+    "description_ja": "緑の鍵がたくさんある窓からぶら下がっています"
+  },
+  {
+    "id": 117,
+    "title": "117",
+    "description": "a wooden ceiling with a wire hanging from it",
+    "images": [
+      "img/0117.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "117",
+    "description_ja": "ワイヤーがぶら下がっている木製の天井"
+  },
+  {
+    "id": 118,
+    "title": "118",
+    "description": "a wooden window with a hook hanging from it",
+    "images": [
+      "img/0118.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "118",
+    "description_ja": "フックがぶら下がっている木製の窓"
+  },
+  {
+    "id": 119,
+    "title": "119",
+    "description": "a green ring hanging from a window sill",
+    "images": [
+      "img/0119.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "119",
+    "description_ja": "窓枠からぶら下がっている緑のリング"
+  },
+  {
+    "id": 120,
+    "title": "120",
+    "description": "a window with a wooden frame and a window",
+    "images": [
+      "img/0120.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "120",
+    "description_ja": "木製のフレームと窓のある窓"
+  },
+  {
+    "id": 121,
+    "title": "121",
+    "description": "a green ring hanging from a window sill",
+    "images": [
+      "img/0121.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "121",
+    "description_ja": "窓枠からぶら下がっている緑のリング"
+  },
+  {
+    "id": 122,
+    "title": "122",
+    "description": "a small bird sitting on a window sill",
+    "images": [
+      "img/0122.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "122",
+    "description_ja": "窓枠に座っている小さな鳥"
+  },
+  {
+    "id": 123,
+    "title": "123",
+    "description": "a window with a blue and green hanging ornament",
+    "images": [
+      "img/0123.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "123",
+    "description_ja": "青と緑の吊り下げ飾りのある窓"
+  },
+  {
+    "id": 124,
+    "title": "124",
+    "description": "a small blue snail hanging from a window sill",
+    "images": [
+      "img/0124.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "124",
+    "description_ja": "窓枠からぶら下がっている小さな青いカタツムリ"
+  },
+  {
+    "id": 125,
+    "title": "125",
+    "description": "a green clothespin hanging from a window",
+    "images": [
+      "img/0125.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "title_ja": "125",
+    "description_ja": "窓からぶら下がっている緑色の洗濯"
+  },
+  {
+    "id": 126,
+    "title": "126",
+    "description": "a blue glass hanging from a window sill",
+    "images": [
+      "img/0126.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "balcony",
+    "clip_activity": "hanging",
+    "title_ja": "126",
+    "description_ja": "窓枠からぶら下がっている青いガラス"
+  },
+  {
+    "id": 127,
+    "title": "127",
+    "description": "a blurry image of a tree in the background",
+    "images": [
+      "img/0127.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "title_ja": "127",
+    "description_ja": "背景の木のぼやけた画像"
+  },
+  {
+    "id": 128,
+    "title": "128",
+    "description": "a blurry image of a tree in the background",
+    "images": [
+      "img/0128.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "walking",
+    "title_ja": "128",
+    "description_ja": "背景の木のぼやけた画像"
+  },
+  {
+    "id": 129,
+    "title": "129",
+    "description": "a close up of a metal door with a metal handle",
+    "images": [
+      "img/0129.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "129",
+    "description_ja": "金属製のハンドルを備えた金属ドアのクローズアップ"
+  },
+  {
+    "id": 130,
+    "title": "130",
+    "description": "a small shelf in a room with a window",
+    "images": [
+      "img/0130.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "hanging",
+    "title_ja": "130",
+    "description_ja": "窓のある部屋の小さな棚"
+  },
+  {
+    "id": 131,
+    "title": "131",
+    "description": "a wooden door with a paper covering on it",
+    "images": [
+      "img/0131.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "title_ja": "131",
+    "description_ja": "紙が覆われた木製のドア"
+  },
+  {
+    "id": 132,
+    "title": "132",
+    "description": "a wooden doorway with a wooden frame",
+    "images": [
+      "img/0132.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "title_ja": "132",
+    "description_ja": "木製のフレーム付きの木製の戸口"
+  },
+  {
+    "id": 133,
+    "title": "133",
+    "description": "a wooden slatted screen in a room",
+    "images": [
+      "img/0133.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "title_ja": "133",
+    "description_ja": "部屋の木製のスラットスクリーン"
+  },
+  {
+    "id": 134,
+    "title": "134",
+    "description": "a wooden floor with a rug on it",
+    "images": [
+      "img/0134.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "standing",
+    "title_ja": "134",
+    "description_ja": "敷物が付いた木製の床"
+  },
+  {
+    "id": 135,
+    "title": "135",
+    "description": "a small room with a bed and a dresser",
+    "images": [
+      "img/0135.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "sleeping",
+    "title_ja": "135",
+    "description_ja": "ベッドとドレッサーのある小さな部屋"
+  },
+  {
+    "id": 136,
+    "title": "136",
+    "description": "a wooden cabinet with drawers in it",
+    "images": [
+      "img/0136.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "136",
+    "description_ja": "引き出しが入った木製のキャビネット"
+  },
+  {
+    "id": 137,
+    "title": "137",
+    "description": "a wooden door with a knob on it",
+    "images": [
+      "img/0137.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "title_ja": "137",
+    "description_ja": "ノブが付いた木製のドア"
+  },
+  {
+    "id": 138,
+    "title": "138",
+    "description": "a bathroom with a toilet and a sink",
+    "images": [
+      "img/0138.jpg"
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "title_ja": "138",
+    "description_ja": "トイレと流し台のあるバスルーム"
+  },
+  {
+    "id": 139,
+    "title": "139",
+    "description": "a blue door with a ring on it",
+    "images": [
+      "img/0139.jpg"
+    ],
+    "status": "available",
+    "location": "unknown",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "playing",
+    "title_ja": "139",
+    "description_ja": "リングが付いた青いドア"
+  }
+]

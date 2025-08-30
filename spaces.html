@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nai Ten Kai - Spaces</title>
+  <title>内展会</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="spaces.css">
 </head>
-<body>
+<body data-page-title-ja="内展会">
   <div id="spaces-app">
     <header class="spaces-header sticky">
       <div class="header-main">
-        <h1>Nai Ten Kai <span class="header-sub">スペース一覧</span></h1>
+        <div class="overlap-wrap">
+          <span class="overlap">展</span>
+          <span class="main-title main-title-ja" id="main-title-ja">内展会</span>
+          <span class="overlap-en main-title-en">Nai Ten Kai</span>
+          <span class="header-sub">All Spaces</span>
+        </div>
         <nav class="header-nav">
           <a href="index.html">Main Gallery</a>
           <a href="#about">About</a>
@@ -36,6 +41,17 @@
     <div id="spaces-grid" class="spaces-grid"></div>
   </div>
   <script src="spaces.js"></script>
+  <script>
+    // Dynamically set the Japanese title from the data attribute (for future flexibility)
+    document.addEventListener('DOMContentLoaded', function() {
+      var pageTitleJa = document.body.getAttribute('data-page-title-ja');
+      if (pageTitleJa) {
+        var mainTitle = document.getElementById('main-title-ja');
+        if (mainTitle) mainTitle.textContent = pageTitleJa;
+        document.title = pageTitleJa;
+      }
+    });
+  </script>
 </body>
 </html></content>
 <filePath>/Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/spaces.html

@@ -15,7 +15,7 @@ function render() {
     <div class="viewer">
       <div class="titles">
   <h1 class="main-title">内<span class="overlap-wrap">見<span class="overlap">展</span></span><span class="indent">会</span></h1>
-      <h2 class="subtitle">An occasion of inner <span class="overlap-wrap"><span class="overlap-en">viewing</span>viewing</span></h2>
+      <h2 class="subtitle">An occasion of inner <span class="overlap-wrap"><span class="overlap-en">viewing</span>displaying</span></h2>
       </div>
       <div class="main-img" id="main-img-container">
         <img id="main-img" src="${images[current]}" alt="Image" />

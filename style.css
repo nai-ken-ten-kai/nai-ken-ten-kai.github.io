@@ -47,7 +47,7 @@
   margin: 0;
   padding: 0;
   letter-spacing: 0.05em;
-  color: #444;
+  color: #111;
 }
 .overlap-en {
   position: absolute;
@@ -82,6 +82,7 @@
   top: 0.4em;
   pointer-events: none;
   color: #444;
+  opacity: 60%;
   font-size: 0.98em;
   line-height: 1;
 }

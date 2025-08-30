@@ -1,3 +1,78 @@
+/* Overlap title styling for spaces page (smaller than main gallery) */
+.overlap-wrap {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+.overlap {
+  position: absolute;
+  left: 0.4em;
+  top: 0.4em;
+  pointer-events: none;
+  color: #444;
+  font-size: 2.2rem;
+  line-height: 1;
+  opacity: 0.13;
+  font-family: "Noto Serif JP", Arial, serif;
+  z-index: 0;
+}
+.main-title {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0 0.5em 0 0;
+  padding: 0;
+  letter-spacing: 0.2em;
+  position: relative;
+  display: inline-block;
+  font-family: "Noto Serif JP", Arial, serif;
+  z-index: 1;
+}
+.main-title-en {
+  font-size: 1.1rem;
+  color: #888;
+  font-family: "Noto Serif JP", Arial, serif;
+  font-weight: 400;
+  margin-right: 0.5em;
+  position: relative;
+  z-index: 1;
+}
+/* Header title watermark and bilingual styling */
+.header-title-wrap {
+  position: relative;
+  display: inline-block;
+}
+.title-watermark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 5rem;
+  color: #ccc;
+  opacity: 0.15;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  font-family: "Noto Serif JP", Arial, serif;
+  white-space: nowrap;
+}
+h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+  margin: 0;
+}
+.main-title-ja {
+  font-weight: bold;
+  margin-right: 0.5em;
+  font-family: "Noto Serif JP", Arial, serif;
+}
+.main-title-en {
+  font-size: 1.1rem;
+  color: #888;
+  font-family: "Noto Serif JP", Arial, serif;
+  font-weight: 400;
+  margin-right: 0.5em;
+}
 /* Tooltip for AI source */
 .desc-tooltip {
   position: relative;

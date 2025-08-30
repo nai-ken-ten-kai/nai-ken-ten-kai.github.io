@@ -89,11 +89,21 @@ document.addEventListener('DOMContentLoaded', function() {
     langEnBtn.classList.toggle('active', lang === 'en');
     langJaBtn.classList.toggle('active', lang === 'ja');
     // Update header
-    document.getElementById('header-sub').textContent = translations[lang].allSpaces;
+    // document.getElementById('header-sub').textContent = translations[lang].allSpaces;
     // Robustly update the available-only label
     const availableLabel = document.querySelector('.filter-group label');
     if (availableLabel) {
+      const checkbox = availableLabel.querySelector('#available-only');
+      const isChecked = checkbox ? checkbox.checked : false;
       availableLabel.innerHTML = `<input type="checkbox" id="available-only"> ${translations[lang].availableOnly}`;
+      // Restore checkbox state and re-add event listener
+      const newCheckbox = availableLabel.querySelector('#available-only');
+      if (newCheckbox) {
+        newCheckbox.checked = isChecked;
+        newCheckbox.addEventListener('change', function() {
+          renderSpaces(getFilteredSpaces());
+        });
+      }
     }
     renderFilters();
     renderSpaces(getFilteredSpaces());
@@ -191,7 +201,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function getFilteredSpaces() {
     let filtered = spaces.slice();
-    if (filterCheckbox.checked) {
+    const currentFilterCheckbox = document.getElementById('available-only');
+    if (currentFilterCheckbox && currentFilterCheckbox.checked) {
       filtered = filtered.filter(space => space.status === 'available');
     }
     if (selectedLocation) {

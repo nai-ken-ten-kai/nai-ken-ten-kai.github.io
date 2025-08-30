@@ -1,3 +1,35 @@
+/* Tooltip for AI source */
+.desc-tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  color: #888;
+  font-size: 0.9em;
+  margin-left: 4px;
+}
+.desc-tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  background: #222;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 10;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+.desc-tooltip:hover .desc-tooltip-text,
+.desc-tooltip:focus .desc-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
 /* Spaces Catalog Styles */
 #spaces-app {
   display: flex;
@@ -108,7 +140,7 @@
 .space-card {
   border: 1px solid #eee;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: visible; /* allow tooltips to overflow */
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.2s;

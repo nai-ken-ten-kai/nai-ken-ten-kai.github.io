@@ -16,7 +16,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "ポスターが建物の横にぶら下がっています"
   },
   {
     "id": 2,
@@ -24,6 +25,102 @@
     "description": "a cat is sitting on the steps of a wooden building",
     "images": [
       "img/0002.jpg"
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "猫が木製の建物の階段に座っています"
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "a metal bell hanging on a wooden door",
+    "images": [
+      "img/0003.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のドアにぶら下がっている金属ベル"
+  },
+  {
+    "id": 4,
+    "title": "4",
+    "description": "a wooden bird house with a wooden door",
+    "images": [
+      "img/0004.jpg"
+    ],
+    "status": "taken",
+    "location": "outside",  
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "木製のドアが付いた木製の鳥の家"
+  },
+  {
+    "id": 5,
+    "title": "5",
+    "description": "a giraffe sitting on top of a building",
+    "images": [
+      "img/0005.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "standing",
+    "description_ja": "建物の上に座っているキリン"
+  },
+  {
+    "id": 6,
+    "title": "6",
+    "description": "a man is sitting on a bench in front of a building",
+    "images": [
+      "img/0006.jpg"
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "unknown"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "description_ja": "男が建物の前のベンチに座っています"
+  },
+  {
+    "id": 7,
+    "title": "7",
+    "description": "a blackboard with a blackboard on it",
+    "images": [
+      "img/0007.jpg"
     ],
     "status": "available",
     "location": "outside",
@@ -35,102 +132,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
-  },
-  {
-    "id": 3,
-    "title": "3",
-    "description": "a metal bell hanging on a wooden door",
-    "images": [
-      "img/0003.jpg"
-    ],
-    "status": "available",
-    "location": "unknown",
-    "element": [
-      "unknown"
-    ],
-    "style": [
-      "neutral"
-    ],
-    "has_hook": false,
-    "clip_type": "attic",
-    "clip_activity": "hanging"
-  },
-  {
-    "id": 4,
-    "title": "4",
-    "description": "a wooden bird house with a wooden door",
-    "images": [
-      "img/0004.jpg"
-    ],
-    "status": "available",
-    "location": "unknown",
-    "element": [
-      "unknown"
-    ],
-    "style": [
-      "neutral"
-    ],
-    "has_hook": false,
-    "clip_type": "attic",
-    "clip_activity": "standing"
-  },
-  {
-    "id": 5,
-    "title": "5",
-    "description": "a giraffe sitting on top of a building",
-    "images": [
-      "img/0005.jpg"
-    ],
-    "status": "available",
-    "location": "unknown",
-    "element": [
-      "unknown"
-    ],
-    "style": [
-      "neutral"
-    ],
-    "has_hook": false,
-    "clip_type": "threshold",
-    "clip_activity": "standing"
-  },
-  {
-    "id": 6,
-    "title": "6",
-    "description": "a man is sitting on a bench in front of a building",
-    "images": [
-      "img/0006.jpg"
-    ],
-    "status": "available",
-    "location": "unknown",
-    "element": [
-      "unknown"
-    ],
-    "style": [
-      "neutral"
-    ],
-    "has_hook": false,
-    "clip_type": "wall",
-    "clip_activity": "standing"
-  },
-  {
-    "id": 7,
-    "title": "7",
-    "description": "a blackboard with a blackboard on it",
-    "images": [
-      "img/0007.jpg"
-    ],
-    "status": "available",
-    "location": "unknown",
-    "element": [
-      "unknown"
-    ],
-    "style": [
-      "neutral"
-    ],
-    "has_hook": false,
-    "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "黒板が付いた黒板"
   },
   {
     "id": 8,
@@ -140,7 +143,7 @@
       "img/0008.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -149,7 +152,8 @@
     ],
     "has_hook": false,
     "clip_type": "nook",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "茶色の屋根"
   },
   {
     "id": 9,
@@ -159,7 +163,7 @@
       "img/0009.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -168,7 +172,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "金属換気のクローズアップ"
   },
   {
     "id": 10,
@@ -178,7 +183,7 @@
       "img/0010.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -187,7 +192,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "竹の棒が付いた木製の門"
   },
   {
     "id": 11,
@@ -206,7 +212,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "テレビアンテナのある木"
   },
   {
     "id": 12,
@@ -216,7 +223,7 @@
       "img/0012.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -225,7 +232,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "そこから垂れ下がった金属棒のある木製の屋根"
   },
   {
     "id": 13,
@@ -235,7 +243,7 @@
       "img/0013.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -244,7 +252,8 @@
     ],
     "has_hook": false,
     "clip_type": "garden",
-    "clip_activity": "resting"
+    "clip_activity": "resting",
+    "description_ja": "木製のハンドルが付いた石盆地"
   },
   {
     "id": 14,
@@ -254,7 +263,7 @@
       "img/0014.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground"
     ],
@@ -263,7 +272,8 @@
     ],
     "has_hook": false,
     "clip_type": "floor",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "ベンチ付きの木製の床"
   },
   {
     "id": 15,
@@ -282,7 +292,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "ビニール袋が入った木製のテーブル"
   },
   {
     "id": 16,
@@ -292,7 +303,7 @@
       "img/0016.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -301,7 +312,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "十字架のある木製のドア"
   },
   {
     "id": 17,
@@ -321,7 +333,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "lying"
+    "clip_activity": "lying",
+    "description_ja": "壁の照明器具"
   },
   {
     "id": 18,
@@ -331,7 +344,7 @@
       "img/0018.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -340,7 +353,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
   },
   {
     "id": 19,
@@ -350,7 +364,7 @@
       "img/0019.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -359,7 +373,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "黒い鳥が入った窓"
   },
   {
     "id": 20,
@@ -369,7 +384,7 @@
       "img/0020.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -378,7 +393,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "紙が貼り付けられた木製のドア"
   },
   {
     "id": 21,
@@ -397,7 +413,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の壁のある木製の壁のクローズアップ"
   },
   {
     "id": 22,
@@ -416,7 +433,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製のフレームと木製のテーブルトップのある木製のテーブル"
   },
   {
     "id": 23,
@@ -426,7 +444,7 @@
       "img/0023.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -436,7 +454,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 24,
@@ -446,7 +465,7 @@
       "img/0024.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -456,7 +475,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓枠のクローズアップ"
   },
   {
     "id": 25,
@@ -466,7 +486,7 @@
       "img/0025.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -475,7 +495,8 @@
     ],
     "has_hook": false,
     "clip_type": "threshold",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "木製のフレームの木製フレーム"
   },
   {
     "id": 26,
@@ -485,7 +506,7 @@
       "img/0026.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -495,7 +516,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 27,
@@ -505,7 +527,7 @@
       "img/0027.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -514,7 +536,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "小さな木製の棒が付いた小さな木製の棚"
   },
   {
     "id": 28,
@@ -524,7 +547,7 @@
       "img/0028.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -533,7 +556,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "小さな爪が入った木製の棚"
   },
   {
     "id": 29,
@@ -543,7 +567,7 @@
       "img/0029.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -552,7 +576,8 @@
     ],
     "has_hook": false,
     "clip_type": "alcove",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "棚が付いた棚"
   },
   {
     "id": 30,
@@ -562,7 +587,7 @@
       "img/0030.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -571,7 +596,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のドアの端にある小さな虫"
   },
   {
     "id": 31,
@@ -581,7 +607,7 @@
       "img/0031.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -590,7 +616,8 @@
     ],
     "has_hook": false,
     "clip_type": "corner",
-    "clip_activity": "meditating"
+    "clip_activity": "meditating",
+    "description_ja": "その上にラップトップを備えた机"
   },
   {
     "id": 32,
@@ -609,7 +636,8 @@
     ],
     "has_hook": true,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "部屋の壁にある小さな金属フック"
   },
   {
     "id": 33,
@@ -628,7 +656,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "天井からぶら下がっているカーテンロッド"
   },
   {
     "id": 34,
@@ -638,7 +667,7 @@
       "img/0034.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -647,7 +676,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の棚のある小さな木製の棚"
   },
   {
     "id": 35,
@@ -657,7 +687,7 @@
       "img/0035.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -666,7 +696,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "lying"
+    "clip_activity": "lying",
+    "description_ja": "小さな窓のある窓"
   },
   {
     "id": 36,
@@ -676,7 +707,7 @@
       "img/0036.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -685,7 +716,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓枠の小さなバグ"
   },
   {
     "id": 37,
@@ -695,7 +727,7 @@
       "img/0037.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -705,7 +737,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 38,
@@ -715,7 +748,7 @@
       "img/0038.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -724,7 +757,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームのある木製の棚のクローズアップ"
   },
   {
     "id": 39,
@@ -734,7 +768,7 @@
       "img/0039.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -743,7 +777,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "木製のフレームの木製フレームのクローズアップ"
   },
   {
     "id": 40,
@@ -753,7 +788,7 @@
       "img/0040.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -762,7 +797,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "金属製のブラケットが付いた木製のドア"
   },
   {
     "id": 41,
@@ -772,7 +808,7 @@
       "img/0041.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -781,7 +817,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "金属製のハンドル付きの木製のドア"
   },
   {
     "id": 42,
@@ -791,7 +828,7 @@
       "img/0042.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground"
     ],
@@ -800,7 +837,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "排水溝のある木製の床"
   },
   {
     "id": 43,
@@ -810,7 +848,7 @@
       "img/0043.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -819,7 +857,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "ドアのサイン"
   },
   {
     "id": 44,
@@ -838,7 +877,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "lying"
+    "clip_activity": "lying",
+    "description_ja": "木製の天井のクローズアップ"
   },
   {
     "id": 45,
@@ -857,7 +897,8 @@
     ],
     "has_hook": false,
     "clip_type": "nook",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の天井からぶら下がっているステンドグラスペンダントライト"
   },
   {
     "id": 46,
@@ -876,7 +917,8 @@
     ],
     "has_hook": false,
     "clip_type": "indoor",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の天井からぶら下がっているステンドグラスのライト"
   },
   {
     "id": 47,
@@ -895,7 +937,8 @@
     ],
     "has_hook": true,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "部屋の壁にぶら下がっているフック"
   },
   {
     "id": 48,
@@ -914,7 +957,8 @@
     ],
     "has_hook": true,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "部屋の壁にフック"
   },
   {
     "id": 49,
@@ -924,7 +968,7 @@
       "img/0049.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -933,7 +977,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "爪が付いた木製の棚"
   },
   {
     "id": 50,
@@ -943,7 +988,7 @@
       "img/0050.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -952,7 +997,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "爪が突き出た木製の棚"
   },
   {
     "id": 51,
@@ -962,7 +1008,7 @@
       "img/0051.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -971,7 +1017,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "小さな虫のある木製のドアのクローズアップ"
   },
   {
     "id": 52,
@@ -981,7 +1028,7 @@
       "img/0052.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -990,7 +1037,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "金属製のハンドルを備えた木製のドアのクローズアップ"
   },
   {
     "id": 53,
@@ -1009,7 +1057,8 @@
     ],
     "has_hook": false,
     "clip_type": "indoor",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "小さな昆虫がテーブルの端に座っています"
   },
   {
     "id": 54,
@@ -1019,7 +1068,7 @@
       "img/0054.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -1028,7 +1077,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームのある小さな木製のドア"
   },
   {
     "id": 55,
@@ -1047,7 +1097,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "部屋の壁に木製の棚"
   },
   {
     "id": 56,
@@ -1057,7 +1108,7 @@
       "img/0056.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1066,7 +1117,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "その上に木片が付いた木製の棚"
   },
   {
     "id": 57,
@@ -1085,7 +1137,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "壁からぶら下がっている木製の梁"
   },
   {
     "id": 58,
@@ -1104,7 +1157,8 @@
     ],
     "has_hook": false,
     "clip_type": "ceiling",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "茶色のテーブルの表面の小さな穴"
   },
   {
     "id": 59,
@@ -1123,7 +1177,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "部屋の壁の小さな穴"
   },
   {
     "id": 60,
@@ -1142,7 +1197,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "ベッドと小さなテーブルのある小さな部屋"
   },
   {
     "id": 61,
@@ -1152,7 +1208,7 @@
       "img/0061.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground"
     ],
@@ -1161,7 +1217,8 @@
     ],
     "has_hook": false,
     "clip_type": "corridor",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製の床がある戸口"
   },
   {
     "id": 62,
@@ -1171,16 +1228,17 @@
       "img/0062.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
-      "ground"
+      "door"
     ],
     "style": [
       "neutral"
     ],
-    "has_hook": false,
+    "has_hook": true,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "背景にハンドルがあるドア"
   },
   {
     "id": 63,
@@ -1190,7 +1248,7 @@
       "img/0063.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1199,7 +1257,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の棚の端にある小さな虫"
   },
   {
     "id": 64,
@@ -1209,7 +1268,7 @@
       "img/0064.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -1219,7 +1278,8 @@
     ],
     "has_hook": false,
     "clip_type": "indoor",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓枠のクローズアップ"
   },
   {
     "id": 65,
@@ -1238,7 +1298,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "茶色のトリムのある木製の天井"
   },
   {
     "id": 66,
@@ -1257,7 +1318,8 @@
     ],
     "has_hook": true,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "フックがぶら下がっている木製の天井"
   },
   {
     "id": 67,
@@ -1276,7 +1338,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "ペーパータオルがぶら下がっている木製の天井"
   },
   {
     "id": 68,
@@ -1295,7 +1358,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "ベッドとカーテンのある部屋"
   },
   {
     "id": 69,
@@ -1305,7 +1369,7 @@
       "img/0069.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1314,7 +1378,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のシャッター付きの日本の家の窓"
   },
   {
     "id": 70,
@@ -1324,7 +1389,7 @@
       "img/0070.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -1334,7 +1399,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームとシャッターのある窓"
   },
   {
     "id": 71,
@@ -1344,7 +1410,7 @@
       "img/0071.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1353,7 +1419,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "女性が窓の前に座っています"
   },
   {
     "id": 72,
@@ -1363,7 +1430,7 @@
       "img/0072.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -1373,7 +1440,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームと窓のある窓"
   },
   {
     "id": 73,
@@ -1383,7 +1451,7 @@
       "img/0073.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1392,7 +1460,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
   },
   {
     "id": 74,
@@ -1402,7 +1471,7 @@
       "img/0074.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1411,7 +1480,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "小さな窓のある窓"
   },
   {
     "id": 75,
@@ -1421,7 +1491,7 @@
       "img/0075.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -1430,7 +1500,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "金属フレームのある小さな木製の棚"
   },
   {
     "id": 76,
@@ -1440,7 +1511,7 @@
       "img/0076.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground",
       "air"
@@ -1450,7 +1521,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "sitting"
+    "clip_activity": "sitting",
+    "description_ja": "木製の床と池の景色を望む窓"
   },
   {
     "id": 77,
@@ -1460,7 +1532,7 @@
       "img/0077.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -1469,7 +1541,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレーム付きの木製のドア"
   },
   {
     "id": 78,
@@ -1488,7 +1561,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "光が輝いている木製の天井"
   },
   {
     "id": 79,
@@ -1507,7 +1581,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の梁のある木製の天井"
   },
   {
     "id": 80,
@@ -1526,7 +1601,8 @@
     ],
     "has_hook": false,
     "clip_type": "kitchen",
-    "clip_activity": "meditating"
+    "clip_activity": "meditating",
+    "description_ja": "机と窓のある小さな部屋"
   },
   {
     "id": 81,
@@ -1545,7 +1621,8 @@
     ],
     "has_hook": false,
     "clip_type": "nook",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "ランプとドアのある小さな部屋"
   },
   {
     "id": 82,
@@ -1564,7 +1641,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "meditating"
+    "clip_activity": "meditating",
+    "description_ja": "窓とタータミマットのある部屋"
   },
   {
     "id": 83,
@@ -1583,7 +1661,8 @@
     ],
     "has_hook": false,
     "clip_type": "nook",
-    "clip_activity": "sitting"
+    "clip_activity": "sitting",
+    "description_ja": "マットの上に黒いトップがある小さなテーブル"
   },
   {
     "id": 84,
@@ -1602,7 +1681,8 @@
     ],
     "has_hook": false,
     "clip_type": "floor",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "敷物のある部屋の小さな木製のテーブル"
   },
   {
     "id": 85,
@@ -1612,7 +1692,7 @@
       "img/0085.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1621,7 +1701,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "小さな木片のある小さな木片"
   },
   {
     "id": 86,
@@ -1631,7 +1712,7 @@
       "img/0086.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1640,7 +1721,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のドアからぶら下がっている木製のドア"
   },
   {
     "id": 87,
@@ -1650,7 +1732,7 @@
       "img/0087.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -1660,7 +1742,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 88,
@@ -1670,7 +1753,7 @@
       "img/0088.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1679,7 +1762,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "光が輝いている窓"
   },
   {
     "id": 89,
@@ -1689,7 +1773,7 @@
       "img/0089.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1698,7 +1782,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "lying"
+    "clip_activity": "lying",
+    "description_ja": "木製の手すりのある木製の棚"
   },
   {
     "id": 90,
@@ -1708,7 +1793,7 @@
       "img/0090.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -1717,7 +1802,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "金属パイプのある木製の建物"
   },
   {
     "id": 91,
@@ -1727,7 +1813,7 @@
       "img/0091.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -1737,7 +1823,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "meditating"
+    "clip_activity": "meditating",
+    "description_ja": "木製のフレームと木製のシャッター付きの窓"
   },
   {
     "id": 92,
@@ -1747,7 +1834,7 @@
       "img/0092.jpg"
     ],
     "status": "available",
-    "location": "outside",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1756,7 +1843,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "木の景色を望む日本の家の窓"
   },
   {
     "id": 93,
@@ -1766,7 +1854,7 @@
       "img/0093.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground",
       "air"
@@ -1776,7 +1864,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "resting"
+    "clip_activity": "resting",
+    "description_ja": "木製の床と鏡のある窓"
   },
   {
     "id": 94,
@@ -1786,7 +1875,7 @@
       "img/0094.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1795,7 +1884,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓のある窓が入っています"
   },
   {
     "id": 95,
@@ -1805,7 +1895,7 @@
       "img/0095.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -1814,7 +1904,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "男がタバコを持っています"
   },
   {
     "id": 96,
@@ -1824,7 +1915,7 @@
       "img/0096.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -1833,7 +1924,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "男が椅子に座っています"
   },
   {
     "id": 97,
@@ -1852,7 +1944,8 @@
     ],
     "has_hook": false,
     "clip_type": "garden",
-    "clip_activity": "resting"
+    "clip_activity": "resting",
+    "description_ja": "小さな木製のベンチは木と岩に囲まれています"
   },
   {
     "id": 98,
@@ -1871,7 +1964,8 @@
     ],
     "has_hook": false,
     "clip_type": "garden",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木が成長している木の幹"
   },
   {
     "id": 99,
@@ -1881,7 +1975,7 @@
       "img/0099.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "unknown"
     ],
@@ -1890,7 +1984,8 @@
     ],
     "has_hook": false,
     "clip_type": "garden",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "ツタで覆われた岩"
   },
   {
     "id": 100,
@@ -1909,7 +2004,8 @@
     ],
     "has_hook": false,
     "clip_type": "garden",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "鳥が付いた木の幹"
   },
   {
     "id": 101,
@@ -1928,7 +2024,8 @@
     ],
     "has_hook": false,
     "clip_type": "garden",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "有刺鉄線のフェンスが付いた木"
   },
   {
     "id": 102,
@@ -1947,7 +2044,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "ロープがぶら下がっている木の幹"
   },
   {
     "id": 103,
@@ -1966,7 +2064,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の天井からぶら下がっている金属棒"
   },
   {
     "id": 104,
@@ -1976,7 +2075,7 @@
       "img/0104.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "air"
     ],
@@ -1985,7 +2084,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓に座っている猫"
   },
   {
     "id": 105,
@@ -1995,7 +2095,7 @@
       "img/0105.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "air"
     ],
@@ -2004,7 +2104,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製の窓が入った木製の窓"
   },
   {
     "id": 106,
@@ -2014,7 +2115,7 @@
       "img/0106.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "wall",
       "air"
@@ -2024,7 +2125,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 107,
@@ -2034,7 +2136,7 @@
       "img/0107.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "outside",
     "element": [
       "wall",
       "air"
@@ -2044,7 +2146,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 108,
@@ -2054,7 +2157,7 @@
       "img/0108.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2063,7 +2166,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "小さな穴のある木製の梁"
   },
   {
     "id": 109,
@@ -2073,7 +2177,7 @@
       "img/0109.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -2083,7 +2187,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製の窓枠"
   },
   {
     "id": 110,
@@ -2093,7 +2198,7 @@
       "img/0110.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2102,7 +2207,8 @@
     ],
     "has_hook": true,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "フックがぶら下がっている木製の窓"
   },
   {
     "id": 111,
@@ -2112,7 +2218,7 @@
       "img/0111.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground",
       "air"
@@ -2122,7 +2228,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の床"
   },
   {
     "id": 112,
@@ -2141,7 +2248,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の梁が壁からぶら下がっています"
   },
   {
     "id": 113,
@@ -2160,7 +2268,8 @@
     ],
     "has_hook": false,
     "clip_type": "ceiling",
-    "clip_activity": "meditating"
+    "clip_activity": "meditating",
+    "description_ja": "茶色の織りパターンの木製の壁"
   },
   {
     "id": 114,
@@ -2170,7 +2279,7 @@
       "img/0114.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2179,7 +2288,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製の梁のクローズアップ"
   },
   {
     "id": 115,
@@ -2198,7 +2308,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "reading"
+    "clip_activity": "reading",
+    "description_ja": "部屋の天井から木製の梁がぶら下がっています"
   },
   {
     "id": 116,
@@ -2208,7 +2319,7 @@
       "img/0116.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2217,7 +2328,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "緑の鍵がたくさんある窓からぶら下がっています"
   },
   {
     "id": 117,
@@ -2236,7 +2348,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "ワイヤーがぶら下がっている木製の天井"
   },
   {
     "id": 118,
@@ -2246,7 +2359,7 @@
       "img/0118.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2255,7 +2368,8 @@
     ],
     "has_hook": true,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "フックがぶら下がっている木製の窓"
   },
   {
     "id": 119,
@@ -2265,7 +2379,7 @@
       "img/0119.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2274,7 +2388,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 120,
@@ -2284,7 +2399,7 @@
       "img/0120.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall",
       "air"
@@ -2294,7 +2409,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームと窓のある窓"
   },
   {
     "id": 121,
@@ -2304,7 +2420,7 @@
       "img/0121.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2313,7 +2429,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 122,
@@ -2323,7 +2440,7 @@
       "img/0122.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2332,7 +2449,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓枠に座っている小さな鳥"
   },
   {
     "id": 123,
@@ -2342,7 +2460,7 @@
       "img/0123.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2351,7 +2469,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "青と緑の吊り下げ飾りのある窓"
   },
   {
     "id": 124,
@@ -2361,7 +2480,7 @@
       "img/0124.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2370,7 +2489,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている小さな青いカタツムリ"
   },
   {
     "id": 125,
@@ -2380,7 +2500,7 @@
       "img/0125.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2389,7 +2509,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓からぶら下がっている緑色の洗濯"
   },
   {
     "id": 126,
@@ -2399,7 +2520,7 @@
       "img/0126.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "air"
     ],
@@ -2408,7 +2529,8 @@
     ],
     "has_hook": false,
     "clip_type": "balcony",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている青いガラス"
   },
   {
     "id": 127,
@@ -2418,7 +2540,7 @@
       "img/0127.jpg"
     ],
     "status": "available",
-    "location": "outside",
+    "location": "inside",
     "element": [
       "ground"
     ],
@@ -2427,7 +2549,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "背景の木のぼやけた画像"
   },
   {
     "id": 128,
@@ -2437,7 +2560,7 @@
       "img/0128.jpg"
     ],
     "status": "available",
-    "location": "outside",
+    "location": "inside",
     "element": [
       "ground"
     ],
@@ -2446,7 +2569,8 @@
     ],
     "has_hook": false,
     "clip_type": "wall",
-    "clip_activity": "walking"
+    "clip_activity": "walking",
+    "description_ja": "背景の木のぼやけた画像"
   },
   {
     "id": 129,
@@ -2456,7 +2580,7 @@
       "img/0129.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2465,7 +2589,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "金属製のハンドルを備えた金属ドアのクローズアップ"
   },
   {
     "id": 130,
@@ -2484,7 +2609,8 @@
     ],
     "has_hook": false,
     "clip_type": "kitchen",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "窓のある部屋の小さな棚"
   },
   {
     "id": 131,
@@ -2494,7 +2620,7 @@
       "img/0131.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2503,7 +2629,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "紙が覆われた木製のドア"
   },
   {
     "id": 132,
@@ -2513,7 +2640,7 @@
       "img/0132.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "wall"
     ],
@@ -2522,7 +2649,8 @@
     ],
     "has_hook": false,
     "clip_type": "window",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "木製のフレーム付きの木製の戸口"
   },
   {
     "id": 133,
@@ -2541,7 +2669,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "部屋の木製のスラットスクリーン"
   },
   {
     "id": 134,
@@ -2551,7 +2680,7 @@
       "img/0134.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "ground"
     ],
@@ -2560,7 +2689,8 @@
     ],
     "has_hook": false,
     "clip_type": "floor",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "敷物が付いた木製の床"
   },
   {
     "id": 135,
@@ -2579,7 +2709,8 @@
     ],
     "has_hook": false,
     "clip_type": "kitchen",
-    "clip_activity": "sleeping"
+    "clip_activity": "sleeping",
+    "description_ja": "ベッドとドレッサーのある小さな部屋"
   },
   {
     "id": 136,
@@ -2589,7 +2720,7 @@
       "img/0136.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2598,7 +2729,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "引き出しが入った木製のキャビネット"
   },
   {
     "id": 137,
@@ -2608,7 +2740,7 @@
       "img/0137.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2617,7 +2749,8 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "standing"
+    "clip_activity": "standing",
+    "description_ja": "ノブが付いた木製のドア"
   },
   {
     "id": 138,
@@ -2636,7 +2769,8 @@
     ],
     "has_hook": false,
     "clip_type": "attic",
-    "clip_activity": "hanging"
+    "clip_activity": "hanging",
+    "description_ja": "トイレと流し台のあるバスルーム"
   },
   {
     "id": 139,
@@ -2646,7 +2780,7 @@
       "img/0139.jpg"
     ],
     "status": "available",
-    "location": "unknown",
+    "location": "inside",
     "element": [
       "unknown"
     ],
@@ -2655,6 +2789,7 @@
     ],
     "has_hook": false,
     "clip_type": "door",
-    "clip_activity": "playing"
+    "clip_activity": "playing",
+    "description_ja": "リングが付いた青いドア"
   }
 ]

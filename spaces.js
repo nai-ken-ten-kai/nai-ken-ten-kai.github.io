@@ -225,7 +225,8 @@ document.addEventListener('DOMContentLoaded', function() {
       card.className = 'space-card';
   card.onclick = () => openSpaceModal(space);
 
-      const image = space.images[0];
+  const imageObj = space.images[0];
+  const image = imageObj && (typeof imageObj === 'string' ? imageObj : imageObj.src);
       const statusClass = space.status === 'available' ? 'status-available' : 'status-taken';
       const statusText = space.status === 'available' ? 'Available' : 'Taken';
 
@@ -283,8 +284,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function openSpaceModal(space) {
     // Set image
-    modalImage.src = space.images[0];
-    modalImage.alt = space.id;
+  const modalImageObj = space.images[0];
+  modalImage.src = modalImageObj && (typeof modalImageObj === 'string' ? modalImageObj : modalImageObj.src);
+  modalImage.alt = space.id;
     // Info block: just show ID as heading and plain text for the rest
     let infoHtml = `<h2>${space.id}</h2>`;
     if (currentLang === 'ja' && space.description_ja) {

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="spaces.css">
+  <link rel="stylesheet" href="timeline-gallery.css">
+</head>
+<body data-page-title-ja="時系列">
+  <div id="timeline-app">
+    <header class="spaces-header sticky">
+      <div class="header-main">
+        <div class="header-left">
+          <div class="overlap-wrap" onclick="window.location.href='nai-ken-kai.html'" style="cursor: pointer;">
+            <img src="logo/nai_ten_kai.svg" alt="Nai Ten Kai" class="header-logo" />
+          </div>
+          <nav class="header-nav">
+            <a href="#about">About</a>
+          </nav>
+        </div>
+        <div class="lang-switcher">
+          <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+          <span class="lang-separator">/</span>
+          <button id="lang-ja" class="lang-btn" aria-label="日本語に切り替え">日本語</button>
+        </div>
+      </div>
+    </header>
+    <div id="timeline-gallery"></div>
+  </div>
+  <script src="spaces.js"></script>
+  <script src="timeline-gallery.js"></script>
+</body>
+</html>

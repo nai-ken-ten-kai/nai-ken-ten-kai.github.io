@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+        letter-spacing: .08em;
+        opacity: .42;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 542.06px;
+      }
+
+      .cls-2 {
+        letter-spacing: .1em;
+      }
+
+      .cls-3 {
+        fill: #666;
+        font-family: MinionConceptRoman-DisplayBold, 'Minion Variable Concept';
+        font-size: 144px;
+        font-variation-settings: 'wght' 700, 'opsz' 36;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: .07em;
+      }
+
+      .cls-5 {
+        letter-spacing: .02em;
+      }
+
+      .cls-6 {
+        letter-spacing: .01em;
+      }
+
+      .cls-7 {
+        letter-spacing: .04em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(82.84 680.53)"><tspan x="0" y="0">内見会</tspan></text>
+  <text class="cls-1" transform="translate(803.92 812.22)"><tspan x="0" y="0">展</tspan></text>
+  <text class="cls-3" transform="translate(1259.71 865.36)"><tspan class="cls-4" x="0" y="0">K</tspan><tspan class="cls-6" x="100.37" y="0">A</tspan><tspan x="186.04" y="0">I</tspan></text>
+  <text class="cls-3" transform="translate(229.43 813.8)"><tspan class="cls-5" x="0" y="0">NA</tspan><tspan x="190.94" y="0">I</tspan></text>
+  <text class="cls-3" transform="translate(1169.37 312.25)"><tspan class="cls-7" x="0" y="0">K</tspan><tspan class="cls-8" x="96.05" y="0">E</tspan><tspan x="176.11" y="0">N</tspan></text>
+</svg>

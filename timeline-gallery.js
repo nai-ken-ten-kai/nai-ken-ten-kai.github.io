@@ -98,22 +98,58 @@ fetch('spaces_new.json')
           imgEl.src = post.src;
           imgEl.alt = post.id;
           imgEl.onclick = () => {
-            // Show modal with details
+            // Find the space for this post
+            const space = data.find(s => s.id == post.id);
+            if (!space) return;
+            // Build events: original, then each update
+            const events = [];
+            // Original
+            if (space.images && space.images.length > 0) {
+              events.push({
+                type: 'original',
+                img: space.images[0].src,
+                info: '<b>Original State</b>',
+                supp: []
+              });
+            }
+            // Updates
+            (space.updates || []).forEach(upd => {
+              if (upd.images && upd.images.length > 0) {
+                const mainImg = upd.images.find(im => im.role === 'primary') || upd.images[0];
+                const suppImgs = upd.images.filter(im => im !== mainImg);
+                events.push({
+                  type: 'update',
+                  img: mainImg.src,
+                  info: `<b>${upd.author || ''}</b><br>${upd.text || ''}`,
+                  supp: suppImgs.map(im => im.src)
+                });
+              }
+            });
+            // Build modal
             const modal = document.createElement('div');
             modal.className = 'update-modal';
             modal.innerHTML = `
               <div class="update-modal-content">
-                <span class="update-modal-close">&times;</span>
-                <h3>${post.type === 'original' ? 'Original' : 'Update'} by ${post.author}</h3>
-                <p>${post.text}</p>
-                <div class="update-images">
-                  ${post.supplementary.map(im => `<img src="${im.src}" alt="supp" class="update-thumb">`).join('')}
+                <button class="update-modal-close">&times;</button>
+                <div class="update-modal-timeline">
+                  ${events.map(ev => `
+                    <div class="update-modal-event">
+                      <img src="${ev.img}" alt="zoomed">
+                      <div class="event-info">${ev.info}</div>
+                      ${ev.supp.length ? `<div class="event-supp">${ev.supp.map(s => `<img src="${s}" alt="supp">`).join('')}</div>` : ''}
+                    </div>
+                  `).join('')}
                 </div>
               </div>
             `;
             document.body.appendChild(modal);
-            modal.querySelector('.update-modal-close').onclick = () => modal.remove();
-            modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+            // Prevent background scroll
+            document.body.style.overflow = 'hidden';
+            // Close logic
+            modal.querySelector('.update-modal-close').onclick = () => { modal.remove(); document.body.style.overflow = ''; };
+            modal.onclick = (e) => { if (e.target === modal) { modal.remove(); document.body.style.overflow = ''; } };
+            // Prevent modal content click from closing
+            modal.querySelector('.update-modal-content').onclick = (e) => { e.stopPropagation(); };
           };
           imgsDiv.appendChild(imgEl);
         });

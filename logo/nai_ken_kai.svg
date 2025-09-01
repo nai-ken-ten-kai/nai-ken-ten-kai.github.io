@@ -18,7 +18,7 @@
 
       .cls-3 {
         fill: #666;
-        font-family: MinionConceptRoman-DisplayBold, 'Minion Variable Concept';
+        font-family: Arial, serif;
         font-size: 144px;
         font-variation-settings: 'wght' 700, 'opsz' 36;
         font-weight: 700;

@@ -22,34 +22,53 @@ function formatTimeGroup(date) {
 fetch('spaces_new.json')
   .then(r => r.json())
   .then(data => {
-    // Flatten all images with their space id
-    let allImages = [];
+    // Flatten all originals and updates with their space id
+    let allPosts = [];
     data.forEach(space => {
-      (space.images || []).forEach(imgObj => {
-        if (imgObj && imgObj.src) {
-          allImages.push({
+      // Include original if it has taken_at
+      if (space.images && space.images.length > 0 && space.images[0].taken_at) {
+        allPosts.push({
+          id: space.id,
+          type: 'original',
+          src: space.images[0].src,
+          taken_at: space.images[0].taken_at,
+          author: space.created_by || 'Original',
+          text: 'Original state',
+          supplementary: []
+        });
+      }
+      // Include updates
+      (space.updates || []).forEach(upd => {
+        if (upd && upd.images && upd.images.length > 0) {
+          const primaryImg = upd.images.find(im => im.role === 'primary') || upd.images[0];
+          allPosts.push({
             id: space.id,
-            src: imgObj.src,
-            taken_at: imgObj.taken_at
+            type: 'update',
+            update: upd,
+            src: primaryImg.src,
+            taken_at: upd.created_at,
+            author: upd.author || 'Unknown',
+            text: upd.text || '',
+            supplementary: upd.images.filter(im => im.role !== 'primary')
           });
         }
       });
     });
-    // Group by 30-min interval
+    // Group by 30-min interval based on taken_at
     const groups = {};
-    allImages.forEach(img => {
-      const d = parseTime(img.taken_at);
+    allPosts.forEach(post => {
+      const d = parseTime(post.taken_at);
       if (d) {
         const dateStr = d.getFullYear() + '-' + (d.getMonth()+1).toString().padStart(2,'0') + '-' + d.getDate().toString().padStart(2,'0');
         const timeStr = formatTimeGroup(d);
         const key = dateStr + ' ' + timeStr.replace('\n', ' ');
         const displayKey = dateStr + '\n' + timeStr;
-        if (!groups[key]) groups[key] = { images: [], display: displayKey };
-        groups[key].images.push(img);
+        if (!groups[key]) groups[key] = { posts: [], display: displayKey };
+        groups[key].posts.push(post);
       } else {
         const key = 'Unknown';
-        if (!groups[key]) groups[key] = { images: [], display: 'Unknown' };
-        groups[key].images.push(img);
+        if (!groups[key]) groups[key] = { posts: [], display: 'Unknown' };
+        groups[key].posts.push(post);
       }
     });
     // Sort groups by time
@@ -64,11 +83,29 @@ fetch('spaces_new.json')
       tsDiv.textContent = groups[key].display;
       const imgsDiv = document.createElement('div');
       imgsDiv.className = 'timeline-images';
-      groups[key].images.forEach(img => {
+      groups[key].posts.forEach(post => {
         const imgEl = document.createElement('img');
         imgEl.className = 'timeline-img';
-        imgEl.src = img.src;
-        imgEl.alt = img.id;
+        imgEl.src = post.src;
+        imgEl.alt = post.id;
+        imgEl.onclick = () => {
+          // Show modal with details
+          const modal = document.createElement('div');
+          modal.className = 'update-modal';
+          modal.innerHTML = `
+            <div class="update-modal-content">
+              <span class="update-modal-close">&times;</span>
+              <h3>${post.type === 'original' ? 'Original' : 'Update'} by ${post.author}</h3>
+              <p>${post.text}</p>
+              <div class="update-images">
+                ${post.supplementary.map(im => `<img src="${im.src}" alt="supp" class="update-thumb">`).join('')}
+              </div>
+            </div>
+          `;
+          document.body.appendChild(modal);
+          modal.querySelector('.update-modal-close').onclick = () => modal.remove();
+          modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+        };
         imgsDiv.appendChild(imgEl);
       });
       groupDiv.appendChild(tsDiv);

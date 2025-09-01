@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 from datetime import datetime
 
@@ -28,6 +29,6 @@ def convert_images_to_objects(input_path, output_path):
 if __name__ == '__main__':
     import sys
     if len(sys.argv) != 3:
-        print('Usage: python convert_images_to_objects.py spaces.json spaces_new.json')
+        print('Usage: python convert_images_to_objects.py spaces_new.json spaces_new_out.json')
     else:
         convert_images_to_objects(sys.argv[1], sys.argv[2])

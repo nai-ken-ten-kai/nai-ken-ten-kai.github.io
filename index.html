@@ -12,8 +12,40 @@
     <header class="spaces-header sticky">
       <div class="header-main">
         <div class="header-left">
-          <div class="overlap-wrap" onclick="window.location.href='nai-ten-kai.html'" style="cursor: pointer;">
-            <img src="logo/nai_ken_kai.svg" alt="Nai Ken Kai" class="header-logo" />
+          <div class="overlap-wrap" data-target="nai-ten-kai.html" style="cursor: pointer;">
+            <div class="logo-container">
+              <!-- Inline original SVG (nai_ken_kai.svg) with duplicate flip targets -->
+              <svg class="logo-svg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <defs>
+                  <style>
+                    .cls-1{fill:#999;letter-spacing:.08em;opacity:.42;font-size:542.06px}
+                    .cls-2{font-size:542.06px}
+                    .cls-3{fill:#666;font-family:MinionVariable,serif;font-size:144px;font-variation-settings:'wght' 700,'opsz' 36;font-weight:700}
+                    .cls-4{letter-spacing:.07em}.cls-5{letter-spacing:.02em}.cls-6{letter-spacing:.01em}.cls-7{letter-spacing:.04em}.cls-8{letter-spacing:0}
+                  </style>
+                </defs>
+                <text class="cls-2" transform="translate(82.84 680.53)"><tspan x="0" y="0">内見会</tspan></text>
+                <!-- primary big overlay character (visible) -->
+                <g class="kanji-primary">
+                  <text class="cls-1" transform="translate(803.92 812.22)"><tspan x="0" y="0">展</tspan></text>
+                </g>
+                <!-- alternate big character (hidden until flip) -->
+                <g class="kanji-secondary">
+                  <text class="cls-1" transform="translate(803.92 812.22)"><tspan x="0" y="0">見</tspan></text>
+                </g>
+
+                <text class="cls-3" transform="translate(1259.71 865.36)"><tspan class="cls-4" x="0" y="0">K</tspan><tspan class="cls-6" x="100.37" y="0">A</tspan><tspan x="186.04" y="0">I</tspan></text>
+                <text class="cls-3" transform="translate(229.43 813.8)"><tspan class="cls-5" x="0" y="0">NA</tspan><tspan x="190.94" y="0">I</tspan></text>
+                <!-- KEN group (visible) -->
+                <g class="eng-primary">
+                  <text class="cls-3" transform="translate(1169.37 312.25)"><tspan class="cls-7" x="0" y="0">K</tspan><tspan class="cls-8" x="96.05" y="0">E</tspan><tspan x="176.11" y="0">N</tspan></text>
+                </g>
+                <!-- TEN overlay (hidden until flip) - mirrors same position/style -->
+                <g class="eng-secondary">
+                  <text class="cls-3" transform="translate(1169.37 312.25)"><tspan class="cls-7" x="0" y="0">T</tspan><tspan class="cls-8" x="96.05" y="0">E</tspan><tspan x="176.11" y="0">N</tspan></text>
+                </g>
+              </svg>
+            </div>
           </div>
           <nav class="header-nav">
             <a href="#about">About</a>
@@ -63,6 +95,56 @@
   </div>
   <script src="spaces.js"></script>
   <script>
+    // Logo character flip functionality with persistent click behavior
+    function initLogoFlip() {
+      const logoContainer = document.querySelector('.logo-container');
+      const wrapper = document.querySelector('.overlap-wrap');
+      const autoFlipInterval = 5000; // faster cycle like nai-ten-kai
+      const flipDuration = 350; // ms matches CSS
+      const holdBeforeRevert = 500; // ms hold
+
+      function tempFlip() {
+        if (logoContainer.classList.contains('logo-flip')) return;
+        logoContainer.classList.add('logo-flip');
+        setTimeout(() => logoContainer.classList.remove('logo-flip'), flipDuration + holdBeforeRevert);
+      }
+
+      function persistentFlipAndNavigate(target) {
+        try { localStorage.setItem('logoNavigated', 'true'); } catch (e) {}
+        logoContainer.classList.add('logo-flip');
+        setTimeout(() => { window.location.href = target; }, flipDuration);
+      }
+
+      // Auto-flip periodically
+      const autoTimer = setInterval(() => {
+        if (!logoContainer.classList.contains('logo-flip')) {
+          tempFlip();
+        }
+      }, autoFlipInterval);
+
+      // Hover triggers a temp flip
+      wrapper.addEventListener('mouseenter', () => {
+        if (!logoContainer.classList.contains('logo-flip')) tempFlip();
+      });
+
+      // Click: persistent flip then navigate
+      wrapper.addEventListener('click', (ev) => {
+        const target = wrapper.getAttribute('data-target');
+        if (target) {
+          ev.preventDefault();
+          persistentFlipAndNavigate(target);
+        }
+      });
+
+      // On load: if navigation flag is set, keep flipped
+      try {
+        if (localStorage.getItem('logoNavigated') === 'true') {
+          logoContainer.classList.add('logo-flip');
+          localStorage.removeItem('logoNavigated');
+        }
+      } catch (e) {}
+    }
+    
     // Dynamically set the Japanese title from the data attribute (for future flexibility)
     document.addEventListener('DOMContentLoaded', function() {
       var pageTitleJa = document.body.getAttribute('data-page-title-ja');
@@ -71,6 +153,9 @@
         if (mainTitle) mainTitle.textContent = pageTitleJa;
         document.title = pageTitleJa;
       }
+      
+      // Initialize logo flip animation
+      initLogoFlip();
     });
   </script>
 </body>

@@ -210,7 +210,7 @@
         "taken_at": "2025-08-21T09:26:40"
       }
     ],
-    "status": "published",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -219,10 +219,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "テレビアンテナのある木",
-    "taken_by": "Test User",
-    "taken_at": "2025-09-01T05:50:36.950710",
-    "taken_note": "Marked via API test"
+    "description_ja": "テレビアンテナのある木"
   },
   {
     "id": 12,
@@ -2960,5 +2957,39 @@
     "clip_type": "door",
     "clip_activity": "playing",
     "description_ja": "リングが付いた青いドア"
+  },
+  {
+    "id": 140,
+    "images": [
+      {
+        "src": "img/140-manual-update/tmp_small.jpg",
+        "taken_at": null
+      }
+    ],
+    "created_by": "Smoke Tester",
+    "created_at": "2025-09-01T04:30:34.218083",
+    "status": "published",
+    "updates": [
+      {
+        "author": "Smoke Tester",
+        "text": "Real save test",
+        "action": null,
+        "images": [
+          {
+            "src": "img/140-testreal/tmp_small.jpg",
+            "taken_at": null,
+            "role": "supplementary"
+          }
+        ],
+        "created_at": "2025-09-01T04:30:34.219005",
+        "status": "draft",
+        "related": []
+      }
+    ],
+    "modified_by": "Smoke Tester",
+    "modified_at": "2025-09-01T04:30:34.219891",
+    "taken_by": "QA Tester",
+    "taken_at": "2025-09-01T04:36:01.761427",
+    "taken_note": "Replaced main image"
   }
 ]

@@ -1,0 +1,4 @@
+body{font-family:system-ui, sans-serif; padding:24px;}
+label{display:block; margin:8px 0}
+#uploader{border:2px dashed #ccc; padding:12px; margin:8px 0}
+#preview div{background:#f6f6f6; padding:6px; margin:4px 0}

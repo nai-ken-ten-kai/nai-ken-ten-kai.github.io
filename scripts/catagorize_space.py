@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 import os
 from tqdm import tqdm
@@ -44,7 +45,8 @@ def get_best_label(image_path, description, candidates):
     best_idx = probs.argmax()
     return candidates[best_idx]
 
-with open("spaces.json", "r") as f:
+src = "spaces_new.json" if os.path.exists("spaces_new.json") else "spaces.json"
+with open(src, "r", encoding="utf-8") as f:
     spaces = json.load(f)
 
 for space in tqdm(spaces):

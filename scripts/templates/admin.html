@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Local Admin - nai-ten-kai</title>
+  <link rel="stylesheet" href="/static/admin.css">
+</head>
+<body>
+  <h1>Local Admin — Add Update</h1>
+  <form id="upload" enctype="multipart/form-data">
+    <label>Target space id (leave empty to create new): <input name="title_id" id="title_id"></label>
+    <label>Slug (folder name suffix): <input name="slug" id="slug"></label>
+    <label>Author: <input name="author" id="author"></label>
+    <label>Text / note: <textarea name="text" id="text"></textarea></label>
+    <label>Action: <input name="action" id="action"></label>
+    <label>Related ids (comma): <input name="related" id="related"></label>
+    <label>Status: <select name="status"><option>draft</option><option>published</option><option>taken</option></select></label>
+    <label>Do not append to top-level images: <input type="checkbox" name="no_append" id="no_append"></label>
+    <label>Create new space: <input type="checkbox" name="create_new" id="create_new"></label>
+    <div id="uploader">
+      <input type="file" id="files" name="files" multiple accept="image/*">
+      <p>Drag & drop images or use file picker.</p>
+    </div>
+    <div id="preview"></div>
+    <label>Primary filename: <input name="primary" id="primary"></label>
+    <label>Commit changes (local git): <input type="checkbox" name="commit" id="commit"></label>
+    <label>Commit message: <input name="commit_msg" id="commit_msg"></label>
+  <label>Dry-run (preview only, no write): <input type="checkbox" name="dry_run" id="dry_run"></label>
+    <button type="button" id="save">Save</button>
+  </form>
+  <hr>
+  <h2>Mark space as taken</h2>
+  <form id="mark-form" enctype="multipart/form-data">
+    <label>Space id: <input name="mark_id" id="mark_id"></label>
+    <label>Taken by (name/contact): <input name="taken_by" id="taken_by"></label>
+    <label>Note: <input name="taken_note" id="taken_note"></label>
+    <label>Replace main image (optional): <input type="file" id="taken_file" name="taken_file" accept="image/*"></label>
+    <label>Publish after marking (show on nai-ten-kai): <input type="checkbox" id="mark_publish" name="mark_publish"></label>
+    <button type="button" id="mark_taken">Mark taken</button>
+  </form>
+  <hr>
+  <h2>Revert last update</h2>
+  <form id="revert-form">
+    <label>Space id: <input name="revert_id" id="revert_id"></label>
+    <button type="button" id="revert_last">Revert last update</button>
+  </form>
+
+  <!-- Confirmation modal for marking as taken -->
+  <div id="confirm-modal" class="modal" style="display:none;">
+    <div class="modal-content" style="max-width:700px; margin:40px auto; background:#fff; padding:16px; border:1px solid #ccc;">
+      <h3>Confirm new main image</h3>
+      <div id="confirm-body">
+        <div style="display:flex; gap:12px; align-items:flex-start;">
+          <div style="flex:1; text-align:center;">
+            <div>Old main image</div>
+            <img id="confirm-old-img" src="" style="max-width:100%; max-height:200px; border:1px solid #ddd;">
+          </div>
+          <div style="flex:1; text-align:center;">
+            <div>New main image</div>
+            <img id="confirm-new-img" src="" style="max-width:100%; max-height:200px; border:1px solid #ddd;">
+          </div>
+        </div>
+        <div id="confirm-meta" style="margin-top:12px;"></div>
+      </div>
+      <div style="margin-top:12px; text-align:right;">
+        <button id="confirm-cancel" type="button">Cancel</button>
+        <button id="confirm-ok" type="button">Confirm</button>
+      </div>
+    </div>
+  </div>
+  <script src="/static/admin.js"></script>
+</body>
+</html>

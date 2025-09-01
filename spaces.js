@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const translations = {
     en: {
       allSpaces: 'All Spaces',
+  about: 'About',
       availableOnly: 'Available Only',
       available: 'Available',
       taken: 'Taken',
@@ -43,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     ja: {
       allSpaces: '全スペース',
+  about: 'このサイトについて',
       availableOnly: '空きのみ',
       available: '空き',
       taken: '契約済み',
@@ -86,11 +88,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const langJaBtn = document.getElementById('lang-ja');
   function setLang(lang) {
     currentLang = lang;
-    langEnBtn.classList.toggle('active', lang === 'en');
-    langJaBtn.classList.toggle('active', lang === 'ja');
+    if (langEnBtn) langEnBtn.classList.toggle('active', lang === 'en');
+    if (langJaBtn) langJaBtn.classList.toggle('active', lang === 'ja');
     // Update header
-    // document.getElementById('header-sub').textContent = translations[lang].allSpaces;
-    // Robustly update the available-only label
+    const aboutLink = document.querySelector('.header-nav a[data-i18n="about"]');
+    if (aboutLink) aboutLink.textContent = translations[lang].about;
+    // Robustly update the available-only label (if present on this page)
     const availableLabel = document.querySelector('.filter-group label');
     if (availableLabel) {
       const checkbox = availableLabel.querySelector('#available-only');
@@ -101,12 +104,14 @@ document.addEventListener('DOMContentLoaded', function() {
       if (newCheckbox) {
         newCheckbox.checked = isChecked;
         newCheckbox.addEventListener('change', function() {
-          renderSpaces(getFilteredSpaces());
+          // Only re-render if grid exists
+          if (typeof renderSpaces === 'function') renderSpaces(getFilteredSpaces());
         });
       }
     }
-    renderFilters();
-    renderSpaces(getFilteredSpaces());
+    // Update filters and spaces if the relevant containers exist
+    if (typeof renderFilters === 'function') renderFilters();
+    if (typeof renderSpaces === 'function') renderSpaces(getFilteredSpaces());
     // Modal instructions (if open)
     const modalInstructions = document.querySelector('.modal-instructions b');
     if (modalInstructions) {
@@ -114,8 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  langEnBtn.onclick = () => setLang('en');
-  langJaBtn.onclick = () => setLang('ja');
+  if (langEnBtn) langEnBtn.onclick = () => setLang('en');
+  if (langJaBtn) langJaBtn.onclick = () => setLang('ja');
   const grid = document.getElementById('spaces-grid');
   const filterCheckbox = document.getElementById('available-only');
   const locationFilters = document.getElementById('location-filters');
@@ -131,8 +136,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set initial language (after all DOM assignments and variable declarations)
   setLang('en');
 
-  // Load spaces data (now from unified spaces.json)
-  fetch('spaces.json')
+  // Load spaces data (now from unified spaces_new.json)
+  fetch('spaces_new.json')
     .then(response => response.json())
     .then(data => {
       spaces = data;
@@ -141,9 +146,11 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => console.error('Error loading spaces:', error));
 
-  filterCheckbox.addEventListener('change', function() {
-    renderSpaces(getFilteredSpaces());
-  });
+  if (filterCheckbox) {
+    filterCheckbox.addEventListener('change', function() {
+      if (typeof renderSpaces === 'function') renderSpaces(getFilteredSpaces());
+    });
+  }
 
   function getUniqueValues(key) {
     const values = new Set();
@@ -159,8 +166,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function renderFilters() {
     // Location
-    locationFilters.innerHTML = '';
-    getUniqueValues('location').forEach(loc => {
+    if (locationFilters) {
+      locationFilters.innerHTML = '';
+      getUniqueValues('location').forEach(loc => {
       const btn = document.createElement('button');
       btn.className = 'filter-btn' + (selectedLocation === loc ? ' selected' : '');
       btn.textContent = translations[currentLang].tagTranslations.location[loc] || loc;
@@ -170,10 +178,12 @@ document.addEventListener('DOMContentLoaded', function() {
         renderSpaces(getFilteredSpaces());
       };
       locationFilters.appendChild(btn);
-    });
+      });
+    }
     // Element
-    elementFilters.innerHTML = '';
-    getUniqueValues('element').forEach(el => {
+    if (elementFilters) {
+      elementFilters.innerHTML = '';
+      getUniqueValues('element').forEach(el => {
       const btn = document.createElement('button');
       btn.className = 'filter-btn' + (selectedElement === el ? ' selected' : '');
       btn.textContent = translations[currentLang].tagTranslations.element[el] || el;
@@ -183,10 +193,12 @@ document.addEventListener('DOMContentLoaded', function() {
         renderSpaces(getFilteredSpaces());
       };
       elementFilters.appendChild(btn);
-    });
+      });
+    }
     // Style
-    styleFilters.innerHTML = '';
-    getUniqueValues('style').forEach(st => {
+    if (styleFilters) {
+      styleFilters.innerHTML = '';
+      getUniqueValues('style').forEach(st => {
       const btn = document.createElement('button');
       btn.className = 'filter-btn' + (selectedStyle === st ? ' selected' : '');
       btn.textContent = translations[currentLang].tagTranslations.style[st] || st;
@@ -196,7 +208,8 @@ document.addEventListener('DOMContentLoaded', function() {
         renderSpaces(getFilteredSpaces());
       };
       styleFilters.appendChild(btn);
-    });
+      });
+    }
   }
 
   function getFilteredSpaces() {
@@ -218,17 +231,22 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function renderSpaces(spacesList) {
+  if (!grid) return; // nothing to render on this page
   grid.innerHTML = '';
-  resultsSummary.textContent = translations[currentLang].found(spacesList.length);
+  if (resultsSummary) resultsSummary.textContent = translations[currentLang].found(spacesList.length);
     spacesList.forEach(space => {
       const card = document.createElement('div');
       card.className = 'space-card';
   card.onclick = () => openSpaceModal(space);
 
-  const imageObj = space.images[0];
+  // For nai-ken-kai, show only the original image (first in images)
+  const imageObj = space.images && space.images.length > 0 ? space.images[0] : null;
   const image = imageObj && (typeof imageObj === 'string' ? imageObj : imageObj.src);
-      const statusClass = space.status === 'available' ? 'status-available' : 'status-taken';
-      const statusText = space.status === 'available' ? 'Available' : 'Taken';
+  const statusClass = space.status === 'available' ? 'status-available' : 'status-taken';
+  // Some admin actions set non-standard statuses like 'published'. For display,
+  // treat anything that isn't 'available' as 'taken'. Use translation keys.
+  const statusKey = space.status === 'available' ? 'available' : 'taken';
+  const statusText = (translations[currentLang] && translations[currentLang][statusKey]) || (statusKey === 'available' ? 'Available' : 'Taken');
 
       // Badges
       let badges = '';
@@ -263,7 +281,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ${descEn}
             <span class="desc-tooltip" tabindex="0">ⓘ<span class="desc-tooltip-text">${space.desc_source_en || "Generated by BLIP-2"}</span></span>
           </p>
-          <span class="space-status ${statusClass}">${currentLang === 'ja' ? translations.ja[space.status] : translations.en[space.status]}</span>
+          <span class="space-status ${statusClass}">${statusText}</span>
         </div>
       `;
 
@@ -317,8 +335,8 @@ document.addEventListener('DOMContentLoaded', function() {
       infoHtml += `<div style='margin-bottom:0.7em;'>${styleBadges}</div>`;
     }
     modalInfo.innerHTML = infoHtml;
-    // Status
-    if (space.status === 'taken') {
+    // Status: any non-available status should be shown as taken
+    if (space.status && space.status !== 'available') {
       modalStatus.innerHTML = `<span style=\"color:#b00;font-weight:bold;\">${translations[currentLang].alreadyTaken}</span>`;
     } else {
       modalStatus.innerHTML = '';
@@ -328,15 +346,62 @@ document.addEventListener('DOMContentLoaded', function() {
     // Reset scroll position to top
     const modalContent = modal.querySelector('.modal-content');
     if (modalContent) modalContent.scrollTop = 0;
+    // If the space has updates, render them below the info and wire click handlers
+    if (Array.isArray(space.updates) && space.updates.length) {
+      const updatesHtml = document.createElement('div');
+      updatesHtml.className = 'space-updates';
+      updatesHtml.innerHTML = '<h3>' + (currentLang === 'ja' ? '更新' : 'Updates') + '</h3>';
+      space.updates.forEach((u, ui) => {
+        const udiv = document.createElement('div');
+        udiv.className = 'space-update';
+        const author = u.author || '';
+        const action = u.action ? (' — ' + u.action) : '';
+        const txt = u.text ? ('<div class="update-text">' + u.text + '</div>') : '';
+        let imgsHtml = '';
+        if (Array.isArray(u.images)) {
+          imgsHtml = '<div class="update-images">' + u.images.map((im, idx) => {
+            const src = (typeof im === 'string') ? im : (im.src || '');
+            return `<img src="${src}" class="update-thumb" data-spaceid="${space.id}" data-update-index="${ui}" data-img-index="${idx}"/>`;
+          }).join('') + '</div>';
+        }
+        udiv.innerHTML = `<div class="update-header"><strong>${author}</strong>${action}</div>${txt}${imgsHtml}`;
+        updatesHtml.appendChild(udiv);
+      });
+      modalInfo.appendChild(updatesHtml);
+
+      // wire click handlers for thumbnails
+      modalInfo.querySelectorAll('.update-thumb').forEach(imgEl => {
+        imgEl.style.cursor = 'pointer';
+        imgEl.addEventListener('click', function(ev) {
+          const upIdx = parseInt(this.getAttribute('data-update-index'));
+          const imgIdx = parseInt(this.getAttribute('data-img-index'));
+          const upd = space.updates[upIdx];
+          const imgObj = upd.images && upd.images[imgIdx];
+          if (imgObj) {
+            const src = (typeof imgObj === 'string') ? imgObj : imgObj.src;
+            modalImage.src = src;
+            // show update metadata in modalInfo (replace existing info for clarity)
+            const metaHtml = `<h2>${space.id} — ${upd.author || ''}</h2>` + (upd.action ? `<div><em>${upd.action}</em></div>` : '') + (upd.text ? `<div class="update-text">${upd.text}</div>` : '');
+            // keep badges above, but replace lower info
+            const badgesDiv = modalInfo.querySelector('.space-badges');
+            modalInfo.innerHTML = '';
+            if (badgesDiv) modalInfo.appendChild(badgesDiv);
+            const infoContainer = document.createElement('div');
+            infoContainer.innerHTML = metaHtml;
+            modalInfo.appendChild(infoContainer);
+          }
+        });
+      });
+    }
   }
 
   modalClose.onclick = function() {
-    modal.style.display = 'none';
+    if (modal) modal.style.display = 'none';
     document.body.style.overflow = '';
   };
   window.onclick = function(event) {
     if (event.target === modal) {
-      modal.style.display = 'none';
+      if (modal) modal.style.display = 'none';
       document.body.style.overflow = '';
     }
   };

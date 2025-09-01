@@ -1,8 +1,11 @@
+#!/usr/bin/env python3
 import json
+import os
 from googletrans import Translator
 
-# Load your spaces.json
-with open("spaces.json", "r") as f:
+# Load canonical spaces_new.json if present, fall back to spaces.json
+src = "spaces_new.json" if os.path.exists("spaces_new.json") else "spaces.json"
+with open(src, "r", encoding="utf-8") as f:
     spaces = json.load(f)
 
 translator = Translator()

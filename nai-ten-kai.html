@@ -13,11 +13,14 @@
     <header class="spaces-header sticky">
       <div class="header-main">
         <div class="header-left">
-          <div class="overlap-wrap" onclick="window.location.href='index.html'" style="cursor: pointer;">
-            <img src="logo/nai_ten_kai.svg" alt="Nai Ten Kai" class="header-logo" />
+          <div class="overlap-wrap" data-target="index.html" style="cursor: pointer;">
+            <div class="logo-container">
+              <img src="logo/nai_ten_kai.svg" alt="Nai Ten Kai" class="logo-svg logo-primary" />
+              <img src="logo/nai_ken_kai.svg" alt="Nai Ken Kai" class="logo-svg logo-secondary" />
+            </div>
           </div>
           <nav class="header-nav">
-            <a href="#about">About</a>
+            <a href="#about" data-i18n="about">About</a>
           </nav>
         </div>
         <div class="lang-switcher">
@@ -30,6 +33,62 @@
     <div id="timeline-gallery"></div>
   </div>
   <script src="spaces.js"></script>
+  <script>
+    // Logo character flip functionality with persistent click behavior
+    function initLogoFlip() {
+      const logoContainer = document.querySelector('.logo-container');
+      const wrapper = document.querySelector('.overlap-wrap');
+  const autoFlipInterval = 5000; // faster cycle
+  const flipDuration = 350; // ms matches CSS
+  const holdBeforeRevert = 500; // ms hold
+
+      function tempFlip() {
+        if (logoContainer.classList.contains('logo-flip')) return;
+        logoContainer.classList.add('logo-flip');
+        setTimeout(() => logoContainer.classList.remove('logo-flip'), flipDuration + holdBeforeRevert);
+      }
+
+      function persistentFlipAndNavigate(target) {
+        try { localStorage.setItem('logoNavigated', 'true'); } catch (e) {}
+  logoContainer.classList.add('logo-flip');
+  setTimeout(() => { window.location.href = target; }, flipDuration);
+      }
+
+      // Auto-flip periodically
+      const autoTimer = setInterval(() => {
+        if (!logoContainer.classList.contains('logo-flip')) {
+          tempFlip();
+        }
+      }, autoFlipInterval);
+
+      // Hover triggers a temp flip
+      wrapper.addEventListener('mouseenter', () => {
+        if (!logoContainer.classList.contains('logo-flip')) tempFlip();
+      });
+
+      // Click: persistent flip then navigate
+      wrapper.addEventListener('click', (ev) => {
+        const target = wrapper.getAttribute('data-target');
+        if (target) {
+          ev.preventDefault();
+          persistentFlipAndNavigate(target);
+        }
+      });
+
+      // On load: if navigation flag is set, keep flipped
+      try {
+        if (localStorage.getItem('logoNavigated') === 'true') {
+          logoContainer.classList.add('logo-flip');
+          localStorage.removeItem('logoNavigated');
+        }
+      } catch (e) {}
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize logo flip animation
+      initLogoFlip();
+    });
+  </script>
   <script src="timeline-gallery.js"></script>
 </body>
 </html>

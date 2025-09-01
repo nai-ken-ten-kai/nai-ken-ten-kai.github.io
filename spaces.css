@@ -1,3 +1,6 @@
+/* Import Minion Concept font for logo */
+@import url('https://fonts.googleapis.com/css2?family=Minion+Variable+Concept:wght@400..700&display=swap');
+
 /* Overlap title styling for spaces page (smaller than main gallery) */
 h1, .main-title, .main-title-ja, .main-title-en {
   font-family: 'Noto Serif JP', serif;
@@ -111,41 +114,247 @@ h1 {
 
 .spaces-header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   width: 100%;
   max-width: 100%;
   background: #fff;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  padding-bottom: 8px;
-  padding-top: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  padding: 4px 0 6px 0;
+  border-bottom: 1px solid #eee;
 }
 .header-main {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px 0 20px;
+  /* make header span full width so logo can sit at the corner */
+  padding: 4px 12px 0 6px; /* small left padding to nudge off the very edge */
+  max-width: none;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 10px;
+  min-height: 48px;
 }
 .header-left {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1em;
+  gap: 0.5rem; /* tighten spacing so logo and nav sit closer to corner */
 }
 
-.header-logo {
-  height: 2.5rem;
-  width: auto;
+.overlap-wrap {
+  position: relative;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.overlap-wrap:hover {
+  transform: translateY(-1px);
+}
+
+/* Logo container: single consolidated rule
+   - use inline-flex to center SVGs vertically
+   - set perspective and preserve-3d for 3D flip
+   - nudge down slightly so baseline aligns with nav items
+*/
+.logo-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
-  transition: opacity 0.2s;
+  width: 100px;
+  height: auto;
+  overflow: visible;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  margin-top: 6px;
 }
 
-.header-logo:hover {
-  opacity: 0.8;
+/* Hover subtle lift applied to wrapper, not the container, so we don't interfere with 3D transforms */
+.overlap-wrap:hover {
+  transform: translateY(-1px);
 }
+
+/* Logo SVG styling */
+.logo-svg {
+  width: 100px;
+  height: auto;
+  display: block;
+  transition: transform 0.35s cubic-bezier(.4,.0,.2,1);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* ensure SVGs align vertically with text */
+.logo-svg { vertical-align: middle; }
+
+.logo-primary {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+.logo-secondary {
+  opacity: 1; /* kept for smooth swap; both rendered, rely on rotation */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+
+/* Ensure SVG faces do not show their backface and control stacking during flip */
+.logo-svg, .logo-primary, .logo-secondary {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+.logo-primary { position: relative; z-index: 2; }
+.logo-secondary { z-index: 1; }
+
+/* When flipped, bring secondary forward */
+.logo-flip .logo-primary { transform: rotateY(-180deg); z-index: 1; }
+.logo-flip .logo-secondary { transform: rotateY(0deg); z-index: 2; }
+
+/* 3D flip animation: handled via child transforms (logo-primary / logo-secondary) */
+
+/* Active flip state */
+.logo-flip .logo-primary { transform: rotateY(-180deg); }
+.logo-flip .logo-secondary { transform: rotateY(0deg); }
+
+/* Reduce font sizes inside header (navigation & language) */
+.header-nav a, .lang-switcher, .lang-switcher button {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+/* Tighten results summary if present under small header */
+.results-summary { margin-top: 4px; }
+
+/* Utility: prevent image selection flicker */
+.logo-container img { user-select: none; }
+
+@media (max-width: 600px) {
+  .logo-container { width: 84px; }
+  .logo-svg { width: 84px; }
+  .header-main { padding: 4px 10px 0 10px; }
+  .header-nav a, .lang-switcher button { font-size: 0.7rem; }
+}
+
+
+
+/* Semantic-targeted rules (useful if classes used inside SVG) */
+.logo-flip .kanji-main.kanji-visible { animation: svgFlipOut 0.6s ease-in-out forwards; }
+.logo-flip .kanji-alt.kanji-hidden { animation: svgFlipIn 0.6s ease-in-out forwards; }
+.logo-flip .eng-main.eng-visible { animation: svgFlipOut 0.6s ease-in-out forwards; }
+.logo-flip .eng-alt.eng-hidden { animation: svgFlipIn 0.6s ease-in-out forwards; }
+
+/* Persistent state using semantic classes */
+.logo-flip-persist .kanji-main.kanji-visible { opacity: 0; transform: rotateY(90deg) scale(0.1); }
+.logo-flip-persist .kanji-alt.kanji-hidden { opacity: 1; transform: rotateY(0deg) scale(0.1); }
+.logo-flip-persist .eng-main.eng-visible { opacity: 0; transform: rotateY(90deg) scale(1); }
+.logo-flip-persist .eng-alt.eng-hidden { opacity: 1; transform: rotateY(0deg) scale(1); }
+
+
+/* Keyframes for SVG text/element flip (used by the inline SVG on index.html)
+   These were previously referenced but not defined; define simple rotateY/opactiy
+   animations and ensure SVG text uses correct transform box/origin so 3D
+   transforms behave similarly to the image-based flip used elsewhere. */
+@keyframes svgFlipOut {
+  0% { opacity: 1; transform: rotateY(0deg); }
+  50% { opacity: 0; transform: rotateY(90deg); }
+  100% { opacity: 0; transform: rotateY(180deg); }
+}
+
+@keyframes svgFlipIn {
+  0% { opacity: 0; transform: rotateY(180deg); }
+  50% { opacity: 1; transform: rotateY(90deg); }
+  100% { opacity: 1; transform: rotateY(0deg); }
+}
+
+/* Ensure inline SVG children participate in 3D transforms and use the SVG box
+   as the transform reference so rotateY behaves as expected. Also hide
+   backfaces for SVG text elements. */
+.logo-container svg { transform-style: preserve-3d; }
+.logo-container svg .kanji-main,
+.logo-container svg .kanji-alt,
+.logo-container svg .eng-main,
+.logo-container svg .eng-alt {
+  transform-box: fill-box; /* use the element's box for transform-origin */
+  transform-origin: center center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* New rules for SVG g groups to match image flip behavior */
+.logo-container svg g {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.35s cubic-bezier(.4,.0,.2,1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.kanji-primary, .eng-primary {
+  opacity: 1;
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.kanji-secondary, .eng-secondary {
+  opacity: 1; /* kept for smooth swap */
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* When flipped, swap the groups */
+.logo-flip .kanji-primary, .logo-flip .eng-primary { transform: rotateY(-180deg); z-index: 1; }
+.logo-flip .kanji-secondary, .logo-flip .eng-secondary { transform: rotateY(0deg); z-index: 2; }
+
+/* Keyframes for SVG text/element flip (used by the inline SVG on index.html)
+   These were previously referenced but not defined; define simple rotateY/opactiy
+   animations and ensure SVG text uses correct transform box/origin so 3D
+   transforms behave similarly to the image-based flip used elsewhere. */
+@keyframes svgFlipOut {
+  0% { opacity: 1; transform: rotateY(0deg); }
+  50% { opacity: 0; transform: rotateY(90deg); }
+  100% { opacity: 0; transform: rotateY(180deg); }
+}
+
+@keyframes svgFlipIn {
+  0% { opacity: 0; transform: rotateY(180deg); }
+  50% { opacity: 1; transform: rotateY(90deg); }
+  100% { opacity: 1; transform: rotateY(0deg); }
+}
+
+/* Ensure inline SVG children participate in 3D transforms and use the SVG box
+   as the transform reference so rotateY behaves as expected. Also hide
+   backfaces for SVG text elements. */
+.logo-container svg { transform-style: preserve-3d; }
+.logo-container svg .kanji-main,
+.logo-container svg .kanji-alt,
+.logo-container svg .eng-main,
+.logo-container svg .eng-alt {
+  transform-box: fill-box; /* use the element's box for transform-origin */
+  transform-origin: center center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Persistent state using semantic classes */
+.logo-flip-persist .kanji-main.kanji-visible { opacity: 0; transform: rotateY(90deg) scale(0.1); }
+.logo-flip-persist .kanji-alt.kanji-hidden { opacity: 1; transform: rotateY(0deg) scale(0.1); }
+.logo-flip-persist .eng-main.eng-visible { opacity: 0; transform: rotateY(90deg) scale(1); }
+.logo-flip-persist .eng-alt.eng-hidden { opacity: 1; transform: rotateY(0deg) scale(1); }
+
+
 .header-main h1 {
   font-size: 2rem;
   margin: 0;
@@ -158,27 +367,50 @@ h1 {
   font-weight: 400;
 }
 .header-nav a {
-  color: #1976d2;
+  color: #666;
   text-decoration: none;
-  margin-left: 18px;
+  margin-left: 12px; /* reduced left margin so nav sits closer to logo */
   font-size: 1rem;
   font-weight: 400;
-  transition: color 0.2s;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  font-family: "Noto Serif JP", Arial, serif;
 }
 .header-nav a:hover {
-  color: #0d47a1;
+  color: #333;
+  background: rgba(0,0,0,0.04);
+  border-color: #e0e0e0;
+  transform: translateY(-1px);
 }
 .lang-btn, .lang-separator {
   background: none;
   border: none;
-  padding: 0;
+  padding: 8px 12px;
   font-family: 'Noto Serif JP', serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: #666;
   cursor: pointer;
-  transition: color 0.2s;
+  transition: all 0.3s ease;
   letter-spacing: 0.1em;
+  border-radius: 6px;
+}
+
+.lang-btn:hover {
+  color: #333;
+  background: rgba(0,0,0,0.04);
+  transform: translateY(-1px);
+}
+
+.lang-separator {
+  cursor: default;
+  padding: 8px 4px;
+}
+.lang-separator:hover {
+  background: none;
+  transform: none;
 }
 .lang-btn.active {
   color: #1976d2;

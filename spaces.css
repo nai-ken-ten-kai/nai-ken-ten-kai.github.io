@@ -110,6 +110,7 @@ h1 {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .spaces-header {
@@ -242,6 +243,8 @@ h1 {
   .logo-svg { width: 84px; }
   .header-main { padding: 4px 10px 0 10px; }
   .header-nav a, .lang-switcher button { font-size: 0.7rem; }
+  .header-left { gap: 0.25rem; }
+  .header-nav a { margin-left: 6px; }
 }
 
 

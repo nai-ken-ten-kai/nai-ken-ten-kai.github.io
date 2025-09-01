@@ -487,17 +487,38 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
       
-      // Calculate dynamic spacing based on banner image
+      // Calculate dynamic spacing based on banner image with mobile considerations
       setTimeout(() => {
         const bannerImg = document.querySelector('.gap-banner-img');
-        if (bannerImg) {
-          const bannerHeight = bannerImg.offsetHeight;
-          const spacer = document.querySelector('.about-lang-section');
-          if (spacer) {
-            spacer.style.paddingTop = (bannerHeight + 20) + 'px';
+        const spacer = document.querySelector('.about-lang-section');
+        
+        if (bannerImg && spacer) {
+          // Wait for image to load
+          if (bannerImg.complete) {
+            applySpacing();
+          } else {
+            bannerImg.onload = applySpacing;
+          }
+          
+          function applySpacing() {
+            const bannerHeight = bannerImg.offsetHeight;
+            const isMobile = window.innerWidth <= 768;
+            const extraPadding = isMobile ? 30 : 20; // More padding on mobile
+            const minPadding = isMobile ? 120 : 100; // Minimum padding
+            
+            const finalPadding = Math.max(bannerHeight + extraPadding, minPadding);
+            spacer.style.paddingTop = finalPadding + 'px';
+            
+            // Also adjust modal info padding on mobile
+            if (isMobile) {
+              const modalInfo = document.querySelector('.about-modal-info');
+              if (modalInfo) {
+                modalInfo.style.paddingTop = '16px';
+              }
+            }
           }
         }
-      }, 50);
+      }, 100); // Longer timeout for mobile
     }
     if (aboutModal) {
       aboutModal.style.display = 'block';
@@ -536,4 +557,25 @@ document.addEventListener('DOMContentLoaded', function() {
       setTimeout(() => first.classList.remove('animate'), 2000);
     }, 10000);
   }
+  
+  // Add window resize listener to recalculate spacing on mobile rotation
+  window.addEventListener('resize', function() {
+    const modal = document.getElementById('about-modal');
+    if (modal && modal.style.display === 'block') {
+      setTimeout(() => {
+        const bannerImg = document.querySelector('.gap-banner-img');
+        const spacer = document.querySelector('.about-lang-section');
+        
+        if (bannerImg && spacer) {
+          const bannerHeight = bannerImg.offsetHeight;
+          const isMobile = window.innerWidth <= 768;
+          const extraPadding = isMobile ? 30 : 20;
+          const minPadding = isMobile ? 120 : 100;
+          
+          const finalPadding = Math.max(bannerHeight + extraPadding, minPadding);
+          spacer.style.paddingTop = finalPadding + 'px';
+        }
+      }, 200);
+    }
+  });
 });

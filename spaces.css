@@ -902,11 +902,13 @@ h1 {
 @media (max-width: 768px) {
   .about-modal-content {
     padding: 0;
+    max-height: 90vh; /* increase modal height on mobile */
   }
   
   .about-modal-info {
-    padding: 48px 24px 24px 24px;
-    max-height: calc(85vh - 80px); /* leave space for banner on mobile */
+    padding: 24px 16px;
+    max-height: calc(90vh - 120px); /* leave more space for banner on mobile */
+    overflow-y: auto;
   }
   
   .about-banner {
@@ -917,11 +919,21 @@ h1 {
     width: calc(100% + 2px); /* account for left/right border */
     text-align: left;
     overflow: hidden;
+    min-height: 80px; /* ensure minimum height on mobile */
   }
   
   .gap-banner-img {
+    width: 100%;
+    height: auto;
     object-fit: contain;
     object-position: top left;
+    display: block;
+    max-width: 100%;
+    min-height: 80px; /* ensure minimum height */
+  }
+  
+  .about-lang-section {
+    min-height: calc(100vh - 200px); /* ensure content area is tall enough */
   }
 }
 

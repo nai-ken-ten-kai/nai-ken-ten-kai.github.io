@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentLang = 'en';
   const translations = {
     en: {
-      allSpaces: 'All Spaces',
-  about: 'About',
+    allSpaces: 'All Spaces',
+  about: 'ⓘ',
       availableOnly: 'Available Only',
       available: 'Available',
       taken: 'Taken',
@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     ja: {
-      allSpaces: '全スペース',
-  about: 'このサイトについて',
+    allSpaces: '全スペース',
+  about: 'ⓘ',
       availableOnly: '空きのみ',
       available: '空き',
       taken: '契約済み',
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (langEnBtn) langEnBtn.classList.toggle('active', lang === 'en');
     if (langJaBtn) langJaBtn.classList.toggle('active', lang === 'ja');
     // Update header
-    const aboutLink = document.querySelector('.header-nav a[data-i18n="about"]');
+    const aboutLink = document.querySelector('.about[data-i18n="about"]');
     if (aboutLink) aboutLink.textContent = translations[lang].about;
     // Robustly update the available-only label (if present on this page)
     const availableLabel = document.querySelector('.filter-group label');
@@ -405,4 +405,13 @@ document.addEventListener('DOMContentLoaded', function() {
       document.body.style.overflow = '';
     }
   };
+  // Periodically animate the about icon and set its content
+  const aboutIcon = document.querySelector('.about');
+  if (aboutIcon) {
+    aboutIcon.textContent = translations[currentLang].about;
+    setInterval(() => {
+      aboutIcon.classList.add('animate');
+      setTimeout(() => aboutIcon.classList.remove('animate'), 2000);
+    }, 7000);
+  }
 });

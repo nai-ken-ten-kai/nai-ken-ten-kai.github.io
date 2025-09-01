@@ -73,16 +73,25 @@
   max-width: 10rem;
   text-align: left;
   font-size: 1.1rem;
-  color: #888;
+  color: #181818;
   padding-right: 12px;
   padding-top: 8px;
   font-family: "Noto Serif JP", Arial, serif;
   white-space: pre-line;
-  background: #f7f7f7;
+  background: none;
   box-sizing: border-box;
   z-index: 10;
   position: relative;
   line-height: 1.2;
+}
+
+.timeline-date-label {
+  font-family: "Noto Serif JP", Arial, serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 4px;
+  margin-top: 24px;
 }
 
 .timeline-images {

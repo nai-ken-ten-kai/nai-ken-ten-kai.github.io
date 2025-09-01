@@ -317,6 +317,11 @@ def mark_preview():
 
     return jsonify({'ok': True, 'old': old_img, 'new': new_img, 'note': note})
 
+@app.route('/img/<path:filename>')
+def serve_image(filename):
+    """Serve image files from the img directory"""
+    return send_from_directory(IMG_DIR, filename)
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--host', default='127.0.0.1')

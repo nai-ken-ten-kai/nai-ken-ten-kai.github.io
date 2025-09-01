@@ -24,31 +24,36 @@ document.getElementById('save').addEventListener('click', async function(){
   }
 });
 
-document.getElementById('mark_taken').addEventListener('click', async function(){
-  // first perform preview
-  const form = document.getElementById('mark-form');
-  const fd = new FormData(form);
-  const f = document.getElementById('taken_file').files[0];
-  if (f) fd.append('taken_file', f);
-  const res = await fetch('/mark_preview', {method: 'POST', body: fd});
-  const j = await res.json();
-  if (!j.ok) { alert(JSON.stringify(j)); return; }
-  // show confirmation modal
-  document.getElementById('confirm-old-img').src = j.old ? j.old.src : '';
-  document.getElementById('confirm-new-img').src = j.new ? j.new.src : '';
-  document.getElementById('confirm-meta').innerText = 'Note: ' + (j.note || '');
-  const modal = document.getElementById('confirm-modal');
-  modal.style.display = 'block';
-  document.getElementById('confirm-cancel').onclick = () => { modal.style.display = 'none'; };
-  document.getElementById('confirm-ok').onclick = async () => {
-    modal.style.display = 'none';
-    // now send real mark request
-    const fd2 = new FormData(form);
-    if (f) fd2.append('taken_file', f);
-    const res2 = await fetch('/mark', {method: 'POST', body: fd2});
-    const j2 = await res2.json();
-    alert(JSON.stringify(j2));
-  };
+document.getElementById('quick_mark_taken').addEventListener('click', async function(){
+  const spaceId = document.getElementById('quick_mark_id').value;
+  const takenBy = document.getElementById('quick_taken_by').value;
+  const note = document.getElementById('quick_taken_note').value;
+  
+  if (!spaceId || !takenBy) {
+    alert('Please fill in Space ID and Taken By fields');
+    return;
+  }
+  
+  const fd = new FormData();
+  fd.append('mark_id', spaceId);
+  fd.append('taken_by', takenBy);
+  if (note) fd.append('taken_note', note);
+  
+  try {
+    const res = await fetch('/mark', {method: 'POST', body: fd});
+    const j = await res.json();
+    if (j.ok) {
+      alert(`Success! Space ${spaceId} marked as taken by ${takenBy}`);
+      // Clear the form
+      document.getElementById('quick_mark_id').value = '';
+      document.getElementById('quick_taken_by').value = '';
+      document.getElementById('quick_taken_note').value = '';
+    } else {
+      alert('Error: ' + (j.error || 'Unknown error'));
+    }
+  } catch (error) {
+    alert('Network error: ' + error.message);
+  }
 });
 
 document.getElementById('revert_last').addEventListener('click', async function(){

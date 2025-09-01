@@ -220,9 +220,9 @@
     "clip_type": "wall",
     "clip_activity": "hanging",
     "description_ja": "テレビアンテナのある木",
-    "taken_by": "Piu Lee",
+    "taken_by": "Test User",
     "taken_at": "2025-09-01T05:50:36.950710",
-    "taken_note": ""
+    "taken_note": "Marked via API test"
   },
   {
     "id": 12,
@@ -1211,10 +1211,7 @@
         "taken_at": "2025-08-21T09:16:27"
       }
     ],
-    "status": "taken",
-    "taken_by": "ACONITO",
-    "taken_at": "2025-09-02T01:44:34",
-    "note": "",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [

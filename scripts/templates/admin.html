@@ -29,14 +29,12 @@
     <button type="button" id="save">Save</button>
   </form>
   <hr>
-  <h2>Mark space as taken</h2>
-  <form id="mark-form" enctype="multipart/form-data">
-    <label>Space id: <input name="mark_id" id="mark_id"></label>
-    <label>Taken by (name/contact): <input name="taken_by" id="taken_by"></label>
-    <label>Note: <input name="taken_note" id="taken_note"></label>
-    <label>Replace main image (optional): <input type="file" id="taken_file" name="taken_file" accept="image/*"></label>
-    <label>Publish after marking (show on nai-ten-kai): <input type="checkbox" id="mark_publish" name="mark_publish"></label>
-    <button type="button" id="mark_taken">Mark taken</button>
+  <h2>Mark as Taken</h2>
+  <form id="quick-mark-form">
+    <label>Space id: <input name="quick_mark_id" id="quick_mark_id" required></label>
+    <label>Taken by (name/contact): <input name="quick_taken_by" id="quick_taken_by" required></label>
+    <label>Note (optional): <input name="quick_taken_note" id="quick_taken_note"></label>
+    <button type="button" id="quick_mark_taken">Mark Taken</button>
   </form>
   <hr>
   <h2>Revert last update</h2>
@@ -45,29 +43,6 @@
     <button type="button" id="revert_last">Revert last update</button>
   </form>
 
-  <!-- Confirmation modal for marking as taken -->
-  <div id="confirm-modal" class="modal" style="display:none;">
-    <div class="modal-content" style="max-width:700px; margin:40px auto; background:#fff; padding:16px; border:1px solid #ccc;">
-      <h3>Confirm new main image</h3>
-      <div id="confirm-body">
-        <div style="display:flex; gap:12px; align-items:flex-start;">
-          <div style="flex:1; text-align:center;">
-            <div>Old main image</div>
-            <img id="confirm-old-img" src="" style="max-width:100%; max-height:200px; border:1px solid #ddd;">
-          </div>
-          <div style="flex:1; text-align:center;">
-            <div>New main image</div>
-            <img id="confirm-new-img" src="" style="max-width:100%; max-height:200px; border:1px solid #ddd;">
-          </div>
-        </div>
-        <div id="confirm-meta" style="margin-top:12px;"></div>
-      </div>
-      <div style="margin-top:12px; text-align:right;">
-        <button id="confirm-cancel" type="button">Cancel</button>
-        <button id="confirm-ok" type="button">Confirm</button>
-      </div>
-    </div>
-  </div>
   <script src="/static/admin.js"></script>
 </body>
 </html>

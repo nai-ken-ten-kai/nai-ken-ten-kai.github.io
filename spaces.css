@@ -291,32 +291,20 @@ h1 {
 
 /* New rules for SVG g groups to match image flip behavior */
 .logo-container svg g {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.35s cubic-bezier(.4,.0,.2,1), opacity 0.35s cubic-bezier(.4,.0,.2,1);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
+  transition: opacity 0.35s cubic-bezier(.4,.0,.2,1);
 }
 
 .kanji-primary, .eng-primary {
   opacity: 1;
-  transform: rotateY(0deg);
-  z-index: 2;
 }
 
 .kanji-secondary, .eng-secondary {
   opacity: 0;
-  transform: rotateY(0deg);
-  z-index: 1;
 }
 
 /* When flipped, swap the groups */
-.logo-flip .kanji-primary, .logo-flip .eng-primary { opacity: 0; transform: rotateY(180deg); z-index: 1; }
-.logo-flip .kanji-secondary, .logo-flip .eng-secondary { opacity: 1; transform: rotateY(0deg); z-index: 2; }
+.logo-flip .kanji-primary, .logo-flip .eng-primary { opacity: 0; }
+.logo-flip .kanji-secondary, .logo-flip .eng-secondary { opacity: 1; }
 
 /* Keyframes for SVG text/element flip (used by the inline SVG on index.html)
    These were previously referenced but not defined; define simple rotateY/opactiy

@@ -862,14 +862,14 @@ h1 {
   color: #444;
   padding: 40px 32px 28px 32px;
   overflow-y: auto;
-  max-height: calc(85vh - 180px); /* subtract fixed banner height */
+  max-height: calc(85vh - 100px); /* leave some space for banner */
 }
 
 /* GAP Banner styling */
 .about-banner {
   box-sizing: border-box;
   padding: 0;
-  text-align: center;
+  text-align: left;
   background: #fff;
   border-bottom: 1px solid #e0e0e0;
   position: absolute;
@@ -878,10 +878,17 @@ h1 {
   right: -1px; /* extend beyond modal border */
   width: calc(100% + 2px); /* account for left/right border */
   z-index: 1;
-  /* Maintain 1440:810 aspect ratio but limit max height */
-  aspect-ratio: 1440 / 810;
-  max-height: 180px; /* limit banner height so content is visible */
+  /* Remove aspect ratio constraint, let image determine height */
   overflow: hidden;
+}
+
+.gap-banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* show full image without cropping */
+  object-position: top left; /* align to top-left */
+  display: block;
+  max-width: 100%;
 }
 
 .gap-banner-img {
@@ -899,7 +906,7 @@ h1 {
   
   .about-modal-info {
     padding: 48px 24px 24px 24px;
-    max-height: calc(85vh - 120px); /* subtract mobile banner height */
+    max-height: calc(85vh - 80px); /* leave space for banner on mobile */
   }
   
   .about-banner {
@@ -908,10 +915,13 @@ h1 {
     left: -1px; /* extend beyond modal border */
     right: -1px; /* extend beyond modal border */
     width: calc(100% + 2px); /* account for left/right border */
-    /* Maintain same 1440:810 aspect ratio on mobile with max height */
-    aspect-ratio: 1440 / 810;
-    max-height: 120px; /* smaller max height on mobile */
+    text-align: left;
     overflow: hidden;
+  }
+  
+  .gap-banner-img {
+    object-fit: contain;
+    object-position: top left;
   }
 }
 

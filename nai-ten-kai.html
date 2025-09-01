@@ -125,7 +125,68 @@
             e.preventDefault();
             e.stopPropagation();
             const modal = document.getElementById('about-modal');
-            if (modal) {
+            const modalInfo = document.getElementById('about-modal-info');
+            
+            if (modal && modalInfo) {
+              // Use the same content from spaces.js
+              const aboutContent = `
+                <div class="about-lang-section">
+                  <div class="about-banner">
+                    <img src="poster/GAPbannerfinal.png" alt="GAP Banner" class="gap-banner-img">
+                  </div>
+                  <p>Ichida Family's house designated as a cultural heritage site of Japan, was built in Meiji period. During Japan's period of modernization, the traditional houses and surrounding neighborhood began to gradually disappear.</p>
+                  <p>In response, a group of people came together with the intention of preserving the traditional atmosphere—keeping the houses "alive" by inviting others to live in them and engage with the space through exhibitions and events.</p>
+                  <p>This time, we, too, have this opportunity to spend five days here. During our stay, we are inviting anyone to choose a spot within the space and engage with it—by bringing something that makes the first encounter of the shared space, feel personally more comfortable.</p>
+                  <ol>
+                    <li>You will have an overview of all the places which are available in the space</li>
+                    <li>Put something / do something that you are comfortable to. It does not have to be an "artwork".</li>
+                    <li>Choose one of the photo and its ID number</li>
+                    <li>Inform us online/ on site</li>
+                    <li>Congratulation, you have just claimed this certain place in this place!</li>
+                    <li>You can either bring something or send data/instructions online, by 6th of September 2025</li>
+                  </ol>
+                  <div class="about-credits">
+                    <h3>Venue</h3>
+                    <p><a href="https://taireki.com/ichidatei/" target="_blank" rel="noopener">Ichida Residence (市田邸)</a><br>
+                    1-chōme-6-2 Uenosakuragi, Taito City, Tokyo</p>
+                    
+                    <div class="map-section">
+                      <div class="embedded-map">
+                        <iframe 
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.27023770179244!2d139.77073111813516!3d35.719782375395496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c2a28187f35%3A0xcff5e5240c7b2583!2s1-ch%C5%8Dme-6-2%20Uenosakuragi%2C%20Taito%20City%2C%20Tokyo%20110-0002!5e0!3m2!1sen!2sjp!4v1756741256306!5m2!1sen!2sjp"
+                          width="100%" 
+                          height="250" 
+                          style="border:0;" 
+                          allowfullscreen="" 
+                          loading="lazy" 
+                          referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                      </div>
+                    </div>
+                    
+                    <h3>Supported by</h3>
+                    <p><a href="https://gap.geidai.ac.jp/" target="_blank" rel="noopener" class="geidai-link">
+                      <img src="logo/GAP_logo.svg" alt="GAP Logo" class="geidai-logo-img">
+                      Tokyo University of the Arts - Global Art Practice (GAP)
+                    </a></p>
+                  </div>
+                </div>
+              `;
+              
+              modalInfo.innerHTML = aboutContent;
+              
+              // Calculate dynamic spacing
+              setTimeout(() => {
+                const bannerImg = document.querySelector('.gap-banner-img');
+                if (bannerImg) {
+                  const bannerHeight = bannerImg.offsetHeight;
+                  const spacer = document.querySelector('.about-lang-section');
+                  if (spacer) {
+                    spacer.style.paddingTop = (bannerHeight + 20) + 'px';
+                  }
+                }
+              }, 50);
+              
               modal.style.display = 'block';
               document.body.style.overflow = 'hidden';
             }

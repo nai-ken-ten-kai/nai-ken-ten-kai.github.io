@@ -482,11 +482,22 @@ document.addEventListener('DOMContentLoaded', function() {
         `<h2>${translations[currentLang].aboutTitle}</h2>` : '';
       aboutModalInfo.innerHTML = `
         <div class="about-lang-section">
-          <div style="height: 180px; margin-bottom: 2em;"></div>
           ${titleHtml}
           ${translations[currentLang].aboutContent}
         </div>
       `;
+      
+      // Calculate dynamic spacing based on banner image
+      setTimeout(() => {
+        const bannerImg = document.querySelector('.gap-banner-img');
+        if (bannerImg) {
+          const bannerHeight = bannerImg.offsetHeight;
+          const spacer = document.querySelector('.about-lang-section');
+          if (spacer) {
+            spacer.style.paddingTop = (bannerHeight + 20) + 'px';
+          }
+        }
+      }, 50);
     }
     if (aboutModal) {
       aboutModal.style.display = 'block';

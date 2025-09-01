@@ -72,7 +72,7 @@
       const wrapper = document.querySelector('.overlap-wrap');
   const autoFlipInterval = 5000; // faster cycle
   const flipDuration = 350; // ms matches CSS transition
-  const holdBeforeRevert = 500; // ms hold facing second side
+  const holdBeforeRevert = 0; // no hold, flip back immediately
 
       function tempFlip() {
         if (logoContainer.classList.contains('logo-flip')) return;
@@ -83,7 +83,6 @@
       }
 
       function persistentFlipAndNavigate(target) {
-        try { localStorage.setItem('logoNavigated', 'true'); } catch (e) {}
   logoContainer.classList.add('logo-flip');
   setTimeout(() => { window.location.href = target; }, flipDuration);
       }
@@ -109,13 +108,7 @@
         }
       });
 
-      // On load: if navigation flag is set, keep flipped
-      try {
-        if (localStorage.getItem('logoNavigated') === 'true') {
-          logoContainer.classList.add('logo-flip');
-          localStorage.removeItem('logoNavigated');
-        }
-      } catch (e) {}
+      // On load: no persistent flip
     }
     
     // Dynamically set the Japanese title from the data attribute (for future flexibility)

@@ -40,20 +40,18 @@
       const wrapper = document.querySelector('.overlap-wrap');
   const autoFlipInterval = 5000; // faster cycle
   const flipDuration = 350; // ms matches CSS
-  const holdBeforeRevert = 500; // ms hold
+  const holdBeforeRevert = 0; // no hold
 
       function tempFlip() {
         if (logoContainer.classList.contains('logo-flip')) return;
         logoContainer.classList.add('logo-flip');
-        setTimeout(() => logoContainer.classList.remove('logo-flip'), flipDuration + holdBeforeRevert);
+        setTimeout(() => logoContainer.classList.remove('logo-flip'), flipDuration);
       }
 
       function persistentFlipAndNavigate(target) {
   logoContainer.classList.add('logo-flip');
   setTimeout(() => { window.location.href = target; }, flipDuration);
-      }
-
-      // Auto-flip periodically
+      }      // Auto-flip periodically
       const autoTimer = setInterval(() => {
         if (!logoContainer.classList.contains('logo-flip')) {
           tempFlip();

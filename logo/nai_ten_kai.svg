@@ -2,6 +2,18 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
   <defs>
     <style>
+      @font-face {
+        font-family: 'Minion Variable Concept';
+        src: url('https://fonts.gstatic.com/s/MinionVariableConcept-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Minion Variable Concept';
+        src: url('https://fonts.gstatic.com/s/MinionVariableConcept-Italic.woff2') format('woff2');
+        font-weight: 400;
+        font-style: italic;
+      }
       .cls-1, .cls-2 {
         font-size: 542.06px;
       }
@@ -17,7 +29,7 @@
 
       .cls-4 {
         fill: #666;
-        font-family: Arial, serif;
+        font-family: 'Minion Variable Concept', serif;
         font-size: 144px;
         font-variation-settings: 'wght' 700, 'opsz' 36;
         font-weight: 700;

@@ -49,7 +49,6 @@
       }
 
       function persistentFlipAndNavigate(target) {
-        try { localStorage.setItem('logoNavigated', 'true'); } catch (e) {}
   logoContainer.classList.add('logo-flip');
   setTimeout(() => { window.location.href = target; }, flipDuration);
       }
@@ -75,13 +74,7 @@
         }
       });
 
-      // On load: if navigation flag is set, keep flipped
-      try {
-        if (localStorage.getItem('logoNavigated') === 'true') {
-          logoContainer.classList.add('logo-flip');
-          localStorage.removeItem('logoNavigated');
-        }
-      } catch (e) {}
+      // On load: no persistent flip
     }
     
     document.addEventListener('DOMContentLoaded', function() {

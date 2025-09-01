@@ -50,7 +50,7 @@
             <button id="lang-ja" class="lang-btn" aria-label="日本語に切り替え">日本語</button>
           </div>
         </div>
-        <a href="#about" data-i18n="about" class="about"></a>
+        <a href="#about" data-i18n="about" class="about">ⓘ</a>
       </div>
     </header>
     <div id="timeline-gallery"></div>
@@ -109,9 +109,54 @@
     document.addEventListener('DOMContentLoaded', function() {
       // Initialize logo flip animation
       initLogoFlip();
+      
+      // Ensure about button is visible and functional
+      const aboutBtn = document.querySelector('.about');
+      if (aboutBtn && !aboutBtn.textContent.trim()) {
+        aboutBtn.textContent = 'ⓘ';
+      }
+      
+      // Force about modal initialization for timeline page
+      setTimeout(() => {
+        const aboutElement = document.querySelector('a[href="#about"], .about');
+        if (aboutElement && !aboutElement.hasAttribute('data-about-initialized')) {
+          aboutElement.setAttribute('data-about-initialized', 'true');
+          aboutElement.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const modal = document.getElementById('about-modal');
+            if (modal) {
+              modal.style.display = 'block';
+              document.body.style.overflow = 'hidden';
+            }
+          });
+        }
+        
+        // Initialize close button
+        const closeBtn = document.getElementById('about-modal-close');
+        if (closeBtn && !closeBtn.hasAttribute('data-close-initialized')) {
+          closeBtn.setAttribute('data-close-initialized', 'true');
+          closeBtn.addEventListener('click', function() {
+            const modal = document.getElementById('about-modal');
+            if (modal) {
+              modal.style.display = 'none';
+              document.body.style.overflow = '';
+            }
+          });
+        }
+        
+        // Initialize window click to close
+        window.addEventListener('click', function(event) {
+          const modal = document.getElementById('about-modal');
+          if (event.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+          }
+        });
+      }, 100);
     });
   </script>
-  <script src="timeline-gallery.js"></script>
   <script src="spaces.js"></script>
+  <script src="timeline-gallery.js"></script>
 </body>
 </html>

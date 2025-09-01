@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       gmail: 'Gmail',
       rememberId: 'このスペースは（おそらく）まだ空いています！<br><br>ご興味があれば、オープン時間にふらっとお立ち寄りください。<br>9月3–4日　9:00–18:00  |  9月5–7日　12:00–20:00<br><br>また、<a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">Instagram</a> | <a href="mailto:nai.ken.ten.kai@gmail.com">Gmail</a> からご連絡いただくことや、リモート参加も可能です。<br><br>その際は、気になる画像のIDをお知らせください。<br>ウェブサイトの更新に少し時間がかかるため、スペースがすでに埋まっている場合もあります。<br>そのときは、他の希望あれば頑張ってご案内します！',
       rememberIdShort: 'お問い合わせの際はこの画像のIDをお伝えください。',
-      alreadyTaken: '申し訳ありませんが、このスペースはすでに契約済みです。何か変化があれば更新されますので、他のスペースもご覧ください！',
+      alreadyTaken: '申し訳ありませんが、このスペースはすでに契約済みです。何かの変化をお楽しみください！他のスペース是非ご利用ください！',
       found: (n) => `全${n}件`,
       location: '場所',
       element: '要素',

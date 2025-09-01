@@ -16,6 +16,43 @@ document.addEventListener('DOMContentLoaded', function() {
       rememberIdShort: 'Please remember the ID of this image when contacting us.',
       alreadyTaken: 'Sorry but this space is already taken, it will be updated when something happens here! Feel free to check other spaces!',
       found: (n) => `${n} space${n !== 1 ? 's' : ''} found`,
+      aboutTitle: '',
+      aboutContent: `<p>Ichida Family's house designated as a cultural heritage site of Japan, was built in Meiji period. During Japan's period of modernization, the traditional houses and surrounding neighborhood began to gradually disappear.</p>
+      <p>In response, a group of people came together with the intention of preserving the traditional atmosphere—keeping the houses "alive" by inviting others to live in them and engage with the space through exhibitions and events.</p>
+      <p>This time, we, too, have this opportunity to spend five days here. During our stay, we are inviting anyone to choose a spot within the space and engage with it—by bringing something that makes the first encounter of the shared space, feel personally more comfortable.</p>
+      <ol>
+        <li>You will have an overview of all the places which are available in the space</li>
+        <li>Put something / do something that you are comfortable to. It does not have to be an "artwork".</li>
+        <li>Choose one of the photo and its ID number</li>
+        <li>Inform us online/ on site</li>
+        <li>Congratulation, you have just claimed this certain place in this place!</li>
+        <li>You can either bring something or send data/instructions online, by 6th of September 2025</li>
+      </ol>
+      <div class="about-credits">
+        <h3>Venue</h3>
+        <p><a href="https://taireki.com/ichidatei/" target="_blank" rel="noopener">Ichida Residence (市田邸)</a><br>
+        1-chōme-6-2 Uenosakuragi, Taito City, Tokyo</p>
+        
+        <div class="map-section">
+          <div class="embedded-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.27023770179244!2d139.77073111813516!3d35.719782375395496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c2a28187f35%3A0xcff5e5240c7b2583!2s1-ch%C5%8Dme-6-2%20Uenosakuragi%2C%20Taito%20City%2C%20Tokyo%20110-0002!5e0!3m2!1sen!2sjp!4v1756741256306!5m2!1sen!2sjp"
+              width="100%" 
+              height="250" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+        
+        <h3>Supported by</h3>
+        <p><a href="https://gap.geidai.ac.jp/" target="_blank" rel="noopener" class="geidai-link">
+          <img src="logo/GAP_logo.svg" alt="GAP Logo" class="geidai-logo-img">
+          Tokyo University of the Arts - Global Art Practice (GAP)
+        </a></p>
+      </div>`,
       location: 'Location',
       element: 'Element',
       style: 'Style',
@@ -55,6 +92,43 @@ document.addEventListener('DOMContentLoaded', function() {
       rememberIdShort: 'お問い合わせの際はこの画像のIDをお伝えください。',
       alreadyTaken: '申し訳ありませんが、このスペースはすでに契約済みです。何かの変化をお楽しみください！他のスペース是非ご利用ください！',
       found: (n) => `全${n}件`,
+      aboutTitle: '',
+      aboutContent: `<p>明治時代に建てられた市田家の住宅は、日本の文化的遺産として指定されています。日本の近代化の過程で、伝統的な住宅とその周辺の街並みは徐々に姿を消していきました。</p>
+      <p>これに対し、伝統的な雰囲気を保存する意図を持った人々が集まり、住宅を「生きたまま」保つため、他の人々を招いて住まわせ、展覧会やイベントを通じて空間との関わりを持たせることにしました。</p>
+      <p>今回、私たちもここで5日間を過ごす機会を得ました。滞在中、誰でも空間内のスポットを選んで関わることができます—共有空間との最初の出会いを、個人的により居心地よく感じられるものを持ち込むことで。</p>
+      <ol>
+        <li>空間内で利用可能なすべての場所の概要を確認できます</li>
+        <li>快適に感じられることを何かしたり、何かを置いたりしてください。「アートワーク」である必要はありません。</li>
+        <li>写真とそのID番号の一つを選んでください</li>
+        <li>オンラインまたは現地でお知らせください</li>
+        <li>おめでとうございます、この場所のこの特定の場所を確保しました！</li>
+        <li>2025年9月6日までに、何かを持参するか、オンラインでデータ/指示を送ることができます</li>
+      </ol>
+      <div class="about-credits">
+        <h3>会場</h3>
+        <p><a href="https://taireki.com/ichidatei/" target="_blank" rel="noopener">市田邸</a><br>
+        東京都台東区上野桜木1丁目6-2</p>
+        
+        <div class="map-section">
+          <div class="embedded-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.27023770179244!2d139.77073111813516!3d35.719782375395496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c2a28187f35%3A0xcff5e5240c7b2583!2s1-ch%C5%8Dme-6-2%20Uenosakuragi%2C%20Taito%20City%2C%20Tokyo%20110-0002!5e0!3m2!1sen!2sjp!4v1756741256306!5m2!1sen!2sjp"
+              width="100%" 
+              height="250" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+        
+        <h3>助成</h3>
+        <p><a href="https://gap.geidai.ac.jp/" target="_blank" rel="noopener" class="geidai-link">
+          <img src="logo/GAP_logo.svg" alt="GAP Logo" class="geidai-logo-img">
+          東京藝術大学 グローバルアートプラクティス (GAP)
+        </a></p>
+      </div>`,
       location: '場所',
       element: '要素',
       style: 'スタイル',
@@ -383,14 +457,62 @@ document.addEventListener('DOMContentLoaded', function() {
       if (modal) modal.style.display = 'none';
       document.body.style.overflow = '';
     }
+    if (event.target === aboutModal) {
+      if (aboutModal) aboutModal.style.display = 'none';
+      document.body.style.overflow = '';
+    }
   };
+
+  // About modal functionality
+  const aboutModal = document.getElementById('about-modal');
+  const aboutModalClose = document.getElementById('about-modal-close');
+  const aboutModalInfo = document.getElementById('about-modal-info');
+
+  function openAboutModal() {
+    if (aboutModalInfo) {
+      const titleHtml = translations[currentLang].aboutTitle ? 
+        `<h2>${translations[currentLang].aboutTitle}</h2>` : '';
+      aboutModalInfo.innerHTML = `
+        <div class="about-lang-section">
+          ${titleHtml}
+          ${translations[currentLang].aboutContent}
+        </div>
+      `;
+    }
+    if (aboutModal) {
+      aboutModal.style.display = 'block';
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  if (aboutModalClose) {
+    aboutModalClose.onclick = function() {
+      if (aboutModal) aboutModal.style.display = 'none';
+      document.body.style.overflow = '';
+    };
+  }
+
   // Periodically animate the about icon and set its content
   const aboutIcon = document.querySelector('.about');
   if (aboutIcon) {
     aboutIcon.textContent = translations[currentLang].about;
+    // Handle about click
+    aboutIcon.addEventListener('click', function(e) {
+      e.preventDefault();
+      openAboutModal();
+    });
     setInterval(() => {
       aboutIcon.classList.add('animate');
       setTimeout(() => aboutIcon.classList.remove('animate'), 2000);
-    }, 7000);
+    }, 10000);
+  }
+
+  // Handle about link in header nav
+  const aboutLink = document.querySelector('a[href="#about"]');
+  if (aboutLink && !aboutLink.classList.contains('about')) {
+    aboutLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      openAboutModal();
+    });
   }
 });

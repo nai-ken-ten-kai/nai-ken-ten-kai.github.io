@@ -800,6 +800,219 @@ h1 {
   color: #b00;
 }
 
+/* Embedded map styling */
+.map-section {
+  margin: 1.5em 0 2em 0;
+}
+
+.map-section h3,
+.map-section h4 {
+  margin-bottom: 1em;
+  color: rgb(253, 98, 120);
+  font-family: 'Noto Serif JP', serif;
+}
+
+.map-section h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+}
+
+.embedded-map {
+  border: 2px solid #e0e0e0;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(253, 98, 120, 0.15);
+  background: #fafafa;
+}
+
+.embedded-map iframe {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .embedded-map iframe {
+    height: 200px;
+  }
+  
+  .embedded-map {
+    border-width: 1px;
+    box-shadow: 0 2px 8px rgba(253, 98, 120, 0.1);
+  }
+}
+
+/* About Modal Styling */
+.about-modal-content {
+  max-width: 700px;
+  width: 90vw;
+  max-height: 85vh;
+  padding: 40px 32px 28px 32px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+}
+
+.about-modal-info {
+  font-family: 'Times New Roman', 'STIX Two Text', serif;
+  line-height: 1.6;
+  color: #444;
+}
+
+.about-modal-info h2 {
+  font-family: 'Times New Roman', 'STIX Two Text', serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 1.5em 0;
+  color: #333;
+  text-align: center;
+}
+
+.about-modal-info p {
+  margin: 0 0 1.2em 0;
+  font-size: 1rem;
+  text-align: justify;
+  color: rgb(253, 98, 120);
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.about-modal-info ol {
+  margin: 1.5em 0;
+  padding-left: 2em;
+}
+
+.about-modal-info ol li {
+  margin: 0.5em 0;
+  font-size: 1rem;
+  color: rgb(127, 120, 110);
+  font-family: "STIX Two Text", serif;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.about-credits {
+  margin-top: 2.5em;
+  padding-top: 2em;
+  border-top: 1px solid #ddd;
+}
+
+.about-credits h3 {
+  font-family: 'Times New Roman', 'STIX Two Text', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.8em 0;
+  color: rgb(253, 98, 120);
+}
+
+.about-credits p {
+  margin: 0 0 1.5em 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.about-credits a {
+  color: rgb(253, 98, 120);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-credits a:hover {
+  color: rgb(230, 80, 100);
+  text-decoration: underline;
+}
+
+.geidai-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none !important;
+  color: #666 !important;
+}
+
+.geidai-link:hover {
+  text-decoration: none !important;
+  color: #555 !important;
+}
+
+.geidai-logo-img {
+  width: 60px;
+  height: auto;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+  filter: grayscale(20%);
+}
+
+.geidai-link:hover .geidai-logo-img {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.maps-link {
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Modal close button positioning fix */
+.about-modal-content .close {
+  top: 16px;
+  right: 20px;
+  color: #999;
+  font-size: 1.8rem;
+  z-index: 20;
+  background: rgba(250, 250, 250, 0.9);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.about-modal-content .close:hover {
+  color: rgb(253, 98, 120);
+  background: rgba(250, 250, 250, 1);
+}
+
+@media (max-width: 768px) {
+  .about-modal-content {
+    padding: 36px 24px 20px 24px;
+    max-width: 95vw;
+  }
+  
+  .about-modal-info h2 {
+    font-size: 1.6rem;
+  }
+  
+  .about-modal-info p,
+  .about-modal-info ol li {
+    font-size: 0.95rem;
+  }
+  
+  .about-credits h3 {
+    font-size: 1.2rem;
+  }
+  
+  .geidai-logo-img {
+    width: 50px;
+  }
+  
+  .about-modal-content .close {
+    top: 12px;
+    right: 16px;
+    font-size: 1.6rem;
+    width: 28px;
+    height: 28px;
+  }
+}
+
 /* Update thumbnails in modal */
 .space-updates {
   margin-top: 1em;

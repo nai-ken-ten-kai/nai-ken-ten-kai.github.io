@@ -30,13 +30,24 @@
     </header>
     <div id="timeline-gallery"></div>
   </div>
+
+  <!-- About Modal -->
+  <div id="about-modal" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeAboutModal()">&times;</button>
+      <div id="about-content">
+        <!-- Content will be populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
   <script src="spaces.js"></script>
   <script>
     // Logo character flip functionality with persistent click behavior
     function initLogoFlip() {
       const logoContainer = document.querySelector('.logo-container');
       const wrapper = document.querySelector('.overlap-wrap');
-  const autoFlipInterval = 5000; // faster cycle
+      const autoFlipInterval = 15000; // 15 seconds
   const flipDuration = 350; // ms matches CSS
   const holdBeforeRevert = 0; // no hold
 

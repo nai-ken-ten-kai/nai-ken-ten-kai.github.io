@@ -22,7 +22,7 @@ function render() {
       </div>
     </div>
     <div class="thumbs" id="thumbs">
-      ${images.map((img, i) => `<img src="${img}" class="thumb${i===current?' active':''}" data-idx="${i}">`).join('')}
+            ${images.map((img, i) => `<img src="${img}" class="thumb${i===current?' active':''}" data-idx="${i}">`).join('')}
     </div>
   `;
   document.getElementById('main-img-container').onclick = e => {

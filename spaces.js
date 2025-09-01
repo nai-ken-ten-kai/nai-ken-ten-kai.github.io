@@ -17,7 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
       alreadyTaken: 'Sorry but this space is already taken, it will be updated when something happens here! Feel free to check other spaces!',
       found: (n) => `${n} space${n !== 1 ? 's' : ''} found`,
       aboutTitle: '',
-      aboutContent: `<p>Ichida Family's house designated as a cultural heritage site of Japan, was built in Meiji period. During Japan's period of modernization, the traditional houses and surrounding neighborhood began to gradually disappear.</p>
+      aboutContent: `<div class="about-banner">
+        <img src="poster/GAPbannerfinal.png" alt="GAP Banner" class="gap-banner-img">
+      </div>
+      <p>Ichida Family's house designated as a cultural heritage site of Japan, was built in Meiji period. During Japan's period of modernization, the traditional houses and surrounding neighborhood began to gradually disappear.</p>
       <p>In response, a group of people came together with the intention of preserving the traditional atmosphere—keeping the houses "alive" by inviting others to live in them and engage with the space through exhibitions and events.</p>
       <p>This time, we, too, have this opportunity to spend five days here. During our stay, we are inviting anyone to choose a spot within the space and engage with it—by bringing something that makes the first encounter of the shared space, feel personally more comfortable.</p>
       <ol>
@@ -93,7 +96,10 @@ document.addEventListener('DOMContentLoaded', function() {
       alreadyTaken: '申し訳ありませんが、このスペースはすでに契約済みです。何かの変化をお楽しみください！他のスペース是非ご利用ください！',
       found: (n) => `全${n}件`,
       aboutTitle: '',
-      aboutContent: `<p>明治時代に建てられた市田家の住宅は、日本の文化的遺産として指定されています。日本の近代化の過程で、伝統的な住宅とその周辺の街並みは徐々に姿を消していきました。</p>
+      aboutContent: `<div class="about-banner">
+        <img src="poster/GAPbannerfinal.png" alt="GAP Banner" class="gap-banner-img">
+      </div>
+      <p>明治時代に建てられた市田家の住宅は、日本の文化的遺産として指定されています。日本の近代化の過程で、伝統的な住宅とその周辺の街並みは徐々に姿を消していきました。</p>
       <p>これに対し、伝統的な雰囲気を保存する意図を持った人々が集まり、住宅を「生きたまま」保つため、他の人々を招いて住まわせ、展覧会やイベントを通じて空間との関わりを持たせることにしました。</p>
       <p>今回、私たちもここで5日間を過ごす機会を得ました。滞在中、誰でも空間内のスポットを選んで関わることができます—共有空間との最初の出会いを、個人的により居心地よく感じられるものを持ち込むことで。</p>
       <ol>
@@ -345,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const descEn = space.description || '';
       const descJa = space.description_ja || '';
       card.innerHTML = `
-        <img src="${image}" alt="${space.id}" class="space-image">
+        <img src="${image}" alt="${space.id}" class="space-image" loading="lazy">
         <div class="space-info">
           <div class="space-badges">${badges}</div>
           <p class="space-description">
@@ -414,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (Array.isArray(u.images)) {
           imgsHtml = '<div class="update-images">' + u.images.map((im, idx) => {
             const src = (typeof im === 'string') ? im : (im.src || '');
-            return `<img src="${src}" class="update-thumb" data-spaceid="${space.id}" data-update-index="${ui}" data-img-index="${idx}"/>`;
+            return `<img src="${src}" class="update-thumb" data-spaceid="${space.id}" data-update-index="${ui}" data-img-index="${idx}" loading="lazy"/>`;
           }).join('') + '</div>';
         }
         udiv.innerHTML = `<div class="update-header"><strong>${author}</strong>${action}</div>${txt}${imgsHtml}`;
@@ -448,10 +454,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  modalClose.onclick = function() {
-    if (modal) modal.style.display = 'none';
-    document.body.style.overflow = '';
-  };
+  if (modalClose) {
+    modalClose.onclick = function() {
+      if (modal) modal.style.display = 'none';
+      document.body.style.overflow = '';
+    };
+  }
   window.onclick = function(event) {
     if (event.target === modal) {
       if (modal) modal.style.display = 'none';
@@ -474,6 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `<h2>${translations[currentLang].aboutTitle}</h2>` : '';
       aboutModalInfo.innerHTML = `
         <div class="about-lang-section">
+          <div style="height: 180px; margin-bottom: 2em;"></div>
           ${titleHtml}
           ${translations[currentLang].aboutContent}
         </div>
@@ -492,27 +501,28 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  // Periodically animate the about icon and set its content
-  const aboutIcon = document.querySelector('.about');
-  if (aboutIcon) {
-    aboutIcon.textContent = translations[currentLang].about;
-    // Handle about click
-    aboutIcon.addEventListener('click', function(e) {
-      e.preventDefault();
-      openAboutModal();
+  // Periodically animate the about icon(s) and attach click handlers robustly
+  const aboutElems = document.querySelectorAll('a.about, a[href="#about"], .about');
+  if (aboutElems && aboutElems.length) {
+    aboutElems.forEach((el) => {
+      // For elements that use textual icon, set content
+      if (el.classList && el.classList.contains('about')) {
+        el.textContent = translations[currentLang].about;
+      }
+      // Attach click handler (idempotent)
+      el.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        openAboutModal();
+      });
     });
-    setInterval(() => {
-      aboutIcon.classList.add('animate');
-      setTimeout(() => aboutIcon.classList.remove('animate'), 2000);
-    }, 10000);
-  }
 
-  // Handle about link in header nav
-  const aboutLink = document.querySelector('a[href="#about"]');
-  if (aboutLink && !aboutLink.classList.contains('about')) {
-    aboutLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      openAboutModal();
-    });
+    // small periodic animation on the first about element
+    const first = aboutElems[0];
+    setInterval(() => {
+      if (!first) return;
+      first.classList.add('animate');
+      setTimeout(() => first.classList.remove('animate'), 2000);
+    }, 10000);
   }
 });

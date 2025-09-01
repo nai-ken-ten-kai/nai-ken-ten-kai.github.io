@@ -1,0 +1,28 @@
+name: Nai Ken Kai Exhibition
+description: Interactive art exhibition at historic Ichida Residence in Tokyo
+url: https://nai-ken-ten-kai.github.io
+repository: nai-ken-ten-kai/nai-ken-ten-kai.github.io
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - scripts/admin.py
+  - scripts/requirements.txt
+  - favicon-generator.html
+  - README.md
+  - LICENSE
+  - .gitignore
+
+# Include files
+include:
+  - _headers
+  - .htaccess
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

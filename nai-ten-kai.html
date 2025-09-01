@@ -3,7 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nai Ten Kai</title>
+  <title>Nai Ten Kai - Timeline Gallery | Interactive Art Exhibition Documentation</title>
+  <meta name="description" content="Explore the timeline of Nai Ten Kai exhibition at Ichida Residence. View the evolution of spaces and artistic interventions in this historic Tokyo venue.">
+  <meta name="keywords" content="art timeline, exhibition documentation, Nai Ten Kai, Tokyo art, Ichida Residence, contemporary art, cultural heritage">
+  <meta name="author" content="Tokyo University of the Arts - Global Art Practice (GAP)">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nai-ken-ten-kai.github.io/nai-ten-kai.html">
+  <meta property="og:title" content="Nai Ten Kai - Timeline Gallery">
+  <meta property="og:description" content="Explore the timeline of the interactive art exhibition at Ichida Residence, Tokyo.">
+  <meta property="og:image" content="https://nai-ken-ten-kai.github.io/poster/GAPbannerfinal.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://nai-ken-ten-kai.github.io/nai-ten-kai.html">
+  <meta property="twitter:title" content="Nai Ten Kai - Timeline Gallery">
+  <meta property="twitter:description" content="Explore the timeline of the interactive art exhibition at Ichida Residence, Tokyo.">
+  <meta property="twitter:image" content="https://nai-ken-ten-kai.github.io/poster/GAPbannerfinal.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://nai-ken-ten-kai.github.io/nai-ten-kai.html">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="logo/favicon.ico">
+  
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="spaces.css">
   <link rel="stylesheet" href="timeline-gallery.css">
@@ -32,16 +57,13 @@
   </div>
 
   <!-- About Modal -->
-  <div id="about-modal" class="modal">
-    <div class="modal-content">
-      <button class="close-btn" onclick="closeAboutModal()">&times;</button>
-      <div id="about-content">
-        <!-- Content will be populated by JavaScript -->
-      </div>
+  <div id="about-modal" class="modal" style="display:none;">
+    <div class="modal-content about-modal-content">
+      <span class="close" id="about-modal-close">&times;</span>
+      <div class="about-modal-info" id="about-modal-info"></div>
     </div>
   </div>
 
-  <script src="spaces.js"></script>
   <script>
     // Logo character flip functionality with persistent click behavior
     function initLogoFlip() {
@@ -90,5 +112,6 @@
     });
   </script>
   <script src="timeline-gallery.js"></script>
+  <script src="spaces.js"></script>
 </body>
 </html>

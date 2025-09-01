@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nai-ken-ten-kai.github.io/sitemap.xml
+
+# Disallow admin and scripts folders from indexing
+Disallow: /scripts/
+Disallow: /*.json$

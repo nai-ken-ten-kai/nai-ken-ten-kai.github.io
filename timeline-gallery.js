@@ -134,9 +134,9 @@ fetch('spaces_new.json')
                 <div class="update-modal-timeline">
                   ${events.map(ev => `
                     <div class="update-modal-event">
-                      <img src="${ev.img}" alt="zoomed">
+                      <img src="${ev.img}" alt="zoomed" loading="lazy">
                       <div class="event-info">${ev.info}</div>
-                      ${ev.supp.length ? `<div class="event-supp">${ev.supp.map(s => `<img src="${s}" alt="supp">`).join('')}</div>` : ''}
+                      ${ev.supp.length ? `<div class="event-supp">${ev.supp.map(s => `<img src="${s}" alt="supp" loading="lazy">`).join('')}</div>` : ''}
                     </div>
                   `).join('')}
                 </div>

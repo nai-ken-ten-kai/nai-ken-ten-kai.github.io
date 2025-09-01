@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Generator</title>
+</head>
+<body>
+    <canvas id="canvas" width="32" height="32" style="border: 1px solid #000;"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Fill background with coral pink
+        ctx.fillStyle = '#fd6278';
+        ctx.fillRect(0, 0, 32, 32);
+        
+        // Add Japanese character "内" in white
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 20px serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('内', 16, 16);
+        
+        // Convert to ICO (this would need to be done manually)
+        console.log('Canvas ready - right-click to save as PNG, then convert to ICO');
+    </script>
+</body>
+</html>

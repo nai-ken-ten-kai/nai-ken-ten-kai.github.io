@@ -89,7 +89,7 @@ h1 {
   background: #222;
   color: #fff;
   text-align: left;
-  border-radius: 4px;
+  border-radius: 0;
   padding: 4px 8px;
   position: absolute;
   z-index: 10;
@@ -149,7 +149,7 @@ h1 {
   cursor: pointer;
   transition: color 0.2s;
   letter-spacing: 0.1em;
-  border-radius: 6px;
+  border-radius: 0;
   text-decoration: none;
   vertical-align: middle;
   margin-left: 16px;
@@ -486,7 +486,7 @@ h1 {
   font-size: 1rem;
   font-weight: 400;
   padding: 8px 14px;
-  border-radius: 20px;
+  border-radius: 0;
   transition: all 0.3s ease;
   border: 1px solid transparent;
   font-family: "Noto Serif JP", Arial, serif;
@@ -507,7 +507,7 @@ h1 {
   transition: color 0.2s;
   font-weight: normal;
   font-family: 'Noto Serif JP', serif;
-  border-radius: 6px;
+  border-radius: 0;
   letter-spacing: 0.1em;
 }
 .lang-btn.active {
@@ -533,7 +533,7 @@ h1 {
   cursor: pointer;
   transition: color 0.2s;
   letter-spacing: 0.1em;
-  border-radius: 6px;
+  border-radius: 0;
   text-decoration: none;
   vertical-align: middle;
   margin-left: 16px;
@@ -559,7 +559,7 @@ h1 {
   margin-bottom: 20px;
   padding: 15px 20px;
   border: 1px solid #eee;
-  border-radius: 8px;
+  border-radius: 0;
   background: #fafafa;
   width: 100%;
   max-width: 100%;
@@ -573,7 +573,7 @@ h1 {
 .filter-btn {
   background: #f5f5f5;
   border: 1px solid #ddd;
-  border-radius: 16px;
+  border-radius: 0;
   padding: 4px 14px;
   font-size: 0.95rem;
   color: #333;
@@ -615,7 +615,7 @@ h1 {
 
 .space-card {
   border: 1px solid #eee;
-  border-radius: 8px;
+  border-radius: 0;
   overflow: visible; /* allow tooltips to overflow */
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -648,7 +648,7 @@ h1 {
   display: inline-block;
   font-size: 0.8rem;
   padding: 2px 10px;
-  border-radius: 12px;
+  border-radius: 0;
   background: #e3eafc;
   color: #1976d2;
   font-weight: 500;
@@ -693,7 +693,7 @@ h1 {
   font-weight: bold;
   color: #fff;
   padding: 5px 10px;
-  border-radius: 4px;
+  border-radius: 0;
   display: inline-block;
 }
 
@@ -723,7 +723,7 @@ h1 {
   background: #fff;
   margin: auto;
   padding: 24px 18px 18px 18px;
-  border-radius: 10px;
+  border-radius: 0;
   max-width: 500px;
   width: 95vw;
   box-shadow: 0 4px 24px rgba(0,0,0,0.18);
@@ -734,16 +734,18 @@ h1 {
   text-align: left;
   max-height: 90vh;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
 }
 .modal-image {
   width: 100%;
-  max-width: 90vw;
+  max-width: 100%;
   max-height: 60vh;
   object-fit: contain;
-  border-radius: 6px;
+  border-radius: 0;
   margin-bottom: 1em;
+  box-sizing: border-box;
 }
 .close {
   position: absolute;
@@ -761,6 +763,12 @@ h1 {
 .close:hover {
   color: #f44336;
 }
+.modal-info {
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
 .modal-info h2 {
   font-size: 1.2rem;
   margin: 0 0 0.5em 0;
@@ -791,6 +799,56 @@ h1 {
   font-weight: bold;
   color: #b00;
 }
+
+/* Update thumbnails in modal */
+.space-updates {
+  margin-top: 1em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.space-update {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+
+.update-header {
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.update-text {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+}
+
+.update-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 0.5em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.update-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 0;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.update-thumb:hover {
+  border-color: #1976d2;
+}
+
 /* Language switcher styles */
 .lang-switcher {
   display: flex;
@@ -812,7 +870,7 @@ h1 {
   transition: color 0.2s;
   font-weight: normal;
   font-family: 'Noto Serif JP', serif;
-  border-radius: 6px;
+  border-radius: 0;
   letter-spacing: 0.1em;
 }
 .lang-btn.active {

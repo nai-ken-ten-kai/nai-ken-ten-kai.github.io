@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
       contact: 'お問い合わせ:',
       instagram: 'インスタグラム',
       gmail: 'Gmail',
-      rememberId: 'このスペースは（おそらく）まだ空いています！<br><br>ご興味があれば、オープン時間にふらっとお立ち寄りください。<br>9月3–4日　9:00–18:00  |  9月5–7日　12:00–20:00<br><br>また、<a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">Instagram</a> | <a href="mailto:nai.ken.ten.kai@gmail.com">Gmail</a> からご連絡いただくことや、リモート参加も可能です。<br><br>その際は、気になる画像のIDをお知らせください。<br>ウェブサイトの更新に少し時間がかかるため、スペースがすでに埋まっている場合もあります。<br>そのときは、他の希望あれば頑張ってご案内します！',
+      rememberId: 'このスペースは（たぶん）まだ空いています！<br><br>ご興味があれば、オープン時間にふらっとお立ち寄りください。<br>9月3–4日　9:00–18:00  |  9月5–7日　12:00–20:00<br><br>また、<a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">Instagram</a> | <a href="mailto:nai.ken.ten.kai@gmail.com">Gmail</a> からご連絡いただくことや、リモート参加も可能です。<br><br>その際は、気になる画像のIDをお知らせください。<br>ウェブサイトの更新に少し時間がかかるため、スペースがすでに埋まっている場合もあります。<br>そのときは、他の希望あれば頑張ってご案内します！',
       rememberIdShort: 'お問い合わせの際はこの画像のIDをお伝えください。',
       alreadyTaken: '申し訳ありませんが、このスペースはすでに契約済みです。何かの変化をお楽しみください！他のスペース是非ご利用ください！',
       found: (n) => `全${n}件`,
@@ -305,42 +305,21 @@ document.addEventListener('DOMContentLoaded', function() {
   const modalImageObj = space.images[0];
   modalImage.src = modalImageObj && (typeof modalImageObj === 'string' ? modalImageObj : modalImageObj.src);
   modalImage.alt = space.id;
-    // Info block: just show ID as heading and plain text for the rest
-    let infoHtml = `<h2>${space.id}</h2>`;
-    if (currentLang === 'ja' && space.description_ja) {
-      infoHtml += `<div style='margin-bottom:0.7em;'>${space.description_ja}</div>`;
-    } else if (space.description) {
-      infoHtml += `<div style='margin-bottom:0.7em;'>${space.description}</div>`;
-    }
-    if (space.tags && space.tags.length) {
-      const tagBadges = space.tags.map(t => `<span class="badge badge-tag">${t}</span>`).join(' ');
-      infoHtml += `<div style='margin-bottom:0.7em;'>${tagBadges}</div>`;
-    }
-    if (space.location) {
-      const locTrans = translations[currentLang].tagTranslations.location[space.location] || space.location;
-      infoHtml += `<div style='margin-bottom:0.7em;'><span class="badge badge-location">${locTrans}</span></div>`;
-    }
-    if (space.element && space.element.length) {
-      const elemBadges = space.element.map(e => {
-        const elemTrans = translations[currentLang].tagTranslations.element[e] || e;
-        return `<span class="badge badge-element">${elemTrans}</span>`;
-      }).join(' ');
-      infoHtml += `<div style='margin-bottom:0.7em;'>${elemBadges}</div>`;
-    }
-    if (space.style && space.style.length) {
-      const styleBadges = space.style.map(s => {
-        const styleTrans = translations[currentLang].tagTranslations.style[s] || s;
-        return `<span class="badge badge-style">${styleTrans}</span>`;
-      }).join(' ');
-      infoHtml += `<div style='margin-bottom:0.7em;'>${styleBadges}</div>`;
-    }
-    modalInfo.innerHTML = infoHtml;
-    // Status: any non-available status should be shown as taken
-    if (space.status && space.status !== 'available') {
-      modalStatus.innerHTML = `<span style=\"color:#b00;font-weight:bold;\">${translations[currentLang].alreadyTaken}</span>`;
-    } else {
-      modalStatus.innerHTML = '';
-    }
+  // Always clear modal content first
+  modalInfo.innerHTML = '';
+  modalStatus.innerHTML = '';
+  let infoHtml = `<h2>${space.id}</h2>`;
+  if (space.status && space.status !== 'available') {
+    // Taken: show only taken message and contact (once)
+    infoHtml += `<div style='margin-bottom:0.7em;'>${translations[currentLang].alreadyTaken}</div>`;
+    infoHtml += `<div class="modal-contact"><b>${translations[currentLang].contact}</b> <a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">${translations[currentLang].instagram}</a> | <a href="mailto:nai.ken.ten.kai@gmail.com">${translations[currentLang].gmail}</a></div>`;
+    modalStatus.innerHTML = `<span class="space-status status-taken">${translations[currentLang].taken}</span>`;
+  } else {
+    // Available: show only rememberId (which already includes contact info)
+    infoHtml += `<div style='margin-bottom:0.7em;'>${translations[currentLang].rememberId}</div>`;
+    modalStatus.innerHTML = `<span class="space-status status-available">${translations[currentLang].available}</span>`;
+  }
+  modalInfo.innerHTML = infoHtml;
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
     // Reset scroll position to top

@@ -739,16 +739,28 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
-  max-height: 90vh;
+  max-height: 85vh; /* Reduced from 90vh to allow more space */
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  /* Ensure scrolling works on mobile */
+  -webkit-overflow-scrolling: touch;
 }
+
+/* Adjust modal positioning for very tall content or small screens */
+@media (max-height: 600px) {
+  .modal-content {
+    top: 5vh;
+    transform: translate(-50%, 0);
+    max-height: 90vh;
+  }
+}
+
 .modal-image {
   width: 100%;
   max-width: 100%;
-  max-height: 60vh;
+  max-height: 40vh; /* Reduced from 60vh to give more room for content */
   object-fit: contain;
   border-radius: 0;
   margin-bottom: 1em;
@@ -772,8 +784,11 @@ body {
 }
 .modal-info {
   width: 100%;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   word-wrap: break-word;
+  max-height: 50vh; /* Allow scrolling within modal info */
+  flex: 1; /* Allow modal-info to grow and fill available space */
 }
 
 .modal-info h2 {

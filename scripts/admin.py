@@ -169,16 +169,102 @@ def save():
     return jsonify({'ok': True, 'id': title_id, 'folder': folder, 'commit': commit_result})
 
 
-@app.route('/mark', methods=['POST'])
-def mark():
-    space_id = request.form.get('mark_id')
+@app.route('/mark_multiple', methods=['POST'])
+def mark_multiple():
+    space_ids = request.form.get('space_ids', '').strip()
     taken_by = request.form.get('taken_by') or 'Unknown'
     note = request.form.get('taken_note') or None
-    publish = request.form.get('mark_publish') == 'on' or request.form.get('mark_publish') == '1'
-    f = request.files.get('taken_file')
+    instruction_text = request.form.get('instruction_text') or None
+
+    if not space_ids:
+        return jsonify({'ok': False, 'error': 'space_ids required'})
+
+    # Parse space IDs (comma-separated)
+    try:
+        ids = [int(x.strip()) for x in space_ids.split(',') if x.strip()]
+    except ValueError:
+        return jsonify({'ok': False, 'error': 'Invalid space ID format'})
+
+    if not ids:
+        return jsonify({'ok': False, 'error': 'No valid space IDs provided'})
+
+    spaces = read_spaces()
+    marked_spaces = []
+    errors = []
+
+    # Handle instruction images if provided
+    instruction_images = []
+    instruction_files = request.files.getlist('instruction_files')
+    if instruction_files:
+        # Create instruction folder
+        instruction_folder = f"instruction-{taken_by.replace(' ', '_')}-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}"
+        target_dir = os.path.join(IMG_DIR, instruction_folder)
+        os.makedirs(target_dir, exist_ok=True)
+
+        for f in instruction_files:
+            if f.filename:
+                filename = secure_filename(f.filename)
+                path = os.path.join(target_dir, filename)
+                f.save(path)
+                rel = os.path.relpath(path, ROOT).replace('\\', '/')
+                instruction_images.append({'src': rel, 'taken_at': exif_taken(path)})
+
+    for space_id in ids:
+        target = None
+        for s in spaces:
+            if s.get('id') == space_id:
+                target = s
+                break
+
+        if not target:
+            errors.append(f'Space {space_id} not found')
+            continue
+
+        # Mark as taken
+        target['status'] = 'taken'
+        target['taken_by'] = taken_by
+        target['taken_at'] = datetime.utcnow().isoformat()
+        if note:
+            target['taken_note'] = note
+        if instruction_text:
+            target['instruction_text'] = instruction_text
+        if instruction_images:
+            target['instruction_images'] = instruction_images
+
+        # Create instruction update for timeline
+        if instruction_text or instruction_images:
+            upd = {
+                'author': taken_by,
+                'text': instruction_text,
+                'action': 'instruction',
+                'images': [{'src': img['src'], 'role': 'instruction', 'taken_at': img['taken_at']} for img in instruction_images],
+                'created_at': datetime.utcnow().isoformat(),
+                'status': 'instruction',
+                'related': []
+            }
+            target.setdefault('updates', []).append(upd)
+
+        marked_spaces.append(space_id)
+
+    if marked_spaces:
+        write_both(spaces)
+
+    return jsonify({
+        'ok': True,
+        'marked': marked_spaces,
+        'errors': errors,
+        'instruction_images': len(instruction_images) if instruction_images else 0
+    })
+
+
+@app.route('/publish_update', methods=['POST'])
+def publish_update():
+    space_id = request.form.get('space_id')
+    author = request.form.get('author') or 'Unknown'
+    update_text = request.form.get('update_text') or None
 
     if not space_id:
-        return jsonify({'ok': False, 'error': 'mark_id required'})
+        return jsonify({'ok': False, 'error': 'space_id required'})
 
     spaces = read_spaces()
     target = None
@@ -186,52 +272,50 @@ def mark():
         if str(s.get('id')) == str(space_id):
             target = s
             break
+
     if not target:
-        return jsonify({'ok': False, 'error': 'space id not found'})
+        return jsonify({'ok': False, 'error': 'space not found'})
 
-    # optional replace main image
-    if f:
-        # save uploaded file and treat it as a new main image (prepend)
-        folder = f"{space_id}-manual-update"
-        target_dir = os.path.join(IMG_DIR, folder)
-        os.makedirs(target_dir, exist_ok=True)
-        filename = secure_filename(f.filename)
-        path = os.path.join(target_dir, filename)
-        f.save(path)
-        rel = os.path.relpath(path, ROOT).replace('\\', '/')
-        main_img = {'src': rel, 'taken_at': exif_taken(path)}
-        imgs = target.get('images') or []
-        # prepend new main image so original(s) remain after
-        imgs.insert(0, main_img)
-        target['images'] = imgs
-        # also record this as an update for timeline/modal
-        upd = {
-            'author': taken_by,
-            'text': note,
-            'action': 'taken',
-            'images': [dict(main_img, **{'role': 'primary'})],
-            'created_at': datetime.utcnow().isoformat(),
-            'status': 'taken',
-            'related': []
-        }
-        target.setdefault('updates', []).append(upd)
+    # Handle published update images
+    update_files = request.files.getlist('update_files')
+    if not update_files or not any(f.filename for f in update_files):
+        return jsonify({'ok': False, 'error': 'No update images provided'})
 
-    # mark as taken
-    # Mark as taken (always) and record who/when
-    target['status'] = 'taken'
-    target['taken_by'] = taken_by
-    target['taken_at'] = datetime.utcnow().isoformat()
-    if note:
-        target['taken_note'] = note
+    # Create update folder
+    update_folder = f"{space_id}-update-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}"
+    target_dir = os.path.join(IMG_DIR, update_folder)
+    os.makedirs(target_dir, exist_ok=True)
 
-    # Optionally publish: set to 'published' only when the publish flag is set
-    # and a new main image was provided. This keeps 'taken' as the base state
-    # and uses 'published' to indicate a new main image / public update.
-    if publish and f:
-        target['status'] = 'published'
+    saved_images = []
+    for f in update_files:
+        if f.filename:
+            filename = secure_filename(f.filename)
+            path = os.path.join(target_dir, filename)
+            f.save(path)
+            rel = os.path.relpath(path, ROOT).replace('\\', '/')
+            saved_images.append({'src': rel, 'taken_at': exif_taken(path), 'role': 'update'})
+
+    # Create published update
+    upd = {
+        'author': author,
+        'text': update_text,
+        'action': 'published',
+        'images': saved_images,
+        'created_at': datetime.utcnow().isoformat(),
+        'status': 'published',
+        'related': []
+    }
+
+    target.setdefault('updates', []).append(upd)
+    target['status'] = 'published'
+    target['modified_by'] = author
+    target['modified_at'] = datetime.utcnow().isoformat()
+
+    # Add update images to the space's main images
+    target.setdefault('images', []).extend(saved_images)
 
     write_both(spaces)
-    return jsonify({'ok': True, 'id': space_id, 'published': publish})
+    return jsonify({'ok': True, 'id': space_id, 'images': len(saved_images)})
 
 
 @app.route('/revert', methods=['POST'])

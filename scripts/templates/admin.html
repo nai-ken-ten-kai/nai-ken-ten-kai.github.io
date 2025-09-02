@@ -4,44 +4,205 @@
   <meta charset="utf-8">
   <title>Local Admin - nai-ten-kai</title>
   <link rel="stylesheet" href="/static/admin.css">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .section { background: white; border-radius: 8px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .section h2 { margin-top: 0; color: #333; border-bottom: 2px solid #007acc; padding-bottom: 8px; }
+    .form-group { margin-bottom: 16px; }
+    label { display: block; margin-bottom: 4px; font-weight: 500; color: #555; }
+    input, textarea, select { width: 100%; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; }
+    textarea { resize: vertical; min-height: 80px; }
+    .button-group { display: flex; gap: 12px; margin-top: 20px; }
+    button { padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: 500; }
+    .btn-primary { background: #007acc; color: white; }
+    .btn-primary:hover { background: #0056b3; }
+    .btn-secondary { background: #6c757d; color: white; }
+    .btn-secondary:hover { background: #545b62; }
+    .btn-success { background: #28a745; color: white; }
+    .btn-success:hover { background: #218838; }
+    .file-upload { border: 2px dashed #ddd; border-radius: 4px; padding: 20px; text-align: center; margin: 16px 0; }
+    .file-upload.dragover { border-color: #007acc; background: #f8f9fa; }
+    .preview { margin-top: 16px; }
+    .preview img { max-width: 200px; margin: 8px; border-radius: 4px; }
+    .status { padding: 8px 12px; border-radius: 4px; margin-top: 8px; }
+    .status.success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+    .status.error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+    .space-ids { display: flex; gap: 8px; align-items: center; }
+    .space-ids input { flex: 1; }
+    .help-text { font-size: 12px; color: #666; margin-top: 4px; }
+  </style>
 </head>
 <body>
-  <h1>Local Admin — Add Update</h1>
-  <form id="upload" enctype="multipart/form-data">
-    <label>Target space id (leave empty to create new): <input name="title_id" id="title_id"></label>
-    <label>Slug (folder name suffix): <input name="slug" id="slug"></label>
-    <label>Author: <input name="author" id="author"></label>
-    <label>Text / note: <textarea name="text" id="text"></textarea></label>
-    <label>Action: <input name="action" id="action"></label>
-    <label>Related ids (comma): <input name="related" id="related"></label>
-    <label>Status: <select name="status"><option>draft</option><option>published</option><option>taken</option></select></label>
-    <label>Do not append to top-level images: <input type="checkbox" name="no_append" id="no_append"></label>
-    <label>Create new space: <input type="checkbox" name="create_new" id="create_new"></label>
-    <div id="uploader">
-      <input type="file" id="files" name="files" multiple accept="image/*">
-      <p>Drag & drop images or use file picker.</p>
+  <div class="container">
+    <h1>Local Admin — Space Management</h1>
+
+    <!-- Mark Spaces Section -->
+    <div class="section">
+      <h2>📍 Mark Spaces as Taken</h2>
+      <p>Assign one or multiple spaces to a participant. Add instructions and reference images if needed.</p>
+
+      <form id="mark-form" enctype="multipart/form-data">
+        <div class="form-group">
+          <label>Space IDs (comma-separated):</label>
+          <div class="space-ids">
+            <input name="space_ids" id="space_ids" placeholder="e.g., 1, 2, 5-7" required>
+            <button type="button" onclick="document.getElementById('space_ids').value='1,2,3,4,5,6,7,8,9,10'">All 1-10</button>
+          </div>
+          <div class="help-text">Enter individual IDs (1,2,3) or ranges (1-5). Use commas to separate.</div>
+        </div>
+
+        <div class="form-group">
+          <label>Taken by (name/contact):</label>
+          <input name="taken_by" id="taken_by" placeholder="Participant name or contact info" required>
+        </div>
+
+        <div class="form-group">
+          <label>Note (optional):</label>
+          <input name="taken_note" id="taken_note" placeholder="Additional notes about the assignment">
+        </div>
+
+        <div class="form-group">
+          <label>Instructions for participant:</label>
+          <textarea name="instruction_text" id="instruction_text" placeholder="Describe what the participant should create for this space..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Reference/Instruction Images (optional):</label>
+          <div id="instruction-uploader" class="file-upload">
+            <input type="file" id="instruction-files" name="instruction_files" multiple accept="image/*" style="display: none;">
+            <p>📎 Drop reference images here or <button type="button" onclick="document.getElementById('instruction-files').click()">browse files</button></p>
+          </div>
+          <div id="instruction-preview" class="preview"></div>
+        </div>
+
+        <div class="button-group">
+          <button type="button" id="mark-spaces" class="btn-primary">Mark Spaces as Taken</button>
+          <button type="button" onclick="clearMarkForm()" class="btn-secondary">Clear Form</button>
+        </div>
+      </form>
     </div>
-    <div id="preview"></div>
-    <label>Primary filename: <input name="primary" id="primary"></label>
-    <label>Commit changes (local git): <input type="checkbox" name="commit" id="commit"></label>
-    <label>Commit message: <input name="commit_msg" id="commit_msg"></label>
-  <label>Dry-run (preview only, no write): <input type="checkbox" name="dry_run" id="dry_run"></label>
-    <button type="button" id="save">Save</button>
-  </form>
-  <hr>
-  <h2>Mark as Taken</h2>
-  <form id="quick-mark-form">
-    <label>Space id: <input name="quick_mark_id" id="quick_mark_id" required></label>
-    <label>Taken by (name/contact): <input name="quick_taken_by" id="quick_taken_by" required></label>
-    <label>Note (optional): <input name="quick_taken_note" id="quick_taken_note"></label>
-    <button type="button" id="quick_mark_taken">Mark Taken</button>
-  </form>
-  <hr>
-  <h2>Revert last update</h2>
-  <form id="revert-form">
-    <label>Space id: <input name="revert_id" id="revert_id"></label>
-    <button type="button" id="revert_last">Revert last update</button>
-  </form>
+
+    <!-- Publish Updates Section -->
+    <div class="section">
+      <h2>📸 Publish Space Updates</h2>
+      <p>Upload completed artwork/images for a space that has been marked as taken.</p>
+
+      <form id="publish-form" enctype="multipart/form-data">
+        <div class="form-group">
+          <label>Space ID:</label>
+          <input name="space_id" id="publish_space_id" placeholder="Space ID to update" required>
+        </div>
+
+        <div class="form-group">
+          <label>Author:</label>
+          <input name="author" id="publish_author" placeholder="Artist name" required>
+        </div>
+
+        <div class="form-group">
+          <label>Update Description (optional):</label>
+          <textarea name="update_text" id="update_text" placeholder="Describe the artwork or changes..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Artwork Images:</label>
+          <div id="update-uploader" class="file-upload">
+            <input type="file" id="update-files" name="update_files" multiple accept="image/*" style="display: none;">
+            <p>🎨 Drop artwork images here or <button type="button" onclick="document.getElementById('update-files').click()">browse files</button></p>
+          </div>
+          <div id="update-preview" class="preview"></div>
+        </div>
+
+        <div class="button-group">
+          <button type="button" id="publish-update" class="btn-success">Publish Update</button>
+          <button type="button" onclick="clearPublishForm()" class="btn-secondary">Clear Form</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Status Messages -->
+    <div id="status-message"></div>
+
+    <!-- Legacy Section (collapsed) -->
+    <details class="section">
+      <summary style="cursor: pointer; font-weight: bold;">🔧 Legacy Admin Functions</summary>
+      <br>
+      <form id="upload" enctype="multipart/form-data">
+        <div class="form-group">
+          <label>Target space id (leave empty to create new):</label>
+          <input name="title_id" id="title_id">
+        </div>
+        <div class="form-group">
+          <label>Slug (folder name suffix):</label>
+          <input name="slug" id="slug">
+        </div>
+        <div class="form-group">
+          <label>Author:</label>
+          <input name="author" id="author">
+        </div>
+        <div class="form-group">
+          <label>Text / note:</label>
+          <textarea name="text" id="text"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Action:</label>
+          <input name="action" id="action">
+        </div>
+        <div class="form-group">
+          <label>Related ids (comma):</label>
+          <input name="related" id="related">
+        </div>
+        <div class="form-group">
+          <label>Status:</label>
+          <select name="status">
+            <option>draft</option>
+            <option>published</option>
+            <option>taken</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Do not append to top-level images:</label>
+          <input type="checkbox" name="no_append" id="no_append">
+        </div>
+        <div class="form-group">
+          <label>Create new space:</label>
+          <input type="checkbox" name="create_new" id="create_new">
+        </div>
+        <div class="form-group">
+          <label>Files:</label>
+          <input type="file" id="files" name="files" multiple accept="image/*">
+        </div>
+        <div id="preview" class="preview"></div>
+        <div class="form-group">
+          <label>Primary filename:</label>
+          <input name="primary" id="primary">
+        </div>
+        <div class="form-group">
+          <label>Commit changes (local git):</label>
+          <input type="checkbox" name="commit" id="commit">
+        </div>
+        <div class="form-group">
+          <label>Commit message:</label>
+          <input name="commit_msg" id="commit_msg">
+        </div>
+        <div class="form-group">
+          <label>Dry-run (preview only, no write):</label>
+          <input type="checkbox" name="dry_run" id="dry_run">
+        </div>
+        <button type="button" id="save" class="btn-primary">Save</button>
+      </form>
+
+      <hr>
+      <h3>Revert last update</h3>
+      <form id="revert-form">
+        <div class="form-group">
+          <label>Space id:</label>
+          <input name="revert_id" id="revert_id">
+        </div>
+        <button type="button" id="revert_last" class="btn-secondary">Revert last update</button>
+      </form>
+    </details>
+  </div>
 
   <script src="/static/admin.js"></script>
 </body>

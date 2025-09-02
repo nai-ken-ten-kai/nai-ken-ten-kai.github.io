@@ -5,46 +5,189 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nai Ken Kai - Interactive Art Exhibition at Ichida Residence | Tokyo University of the Arts</title>
   <meta name="description" content="Experience Nai Ken Kai, an interactive art exhibition at the historic Ichida Residence in Tokyo. Choose your space and engage with traditional Japanese architecture through contemporary art practice.">
-  <meta http-equiv="refresh" content="0; url=nai-ken-kai.html">
+  <meta name="keywords" content="art exhibition, Tokyo, Ichida Residence, interactive art, contemporary art, Japanese architecture, cultural heritage, Tokyo University of Arts, GAP">
+  <meta name="author" content="Tokyo University of the Arts - Global Art Practice (GAP)">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nai-ken-ten-kai.github.io/">
   <meta property="og:title" content="Nai Ken Kai - Interactive Art Exhibition at Ichida Residence">
-  <meta property="og:description" content="Experience an interactive art exhibition at the historic Ichida Residence in Tokyo.">
+  <meta property="og:description" content="Experience an interactive art exhibition at the historic Ichida Residence in Tokyo. Choose your space and engage with traditional Japanese architecture.">
   <meta property="og:image" content="https://nai-ken-ten-kai.github.io/poster/GAPbannerfinal.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ja_JP">
   
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://nai-ken-ten-kai.github.io/">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://nai-ken-ten-kai.github.io/">
+  <meta property="twitter:title" content="Nai Ken Kai - Interactive Art Exhibition">
+  <meta property="twitter:description" content="Experience an interactive art exhibition at the historic Ichida Residence in Tokyo.">
+  <meta property="twitter:image" content="https://nai-ken-ten-kai.github.io/poster/GAPbannerfinal.png">
   
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="logo/favicon.ico">
   
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://nai-ken-ten-kai.github.io/">
+  
+  <!-- Language alternates -->
+  <link rel="alternate" hreflang="en" href="https://nai-ken-ten-kai.github.io/">
+  <link rel="alternate" hreflang="ja" href="https://nai-ken-ten-kai.github.io/">
+  
   <link rel="stylesheet" href="style.css?v=20250902-2">
   <link rel="stylesheet" href="spaces.css?v=20250902-2">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Nai Ken Kai - Interactive Art Exhibition",
+    "description": "An interactive art exhibition at the historic Ichida Residence in Tokyo, where visitors can choose a spot within the space and engage with it through contemporary art practice.",
+    "startDate": "2025-09-03T09:00:00+09:00",
+    "endDate": "2025-09-07T20:00:00+09:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Ichida Residence (市田邸)",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1-chōme-6-2 Uenosakuragi",
+        "addressLocality": "Taito City",
+        "addressRegion": "Tokyo",
+        "postalCode": "110-0002",
+        "addressCountry": "JP"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.719782375395496,
+        "longitude": 139.77073111813516
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Tokyo University of the Arts - Global Art Practice (GAP)",
+      "url": "https://gap.geidai.ac.jp/"
+    },
+    "url": "https://nai-ken-ten-kai.github.io/",
+    "image": "https://nai-ken-ten-kai.github.io/poster/GAPbannerfinal.png"
+  }
+  </script>
 </head>
 <body data-page-title-ja="内見会">
   <div id="spaces-app">
     <header class="spaces-header sticky">
       <div class="header-main">
         <div class="header-left">
-          <div class="overlap-wrap" data-target="nai-ten-kai.html" style="cursor: pointer;">
+          <div class="overlap-wrap" data-target="ten.html" style="cursor: pointer;">
             <div class="logo-container">
-              <!-- Inline original SVG (nai_ken_kai.svg) with duplicate flip targets -->
-              <svg class="logo-svg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-                <defs>
-                  <style>
-                    .cls-1{fill:#999;letter-spacing:.08em;opacity:.42;font-size:542.06px}
-                    .cls-2{font-size:542.06px}
-                    .cls-3{fill:#666;font-family:MinionVariable,serif;font-size:144px;font-variation-settings:'wght' 700,'opsz' 36;font-weight:700}
-                    .cls-4{letter-spacing:.07em}.cls-5{letter-spacing:.02em}.cls-6{letter-spacing:.01em}.cls-7{letter-spacing:.04em}.cls-8{letter-spacing:0}
-                  </style>
-                </defs>
-                <text class="cls-2" transform="translate(82.84 680.53)"><tspan x="0" y="0">内見会</tspan></text>
-                <!-- primary big overlay character (visible) -->
-                <g class="kanji-primary" transform="translate(803.92 812.22)">
-                  <text class="cls-1"><tspan x="0" y="0">展</tspan></text>
-                </g>
-                <!-- alternate big character (hidden until flip) -->
-                <g class="kanji-secondary" transform="translate(803.92 812.22)">
+              <img src="logo/nai_ken_kai.svg" alt="Nai Ken Kai" class="logo-svg logo-primary" />
+              <img src="logo/nai_ten_kai.svg" alt="Nai Ten Kai" class="logo-svg logo-secondary" />
+            </div>
+          </div>
+          <div class="lang-switcher">
+            <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+            <span class="lang-separator">/</span>
+            <button id="lang-ja" class="lang-btn" aria-label="日本語に切り替え">日本語</button>
+          </div>
+        </div>
+        <a href="#about" data-i18n="about" class="about"></a>
+      </div>
+    </header>
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label><input type="checkbox" id="available-only"> Available Only</label>
+      </div>
+      <div class="filter-group" id="location-filters">
+        <!-- Location filter buttons will be injected here -->
+      </div>
+      <div class="filter-group" id="element-filters">
+        <!-- Element filter buttons will be injected here -->
+      </div>
+      <div class="filter-group" id="style-filters">
+        <!-- Style filter buttons will be injected here -->
+      </div>
+    </div>
+    <div class="results-summary" id="results-summary"></div>
+    <div id="spaces-grid" class="spaces-grid"></div>
+    <!-- Modal for space details -->
+    <div id="space-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close" id="modal-close">&times;</span>
+        <img id="modal-image" src="" alt="" class="modal-image" />
+        <div class="modal-info" id="modal-info"></div>
+        <div class="modal-status" id="modal-status"></div>
+      </div>
+    </div>
+    <!-- About modal -->
+    <div id="about-modal" class="modal" style="display:none;">
+      <div class="modal-content about-modal-content">
+        <span class="close" id="about-modal-close">&times;</span>
+        <div class="about-modal-info" id="about-modal-info"></div>
+      </div>
+    </div>
+  </div>
+  <script src="spaces.js?v=20250902-2"></script>
+  <script>
+    // Logo flip functionality with SVG files
+    function initLogoFlip() {
+      const logoContainer = document.querySelector('.logo-container');
+      const wrapper = document.querySelector('.overlap-wrap');
+  const autoFlipInterval = 15000; // slower cycle - 15 seconds
+  const flipDuration = 350; // ms matches CSS transition
+  const holdBeforeRevert = 0; // no hold, flip back immediately
+
+      function tempFlip() {
+        if (logoContainer.classList.contains('logo-flip')) return;
+        logoContainer.classList.add('logo-flip');
+        setTimeout(() => {
+          logoContainer.classList.remove('logo-flip');
+        }, flipDuration + holdBeforeRevert);
+      }
+
+      function persistentFlipAndNavigate(target) {
+  logoContainer.classList.add('logo-flip');
+  setTimeout(() => { window.location.href = target; }, flipDuration);
+      }
+
+      // Auto-flip periodically
+      const autoTimer = setInterval(() => {
+        if (!logoContainer.classList.contains('logo-flip')) {
+          tempFlip();
+        }
+      }, autoFlipInterval);
+
+      // Hover triggers a temp flip
+      wrapper.addEventListener('mouseenter', () => {
+        if (!logoContainer.classList.contains('logo-flip')) tempFlip();
+      });
+
+      // Click: persistent flip then navigate
+      wrapper.addEventListener('click', (ev) => {
+        const target = wrapper.getAttribute('data-target');
+        if (target) {
+          ev.preventDefault();
+          persistentFlipAndNavigate(target);
+        }
+      });
+
+      // On load: no persistent flip
+    }
+    
+    // Dynamically set the Japanese title from the data attribute (for future flexibility)
+    document.addEventListener('DOMContentLoaded', function() {
+      var pageTitleJa = document.body.getAttribute('data-page-title-ja');
+      if (pageTitleJa) {
+        var mainTitle = document.getElementById('main-title-ja');
+        if (mainTitle) mainTitle.textContent = pageTitleJa;
+        document.title = pageTitleJa;
+      }
+      
+      // Initialize logo flip animation
+      initLogoFlip();
+    });
+  </script>
+</body>
+</html>

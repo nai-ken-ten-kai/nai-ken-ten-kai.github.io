@@ -1,5 +1,8 @@
 // Spaces Catalog JavaScript
 document.addEventListener('DOMContentLoaded', function() {
+  // Ensure body allows scrolling (reset any leftover modal states)
+  document.body.style.overflow = '';
+  
   // Language state and translations
   let currentLang = 'en';
   const translations = {

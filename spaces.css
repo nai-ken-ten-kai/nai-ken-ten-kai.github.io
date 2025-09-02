@@ -116,6 +116,13 @@ h1 {
   box-sizing: border-box;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: visible; /* Allow vertical overflow to show scrollbar */
+}
+
+/* Ensure body allows vertical scrolling on spaces page */
+body {
+  overflow-y: auto !important;
+  overflow-x: hidden;
 }
 
 .spaces-header {

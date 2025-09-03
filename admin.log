@@ -1,0 +1,28 @@
+🚀 Starting Admin System on http://127.0.0.1:5006
+📁 Data will be saved to: /Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/spaces_new.json
+🖼️  Images will be saved to: /Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/img
+ * Serving Flask app 'admin_simple'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 599-284-260
+🚀 Starting Admin System on http://127.0.0.1:5006
+📁 Data will be saved to: /Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/spaces_new.json
+🖼️  Images will be saved to: /Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/img
+Traceback (most recent call last):
+  File "/Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/scripts/admin_simple.py", line 704, in <module>
+    main()
+  File "/Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/scripts/admin_simple.py", line 701, in main
+    app.run(host=args.host, port=args.port, debug=True)
+  File "/Users/admin/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 662, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/admin/Library/Python/3.9/lib/python/site-packages/werkzeug/serving.py", line 1115, in run_simple
+    run_with_reloader(
+  File "/Users/admin/Library/Python/3.9/lib/python/site-packages/werkzeug/_reloader.py", line 459, in run_with_reloader
+    ensure_echo_on()
+  File "/Users/admin/Library/Python/3.9/lib/python/site-packages/werkzeug/_reloader.py", line 439, in ensure_echo_on
+    termios.tcsetattr(sys.stdin, termios.TCSANOW, attributes)
+termios.error: (4, 'Interrupted system call')

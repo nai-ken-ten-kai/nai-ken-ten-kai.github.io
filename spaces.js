@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const translations = {
     en: {
     allSpaces: 'All Spaces',
+    shared: 'Shared',
   about: 'ⓘ',
       availableOnly: 'Available Only',
       available: 'Available',
@@ -87,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     ja: {
     allSpaces: '全スペース',
+    shared: '共有',
   about: 'ⓘ',
       availableOnly: '空きのみ',
       available: '空き',
@@ -320,16 +322,24 @@ document.addEventListener('DOMContentLoaded', function() {
     spacesList.forEach(space => {
       const card = document.createElement('div');
       card.className = 'space-card';
-  card.onclick = () => openSpaceModal(space);
+      card.onclick = () => openSpaceModal(space);
 
-  // For nai-ken-kai, show only the original image
-  const imageObj = space.original_image || (space.images && space.images.length > 0 ? space.images[0] : null);
-  const image = imageObj && (typeof imageObj === 'string' ? imageObj : imageObj.src);
-  const statusClass = space.status === 'available' ? 'status-available' : 'status-taken';
-  // Some admin actions set non-standard statuses like 'published'. For display,
-  // treat anything that isn't 'available' as 'taken'. Use translation keys.
-  const statusKey = space.status === 'available' ? 'available' : 'taken';
-  const statusText = (translations[currentLang] && translations[currentLang][statusKey]) || (statusKey === 'available' ? 'Available' : 'Taken');
+      // For nai-ken-kai, show only the original image
+      const imageObj = space.original_image || (space.images && space.images.length > 0 ? space.images[0] : null);
+      const image = imageObj && (typeof imageObj === 'string' ? imageObj : imageObj.src);
+
+      // Special handling for shared space (140)
+      let statusClass, statusText;
+      if (space.id === 140) {
+        statusClass = 'status-shared';
+        statusText = (translations[currentLang] && translations[currentLang].shared) || 'Shared';
+      } else {
+        statusClass = space.status === 'available' ? 'status-available' : 'status-taken';
+        // Some admin actions set non-standard statuses like 'published'. For display,
+        // treat anything that isn't 'available' as 'taken'. Use translation keys.
+        const statusKey = space.status === 'available' ? 'available' : 'taken';
+        statusText = (translations[currentLang] && translations[currentLang][statusKey]) || (statusKey === 'available' ? 'Available' : 'Taken');
+      }
 
       // Badges
       let badges = '';
@@ -384,25 +394,28 @@ document.addEventListener('DOMContentLoaded', function() {
   const modalStatus = document.getElementById('modal-status');
 
   function openSpaceModal(space) {
-    // Set image
-  const modalImageObj = space.images[0];
-  modalImage.src = modalImageObj && (typeof modalImageObj === 'string' ? modalImageObj : modalImageObj.src);
-  modalImage.alt = space.id;
-  // Always clear modal content first
-  modalInfo.innerHTML = '';
-  modalStatus.innerHTML = '';
-  let infoHtml = `<h2>${space.id}</h2>`;
-  if (space.status && space.status !== 'available') {
-    // Taken: show only taken message and contact (once)
-    infoHtml += `<div style='margin-bottom:0.7em;'>${translations[currentLang].alreadyTaken}</div>`;
-    infoHtml += `<div class="modal-contact"><b>${translations[currentLang].contact}</b> <a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">${translations[currentLang].instagram}</a> | <a href="mailto:nai.ken.ten.kai@gmail.com">${translations[currentLang].gmail}</a></div>`;
-    modalStatus.innerHTML = `<span class="space-status status-taken">${translations[currentLang].taken}</span>`;
-  } else {
-    // Available: show only rememberId (which already includes contact info)
-    infoHtml += `<div style='margin-bottom:0.7em;'>${translations[currentLang].rememberId}</div>`;
-    modalStatus.innerHTML = `<span class="space-status status-available">${translations[currentLang].available}</span>`;
-  }
-  modalInfo.innerHTML = infoHtml;
+    // Set image - handle both data structures
+    const modalImageObj = space.original_image || (space.images && space.images[0]);
+    modalImage.src = modalImageObj && (typeof modalImageObj === 'string' ? modalImageObj : modalImageObj.src);
+    modalImage.alt = space.id;
+    // Always clear modal content first
+    modalInfo.innerHTML = '';
+    modalStatus.innerHTML = '';
+    let infoHtml = `<h2>${space.id}</h2>`;
+    if (space.id === 140) {
+      infoHtml += `<div style='margin-bottom:0.7em;'>This is a shared projection space. Multiple artists may use it over time. Please check updates for details.</div>`;
+      modalStatus.innerHTML = `<span class="space-status status-shared">Shared</span>`;
+    } else if (space.status && space.status !== 'available') {
+      // Taken: show only taken message and contact (once)
+      infoHtml += `<div style='margin-bottom:0.7em;'>${translations[currentLang].alreadyTaken}</div>`;
+      infoHtml += `<div class="modal-contact"><b>${translations[currentLang].contact}</b> <a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">${translations[currentLang].instagram}</a> | <a href="mailto:nai.ken.ten.kai@gmail.com">${translations[currentLang].gmail}</a></div>`;
+      modalStatus.innerHTML = `<span class="space-status status-taken">${translations[currentLang].taken}</span>`;
+    } else {
+      // Available: show only rememberId (which already includes contact info)
+      infoHtml += `<div style='margin-bottom:0.7em;'>${translations[currentLang].rememberId}</div>`;
+      modalStatus.innerHTML = `<span class="space-status status-available">${translations[currentLang].available}</span>`;
+    }
+    modalInfo.innerHTML = infoHtml;
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
     // Reset scroll position to top

@@ -712,6 +712,12 @@ body {
   background: #f44336;
 }
 
+.status-shared {
+  background: #43c97f;
+  color: #fff;
+}
+}
+
 /* Modal for space details */
 .modal {
   display: none;

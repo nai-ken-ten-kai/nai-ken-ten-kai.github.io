@@ -210,7 +210,7 @@
         "taken_at": "2025-08-21T09:26:40"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -222,8 +222,7 @@
     "description_ja": "テレビアンテナのある木",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-01T05:50:36.950710",
-    "taken_note": "",
-    "unpublished_at": "2025-09-03T16:20:17.308490"
+    "taken_note": ""
   },
   {
     "id": 12,
@@ -2080,7 +2079,7 @@
         "taken_at": "2025-08-21T11:25:05"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -2089,16 +2088,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "男がタバコを持っています",
-    "taken_by": "leo je-eon lee",
-    "taken_at": "2025-09-03T16:00:56.999126",
-    "instruction_text": "print this picture and hang it in that space",
-    "instruction_images": [
-      {
-        "src": "img/instruction-95-20250903160056/leo.jpg",
-        "taken_at": "2025-09-03T16:00:56.999067"
-      }
-    ]
+    "description_ja": "男がタバコを持っています"
   },
   {
     "id": 96,

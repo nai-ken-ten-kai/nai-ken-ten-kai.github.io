@@ -210,7 +210,7 @@
         "taken_at": "2025-08-21T09:26:40"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -222,8 +222,7 @@
     "description_ja": "テレビアンテナのある木",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-01T05:50:36.950710",
-    "taken_note": "",
-    "unpublished_at": "2025-09-03T16:20:17.308490"
+    "taken_note": ""
   },
   {
     "id": 12,
@@ -1600,7 +1599,7 @@
         "taken_at": "2025-08-21T09:23:40"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "air"
@@ -1613,25 +1612,7 @@
     "clip_activity": "hanging",
     "description_ja": "小さな窓のある窓",
     "taken_by": "Samridhi P.",
-    "taken_at": "2025-09-02T13:10:36.759403",
-    "updates": [
-      {
-        "author": "Samridhi Pokhrel & Nirvik Maskey",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-74-20250903155607/DSC0881.jpg",
-            "taken_at": "2025-09-03T17:28:47",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-03T15:56:07.219128",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Samridhi Pokhrel & Nirvik Maskey",
-    "modified_at": "2025-09-03T15:56:07.219150"
+    "taken_at": "2025-09-02T13:10:36.759403"
   },
   {
     "id": 75,
@@ -2080,7 +2061,7 @@
         "taken_at": "2025-08-21T11:25:05"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -2089,16 +2070,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "男がタバコを持っています",
-    "taken_by": "leo je-eon lee",
-    "taken_at": "2025-09-03T16:00:56.999126",
-    "instruction_text": "print this picture and hang it in that space",
-    "instruction_images": [
-      {
-        "src": "img/instruction-95-20250903160056/leo.jpg",
-        "taken_at": "2025-09-03T16:00:56.999067"
-      }
-    ]
+    "description_ja": "男がタバコを持っています"
   },
   {
     "id": 96,

@@ -65,11 +65,13 @@ def export_timeline(spaces=None):
                     supplementary_imgs = update['images'][1:]
                 
                 if primary_img:
+                    # Use primary image's taken_at (EXIF time) instead of upload time
+                    image_taken_at = primary_img.get('taken_at', update['created_at'])
                     timeline_event = {
                         'space_id': space_id,
                         'type': 'update',
                         'images': [primary_img] + supplementary_imgs,
-                        'taken_at': update['created_at'],
+                        'taken_at': image_taken_at,
                         'author': update.get('author', 'Unknown'),
                         'text': update.get('text', ''),
                         'action': update.get('action', 'update'),

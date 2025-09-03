@@ -192,7 +192,7 @@
   {
     "id": 20,
     "description": "a wooden door with paper taped to it",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0020.jpg",
@@ -282,7 +282,7 @@
   {
     "id": 29,
     "description": "a shelf with a shelf on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0029.jpg",
@@ -1396,7 +1396,7 @@
     "artist": [],
     "original_image": {
       "src": "img/140-20250903034601/DSC0879.jpg",
-      "taken_at": "2025-09-03T12:00:01.452481"
+      "taken_at": "2025-09-03T10:27:18"
     }
   }
 ]

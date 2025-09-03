@@ -86,9 +86,14 @@ ADMIN_TEMPLATE = """
                 <button class="btn btn-warning" onclick="openModal('takenModal')">Mark Taken</button>
             </div>
             <div class="action-card">
-                <h3>📸 Add Update</h3>
-                <p>Upload final artwork photos</p>
+                <h3>📸 Space Updates</h3>
+                <p>Upload new artwork photos and updates</p>
                 <button class="btn btn-success" onclick="openModal('updateModal')">Add Update</button>
+            </div>
+            <div class="action-card">
+                <h3>📝 Manage Space</h3>
+                <p>Unpublish or add instructions to existing spaces</p>
+                <button class="btn btn-warning" onclick="openModal('manageModal')">Manage Space</button>
             </div>
         </div>
 
@@ -109,6 +114,9 @@ ADMIN_TEMPLATE = """
                     <button class="btn btn-warning" onclick="markTaken({{ space.id }})">Mark Taken</button>
                     {% elif space.status == 'taken' %}
                     <button class="btn btn-success" onclick="addUpdate({{ space.id }})">Add Update</button>
+                    {% elif space.status == 'published' %}
+                    <button class="btn btn-success" onclick="addUpdate({{ space.id }})">Add Update</button>
+                    <button class="btn btn-warning" onclick="manageSpace({{ space.id }})">Manage</button>
                     {% endif %}
                 </div>
             </div>
@@ -176,7 +184,7 @@ ADMIN_TEMPLATE = """
     <div id="updateModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('updateModal')">&times;</span>
-            <h3>Add Update to Space</h3>
+            <h3>Add Space Update</h3>
             <form id="updateForm" enctype="multipart/form-data">
                 <div class="form-group">
                     <label>Space ID:</label>
@@ -191,7 +199,7 @@ ADMIN_TEMPLATE = """
                     <textarea name="update_text"></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Final Photos:</label>
+                    <label>Update Photos:</label>
                     <input type="file" name="final_files" multiple accept="image/*" required>
                 </div>
                 <div class="form-group">
@@ -204,6 +212,42 @@ ADMIN_TEMPLATE = """
                 <div class="form-actions">
                     <button type="submit" class="btn btn-success">Add Update</button>
                     <button type="button" class="btn" onclick="closeModal('updateModal')">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Manage Space Modal -->
+    <div id="manageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('manageModal')">&times;</span>
+            <h3>Manage Space</h3>
+            <form id="manageForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Space ID:</label>
+                    <input type="number" name="space_id" required>
+                </div>
+                <div class="form-group">
+                    <label>Action:</label>
+                    <select name="action" onchange="toggleManageOptions()" required>
+                        <option value="">Select action</option>
+                        <option value="unpublish">Unpublish Space</option>
+                        <option value="add_instructions">Add/Update Instructions</option>
+                    </select>
+                </div>
+                <div id="instructionOptions" style="display: none;">
+                    <div class="form-group">
+                        <label>Instructions:</label>
+                        <textarea name="instructions" placeholder="Add instructions for the artist"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Instruction Images (optional):</label>
+                        <input type="file" name="instruction_files" multiple accept="image/*">
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-warning">Apply Changes</button>
+                    <button type="button" class="btn" onclick="closeModal('manageModal')">Cancel</button>
                 </div>
             </form>
         </div>
@@ -228,6 +272,21 @@ ADMIN_TEMPLATE = """
         function addUpdate(spaceId) {
             document.querySelector('#updateForm input[name="space_id"]').value = spaceId;
             openModal('updateModal');
+        }
+
+        function manageSpace(spaceId) {
+            document.querySelector('#manageForm input[name="space_id"]').value = spaceId;
+            openModal('manageModal');
+        }
+
+        function toggleManageOptions() {
+            const action = document.querySelector('#manageForm select[name="action"]').value;
+            const instructionOptions = document.getElementById('instructionOptions');
+            if (action === 'add_instructions') {
+                instructionOptions.style.display = 'block';
+            } else {
+                instructionOptions.style.display = 'none';
+            }
         }
 
         function showResult(message, type) {
@@ -295,6 +354,29 @@ ADMIN_TEMPLATE = """
                 if (result.ok) {
                     showResult(`Update added to space ${formData.get('space_id')}!`, 'success');
                     closeModal('updateModal');
+                    location.reload();
+                } else {
+                    showResult(`Error: ${result.error}`, 'error');
+                }
+            } catch (error) {
+                showResult(`Error: ${error.message}`, 'error');
+            }
+        });
+
+        document.getElementById('manageForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            try {
+                const response = await fetch('/manage_space', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                if (result.ok) {
+                    const action = formData.get('action');
+                    const actionText = action === 'unpublish' ? 'unpublished' : 'updated with instructions';
+                    showResult(`Space ${formData.get('space_id')} ${actionText}!`, 'success');
+                    closeModal('manageModal');
                     location.reload();
                 } else {
                     showResult(`Error: ${result.error}`, 'error');
@@ -545,6 +627,59 @@ def add_update():
         
         space['modified_by'] = artist_name
         space['modified_at'] = datetime.utcnow().isoformat()
+        
+        backup_and_write_spaces(spaces)
+        
+        return jsonify({'ok': True})
+        
+    except Exception as e:
+        return jsonify({'ok': False, 'error': str(e)})
+
+@app.route('/manage_space', methods=['POST'])
+def manage_space():
+    """Manage space: unpublish or add instructions"""
+    try:
+        space_id = int(request.form.get('space_id'))
+        action = request.form.get('action')
+        
+        spaces = read_spaces()
+        
+        # Find the space
+        space = None
+        for s in spaces:
+            if s.get('id') == space_id:
+                space = s
+                break
+        
+        if not space:
+            return jsonify({'ok': False, 'error': f'Space {space_id} not found'})
+        
+        if action == 'unpublish':
+            # Change status back to taken
+            space['status'] = 'taken'
+            space['unpublished_at'] = datetime.utcnow().isoformat()
+            
+        elif action == 'add_instructions':
+            instructions = request.form.get('instructions', '')
+            instruction_files = request.files.getlist('instruction_files')
+            
+            # Save instruction files if any
+            instruction_images = []
+            if instruction_files and any(f.filename for f in instruction_files):
+                folder_name = f"instruction-{space_id}-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}"
+                instruction_images = save_uploaded_files(instruction_files, folder_name)
+            
+            # Update instructions
+            space['instruction_text'] = instructions
+            if instruction_images:
+                if 'instruction_images' not in space:
+                    space['instruction_images'] = []
+                space['instruction_images'].extend(instruction_images)
+            
+            space['instructions_updated_at'] = datetime.utcnow().isoformat()
+        
+        else:
+            return jsonify({'ok': False, 'error': 'Invalid action'})
         
         backup_and_write_spaces(spaces)
         

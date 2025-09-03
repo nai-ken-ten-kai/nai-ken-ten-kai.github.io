@@ -210,7 +210,7 @@
         "taken_at": "2025-08-21T09:26:40"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -222,8 +222,7 @@
     "description_ja": "テレビアンテナのある木",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-01T05:50:36.950710",
-    "taken_note": "",
-    "unpublished_at": "2025-09-03T16:20:17.308490"
+    "taken_note": ""
   },
   {
     "id": 12,

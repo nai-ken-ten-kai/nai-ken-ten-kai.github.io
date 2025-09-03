@@ -1946,36 +1946,6 @@
     "action": "original"
   },
   {
-    "space_id": 140,
-    "type": "original",
-    "images": [
-      {
-        "src": "img/140-20250903034601/DSC0879.jpg",
-        "taken_at": "2025-09-03T10:27:18"
-      }
-    ],
-    "taken_at": "2025-09-03T10:27:18",
-    "author": "Admin",
-    "text": "Original state",
-    "action": "original"
-  },
-  {
-    "space_id": 74,
-    "type": "update",
-    "images": [
-      {
-        "src": "img/update-74-20250903155607/DSC0881.jpg",
-        "taken_at": "2025-09-03T17:28:47",
-        "role": "primary"
-      }
-    ],
-    "taken_at": "2025-09-03T17:28:47",
-    "author": "Samridhi Pokhrel & Nirvik Maskey",
-    "text": "",
-    "action": "update",
-    "status": "published"
-  },
-  {
     "space_id": 20,
     "type": "update",
     "images": [
@@ -1985,10 +1955,40 @@
         "role": "primary"
       }
     ],
-    "taken_at": "2025-09-03T18:18:42",
+    "taken_at": "2025-09-03T09:43:34.492798",
     "author": "Lennart Haffner",
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 20,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-20-20250903094515/DSC0886.jpg",
+        "taken_at": "2025-09-03T18:18:42",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-03T09:45:15.989478",
+    "author": "Lennart Haffner",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 140,
+    "type": "original",
+    "images": [
+      {
+        "src": "img/140-20250903034601/DSC0879.jpg",
+        "taken_at": "2025-09-03T12:00:01.452481"
+      }
+    ],
+    "taken_at": "2025-09-03T12:00:01.452481",
+    "author": "Admin",
+    "text": "Original state",
+    "action": "original"
   }
 ]

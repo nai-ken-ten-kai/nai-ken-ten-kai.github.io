@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>内展会</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="spaces.css">
+</head>
+<body data-page-title-ja="内展会">
+  <div id="spaces-app">
+    <header class="spaces-header sticky">
+      <div class="header-main">
+        <div class="header-left">
+          <div class="overlap-wrap" onclick="window.location.href='nai-ten-kai.html'" style="cursor: pointer;">
+            <img src="logo/nai_ken_kai.svg" alt="Nai Ken Kai" class="header-logo" />
+          </div>
+          <nav class="header-nav">
+            <a href="#about">About</a>
+          </nav>
+        </div>
+        <div class="lang-switcher">
+          <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+          <span class="lang-separator">/</span>
+          <button id="lang-ja" class="lang-btn" aria-label="日本語に切り替え">日本語</button>
+        </div>
+      </div>
+    </header>
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label><input type="checkbox" id="available-only"> Available Only</label>
+      </div>
+      <div class="filter-group" id="location-filters">
+        <!-- Location filter buttons will be injected here -->
+      </div>
+      <div class="filter-group" id="element-filters">
+        <!-- Element filter buttons will be injected here -->
+      </div>
+      <div class="filter-group" id="style-filters">
+        <!-- Style filter buttons will be injected here -->
+      </div>
+    </div>
+    <div class="results-summary" id="results-summary"></div>
+    <div id="spaces-grid" class="spaces-grid"></div>
+    <!-- Modal for space details -->
+    <div id="space-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close" id="modal-close">&times;</span>
+        <img id="modal-image" src="" alt="" class="modal-image" style="max-width:90vw; max-height:60vh; display:block; margin:0 auto 1em auto;" />
+        <div class="modal-info" id="modal-info"></div>
+        <div class="modal-contact">
+          <p><b>Contact:</b>
+            <a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank">Instagram</a> |
+            <a href="mailto:nai.ken.ten.kai@gmail.com">Gmail</a>
+          </p>
+        </div>
+        <div class="modal-instructions">
+          <p><b>Please remember the ID of this image when contacting us. Since it takes time to update the website there is chance that the space you want is already taken, so if you have second/third option it would also be great.<br>お問い合わせの際はこの画像のIDをお伝えください。ウェブサイト更新に時間がかかりますので、すでに埋められている可能性があります。第二、第三の選択肢があればそれも教えていただけると幸いです。</b></p>
+        </div>
+        <div class="modal-status" id="modal-status"></div>
+      </div>
+    </div>
+  </div>
+  <script src="spaces.js"></script>
+  <script>
+    // Dynamically set the Japanese title from the data attribute (for future flexibility)
+    document.addEventListener('DOMContentLoaded', function() {
+      var pageTitleJa = document.body.getAttribute('data-page-title-ja');
+      if (pageTitleJa) {
+        var mainTitle = document.getElementById('main-title-ja');
+        if (mainTitle) mainTitle.textContent = pageTitleJa;
+        document.title = pageTitleJa;
+      }
+    });
+  </script>
+</body>
+</html></content>
+<filePath>/Users/admin/Documents/GitHub/nai-ken-ten-kai.github.io/spaces.html

@@ -19,7 +19,7 @@ function formatTimeGroup(date) {
   return `${startTime} ~ ${endTime}`;
 }
 
-fetch('spaces_timeline.json')
+fetch('spaces_new.json')
   .then(r => r.json())
   .then(data => {
     // Flatten all originals and updates with their space id

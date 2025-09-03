@@ -335,7 +335,7 @@
         "taken_at": "2025-08-21T09:18:51"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -347,11 +347,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "lying",
-    "description_ja": "壁の照明器具",
-    "taken_by": "Tim Lode",
-    "taken_at": "2025-09-03T03:39:34.765551",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "壁の照明器具"
   },
   {
     "id": 18,
@@ -406,7 +402,7 @@
     ],
     "status": "taken",
     "taken_by": "Lennart Haffner",
-    "taken_at": "2025-09-02T16:52:34.889199",
+    "taken_at": "2025-09-02T16:35:40.189890",
     "note": "",
     "location": "inside",
     "element": [],
@@ -539,7 +535,7 @@
         "taken_at": "2025-08-21T08:50:39"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -551,11 +547,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製の窓のある木製の窓",
-    "taken_by": "Wendi",
-    "taken_at": "2025-09-03T03:46:56.560319",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 27,
@@ -1683,7 +1675,7 @@
         "taken_at": "2025-08-21T09:33:12"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1694,11 +1686,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "木製の梁のある木製の天井",
-    "taken_by": "Tim Lode",
-    "taken_at": "2025-09-03T03:39:46.768554",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の梁のある木製の天井"
   },
   {
     "id": 80,
@@ -2052,7 +2040,7 @@
         "taken_at": "2025-08-21T11:25:19"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -2063,11 +2051,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "男が椅子に座っています",
-    "taken_by": "Chuchun Hsu",
-    "taken_at": "2025-09-03T03:38:00.867615",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "男が椅子に座っています"
   },
   {
     "id": 97,
@@ -2987,19 +2971,5 @@
     "clip_type": "door",
     "clip_activity": "playing",
     "description_ja": "リングが付いた青いドア"
-  },
-  {
-    "id": 140,
-    "description": "A projection space in the storage room",
-    "images": [
-      {
-        "src": "img/140-20250903034601/DSC0879.jpg",
-        "taken_at": "2025-09-03T03:46:01.452481"
-      }
-    ],
-    "created_by": "Admin",
-    "created_at": "2025-09-03T03:46:01.452493",
-    "status": "available",
-    "updates": []
   }
 ]

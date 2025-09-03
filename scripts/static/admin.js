@@ -67,6 +67,7 @@ document.getElementById('mark-spaces').addEventListener('click', async function(
   const spaceIds = document.getElementById('space_ids').value.trim();
   const takenBy = document.getElementById('taken_by').value.trim();
   const note = document.getElementById('taken_note').value.trim();
+  // Instructions are from the participant/artist
   const instructionText = document.getElementById('instruction_text').value.trim();
   const instructionFiles = document.getElementById('instruction-files').files;
 

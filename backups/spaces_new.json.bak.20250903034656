@@ -539,7 +539,7 @@
         "taken_at": "2025-08-21T08:50:39"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -551,11 +551,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製の窓のある木製の窓",
-    "taken_by": "Wendi",
-    "taken_at": "2025-09-03T03:46:56.560319",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 27,

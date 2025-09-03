@@ -219,8 +219,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set initial language (after all DOM assignments and variable declarations)
   setLang('en');
 
-  // Load spaces data (now from unified spaces_new.json)
-  fetch('spaces_new.json')
+  // Load spaces data (optimized for frontend)
+  fetch('spaces_optimized.json')
     .then(response => response.json())
     .then(data => {
       spaces = data;
@@ -322,8 +322,8 @@ document.addEventListener('DOMContentLoaded', function() {
       card.className = 'space-card';
   card.onclick = () => openSpaceModal(space);
 
-  // For nai-ken-kai, show only the original image (first in images)
-  const imageObj = space.images && space.images.length > 0 ? space.images[0] : null;
+  // For nai-ken-kai, show only the original image
+  const imageObj = space.original_image || (space.images && space.images.length > 0 ? space.images[0] : null);
   const image = imageObj && (typeof imageObj === 'string' ? imageObj : imageObj.src);
   const statusClass = space.status === 'available' ? 'status-available' : 'status-taken';
   // Some admin actions set non-standard statuses like 'published'. For display,

@@ -210,7 +210,7 @@
         "taken_at": "2025-08-21T09:26:40"
       }
     ],
-    "status": "available",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -219,7 +219,10 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "テレビアンテナのある木"
+    "description_ja": "テレビアンテナのある木",
+    "taken_by": "Piu Lee",
+    "taken_at": "2025-09-01T05:50:36.950710",
+    "taken_note": ""
   },
   {
     "id": 12,
@@ -332,7 +335,7 @@
         "taken_at": "2025-08-21T09:18:51"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [
       "wall",
@@ -344,7 +347,11 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "lying",
-    "description_ja": "壁の照明器具"
+    "description_ja": "壁の照明器具",
+    "taken_by": "Tim Lode",
+    "taken_at": "2025-09-03T03:39:34.765551",
+    "instruction_text": "",
+    "instruction_images": []
   },
   {
     "id": 18,
@@ -397,7 +404,10 @@
         "taken_at": "2025-08-21T08:44:18"
       }
     ],
-    "status": "available",
+    "status": "taken",
+    "taken_by": "Lennart Haffner",
+    "taken_at": "2025-09-02T16:52:34.889199",
+    "note": "",
     "location": "inside",
     "element": [],
     "style": [
@@ -1205,7 +1215,10 @@
         "taken_at": "2025-08-21T09:16:27"
       }
     ],
-    "status": "available",
+    "status": "taken",
+    "taken_by": "ACONITO",
+    "taken_at": "2025-09-02T01:44:34",
+    "note": "",
     "location": "inside",
     "element": [],
     "style": [
@@ -1376,7 +1389,10 @@
         "taken_at": "2025-08-21T09:17:32"
       }
     ],
-    "status": "available",
+    "status": "taken",
+    "taken_by": "Piu Lee",
+    "taken_at": "2025-09-02T00:56:57",
+    "note": "",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1550,7 +1566,7 @@
         "taken_at": "2025-08-21T09:23:40"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [
       "air"
@@ -1561,7 +1577,9 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "小さな窓のある窓"
+    "description_ja": "小さな窓のある窓",
+    "taken_by": "Samridhi P.",
+    "taken_at": "2025-09-02T13:10:36.759403"
   },
   {
     "id": 75,
@@ -2026,7 +2044,7 @@
         "taken_at": "2025-08-21T11:25:19"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [
       "air"
@@ -2037,7 +2055,11 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "男が椅子に座っています"
+    "description_ja": "男が椅子に座っています",
+    "taken_by": "Chuchun Hsu",
+    "taken_at": "2025-09-03T03:38:00.867615",
+    "instruction_text": "",
+    "instruction_images": []
   },
   {
     "id": 97,

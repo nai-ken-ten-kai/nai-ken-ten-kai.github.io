@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline Gallery</title>
+  <link rel="stylesheet" href="style.css?v=20250902-2">
+  <link rel="stylesheet" href="spaces.css?v=20250902-2">
+  <link rel="stylesheet" href="timeline-gallery.css?v=20250902-2">
+</head>
+<body data-page-title-ja="内天界">
+  <div id="timeline-app">
+    <header class="spaces-header sticky">
+      <div class="header-main">
+        <div class="header-left">
+          <div class="overlap-wrap" data-target="ken.html" style="cursor: pointer;">
+            <div class="logo-container">
+              <img src="logo/nai_ten_kai.svg" alt="Nai Ten Kai" class="logo-svg logo-primary" />
+              <img src="logo/nai_ken_kai.svg" alt="Nai Ken Kai" class="logo-svg logo-secondary" />
+            </div>
+          </div>
+          <div class="lang-switcher">
+            <button id="lang-en" class="lang-btn" aria-label="Switch to English">EN</button>
+            <span class="lang-separator">/</span>
+            <button id="lang-ja" class="lang-btn" aria-label="日本語に切り替え">日本語</button>
+          </div>
+        </div>
+        <a href="#about" data-i18n="about" class="about">ⓘ</a>
+      </div>
+    </header>
+    <div id="timeline-gallery"></div>
+  </div>
+
+  <!-- About Modal -->
+  <div id="about-modal" class="modal" style="display:none;">
+    <div class="modal-content about-modal-content">
+      <span class="close" id="about-modal-close">&times;</span>
+      <div class="about-modal-info" id="about-modal-info"></div>
+    </div>
+  </div>
+
+  <script src="spaces.js"></script>
+  <script>
+    // Logo flip functionality with SVG files
+    function initLogoFlip() {
+      const logoContainer = document.querySelector('.logo-container');
+      const wrapper = document.querySelector('.overlap-wrap');
+      const autoFlipInterval = 15000; // 15 seconds
+      const flipDuration = 350; // ms matches CSS
+      const holdBeforeRevert = 0; // no hold
+
+      function tempFlip() {
+        if (logoContainer.classList.contains('logo-flip')) return;
+        logoContainer.classList.add('logo-flip');
+        setTimeout(() => logoContainer.classList.remove('logo-flip'), flipDuration);
+      }
+
+      function persistentFlipAndNavigate(target) {
+        logoContainer.classList.add('logo-flip');
+        setTimeout(() => { window.location.href = target; }, flipDuration);
+      }
+
+      // Auto-flip periodically
+      const autoTimer = setInterval(() => {
+        if (!logoContainer.classList.contains('logo-flip')) {
+          tempFlip();
+        }
+      }, autoFlipInterval);
+
+      // Hover triggers a temp flip
+      wrapper.addEventListener('mouseenter', () => {
+        if (!logoContainer.classList.contains('logo-flip')) tempFlip();
+      });
+
+      // Click: persistent flip then navigate
+      wrapper.addEventListener('click', (ev) => {
+        const target = wrapper.getAttribute('data-target');
+        if (target) {
+          ev.preventDefault();
+          persistentFlipAndNavigate(target);
+        }
+      });
+
+      // On load: no persistent flip
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize logo flip animation
+      initLogoFlip();
+    });
+  </script>
+  <script src="timeline-gallery.js?v=20250902-2"></script>
+</body>
+</html>

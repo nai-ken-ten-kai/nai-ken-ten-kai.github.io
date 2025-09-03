@@ -539,7 +539,7 @@
         "taken_at": "2025-08-21T08:50:39"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -551,11 +551,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製の窓のある木製の窓",
-    "taken_by": "Wendi",
-    "taken_at": "2025-09-03T03:46:56.560319",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 27,
@@ -2987,19 +2983,5 @@
     "clip_type": "door",
     "clip_activity": "playing",
     "description_ja": "リングが付いた青いドア"
-  },
-  {
-    "id": 140,
-    "description": "A projection space in the storage room",
-    "images": [
-      {
-        "src": "img/140-20250903034601/DSC0879.jpg",
-        "taken_at": "2025-09-03T03:46:01.452481"
-      }
-    ],
-    "created_by": "Admin",
-    "created_at": "2025-09-03T03:46:01.452493",
-    "status": "available",
-    "updates": []
   }
 ]

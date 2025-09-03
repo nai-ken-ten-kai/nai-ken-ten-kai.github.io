@@ -7,7 +7,7 @@ Three main functions:
 3. Mark space as updated
 """
 from flask import Flask, render_template_string, request, jsonify, send_from_directory
-import os, json, shutil, argparse
+import os, json, shutil, argparse, subprocess
 from datetime import datetime
 from werkzeug.utils import secure_filename
 
@@ -346,6 +346,37 @@ def backup_and_write_spaces(spaces):
     except Exception as e:
         print(f"⚠️  Warning: Could not update export files: {e}")
 
+def get_exif_taken_at(img_path):
+    """Extract EXIF timestamp from image file"""
+    import subprocess
+    try:
+        result = subprocess.run([
+            'exiftool',
+            '-CreateDate',
+            '-DateTimeOriginal',
+            img_path
+        ], capture_output=True, text=True, check=True)
+        lines = result.stdout.splitlines()
+        date_value = None
+        for line in lines:
+            if 'Date/Time Original' in line or 'Create Date' in line:
+                # exiftool output: 'Create Date                     : 2025:08:21 09:21:34'
+                parts = line.split(':', 1)
+                if len(parts) == 2:
+                    date_str = parts[1].strip()
+                    # Convert 'YYYY:MM:DD HH:MM:SS' to ISO 8601 'YYYY-MM-DDTHH:MM:SS'
+                    try:
+                        dt = datetime.strptime(date_str, '%Y:%m:%d %H:%M:%S')
+                        return dt.isoformat()
+                    except Exception:
+                        # If parsing fails, try alternative format
+                        date_value = date_str.replace(' ', 'T').replace(':', '-', 2)
+                    break
+        return date_value
+    except Exception as e:
+        print(f"Error extracting EXIF from {img_path}: {e}")
+        return None
+
 def save_uploaded_files(files, folder_name):
     """Save uploaded files and return file info"""
     folder_path = os.path.join(IMG_DIR, folder_name)
@@ -359,9 +390,14 @@ def save_uploaded_files(files, folder_name):
             file.save(file_path)
             
             rel_path = os.path.relpath(file_path, ROOT).replace('\\', '/')
+            
+            # Try to extract EXIF timestamp, fallback to upload time
+            exif_timestamp = get_exif_taken_at(file_path)
+            taken_at = exif_timestamp if exif_timestamp else datetime.utcnow().isoformat()
+            
             saved_files.append({
                 'src': rel_path,
-                'taken_at': datetime.utcnow().isoformat()
+                'taken_at': taken_at
             })
     
     return saved_files

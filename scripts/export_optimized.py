@@ -18,7 +18,6 @@ OUT = os.path.join(ROOT, 'spaces_optimized.json')
 
 
 def export_optimized(spaces=None):
-    """Export optimized spaces data for frontend use"""
     if spaces is None:
         with open(SP_NEW, 'r', encoding='utf-8') as f:
             spaces = json.load(f)
@@ -53,7 +52,6 @@ def export_optimized(spaces=None):
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"Exported {len(result)} spaces to {OUT}")
-    return result
 
 if __name__ == "__main__":
     export_optimized()

@@ -22,37 +22,39 @@ function formatTimeGroup(date) {
 fetch('spaces_timeline.json')
   .then(r => r.json())
   .then(data => {
-    // Flatten all originals and updates with their space id
+    // Timeline data is already flattened into events
     let allPosts = [];
-    data.forEach(space => {
-      // Include original if it has taken_at
-      if (space.images && space.images.length > 0 && space.images[0].taken_at) {
+    
+    // Group timeline events by space_id to reconstruct space structure for modal
+    const spaceEvents = {};
+    data.forEach(event => {
+      const spaceId = event.space_id;
+      if (!spaceEvents[spaceId]) {
+        spaceEvents[spaceId] = {
+          id: spaceId,
+          originals: [],
+          updates: []
+        };
+      }
+      
+      if (event.type === 'original') {
+        spaceEvents[spaceId].originals.push(event);
+      } else if (event.type === 'update') {
+        spaceEvents[spaceId].updates.push(event);
+      }
+      
+      // Add to allPosts for timeline display
+      if (event.images && event.images.length > 0) {
         allPosts.push({
-          id: space.id,
-          type: 'original',
-          src: space.images[0].src,
-          taken_at: space.images[0].taken_at,
-          author: space.created_by || 'Original',
-          text: 'Original state',
-          supplementary: []
+          id: spaceId,
+          type: event.type,
+          src: event.images[0].src,
+          taken_at: event.taken_at,
+          author: event.author || 'Unknown',
+          text: event.text || (event.type === 'original' ? 'Original state' : ''),
+          supplementary: event.images.slice(1) // Additional images beyond the first
         });
       }
-      // Include updates
-      (space.updates || []).forEach(upd => {
-        if (upd && upd.images && upd.images.length > 0) {
-          const primaryImg = upd.images.find(im => im.role === 'primary') || upd.images[0];
-          allPosts.push({
-            id: space.id,
-            type: 'update',
-            update: upd,
-            src: primaryImg.src,
-            taken_at: upd.created_at,
-            author: upd.author || 'Unknown',
-            text: upd.text || '',
-            supplementary: upd.images.filter(im => im.role !== 'primary')
-          });
-        }
-      });
     });
     // Group by date, then by 30-min interval
     const dateGroups = {};
@@ -98,30 +100,39 @@ fetch('spaces_timeline.json')
           imgEl.src = post.src;
           imgEl.alt = post.id;
           imgEl.onclick = () => {
-            // Find the space for this post
-            const space = data.find(s => s.id == post.id);
+            // Find the space events for this post
+            const spaceId = post.id;
+            const space = spaceEvents[spaceId];
             if (!space) return;
-            // Build events: original, then each update
+            
+            // Build events: originals first, then updates in chronological order
             const events = [];
-            // Original
-            if (space.images && space.images.length > 0) {
-              events.push({
-                type: 'original',
-                img: space.images[0].src,
-                info: '<b>Original State</b>',
-                supp: []
-              });
-            }
-            // Updates
-            (space.updates || []).forEach(upd => {
+            
+            // Add original events
+            space.originals.forEach(orig => {
+              if (orig.images && orig.images.length > 0) {
+                const timestamp = orig.taken_at ? new Date(orig.taken_at).toLocaleString() : 'Unknown time';
+                events.push({
+                  type: 'original',
+                  img: orig.images[0].src,
+                  info: `<b>Space ${spaceId}</b><br><small>${timestamp}</small>`,
+                  supp: orig.images.slice(1).map(im => im.src)
+                });
+              }
+            });
+            
+            // Add update events, sorted by taken_at
+            space.updates.sort((a, b) => (a.taken_at || '').localeCompare(b.taken_at || ''));
+            space.updates.forEach(upd => {
               if (upd.images && upd.images.length > 0) {
-                const mainImg = upd.images.find(im => im.role === 'primary') || upd.images[0];
-                const suppImgs = upd.images.filter(im => im !== mainImg);
+                const timestamp = upd.taken_at ? new Date(upd.taken_at).toLocaleString() : 'Unknown time';
+                const authorInfo = upd.author ? `<b>${upd.author}</b><br>` : '';
+                const updateText = upd.text ? `${upd.text}<br>` : '';
                 events.push({
                   type: 'update',
-                  img: mainImg.src,
-                  info: `<b>${upd.author || ''}</b><br>${upd.text || ''}`,
-                  supp: suppImgs.map(im => im.src)
+                  img: upd.images[0].src,
+                  info: `${authorInfo}${updateText}<small>${timestamp}</small>`,
+                  supp: upd.images.slice(1).map(im => im.src)
                 });
               }
             });

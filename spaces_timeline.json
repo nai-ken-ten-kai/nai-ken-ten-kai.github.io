@@ -2054,5 +2054,21 @@
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 11,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-11-20250904041810/DSC0911.jpg",
+        "taken_at": "2025-09-04T13:01:59",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-04T13:01:59",
+    "author": "Piu Lee",
+    "text": "",
+    "action": "update",
+    "status": "published"
   }
 ]

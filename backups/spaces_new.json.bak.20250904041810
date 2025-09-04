@@ -238,24 +238,10 @@
         ],
         "created_at": "2025-09-04T03:54:41.773826",
         "status": "published"
-      },
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-11-20250904041810/DSC0911.jpg",
-            "taken_at": "2025-09-04T13:01:59",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T04:18:10.523645",
-        "status": "published"
       }
     ],
     "modified_by": "Piu Lee",
-    "modified_at": "2025-09-04T04:18:10.523672"
+    "modified_at": "2025-09-04T03:54:41.773862"
   },
   {
     "id": 12,
@@ -543,7 +529,7 @@
         "taken_at": "2025-08-21T08:45:21"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -555,11 +541,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製の窓のある木製の窓",
-    "taken_by": "Jiawei",
-    "taken_at": "2025-09-04T04:19:40.402771",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 24,

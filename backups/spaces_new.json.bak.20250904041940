@@ -543,7 +543,7 @@
         "taken_at": "2025-08-21T08:45:21"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -555,11 +555,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製の窓のある木製の窓",
-    "taken_by": "Jiawei",
-    "taken_at": "2025-09-04T04:19:40.402771",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 24,

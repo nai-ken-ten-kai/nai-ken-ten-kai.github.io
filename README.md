@@ -1,6 +1,6 @@
 # Nai Ken Kai (内見会)
 
-An interactive art exhibition at the historic Ichida Residence in Tokyo, organized by Tokyo University of the Arts - Global Art Practice (GAP).
+A Free Open House at the historic Ichida Residence in Tokyo, organized by Tokyo University of the Arts - Global Art Practice (GAP).
 
 ## About the Exhibition
 

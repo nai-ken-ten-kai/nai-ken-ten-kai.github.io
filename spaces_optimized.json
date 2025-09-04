@@ -402,7 +402,7 @@
   {
     "id": 41,
     "description": "a wooden door with a metal handle",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0041.jpg",

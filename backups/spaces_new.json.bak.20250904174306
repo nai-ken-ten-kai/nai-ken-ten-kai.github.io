@@ -1003,7 +1003,7 @@
         "taken_at": "2025-08-21T09:10:32"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1012,11 +1012,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "金属製のハンドル付きの木製のドア",
-    "taken_by": "Miao Sup",
-    "taken_at": "2025-09-04T17:43:06.972161",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "金属製のハンドル付きの木製のドア"
   },
   {
     "id": 42,

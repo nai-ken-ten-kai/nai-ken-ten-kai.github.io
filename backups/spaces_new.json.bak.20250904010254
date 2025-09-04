@@ -432,24 +432,10 @@
         ],
         "created_at": "2025-09-03T09:43:34.492798",
         "status": "published"
-      },
-      {
-        "author": "Lennart Haffner",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-20-20250904010817/DSC0891.jpg",
-            "taken_at": "2025-09-04T10:04:01",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T01:08:17.819234",
-        "status": "published"
       }
     ],
     "modified_by": "Lennart Haffner",
-    "modified_at": "2025-09-04T01:08:17.819265",
+    "modified_at": "2025-09-03T09:45:15.989536",
     "instruction_text": "",
     "instruction_images": [
       {
@@ -1646,24 +1632,10 @@
         ],
         "created_at": "2025-09-03T15:56:07.219128",
         "status": "published"
-      },
-      {
-        "author": "Samridhi Pokhrel & Nirvik Maskey",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-74-20250904010254/DSC0890.jpg",
-            "taken_at": "2025-09-04T09:58:02",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T01:02:54.822925",
-        "status": "published"
       }
     ],
     "modified_by": "Samridhi Pokhrel & Nirvik Maskey",
-    "modified_at": "2025-09-04T01:02:54.822946"
+    "modified_at": "2025-09-03T15:56:07.219150"
   },
   {
     "id": 75,

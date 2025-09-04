@@ -1023,7 +1023,7 @@
         "taken_at": "2025-08-21T09:11:10"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ground"
@@ -1034,11 +1034,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "排水溝のある木製の床",
-    "taken_by": "Ku",
-    "taken_at": "2025-09-04T17:41:17.246836",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "排水溝のある木製の床"
   },
   {
     "id": 43,

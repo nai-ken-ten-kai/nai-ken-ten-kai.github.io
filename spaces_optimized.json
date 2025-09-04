@@ -412,7 +412,7 @@
   {
     "id": 42,
     "description": "a wooden floor with a drain",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0042.jpg",

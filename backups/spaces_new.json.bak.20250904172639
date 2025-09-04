@@ -74,7 +74,7 @@
         "taken_at": "2025-08-21T09:20:25"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -83,11 +83,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "木製のドアが付いた木製の鳥の家",
-    "taken_by": "Beilin",
-    "taken_at": "2025-09-04T17:26:39.124494",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製のドアが付いた木製の鳥の家"
   },
   {
     "id": 5,
@@ -1045,7 +1041,7 @@
         "taken_at": "2025-08-21T09:11:35"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1054,11 +1050,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "ドアのサイン",
-    "taken_by": "Koharu",
-    "taken_at": "2025-09-04T17:39:04.266032",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ドアのサイン"
   },
   {
     "id": 44,
@@ -1179,7 +1171,7 @@
         "taken_at": "2025-08-21T09:13:10"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1188,11 +1180,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "爪が付いた木製の棚",
-    "taken_by": "Utako",
-    "taken_at": "2025-09-04T17:27:07.795551",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "爪が付いた木製の棚"
   },
   {
     "id": 50,
@@ -1203,7 +1191,7 @@
         "taken_at": "2025-08-21T09:13:30"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1212,11 +1200,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "爪が突き出た木製の棚",
-    "taken_by": "Utako",
-    "taken_at": "2025-09-04T17:27:28.348849",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "爪が突き出た木製の棚"
   },
   {
     "id": 51,
@@ -1267,7 +1251,7 @@
         "taken_at": "2025-08-21T09:15:36"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1276,11 +1260,7 @@
     "has_hook": false,
     "clip_type": "indoor",
     "clip_activity": "hanging",
-    "description_ja": "小さな昆虫がテーブルの端に座っています",
-    "taken_by": "Utako",
-    "taken_at": "2025-09-04T17:27:32.942165",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "小さな昆虫がテーブルの端に座っています"
   },
   {
     "id": 54,
@@ -1313,7 +1293,7 @@
         "taken_at": "2025-08-21T09:16:00"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -1324,11 +1304,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "部屋の壁に木製の棚",
-    "taken_by": "Utako",
-    "taken_at": "2025-09-04T17:27:47.344089",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "部屋の壁に木製の棚"
   },
   {
     "id": 56,
@@ -1339,7 +1315,7 @@
         "taken_at": "2025-08-21T09:16:09"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1348,11 +1324,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "その上に木片が付いた木製の棚",
-    "taken_by": "Utako",
-    "taken_at": "2025-09-04T17:27:51.922959",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "その上に木片が付いた木製の棚"
   },
   {
     "id": 57,
@@ -1363,7 +1335,7 @@
         "taken_at": "2025-08-21T09:16:15"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -1374,11 +1346,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "壁からぶら下がっている木製の梁",
-    "taken_by": "Utako",
-    "taken_at": "2025-09-04T17:27:55.660856",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "壁からぶら下がっている木製の梁"
   },
   {
     "id": 58,
@@ -2023,7 +1991,7 @@
         "taken_at": "2025-08-21T09:36:52"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ground"
@@ -2034,11 +2002,7 @@
     "has_hook": false,
     "clip_type": "floor",
     "clip_activity": "reading",
-    "description_ja": "敷物のある部屋の小さな木製のテーブル",
-    "taken_by": "Jimi",
-    "taken_at": "2025-09-04T17:28:06.779382",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "敷物のある部屋の小さな木製のテーブル"
   },
   {
     "id": 85,
@@ -2701,7 +2665,7 @@
         "taken_at": "2025-08-21T10:49:48"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -2710,11 +2674,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "木製の梁のクローズアップ",
-    "taken_by": "Lin Anpeng",
-    "taken_at": "2025-09-04T17:28:21.933577",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の梁のクローズアップ"
   },
   {
     "id": 115,

@@ -1045,7 +1045,7 @@
         "taken_at": "2025-08-21T09:11:35"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1054,11 +1054,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "ドアのサイン",
-    "taken_by": "Koharu",
-    "taken_at": "2025-09-04T17:39:04.266032",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ドアのサイン"
   },
   {
     "id": 44,

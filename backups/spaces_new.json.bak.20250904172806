@@ -1045,7 +1045,7 @@
         "taken_at": "2025-08-21T09:11:35"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1054,11 +1054,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "ドアのサイン",
-    "taken_by": "Koharu",
-    "taken_at": "2025-09-04T17:39:04.266032",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ドアのサイン"
   },
   {
     "id": 44,
@@ -2023,7 +2019,7 @@
         "taken_at": "2025-08-21T09:36:52"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ground"
@@ -2034,11 +2030,7 @@
     "has_hook": false,
     "clip_type": "floor",
     "clip_activity": "reading",
-    "description_ja": "敷物のある部屋の小さな木製のテーブル",
-    "taken_by": "Jimi",
-    "taken_at": "2025-09-04T17:28:06.779382",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "敷物のある部屋の小さな木製のテーブル"
   },
   {
     "id": 85,
@@ -2701,7 +2693,7 @@
         "taken_at": "2025-08-21T10:49:48"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -2710,11 +2702,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "木製の梁のクローズアップ",
-    "taken_by": "Lin Anpeng",
-    "taken_at": "2025-09-04T17:28:21.933577",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の梁のクローズアップ"
   },
   {
     "id": 115,

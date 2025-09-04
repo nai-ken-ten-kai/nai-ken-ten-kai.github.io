@@ -22,7 +22,7 @@
   {
     "id": 3,
     "description": "a metal bell hanging on a wooden door",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0003.jpg",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "description": "a wooden bird house with a wooden door",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0004.jpg",
@@ -422,7 +422,7 @@
   {
     "id": 43,
     "description": "a sign on a door",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0043.jpg",
@@ -482,7 +482,7 @@
   {
     "id": 49,
     "description": "a wooden shelf with nails on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0049.jpg",
@@ -492,7 +492,7 @@
   {
     "id": 50,
     "description": "a wooden shelf with a nail sticking out of it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0050.jpg",
@@ -522,7 +522,7 @@
   {
     "id": 53,
     "description": "a small insect is sitting on the edge of a table",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0053.jpg",
@@ -542,7 +542,7 @@
   {
     "id": 55,
     "description": "a wooden shelf on the wall of a room",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0055.jpg",
@@ -552,7 +552,7 @@
   {
     "id": 56,
     "description": "a wooden shelf with a piece of wood on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0056.jpg",
@@ -562,7 +562,7 @@
   {
     "id": 57,
     "description": "a wooden beam hanging from a wall",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0057.jpg",
@@ -844,7 +844,7 @@
   {
     "id": 84,
     "description": "a small wooden table in a room with a rug",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0084.jpg",
@@ -1144,7 +1144,7 @@
   {
     "id": 114,
     "description": "a close up of a wooden beam",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0114.jpg",

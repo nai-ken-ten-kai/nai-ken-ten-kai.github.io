@@ -11,7 +11,8 @@
     "taken_at": "2025-08-21T07:44:39",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a stone basin with a wooden handle"
   },
   {
     "space_id": 60,
@@ -25,7 +26,8 @@
     "taken_at": "2025-08-21T07:52:36",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small room with a bed and a small table"
   },
   {
     "space_id": 18,
@@ -39,7 +41,8 @@
     "taken_at": "2025-08-21T08:39:32",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden shelf with a brown stain"
   },
   {
     "space_id": 19,
@@ -53,7 +56,8 @@
     "taken_at": "2025-08-21T08:42:51",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a black bird in it"
   },
   {
     "space_id": 20,
@@ -67,7 +71,8 @@
     "taken_at": "2025-08-21T08:44:18",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with paper taped to it"
   },
   {
     "space_id": 21,
@@ -81,7 +86,8 @@
     "taken_at": "2025-08-21T08:44:36",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden wall with a wooden frame"
   },
   {
     "space_id": 22,
@@ -95,7 +101,8 @@
     "taken_at": "2025-08-21T08:44:54",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden table with a wooden frame and a wooden table top"
   },
   {
     "space_id": 23,
@@ -109,7 +116,8 @@
     "taken_at": "2025-08-21T08:45:21",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden frame"
   },
   {
     "space_id": 24,
@@ -123,7 +131,8 @@
     "taken_at": "2025-08-21T08:46:02",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden window frame"
   },
   {
     "space_id": 25,
@@ -137,7 +146,8 @@
     "taken_at": "2025-08-21T08:50:21",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden frame with a wooden frame"
   },
   {
     "space_id": 26,
@@ -151,7 +161,8 @@
     "taken_at": "2025-08-21T08:50:39",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden frame"
   },
   {
     "space_id": 27,
@@ -165,7 +176,8 @@
     "taken_at": "2025-08-21T08:50:53",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small wooden shelf with a small wooden rod"
   },
   {
     "space_id": 28,
@@ -179,7 +191,8 @@
     "taken_at": "2025-08-21T08:51:27",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden shelf with a small nail in it"
   },
   {
     "space_id": 29,
@@ -193,7 +206,8 @@
     "taken_at": "2025-08-21T08:52:42",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a shelf with a shelf on it"
   },
   {
     "space_id": 30,
@@ -207,7 +221,8 @@
     "taken_at": "2025-08-21T08:52:55",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small bug on the edge of a wooden door"
   },
   {
     "space_id": 31,
@@ -221,7 +236,8 @@
     "taken_at": "2025-08-21T08:53:32",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a desk with a laptop on top of it"
   },
   {
     "space_id": 139,
@@ -235,7 +251,8 @@
     "taken_at": "2025-08-21T08:53:36",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a blue door with a ring on it"
   },
   {
     "space_id": 32,
@@ -249,7 +266,8 @@
     "taken_at": "2025-08-21T08:54:01",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small metal hook on the wall of a room"
   },
   {
     "space_id": 33,
@@ -263,7 +281,8 @@
     "taken_at": "2025-08-21T08:54:12",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a curtain rod hanging from the ceiling"
   },
   {
     "space_id": 34,
@@ -277,7 +296,8 @@
     "taken_at": "2025-08-21T08:54:59",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small wooden shelf with a wooden shelf"
   },
   {
     "space_id": 61,
@@ -291,7 +311,8 @@
     "taken_at": "2025-08-21T08:56:12",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a doorway with a wooden floor"
   },
   {
     "space_id": 35,
@@ -305,7 +326,8 @@
     "taken_at": "2025-08-21T09:01:19",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a small window on it"
   },
   {
     "space_id": 36,
@@ -319,7 +341,8 @@
     "taken_at": "2025-08-21T09:05:52",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small bug on the window sill"
   },
   {
     "space_id": 138,
@@ -333,7 +356,8 @@
     "taken_at": "2025-08-21T09:05:53",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a bathroom with a toilet and a sink"
   },
   {
     "space_id": 37,
@@ -347,7 +371,8 @@
     "taken_at": "2025-08-21T09:06:04",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden frame"
   },
   {
     "space_id": 136,
@@ -361,7 +386,8 @@
     "taken_at": "2025-08-21T09:06:19",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden cabinet with drawers in it"
   },
   {
     "space_id": 38,
@@ -375,7 +401,8 @@
     "taken_at": "2025-08-21T09:07:15",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden shelf with a wooden frame"
   },
   {
     "space_id": 137,
@@ -389,7 +416,8 @@
     "taken_at": "2025-08-21T09:08:39",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a knob on it"
   },
   {
     "space_id": 39,
@@ -403,7 +431,8 @@
     "taken_at": "2025-08-21T09:08:52",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden frame with a wooden frame"
   },
   {
     "space_id": 40,
@@ -417,7 +446,8 @@
     "taken_at": "2025-08-21T09:09:31",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a metal bracket on it"
   },
   {
     "space_id": 41,
@@ -431,7 +461,8 @@
     "taken_at": "2025-08-21T09:10:32",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a metal handle"
   },
   {
     "space_id": 42,
@@ -445,7 +476,8 @@
     "taken_at": "2025-08-21T09:11:10",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden floor with a drain"
   },
   {
     "space_id": 43,
@@ -459,7 +491,8 @@
     "taken_at": "2025-08-21T09:11:35",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a sign on a door"
   },
   {
     "space_id": 44,
@@ -473,7 +506,8 @@
     "taken_at": "2025-08-21T09:12:15",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden ceiling"
   },
   {
     "space_id": 45,
@@ -487,7 +521,8 @@
     "taken_at": "2025-08-21T09:12:29",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a stained glass pendant light hanging from a wooden ceiling"
   },
   {
     "space_id": 47,
@@ -501,7 +536,8 @@
     "taken_at": "2025-08-21T09:12:47",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a hook hanging on the wall of a room"
   },
   {
     "space_id": 48,
@@ -515,7 +551,8 @@
     "taken_at": "2025-08-21T09:12:58",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a hook on the wall of a room"
   },
   {
     "space_id": 49,
@@ -529,7 +566,8 @@
     "taken_at": "2025-08-21T09:13:10",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden shelf with nails on it"
   },
   {
     "space_id": 50,
@@ -543,7 +581,8 @@
     "taken_at": "2025-08-21T09:13:30",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden shelf with a nail sticking out of it"
   },
   {
     "space_id": 62,
@@ -557,7 +596,8 @@
     "taken_at": "2025-08-21T09:14:08",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a door with a handle in the background"
   },
   {
     "space_id": 51,
@@ -571,7 +611,8 @@
     "taken_at": "2025-08-21T09:14:32",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden door with a small bug"
   },
   {
     "space_id": 63,
@@ -585,7 +626,8 @@
     "taken_at": "2025-08-21T09:14:58",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small bug on the edge of a wooden shelf"
   },
   {
     "space_id": 52,
@@ -599,7 +641,8 @@
     "taken_at": "2025-08-21T09:15:01",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden door with a metal handle"
   },
   {
     "space_id": 53,
@@ -613,7 +656,8 @@
     "taken_at": "2025-08-21T09:15:36",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small insect is sitting on the edge of a table"
   },
   {
     "space_id": 54,
@@ -627,7 +671,8 @@
     "taken_at": "2025-08-21T09:15:49",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small wooden door with a wooden frame"
   },
   {
     "space_id": 55,
@@ -641,7 +686,8 @@
     "taken_at": "2025-08-21T09:16:00",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden shelf on the wall of a room"
   },
   {
     "space_id": 56,
@@ -655,7 +701,8 @@
     "taken_at": "2025-08-21T09:16:09",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden shelf with a piece of wood on it"
   },
   {
     "space_id": 57,
@@ -669,7 +716,8 @@
     "taken_at": "2025-08-21T09:16:15",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden beam hanging from a wall"
   },
   {
     "space_id": 58,
@@ -683,7 +731,8 @@
     "taken_at": "2025-08-21T09:16:27",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small hole in the surface of a brown table"
   },
   {
     "space_id": 64,
@@ -697,7 +746,8 @@
     "taken_at": "2025-08-21T09:16:34",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden window frame"
   },
   {
     "space_id": 59,
@@ -711,7 +761,8 @@
     "taken_at": "2025-08-21T09:16:41",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small hole in the wall of a room"
   },
   {
     "space_id": 14,
@@ -725,7 +776,8 @@
     "taken_at": "2025-08-21T09:17:03",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden floor with a bench"
   },
   {
     "space_id": 65,
@@ -739,7 +791,8 @@
     "taken_at": "2025-08-21T09:17:11",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden ceiling with a brown trim"
   },
   {
     "space_id": 15,
@@ -753,7 +806,8 @@
     "taken_at": "2025-08-21T09:17:26",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden table with a plastic bag in it"
   },
   {
     "space_id": 66,
@@ -767,7 +821,8 @@
     "taken_at": "2025-08-21T09:17:32",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden ceiling with a hook hanging from it"
   },
   {
     "space_id": 16,
@@ -781,7 +836,8 @@
     "taken_at": "2025-08-21T09:17:51",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a cross on it"
   },
   {
     "space_id": 67,
@@ -795,7 +851,8 @@
     "taken_at": "2025-08-21T09:18:30",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden ceiling with a paper towel hanging from it"
   },
   {
     "space_id": 17,
@@ -809,7 +866,8 @@
     "taken_at": "2025-08-21T09:18:51",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a light fixture on a wall"
   },
   {
     "space_id": 68,
@@ -823,7 +881,8 @@
     "taken_at": "2025-08-21T09:19:00",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a room with a bed and a curtain"
   },
   {
     "space_id": 69,
@@ -837,7 +896,8 @@
     "taken_at": "2025-08-21T09:19:35",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window in a japanese house with wooden shutters"
   },
   {
     "space_id": 3,
@@ -851,7 +911,8 @@
     "taken_at": "2025-08-21T09:19:55",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a metal bell hanging on a wooden door"
   },
   {
     "space_id": 70,
@@ -865,7 +926,8 @@
     "taken_at": "2025-08-21T09:20:07",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a wooden frame and shutters"
   },
   {
     "space_id": 4,
@@ -879,7 +941,8 @@
     "taken_at": "2025-08-21T09:20:25",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden bird house with a wooden door"
   },
   {
     "space_id": 71,
@@ -893,7 +956,8 @@
     "taken_at": "2025-08-21T09:20:34",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a woman is sitting in front of a window"
   },
   {
     "space_id": 2,
@@ -907,7 +971,8 @@
     "taken_at": "2025-08-21T09:21:05",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a cat is sitting on the steps of a wooden building"
   },
   {
     "space_id": 7,
@@ -921,7 +986,8 @@
     "taken_at": "2025-08-21T09:21:20",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a blackboard with a blackboard on it"
   },
   {
     "space_id": 1,
@@ -935,7 +1001,8 @@
     "taken_at": "2025-08-21T09:21:34",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a poster is hanging on the side of a building"
   },
   {
     "space_id": 72,
@@ -949,7 +1016,8 @@
     "taken_at": "2025-08-21T09:21:44",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a wooden frame and a window"
   },
   {
     "space_id": 73,
@@ -963,7 +1031,8 @@
     "taken_at": "2025-08-21T09:22:09",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden shelf with a brown stain"
   },
   {
     "space_id": 8,
@@ -977,7 +1046,8 @@
     "taken_at": "2025-08-21T09:23:10",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a brown roof"
   },
   {
     "space_id": 9,
@@ -991,7 +1061,8 @@
     "taken_at": "2025-08-21T09:23:28",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a metal vent grate"
   },
   {
     "space_id": 74,
@@ -1005,7 +1076,8 @@
     "taken_at": "2025-08-21T09:23:40",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a small window in it"
   },
   {
     "space_id": 10,
@@ -1019,7 +1091,8 @@
     "taken_at": "2025-08-21T09:24:09",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden gate with bamboo sticks on it"
   },
   {
     "space_id": 75,
@@ -1033,7 +1106,8 @@
     "taken_at": "2025-08-21T09:24:10",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small wooden shelf with a metal frame"
   },
   {
     "space_id": 5,
@@ -1047,7 +1121,8 @@
     "taken_at": "2025-08-21T09:24:42",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a giraffe sitting on top of a building"
   },
   {
     "space_id": 6,
@@ -1061,7 +1136,8 @@
     "taken_at": "2025-08-21T09:24:50",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a man is sitting on a bench in front of a building"
   },
   {
     "space_id": 12,
@@ -1075,7 +1151,8 @@
     "taken_at": "2025-08-21T09:25:49",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden roof with a metal rod hanging from it"
   },
   {
     "space_id": 11,
@@ -1089,7 +1166,8 @@
     "taken_at": "2025-08-21T09:26:40",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a tree with a tv antenna"
   },
   {
     "space_id": 97,
@@ -1103,7 +1181,8 @@
     "taken_at": "2025-08-21T09:27:23",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small wooden bench is surrounded by a tree and rocks"
   },
   {
     "space_id": 98,
@@ -1117,7 +1196,8 @@
     "taken_at": "2025-08-21T09:27:42",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a tree trunk with a tree growing out of it"
   },
   {
     "space_id": 99,
@@ -1131,7 +1211,8 @@
     "taken_at": "2025-08-21T09:28:48",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a rock covered in ivy"
   },
   {
     "space_id": 100,
@@ -1145,7 +1226,8 @@
     "taken_at": "2025-08-21T09:29:08",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a tree trunk with a bird on it"
   },
   {
     "space_id": 76,
@@ -1159,7 +1241,8 @@
     "taken_at": "2025-08-21T09:29:14",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a wooden floor and a view of a pond"
   },
   {
     "space_id": 101,
@@ -1173,7 +1256,8 @@
     "taken_at": "2025-08-21T09:29:18",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a tree with a barbed wire fence"
   },
   {
     "space_id": 102,
@@ -1187,7 +1271,8 @@
     "taken_at": "2025-08-21T09:29:37",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a tree trunk with a rope hanging from it"
   },
   {
     "space_id": 77,
@@ -1201,7 +1286,8 @@
     "taken_at": "2025-08-21T09:29:47",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a wooden frame"
   },
   {
     "space_id": 103,
@@ -1215,7 +1301,8 @@
     "taken_at": "2025-08-21T09:30:10",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a metal rod hanging from a wooden ceiling"
   },
   {
     "space_id": 78,
@@ -1229,7 +1316,8 @@
     "taken_at": "2025-08-21T09:31:12",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden ceiling with a light shining on it"
   },
   {
     "space_id": 104,
@@ -1243,7 +1331,8 @@
     "taken_at": "2025-08-21T09:32:41",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a cat sitting on a window"
   },
   {
     "space_id": 105,
@@ -1257,7 +1346,8 @@
     "taken_at": "2025-08-21T09:33:01",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden rod in it"
   },
   {
     "space_id": 79,
@@ -1271,7 +1361,8 @@
     "taken_at": "2025-08-21T09:33:12",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden ceiling with a wooden beam"
   },
   {
     "space_id": 106,
@@ -1285,7 +1376,8 @@
     "taken_at": "2025-08-21T09:33:37",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden frame"
   },
   {
     "space_id": 107,
@@ -1299,7 +1391,8 @@
     "taken_at": "2025-08-21T09:33:59",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden frame"
   },
   {
     "space_id": 90,
@@ -1313,7 +1406,8 @@
     "taken_at": "2025-08-21T09:34:29",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden building with a metal pipe"
   },
   {
     "space_id": 80,
@@ -1327,7 +1421,8 @@
     "taken_at": "2025-08-21T09:35:28",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small room with a desk and a window"
   },
   {
     "space_id": 81,
@@ -1341,7 +1436,8 @@
     "taken_at": "2025-08-21T09:36:14",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small room with a lamp and a door"
   },
   {
     "space_id": 82,
@@ -1355,7 +1451,8 @@
     "taken_at": "2025-08-21T09:36:26",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a room with a window and a tatami mat"
   },
   {
     "space_id": 83,
@@ -1369,7 +1466,8 @@
     "taken_at": "2025-08-21T09:36:39",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small table with a black top on a mat"
   },
   {
     "space_id": 84,
@@ -1383,7 +1481,8 @@
     "taken_at": "2025-08-21T09:36:52",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small wooden table in a room with a rug"
   },
   {
     "space_id": 85,
@@ -1397,7 +1496,8 @@
     "taken_at": "2025-08-21T10:38:31",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small piece of wood with a small piece of wood"
   },
   {
     "space_id": 86,
@@ -1411,7 +1511,8 @@
     "taken_at": "2025-08-21T10:38:42",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a wooden rod hanging from it"
   },
   {
     "space_id": 87,
@@ -1425,7 +1526,8 @@
     "taken_at": "2025-08-21T10:39:09",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a wooden frame"
   },
   {
     "space_id": 91,
@@ -1439,7 +1541,8 @@
     "taken_at": "2025-08-21T10:41:15",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a wooden frame and a wooden shutter"
   },
   {
     "space_id": 92,
@@ -1453,7 +1556,8 @@
     "taken_at": "2025-08-21T10:42:24",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window in a japanese house with a view of a tree"
   },
   {
     "space_id": 93,
@@ -1467,7 +1571,8 @@
     "taken_at": "2025-08-21T10:42:53",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a wooden floor and a mirror"
   },
   {
     "space_id": 94,
@@ -1481,7 +1586,8 @@
     "taken_at": "2025-08-21T10:43:02",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a windowpane in it"
   },
   {
     "space_id": 89,
@@ -1495,7 +1601,8 @@
     "taken_at": "2025-08-21T10:43:38",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden shelf with a wooden railing"
   },
   {
     "space_id": 46,
@@ -1509,7 +1616,8 @@
     "taken_at": "2025-08-21T10:44:22",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a stained glass light hanging from a wooden ceiling"
   },
   {
     "space_id": 108,
@@ -1523,7 +1631,8 @@
     "taken_at": "2025-08-21T10:45:31",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden beam with a small hole in it"
   },
   {
     "space_id": 109,
@@ -1537,7 +1646,8 @@
     "taken_at": "2025-08-21T10:47:51",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window frame"
   },
   {
     "space_id": 110,
@@ -1551,7 +1661,8 @@
     "taken_at": "2025-08-21T10:48:15",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a hook hanging from it"
   },
   {
     "space_id": 111,
@@ -1565,7 +1676,8 @@
     "taken_at": "2025-08-21T10:48:38",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden floor with a wooden window"
   },
   {
     "space_id": 112,
@@ -1579,7 +1691,8 @@
     "taken_at": "2025-08-21T10:49:04",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden beam is hanging from a wall"
   },
   {
     "space_id": 113,
@@ -1593,7 +1706,8 @@
     "taken_at": "2025-08-21T10:49:23",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden wall with a brown woven pattern"
   },
   {
     "space_id": 114,
@@ -1607,7 +1721,8 @@
     "taken_at": "2025-08-21T10:49:48",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a wooden beam"
   },
   {
     "space_id": 116,
@@ -1621,7 +1736,8 @@
     "taken_at": "2025-08-21T10:50:09",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a bunch of green keys hanging from it"
   },
   {
     "space_id": 117,
@@ -1635,7 +1751,8 @@
     "taken_at": "2025-08-21T10:50:22",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden ceiling with a wire hanging from it"
   },
   {
     "space_id": 118,
@@ -1649,7 +1766,8 @@
     "taken_at": "2025-08-21T10:51:02",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden window with a hook hanging from it"
   },
   {
     "space_id": 119,
@@ -1663,7 +1781,8 @@
     "taken_at": "2025-08-21T10:51:28",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a green ring hanging from a window sill"
   },
   {
     "space_id": 120,
@@ -1677,7 +1796,8 @@
     "taken_at": "2025-08-21T10:51:44",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a wooden frame and a window"
   },
   {
     "space_id": 121,
@@ -1691,7 +1811,8 @@
     "taken_at": "2025-08-21T10:52:02",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a green ring hanging from a window sill"
   },
   {
     "space_id": 122,
@@ -1705,7 +1826,8 @@
     "taken_at": "2025-08-21T10:52:21",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small bird sitting on a window sill"
   },
   {
     "space_id": 123,
@@ -1719,7 +1841,8 @@
     "taken_at": "2025-08-21T10:52:29",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a blue and green hanging ornament"
   },
   {
     "space_id": 124,
@@ -1733,7 +1856,8 @@
     "taken_at": "2025-08-21T10:52:46",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small blue snail hanging from a window sill"
   },
   {
     "space_id": 125,
@@ -1747,7 +1871,8 @@
     "taken_at": "2025-08-21T10:53:03",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a green clothespin hanging from a window"
   },
   {
     "space_id": 126,
@@ -1761,7 +1886,8 @@
     "taken_at": "2025-08-21T10:53:18",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a blue glass hanging from a window sill"
   },
   {
     "space_id": 129,
@@ -1775,7 +1901,8 @@
     "taken_at": "2025-08-21T10:54:03",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a close up of a metal door with a metal handle"
   },
   {
     "space_id": 130,
@@ -1789,7 +1916,8 @@
     "taken_at": "2025-08-21T10:54:57",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small shelf in a room with a window"
   },
   {
     "space_id": 135,
@@ -1803,7 +1931,8 @@
     "taken_at": "2025-08-21T10:55:35",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a small room with a bed and a dresser"
   },
   {
     "space_id": 88,
@@ -1817,7 +1946,8 @@
     "taken_at": "2025-08-21T10:57:59",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a window with a light shining through it"
   },
   {
     "space_id": 131,
@@ -1831,7 +1961,8 @@
     "taken_at": "2025-08-21T11:04:31",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden door with a paper covering on it"
   },
   {
     "space_id": 132,
@@ -1845,7 +1976,8 @@
     "taken_at": "2025-08-21T11:05:13",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden doorway with a wooden frame"
   },
   {
     "space_id": 133,
@@ -1859,7 +1991,8 @@
     "taken_at": "2025-08-21T11:05:56",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden slatted screen in a room"
   },
   {
     "space_id": 115,
@@ -1873,7 +2006,8 @@
     "taken_at": "2025-08-21T11:07:56",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden beam is hanging from the ceiling of a room"
   },
   {
     "space_id": 134,
@@ -1887,7 +2021,8 @@
     "taken_at": "2025-08-21T11:14:37",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a wooden floor with a rug on it"
   },
   {
     "space_id": 95,
@@ -1901,7 +2036,8 @@
     "taken_at": "2025-08-21T11:25:05",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a man is holding a cigarette"
   },
   {
     "space_id": 96,
@@ -1915,7 +2051,8 @@
     "taken_at": "2025-08-21T11:25:19",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a man is sitting in a chair"
   },
   {
     "space_id": 127,
@@ -1929,7 +2066,8 @@
     "taken_at": "2025-08-21T11:25:42",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a blurry image of a tree in the background"
   },
   {
     "space_id": 128,
@@ -1943,7 +2081,8 @@
     "taken_at": "2025-08-21T11:25:54",
     "author": "Original",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a blurry image of a tree in the background"
   },
   {
     "space_id": 140,
@@ -1957,7 +2096,8 @@
     "taken_at": "2025-09-03T10:27:18",
     "author": "Admin",
     "text": "Original state",
-    "action": "original"
+    "action": "original",
+    "description": "a computer screen is shown in a room"
   },
   {
     "space_id": 74,
@@ -2040,7 +2180,7 @@
     "status": "published"
   },
   {
-    "space_id": 17,
+    "space_id": 79,
     "type": "update",
     "images": [
       {

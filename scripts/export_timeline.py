@@ -39,7 +39,8 @@ def export_timeline(spaces=None):
                 'taken_at': original_images[0]['taken_at'],
                 'author': space.get('created_by', 'Original'),
                 'text': 'Original state',
-                'action': 'original'
+                'action': 'original',
+                'description': space.get('description', '')
             })
         
         # Add update events from published updates

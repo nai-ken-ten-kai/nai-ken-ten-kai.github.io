@@ -368,7 +368,7 @@
         "taken_at": "2025-08-21T09:18:51"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "wall",
@@ -384,25 +384,7 @@
     "taken_by": "Tim Lode",
     "taken_at": "2025-09-03T03:39:34.765551",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Tim Loehde",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-17-20250904042455/DSC0904.jpg",
-            "taken_at": "2025-09-04T12:40:10",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T04:24:55.679133",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Tim Loehde",
-    "modified_at": "2025-09-04T04:24:55.679154"
+    "instruction_images": []
   },
   {
     "id": 18,
@@ -1817,7 +1799,7 @@
         "taken_at": "2025-08-21T09:33:12"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1832,7 +1814,33 @@
     "taken_by": "Tim Lode",
     "taken_at": "2025-09-03T03:39:46.768554",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "taken_artists": [
+      {
+        "name": "Tim Loehde",
+        "taken_at": "2025-09-03T03:39:46.768554",
+        "instructions": [],
+        "instruction_images": []
+      }
+    ],
+    "updates": [
+      {
+        "author": "Tim Loehde",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-17-20250904042455/DSC0904.jpg",
+            "taken_at": "2025-09-04T12:40:10",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T04:24:55.679133",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Tim Loehde",
+    "modified_at": "2025-09-04T04:24:55.679154"
   },
   {
     "id": 80,

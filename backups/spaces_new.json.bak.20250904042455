@@ -19,7 +19,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "reading",
-    "description_ja": "\u30dd\u30b9\u30bf\u30fc\u304c\u5efa\u7269\u306e\u6a2a\u306b\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "ポスターが建物の横にぶら下がっています"
   },
   {
     "id": 2,
@@ -39,7 +39,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u732b\u304c\u6728\u88fd\u306e\u5efa\u7269\u306e\u968e\u6bb5\u306b\u5ea7\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "猫が木製の建物の階段に座っています"
   },
   {
     "id": 3,
@@ -59,7 +59,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30c9\u30a2\u306b\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u91d1\u5c5e\u30d9\u30eb"
+    "description_ja": "木製のドアにぶら下がっている金属ベル"
   },
   {
     "id": 4,
@@ -79,7 +79,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u30c9\u30a2\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u9ce5\u306e\u5bb6"
+    "description_ja": "木製のドアが付いた木製の鳥の家"
   },
   {
     "id": 5,
@@ -99,7 +99,7 @@
     "has_hook": false,
     "clip_type": "threshold",
     "clip_activity": "standing",
-    "description_ja": "\u5efa\u7269\u306e\u4e0a\u306b\u5ea7\u3063\u3066\u3044\u308b\u30ad\u30ea\u30f3"
+    "description_ja": "建物の上に座っているキリン"
   },
   {
     "id": 6,
@@ -119,7 +119,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "\u7537\u304c\u5efa\u7269\u306e\u524d\u306e\u30d9\u30f3\u30c1\u306b\u5ea7\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "男が建物の前のベンチに座っています"
   },
   {
     "id": 7,
@@ -139,7 +139,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u9ed2\u677f\u304c\u4ed8\u3044\u305f\u9ed2\u677f"
+    "description_ja": "黒板が付いた黒板"
   },
   {
     "id": 8,
@@ -159,7 +159,7 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "hanging",
-    "description_ja": "\u8336\u8272\u306e\u5c4b\u6839"
+    "description_ja": "茶色の屋根"
   },
   {
     "id": 9,
@@ -179,7 +179,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "\u91d1\u5c5e\u63db\u6c17\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "金属換気のクローズアップ"
   },
   {
     "id": 10,
@@ -199,7 +199,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "\u7af9\u306e\u68d2\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u9580"
+    "description_ja": "竹の棒が付いた木製の門"
   },
   {
     "id": 11,
@@ -219,7 +219,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "\u30c6\u30ec\u30d3\u30a2\u30f3\u30c6\u30ca\u306e\u3042\u308b\u6728",
+    "description_ja": "テレビアンテナのある木",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-01T05:50:36.950710",
     "taken_note": "",
@@ -227,7 +227,7 @@
     "updates": [
       {
         "author": "Piu Lee",
-        "text": "I think there has to be a Spiutze.In the description, it says there is a TV antenna, but I don't think the antenna is important.But the tree branch\u2014I think there should be a bird.A bird I always see in front of my room window.Every time I look out of the window,I see a very certain bird.I call this friend Spiutze.It always sits there,sits there very nonchalant and peaceful.When I discover him sitting there, he flies away after a few seconds.And he returns back when I am looking out of the window the following day.So I assumethat it is a very loyal birb.But I heard that it recently moved out with his bigger family,on a bunch of tree branches, which are actually left overs from people cutting down the trees for a new living area.I don't actually know if it is its new family, it might be also its buddies.And when I'm seeing Nr 11, it reminds me of it,in a very melancholic way.Nowadays, when I look out the window,I rarely see Spiutze. And every time Spiutze is not there, I feel like I'm the protagonist of a tragedy movie.As background music, I have Arirang in my head.Instruction for 11:-Print this image as big as possible, and cut out only the bird without destroying the branch he sits on or the windowframe.-Use the rest of the cut paper, frame it with anything you find, and hang it under the branch.- If you have a speaker, I want to send a sound that is played nearby.Nr 66.Orange juice is very modern. It might not have existed when the first still-life paintings were drawn. Have you ever see a classical painting, which shows orange juice?A super still still-life painting, with orange juice in a vase\u2014The still-life is so still that it makes you feel very comfortable and calm.You live in a very fast, hectic, and stressed world, and then you get this \"Themenwechsel\" (topic change).For example, Mama and Papa are fighting each other, and Father has a very strong voice.Mama balances Father through another topic, so his ups and downs can be released before it escalates more.She changes the fighting-topic to an insignificant topic.In my daily life, I like to write short stories because they give me a good start to a more optimistic and brighter day.As written before, it is like a topic change for the hectic life, and creates for me a calm space to think a little bit about minor but actually really precious things in this sometimes too systematized life.",
+        "text": "",
         "action": "update",
         "images": [
           {
@@ -275,7 +275,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u305d\u3053\u304b\u3089\u5782\u308c\u4e0b\u304c\u3063\u305f\u91d1\u5c5e\u68d2\u306e\u3042\u308b\u6728\u88fd\u306e\u5c4b\u6839"
+    "description_ja": "そこから垂れ下がった金属棒のある木製の屋根"
   },
   {
     "id": 13,
@@ -295,7 +295,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "resting",
-    "description_ja": "\u6728\u88fd\u306e\u30cf\u30f3\u30c9\u30eb\u304c\u4ed8\u3044\u305f\u77f3\u76c6\u5730"
+    "description_ja": "木製のハンドルが付いた石盆地"
   },
   {
     "id": 14,
@@ -317,7 +317,7 @@
     "has_hook": false,
     "clip_type": "floor",
     "clip_activity": "standing",
-    "description_ja": "\u30d9\u30f3\u30c1\u4ed8\u304d\u306e\u6728\u88fd\u306e\u5e8a"
+    "description_ja": "ベンチ付きの木製の床"
   },
   {
     "id": 15,
@@ -337,7 +337,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "reading",
-    "description_ja": "\u30d3\u30cb\u30fc\u30eb\u888b\u304c\u5165\u3063\u305f\u6728\u88fd\u306e\u30c6\u30fc\u30d6\u30eb"
+    "description_ja": "ビニール袋が入った木製のテーブル"
   },
   {
     "id": 16,
@@ -357,7 +357,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u5341\u5b57\u67b6\u306e\u3042\u308b\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "十字架のある木製のドア"
   },
   {
     "id": 17,
@@ -368,7 +368,7 @@
         "taken_at": "2025-08-21T09:18:51"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "wall",
@@ -380,29 +380,11 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "lying",
-    "description_ja": "\u58c1\u306e\u7167\u660e\u5668\u5177",
+    "description_ja": "壁の照明器具",
     "taken_by": "Tim Lode",
     "taken_at": "2025-09-03T03:39:34.765551",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Tim Loehde",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-17-20250904042455/DSC0904.jpg",
-            "taken_at": "2025-09-04T12:40:10",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T04:24:55.679133",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Tim Loehde",
-    "modified_at": "2025-09-04T04:24:55.679154"
+    "instruction_images": []
   },
   {
     "id": 18,
@@ -422,7 +404,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u8336\u8272\u306e\u6c5a\u308c\u306e\u3042\u308b\u6728\u88fd\u306e\u68da\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
   },
   {
     "id": 19,
@@ -444,7 +426,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u9ed2\u3044\u9ce5\u304c\u5165\u3063\u305f\u7a93"
+    "description_ja": "黒い鳥が入った窓"
   },
   {
     "id": 20,
@@ -467,7 +449,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "standing",
-    "description_ja": "\u7d19\u304c\u8cbc\u308a\u4ed8\u3051\u3089\u308c\u305f\u6728\u88fd\u306e\u30c9\u30a2",
+    "description_ja": "紙が貼り付けられた木製のドア",
     "updates": [
       {
         "author": "Lennart Haffner",
@@ -528,7 +510,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u58c1\u306e\u3042\u308b\u6728\u88fd\u306e\u58c1\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製の壁のある木製の壁のクローズアップ"
   },
   {
     "id": 22,
@@ -550,7 +532,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u3068\u6728\u88fd\u306e\u30c6\u30fc\u30d6\u30eb\u30c8\u30c3\u30d7\u306e\u3042\u308b\u6728\u88fd\u306e\u30c6\u30fc\u30d6\u30eb"
+    "description_ja": "木製のフレームと木製のテーブルトップのある木製のテーブル"
   },
   {
     "id": 23,
@@ -573,7 +555,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u7a93",
+    "description_ja": "木製の窓のある木製の窓",
     "taken_by": "Jiawei",
     "taken_at": "2025-09-04T04:19:40.402771",
     "instruction_text": "",
@@ -600,7 +582,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u67a0\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製の窓枠のクローズアップ"
   },
   {
     "id": 25,
@@ -622,7 +604,7 @@
     "has_hook": false,
     "clip_type": "threshold",
     "clip_activity": "reading",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u306e\u6728\u88fd\u30d5\u30ec\u30fc\u30e0"
+    "description_ja": "木製のフレームの木製フレーム"
   },
   {
     "id": 26,
@@ -645,7 +627,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u7a93",
+    "description_ja": "木製の窓のある木製の窓",
     "taken_by": "Wendi",
     "taken_at": "2025-09-03T03:46:56.560319",
     "instruction_text": "",
@@ -669,7 +651,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u5c0f\u3055\u306a\u6728\u88fd\u306e\u68d2\u304c\u4ed8\u3044\u305f\u5c0f\u3055\u306a\u6728\u88fd\u306e\u68da"
+    "description_ja": "小さな木製の棒が付いた小さな木製の棚"
   },
   {
     "id": 28,
@@ -689,7 +671,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u5c0f\u3055\u306a\u722a\u304c\u5165\u3063\u305f\u6728\u88fd\u306e\u68da"
+    "description_ja": "小さな爪が入った木製の棚"
   },
   {
     "id": 29,
@@ -709,7 +691,7 @@
     "has_hook": false,
     "clip_type": "alcove",
     "clip_activity": "standing",
-    "description_ja": "\u68da\u304c\u4ed8\u3044\u305f\u68da",
+    "description_ja": "棚が付いた棚",
     "taken_by": "Karyn",
     "taken_at": "2025-09-03T06:18:17.219490",
     "instruction_text": "",
@@ -733,7 +715,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30c9\u30a2\u306e\u7aef\u306b\u3042\u308b\u5c0f\u3055\u306a\u866b",
+    "description_ja": "木製のドアの端にある小さな虫",
     "taken_by": "LU XIAOYAN",
     "taken_at": "2025-09-04T00:43:39.026872",
     "instruction_text": "",
@@ -757,7 +739,7 @@
     "has_hook": false,
     "clip_type": "corner",
     "clip_activity": "meditating",
-    "description_ja": "\u305d\u306e\u4e0a\u306b\u30e9\u30c3\u30d7\u30c8\u30c3\u30d7\u3092\u5099\u3048\u305f\u673a"
+    "description_ja": "その上にラップトップを備えた机"
   },
   {
     "id": 32,
@@ -779,7 +761,7 @@
     "has_hook": true,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u90e8\u5c4b\u306e\u58c1\u306b\u3042\u308b\u5c0f\u3055\u306a\u91d1\u5c5e\u30d5\u30c3\u30af"
+    "description_ja": "部屋の壁にある小さな金属フック"
   },
   {
     "id": 33,
@@ -801,7 +783,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u5929\u4e95\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u30ab\u30fc\u30c6\u30f3\u30ed\u30c3\u30c9"
+    "description_ja": "天井からぶら下がっているカーテンロッド"
   },
   {
     "id": 34,
@@ -821,7 +803,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u68da\u306e\u3042\u308b\u5c0f\u3055\u306a\u6728\u88fd\u306e\u68da"
+    "description_ja": "木製の棚のある小さな木製の棚"
   },
   {
     "id": 35,
@@ -843,7 +825,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "lying",
-    "description_ja": "\u5c0f\u3055\u306a\u7a93\u306e\u3042\u308b\u7a93"
+    "description_ja": "小さな窓のある窓"
   },
   {
     "id": 36,
@@ -865,7 +847,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u67a0\u306e\u5c0f\u3055\u306a\u30d0\u30b0"
+    "description_ja": "窓枠の小さなバグ"
   },
   {
     "id": 37,
@@ -888,7 +870,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sleeping",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u7a93"
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 38,
@@ -910,7 +892,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u306e\u3042\u308b\u6728\u88fd\u306e\u68da\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製のフレームのある木製の棚のクローズアップ"
   },
   {
     "id": 39,
@@ -932,7 +914,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "sleeping",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u306e\u6728\u88fd\u30d5\u30ec\u30fc\u30e0\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製のフレームの木製フレームのクローズアップ"
   },
   {
     "id": 40,
@@ -952,7 +934,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u91d1\u5c5e\u88fd\u306e\u30d6\u30e9\u30b1\u30c3\u30c8\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "金属製のブラケットが付いた木製のドア"
   },
   {
     "id": 41,
@@ -972,7 +954,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u91d1\u5c5e\u88fd\u306e\u30cf\u30f3\u30c9\u30eb\u4ed8\u304d\u306e\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "金属製のハンドル付きの木製のドア"
   },
   {
     "id": 42,
@@ -994,7 +976,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "\u6392\u6c34\u6e9d\u306e\u3042\u308b\u6728\u88fd\u306e\u5e8a"
+    "description_ja": "排水溝のある木製の床"
   },
   {
     "id": 43,
@@ -1014,7 +996,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u30c9\u30a2\u306e\u30b5\u30a4\u30f3"
+    "description_ja": "ドアのサイン"
   },
   {
     "id": 44,
@@ -1036,7 +1018,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "lying",
-    "description_ja": "\u6728\u88fd\u306e\u5929\u4e95\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製の天井のクローズアップ"
   },
   {
     "id": 45,
@@ -1058,7 +1040,7 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u5929\u4e95\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u30b9\u30c6\u30f3\u30c9\u30b0\u30e9\u30b9\u30da\u30f3\u30c0\u30f3\u30c8\u30e9\u30a4\u30c8"
+    "description_ja": "木製の天井からぶら下がっているステンドグラスペンダントライト"
   },
   {
     "id": 46,
@@ -1080,7 +1062,7 @@
     "has_hook": false,
     "clip_type": "indoor",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u5929\u4e95\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u30b9\u30c6\u30f3\u30c9\u30b0\u30e9\u30b9\u306e\u30e9\u30a4\u30c8"
+    "description_ja": "木製の天井からぶら下がっているステンドグラスのライト"
   },
   {
     "id": 47,
@@ -1102,7 +1084,7 @@
     "has_hook": true,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u90e8\u5c4b\u306e\u58c1\u306b\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u30d5\u30c3\u30af"
+    "description_ja": "部屋の壁にぶら下がっているフック"
   },
   {
     "id": 48,
@@ -1124,7 +1106,7 @@
     "has_hook": true,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u90e8\u5c4b\u306e\u58c1\u306b\u30d5\u30c3\u30af"
+    "description_ja": "部屋の壁にフック"
   },
   {
     "id": 49,
@@ -1144,7 +1126,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u722a\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u68da"
+    "description_ja": "爪が付いた木製の棚"
   },
   {
     "id": 50,
@@ -1164,7 +1146,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u722a\u304c\u7a81\u304d\u51fa\u305f\u6728\u88fd\u306e\u68da"
+    "description_ja": "爪が突き出た木製の棚"
   },
   {
     "id": 51,
@@ -1184,7 +1166,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "sleeping",
-    "description_ja": "\u5c0f\u3055\u306a\u866b\u306e\u3042\u308b\u6728\u88fd\u306e\u30c9\u30a2\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "小さな虫のある木製のドアのクローズアップ"
   },
   {
     "id": 52,
@@ -1204,7 +1186,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u91d1\u5c5e\u88fd\u306e\u30cf\u30f3\u30c9\u30eb\u3092\u5099\u3048\u305f\u6728\u88fd\u306e\u30c9\u30a2\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "金属製のハンドルを備えた木製のドアのクローズアップ"
   },
   {
     "id": 53,
@@ -1224,7 +1206,7 @@
     "has_hook": false,
     "clip_type": "indoor",
     "clip_activity": "hanging",
-    "description_ja": "\u5c0f\u3055\u306a\u6606\u866b\u304c\u30c6\u30fc\u30d6\u30eb\u306e\u7aef\u306b\u5ea7\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "小さな昆虫がテーブルの端に座っています"
   },
   {
     "id": 54,
@@ -1246,7 +1228,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u306e\u3042\u308b\u5c0f\u3055\u306a\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "木製のフレームのある小さな木製のドア"
   },
   {
     "id": 55,
@@ -1268,7 +1250,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u90e8\u5c4b\u306e\u58c1\u306b\u6728\u88fd\u306e\u68da"
+    "description_ja": "部屋の壁に木製の棚"
   },
   {
     "id": 56,
@@ -1288,7 +1270,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u305d\u306e\u4e0a\u306b\u6728\u7247\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u68da"
+    "description_ja": "その上に木片が付いた木製の棚"
   },
   {
     "id": 57,
@@ -1310,7 +1292,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u58c1\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u6881"
+    "description_ja": "壁からぶら下がっている木製の梁"
   },
   {
     "id": 58,
@@ -1333,7 +1315,7 @@
     "has_hook": false,
     "clip_type": "ceiling",
     "clip_activity": "sleeping",
-    "description_ja": "\u8336\u8272\u306e\u30c6\u30fc\u30d6\u30eb\u306e\u8868\u9762\u306e\u5c0f\u3055\u306a\u7a74"
+    "description_ja": "茶色のテーブルの表面の小さな穴"
   },
   {
     "id": 59,
@@ -1355,7 +1337,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "sleeping",
-    "description_ja": "\u90e8\u5c4b\u306e\u58c1\u306e\u5c0f\u3055\u306a\u7a74"
+    "description_ja": "部屋の壁の小さな穴"
   },
   {
     "id": 60,
@@ -1375,7 +1357,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "\u30d9\u30c3\u30c9\u3068\u5c0f\u3055\u306a\u30c6\u30fc\u30d6\u30eb\u306e\u3042\u308b\u5c0f\u3055\u306a\u90e8\u5c4b"
+    "description_ja": "ベッドと小さなテーブルのある小さな部屋"
   },
   {
     "id": 61,
@@ -1397,7 +1379,7 @@
     "has_hook": false,
     "clip_type": "corridor",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u5e8a\u304c\u3042\u308b\u6238\u53e3"
+    "description_ja": "木製の床がある戸口"
   },
   {
     "id": 62,
@@ -1419,7 +1401,7 @@
     "has_hook": true,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u80cc\u666f\u306b\u30cf\u30f3\u30c9\u30eb\u304c\u3042\u308b\u30c9\u30a2"
+    "description_ja": "背景にハンドルがあるドア"
   },
   {
     "id": 63,
@@ -1439,7 +1421,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u68da\u306e\u7aef\u306b\u3042\u308b\u5c0f\u3055\u306a\u866b"
+    "description_ja": "木製の棚の端にある小さな虫"
   },
   {
     "id": 64,
@@ -1462,7 +1444,7 @@
     "has_hook": false,
     "clip_type": "indoor",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u67a0\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製の窓枠のクローズアップ"
   },
   {
     "id": 65,
@@ -1484,7 +1466,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u8336\u8272\u306e\u30c8\u30ea\u30e0\u306e\u3042\u308b\u6728\u88fd\u306e\u5929\u4e95"
+    "description_ja": "茶色のトリムのある木製の天井"
   },
   {
     "id": 66,
@@ -1509,7 +1491,7 @@
     "has_hook": true,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u30d5\u30c3\u30af\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u5929\u4e95"
+    "description_ja": "フックがぶら下がっている木製の天井"
   },
   {
     "id": 67,
@@ -1531,7 +1513,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u30da\u30fc\u30d1\u30fc\u30bf\u30aa\u30eb\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u5929\u4e95"
+    "description_ja": "ペーパータオルがぶら下がっている木製の天井"
   },
   {
     "id": 68,
@@ -1551,7 +1533,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u30d9\u30c3\u30c9\u3068\u30ab\u30fc\u30c6\u30f3\u306e\u3042\u308b\u90e8\u5c4b"
+    "description_ja": "ベッドとカーテンのある部屋"
   },
   {
     "id": 69,
@@ -1573,7 +1555,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30b7\u30e3\u30c3\u30bf\u30fc\u4ed8\u304d\u306e\u65e5\u672c\u306e\u5bb6\u306e\u7a93"
+    "description_ja": "木製のシャッター付きの日本の家の窓"
   },
   {
     "id": 70,
@@ -1596,7 +1578,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u3068\u30b7\u30e3\u30c3\u30bf\u30fc\u306e\u3042\u308b\u7a93"
+    "description_ja": "木製のフレームとシャッターのある窓"
   },
   {
     "id": 71,
@@ -1618,7 +1600,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u5973\u6027\u304c\u7a93\u306e\u524d\u306b\u5ea7\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "女性が窓の前に座っています"
   },
   {
     "id": 72,
@@ -1641,7 +1623,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u3068\u7a93\u306e\u3042\u308b\u7a93"
+    "description_ja": "木製のフレームと窓のある窓"
   },
   {
     "id": 73,
@@ -1661,7 +1643,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u8336\u8272\u306e\u6c5a\u308c\u306e\u3042\u308b\u6728\u88fd\u306e\u68da\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
   },
   {
     "id": 74,
@@ -1683,7 +1665,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u5c0f\u3055\u306a\u7a93\u306e\u3042\u308b\u7a93",
+    "description_ja": "小さな窓のある窓",
     "taken_by": "Samridhi P.",
     "taken_at": "2025-09-02T13:10:36.759403",
     "updates": [
@@ -1739,7 +1721,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "reading",
-    "description_ja": "\u91d1\u5c5e\u30d5\u30ec\u30fc\u30e0\u306e\u3042\u308b\u5c0f\u3055\u306a\u6728\u88fd\u306e\u68da"
+    "description_ja": "金属フレームのある小さな木製の棚"
   },
   {
     "id": 76,
@@ -1762,7 +1744,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sitting",
-    "description_ja": "\u6728\u88fd\u306e\u5e8a\u3068\u6c60\u306e\u666f\u8272\u3092\u671b\u3080\u7a93"
+    "description_ja": "木製の床と池の景色を望む窓"
   },
   {
     "id": 77,
@@ -1784,7 +1766,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u4ed8\u304d\u306e\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "木製のフレーム付きの木製のドア"
   },
   {
     "id": 78,
@@ -1806,7 +1788,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u5149\u304c\u8f1d\u3044\u3066\u3044\u308b\u6728\u88fd\u306e\u5929\u4e95"
+    "description_ja": "光が輝いている木製の天井"
   },
   {
     "id": 79,
@@ -1828,7 +1810,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u6881\u306e\u3042\u308b\u6728\u88fd\u306e\u5929\u4e95",
+    "description_ja": "木製の梁のある木製の天井",
     "taken_by": "Tim Lode",
     "taken_at": "2025-09-03T03:39:46.768554",
     "instruction_text": "",
@@ -1854,7 +1836,7 @@
     "has_hook": false,
     "clip_type": "kitchen",
     "clip_activity": "meditating",
-    "description_ja": "\u673a\u3068\u7a93\u306e\u3042\u308b\u5c0f\u3055\u306a\u90e8\u5c4b"
+    "description_ja": "机と窓のある小さな部屋"
   },
   {
     "id": 81,
@@ -1876,7 +1858,7 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "hanging",
-    "description_ja": "\u30e9\u30f3\u30d7\u3068\u30c9\u30a2\u306e\u3042\u308b\u5c0f\u3055\u306a\u90e8\u5c4b"
+    "description_ja": "ランプとドアのある小さな部屋"
   },
   {
     "id": 82,
@@ -1898,7 +1880,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "meditating",
-    "description_ja": "\u7a93\u3068\u30bf\u30fc\u30bf\u30df\u30de\u30c3\u30c8\u306e\u3042\u308b\u90e8\u5c4b"
+    "description_ja": "窓とタータミマットのある部屋"
   },
   {
     "id": 83,
@@ -1918,7 +1900,7 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "sitting",
-    "description_ja": "\u30de\u30c3\u30c8\u306e\u4e0a\u306b\u9ed2\u3044\u30c8\u30c3\u30d7\u304c\u3042\u308b\u5c0f\u3055\u306a\u30c6\u30fc\u30d6\u30eb"
+    "description_ja": "マットの上に黒いトップがある小さなテーブル"
   },
   {
     "id": 84,
@@ -1940,7 +1922,7 @@
     "has_hook": false,
     "clip_type": "floor",
     "clip_activity": "reading",
-    "description_ja": "\u6577\u7269\u306e\u3042\u308b\u90e8\u5c4b\u306e\u5c0f\u3055\u306a\u6728\u88fd\u306e\u30c6\u30fc\u30d6\u30eb"
+    "description_ja": "敷物のある部屋の小さな木製のテーブル"
   },
   {
     "id": 85,
@@ -1960,7 +1942,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "reading",
-    "description_ja": "\u5c0f\u3055\u306a\u6728\u7247\u306e\u3042\u308b\u5c0f\u3055\u306a\u6728\u7247"
+    "description_ja": "小さな木片のある小さな木片"
   },
   {
     "id": 86,
@@ -1980,7 +1962,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30c9\u30a2\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "木製のドアからぶら下がっている木製のドア"
   },
   {
     "id": 87,
@@ -2003,7 +1985,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u7a93"
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 88,
@@ -2025,7 +2007,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sleeping",
-    "description_ja": "\u5149\u304c\u8f1d\u3044\u3066\u3044\u308b\u7a93"
+    "description_ja": "光が輝いている窓"
   },
   {
     "id": 89,
@@ -2045,7 +2027,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "lying",
-    "description_ja": "\u6728\u88fd\u306e\u624b\u3059\u308a\u306e\u3042\u308b\u6728\u88fd\u306e\u68da"
+    "description_ja": "木製の手すりのある木製の棚"
   },
   {
     "id": 90,
@@ -2065,7 +2047,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "\u91d1\u5c5e\u30d1\u30a4\u30d7\u306e\u3042\u308b\u6728\u88fd\u306e\u5efa\u7269"
+    "description_ja": "金属パイプのある木製の建物"
   },
   {
     "id": 91,
@@ -2088,7 +2070,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "meditating",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u3068\u6728\u88fd\u306e\u30b7\u30e3\u30c3\u30bf\u30fc\u4ed8\u304d\u306e\u7a93"
+    "description_ja": "木製のフレームと木製のシャッター付きの窓"
   },
   {
     "id": 92,
@@ -2110,7 +2092,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sleeping",
-    "description_ja": "\u6728\u306e\u666f\u8272\u3092\u671b\u3080\u65e5\u672c\u306e\u5bb6\u306e\u7a93"
+    "description_ja": "木の景色を望む日本の家の窓"
   },
   {
     "id": 93,
@@ -2133,7 +2115,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "resting",
-    "description_ja": "\u6728\u88fd\u306e\u5e8a\u3068\u93e1\u306e\u3042\u308b\u7a93"
+    "description_ja": "木製の床と鏡のある窓"
   },
   {
     "id": 94,
@@ -2155,7 +2137,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u306e\u3042\u308b\u7a93\u304c\u5165\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "窓のある窓が入っています"
   },
   {
     "id": 95,
@@ -2175,7 +2157,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "\u7537\u304c\u30bf\u30d0\u30b3\u3092\u6301\u3063\u3066\u3044\u307e\u3059",
+    "description_ja": "男がタバコを持っています",
     "taken_by": "leo je-eon lee",
     "taken_at": "2025-09-03T16:00:56.999126",
     "instruction_text": "print this picture and hang it in that space",
@@ -2206,7 +2188,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "\u7537\u304c\u6905\u5b50\u306b\u5ea7\u3063\u3066\u3044\u307e\u3059",
+    "description_ja": "男が椅子に座っています",
     "taken_by": "Chuchun Hsu",
     "taken_at": "2025-09-03T03:38:00.867615",
     "instruction_text": "",
@@ -2230,7 +2212,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "resting",
-    "description_ja": "\u5c0f\u3055\u306a\u6728\u88fd\u306e\u30d9\u30f3\u30c1\u306f\u6728\u3068\u5ca9\u306b\u56f2\u307e\u308c\u3066\u3044\u307e\u3059"
+    "description_ja": "小さな木製のベンチは木と岩に囲まれています"
   },
   {
     "id": 98,
@@ -2250,7 +2232,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u304c\u6210\u9577\u3057\u3066\u3044\u308b\u6728\u306e\u5e79"
+    "description_ja": "木が成長している木の幹"
   },
   {
     "id": 99,
@@ -2270,7 +2252,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "standing",
-    "description_ja": "\u30c4\u30bf\u3067\u8986\u308f\u308c\u305f\u5ca9"
+    "description_ja": "ツタで覆われた岩"
   },
   {
     "id": 100,
@@ -2290,7 +2272,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "hanging",
-    "description_ja": "\u9ce5\u304c\u4ed8\u3044\u305f\u6728\u306e\u5e79"
+    "description_ja": "鳥が付いた木の幹"
   },
   {
     "id": 101,
@@ -2310,7 +2292,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "standing",
-    "description_ja": "\u6709\u523a\u9244\u7dda\u306e\u30d5\u30a7\u30f3\u30b9\u304c\u4ed8\u3044\u305f\u6728"
+    "description_ja": "有刺鉄線のフェンスが付いた木"
   },
   {
     "id": 102,
@@ -2330,7 +2312,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "\u30ed\u30fc\u30d7\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u306e\u5e79"
+    "description_ja": "ロープがぶら下がっている木の幹"
   },
   {
     "id": 103,
@@ -2352,7 +2334,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u5929\u4e95\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u91d1\u5c5e\u68d2"
+    "description_ja": "木製の天井からぶら下がっている金属棒"
   },
   {
     "id": 104,
@@ -2374,7 +2356,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u306b\u5ea7\u3063\u3066\u3044\u308b\u732b"
+    "description_ja": "窓に座っている猫"
   },
   {
     "id": 105,
@@ -2396,7 +2378,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u304c\u5165\u3063\u305f\u6728\u88fd\u306e\u7a93"
+    "description_ja": "木製の窓が入った木製の窓"
   },
   {
     "id": 106,
@@ -2419,7 +2401,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u7a93"
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 107,
@@ -2442,7 +2424,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u7a93"
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 108,
@@ -2462,7 +2444,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u5c0f\u3055\u306a\u7a74\u306e\u3042\u308b\u6728\u88fd\u306e\u6881"
+    "description_ja": "小さな穴のある木製の梁"
   },
   {
     "id": 109,
@@ -2485,7 +2467,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u67a0"
+    "description_ja": "木製の窓枠"
   },
   {
     "id": 110,
@@ -2507,7 +2489,7 @@
     "has_hook": true,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u30d5\u30c3\u30af\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u7a93"
+    "description_ja": "フックがぶら下がっている木製の窓"
   },
   {
     "id": 111,
@@ -2530,7 +2512,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u7a93\u306e\u3042\u308b\u6728\u88fd\u306e\u5e8a"
+    "description_ja": "木製の窓のある木製の床"
   },
   {
     "id": 112,
@@ -2552,7 +2534,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u6881\u304c\u58c1\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "木製の梁が壁からぶら下がっています"
   },
   {
     "id": 113,
@@ -2574,7 +2556,7 @@
     "has_hook": false,
     "clip_type": "ceiling",
     "clip_activity": "meditating",
-    "description_ja": "\u8336\u8272\u306e\u7e54\u308a\u30d1\u30bf\u30fc\u30f3\u306e\u6728\u88fd\u306e\u58c1"
+    "description_ja": "茶色の織りパターンの木製の壁"
   },
   {
     "id": 114,
@@ -2594,7 +2576,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u6881\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "木製の梁のクローズアップ"
   },
   {
     "id": 115,
@@ -2616,7 +2598,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "reading",
-    "description_ja": "\u90e8\u5c4b\u306e\u5929\u4e95\u304b\u3089\u6728\u88fd\u306e\u6881\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "部屋の天井から木製の梁がぶら下がっています"
   },
   {
     "id": 116,
@@ -2638,7 +2620,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7dd1\u306e\u9375\u304c\u305f\u304f\u3055\u3093\u3042\u308b\u7a93\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u307e\u3059"
+    "description_ja": "緑の鍵がたくさんある窓からぶら下がっています"
   },
   {
     "id": 117,
@@ -2660,7 +2642,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u30ef\u30a4\u30e4\u30fc\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u5929\u4e95"
+    "description_ja": "ワイヤーがぶら下がっている木製の天井"
   },
   {
     "id": 118,
@@ -2682,7 +2664,7 @@
     "has_hook": true,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u30d5\u30c3\u30af\u304c\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u6728\u88fd\u306e\u7a93"
+    "description_ja": "フックがぶら下がっている木製の窓"
   },
   {
     "id": 119,
@@ -2704,7 +2686,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u67a0\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u7dd1\u306e\u30ea\u30f3\u30b0"
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 120,
@@ -2727,7 +2709,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u3068\u7a93\u306e\u3042\u308b\u7a93"
+    "description_ja": "木製のフレームと窓のある窓"
   },
   {
     "id": 121,
@@ -2749,7 +2731,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u67a0\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u7dd1\u306e\u30ea\u30f3\u30b0"
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 122,
@@ -2771,7 +2753,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u67a0\u306b\u5ea7\u3063\u3066\u3044\u308b\u5c0f\u3055\u306a\u9ce5"
+    "description_ja": "窓枠に座っている小さな鳥"
   },
   {
     "id": 123,
@@ -2793,7 +2775,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u9752\u3068\u7dd1\u306e\u540a\u308a\u4e0b\u3052\u98fe\u308a\u306e\u3042\u308b\u7a93"
+    "description_ja": "青と緑の吊り下げ飾りのある窓"
   },
   {
     "id": 124,
@@ -2815,7 +2797,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u67a0\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u5c0f\u3055\u306a\u9752\u3044\u30ab\u30bf\u30c4\u30e0\u30ea"
+    "description_ja": "窓枠からぶら下がっている小さな青いカタツムリ"
   },
   {
     "id": 125,
@@ -2837,7 +2819,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u7dd1\u8272\u306e\u6d17\u6fef"
+    "description_ja": "窓からぶら下がっている緑色の洗濯"
   },
   {
     "id": 126,
@@ -2859,7 +2841,7 @@
     "has_hook": false,
     "clip_type": "balcony",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u67a0\u304b\u3089\u3076\u3089\u4e0b\u304c\u3063\u3066\u3044\u308b\u9752\u3044\u30ac\u30e9\u30b9"
+    "description_ja": "窓枠からぶら下がっている青いガラス"
   },
   {
     "id": 127,
@@ -2881,7 +2863,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "\u80cc\u666f\u306e\u6728\u306e\u307c\u3084\u3051\u305f\u753b\u50cf"
+    "description_ja": "背景の木のぼやけた画像"
   },
   {
     "id": 128,
@@ -2903,7 +2885,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "walking",
-    "description_ja": "\u80cc\u666f\u306e\u6728\u306e\u307c\u3084\u3051\u305f\u753b\u50cf"
+    "description_ja": "背景の木のぼやけた画像"
   },
   {
     "id": 129,
@@ -2923,7 +2905,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u91d1\u5c5e\u88fd\u306e\u30cf\u30f3\u30c9\u30eb\u3092\u5099\u3048\u305f\u91d1\u5c5e\u30c9\u30a2\u306e\u30af\u30ed\u30fc\u30ba\u30a2\u30c3\u30d7"
+    "description_ja": "金属製のハンドルを備えた金属ドアのクローズアップ"
   },
   {
     "id": 130,
@@ -2945,7 +2927,7 @@
     "has_hook": false,
     "clip_type": "kitchen",
     "clip_activity": "hanging",
-    "description_ja": "\u7a93\u306e\u3042\u308b\u90e8\u5c4b\u306e\u5c0f\u3055\u306a\u68da"
+    "description_ja": "窓のある部屋の小さな棚"
   },
   {
     "id": 131,
@@ -2965,7 +2947,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "hanging",
-    "description_ja": "\u7d19\u304c\u8986\u308f\u308c\u305f\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "紙が覆われた木製のドア"
   },
   {
     "id": 132,
@@ -2987,7 +2969,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "standing",
-    "description_ja": "\u6728\u88fd\u306e\u30d5\u30ec\u30fc\u30e0\u4ed8\u304d\u306e\u6728\u88fd\u306e\u6238\u53e3"
+    "description_ja": "木製のフレーム付きの木製の戸口"
   },
   {
     "id": 133,
@@ -3007,7 +2989,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "\u90e8\u5c4b\u306e\u6728\u88fd\u306e\u30b9\u30e9\u30c3\u30c8\u30b9\u30af\u30ea\u30fc\u30f3"
+    "description_ja": "部屋の木製のスラットスクリーン"
   },
   {
     "id": 134,
@@ -3029,7 +3011,7 @@
     "has_hook": false,
     "clip_type": "floor",
     "clip_activity": "standing",
-    "description_ja": "\u6577\u7269\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u5e8a"
+    "description_ja": "敷物が付いた木製の床"
   },
   {
     "id": 135,
@@ -3049,7 +3031,7 @@
     "has_hook": false,
     "clip_type": "kitchen",
     "clip_activity": "sleeping",
-    "description_ja": "\u30d9\u30c3\u30c9\u3068\u30c9\u30ec\u30c3\u30b5\u30fc\u306e\u3042\u308b\u5c0f\u3055\u306a\u90e8\u5c4b"
+    "description_ja": "ベッドとドレッサーのある小さな部屋"
   },
   {
     "id": 136,
@@ -3069,7 +3051,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u5f15\u304d\u51fa\u3057\u304c\u5165\u3063\u305f\u6728\u88fd\u306e\u30ad\u30e3\u30d3\u30cd\u30c3\u30c8"
+    "description_ja": "引き出しが入った木製のキャビネット"
   },
   {
     "id": 137,
@@ -3089,7 +3071,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "\u30ce\u30d6\u304c\u4ed8\u3044\u305f\u6728\u88fd\u306e\u30c9\u30a2"
+    "description_ja": "ノブが付いた木製のドア"
   },
   {
     "id": 138,
@@ -3109,7 +3091,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "\u30c8\u30a4\u30ec\u3068\u6d41\u3057\u53f0\u306e\u3042\u308b\u30d0\u30b9\u30eb\u30fc\u30e0"
+    "description_ja": "トイレと流し台のあるバスルーム"
   },
   {
     "id": 139,
@@ -3129,7 +3111,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "playing",
-    "description_ja": "\u30ea\u30f3\u30b0\u304c\u4ed8\u3044\u305f\u9752\u3044\u30c9\u30a2"
+    "description_ja": "リングが付いた青いドア"
   },
   {
     "id": 140,

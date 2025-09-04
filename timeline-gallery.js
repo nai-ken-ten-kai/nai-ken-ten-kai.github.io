@@ -127,11 +127,11 @@ fetch('spaces_timeline.json')
               if (upd.images && upd.images.length > 0) {
                 const timestamp = upd.taken_at ? new Date(upd.taken_at).toLocaleString() : 'Unknown time';
                 const authorInfo = upd.author ? `<b>${upd.author}</b><br>` : '';
-                const updateText = upd.text ? `${upd.text}<br>` : '';
+                const updateText = upd.text ? `<br><small style="font-size: 0.8em; color: #666; font-style: italic;">"${upd.text}"</small><br>` : '';
                 events.push({
                   type: 'update',
                   img: upd.images[0].src,
-                  info: `${authorInfo}${updateText}<small>${timestamp}</small>`,
+                  info: `${authorInfo}<small>${timestamp}</small>${updateText}`,
                   supp: upd.images.slice(1).map(im => im.src)
                 });
               }

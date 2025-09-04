@@ -388,21 +388,21 @@
     "updates": [
       {
         "author": "Tim Loehde",
-        "text": "zu klar",
+        "text": "",
         "action": "update",
         "images": [
           {
-            "src": "img/update-17-20250904090609/DSC0931.jpg",
+            "src": "img/update-17-20250904090356/DSC0931.jpg",
             "taken_at": "2025-09-04T17:27:49",
             "role": "primary"
           }
         ],
-        "created_at": "2025-09-04T09:06:09.217945",
+        "created_at": "2025-09-04T09:03:57.035490",
         "status": "published"
       }
     ],
     "modified_by": "Tim Loehde",
-    "modified_at": "2025-09-04T09:06:09.217970"
+    "modified_at": "2025-09-04T09:03:57.035521"
   },
   {
     "id": 18,

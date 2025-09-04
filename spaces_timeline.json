@@ -2258,5 +2258,37 @@
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 26,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-26-20250904084319/DSC0928.jpg",
+        "taken_at": "2025-09-04T17:11:40",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-04T17:11:40",
+    "author": "Wendi",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 17,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-17-20250904090609/DSC0931.jpg",
+        "taken_at": "2025-09-04T17:27:49",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-04T17:27:49",
+    "author": "Tim Loehde",
+    "text": "zu klar",
+    "action": "update",
+    "status": "published"
   }
 ]

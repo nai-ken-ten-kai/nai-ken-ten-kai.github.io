@@ -478,24 +478,10 @@
         ],
         "created_at": "2025-09-04T01:08:17.819234",
         "status": "published"
-      },
-      {
-        "author": "Lennart Haffner",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-20-20250904073200/DSC0899.jpg",
-            "taken_at": "2025-09-04T11:03:12",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T07:32:00.934875",
-        "status": "published"
       }
     ],
     "modified_by": "Lennart Haffner",
-    "modified_at": "2025-09-04T07:32:00.934918",
+    "modified_at": "2025-09-04T01:08:17.819265",
     "instruction_text": "",
     "instruction_images": [
       {

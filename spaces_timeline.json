@@ -2164,6 +2164,22 @@
     "status": "published"
   },
   {
+    "space_id": 20,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-20-20250904073200/DSC0899.jpg",
+        "taken_at": "2025-09-04T11:03:12",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-04T11:03:12",
+    "author": "Lennart Haffner",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 140,
     "type": "update",
     "images": [
@@ -2223,6 +2239,22 @@
     ],
     "taken_at": "2025-09-04T13:01:59",
     "author": "Piu Lee",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 95,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-95-20250904073037/DSC0922.jpg",
+        "taken_at": "2025-09-04T15:25:53",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-04T15:25:53",
+    "author": "leo je-eon lee",
     "text": "",
     "action": "update",
     "status": "published"

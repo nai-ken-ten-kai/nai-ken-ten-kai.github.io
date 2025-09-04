@@ -292,7 +292,7 @@
   {
     "id": 30,
     "description": "a small bug on the edge of a wooden door",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0030.jpg",
@@ -732,7 +732,7 @@
   {
     "id": 74,
     "description": "a window with a small window in it",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0074.jpg",
@@ -942,7 +942,7 @@
   {
     "id": 95,
     "description": "a man is holding a cigarette",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0095.jpg",
@@ -1392,7 +1392,7 @@
   {
     "id": 140,
     "description": "a computer screen is shown in a room",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/140-20250903034601/DSC0879.jpg",

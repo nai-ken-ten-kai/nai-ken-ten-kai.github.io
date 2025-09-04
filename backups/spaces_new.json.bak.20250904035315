@@ -210,7 +210,7 @@
         "taken_at": "2025-08-21T09:26:40"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "outside",
     "element": [],
     "style": [
@@ -223,25 +223,7 @@
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-01T05:50:36.950710",
     "taken_note": "",
-    "unpublished_at": "2025-09-03T16:20:17.308490",
-    "updates": [
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-11-20250904035441/DSC0907.jpg",
-            "taken_at": "2025-09-04T12:46:02",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T03:54:41.773826",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Piu Lee",
-    "modified_at": "2025-09-04T03:54:41.773862"
+    "unpublished_at": "2025-09-03T16:20:17.308490"
   },
   {
     "id": 12,
@@ -3106,28 +3088,11 @@
     ],
     "created_by": "Admin",
     "created_at": "2025-09-03T12:00:01.452481",
-    "status": "published",
-    "updates": [
-      {
-        "author": "Yuqi Wang",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-140-20250904035315/DSC0901.jpg",
-            "taken_at": "2025-09-04T12:38:32",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-04T03:53:15.867029",
-        "status": "published"
-      }
-    ],
+    "status": "taken",
+    "updates": [],
     "taken_by": "Yuqi Wang",
     "taken_at": "2025-09-04T00:44:05.247152",
     "instruction_text": "",
-    "instruction_images": [],
-    "modified_by": "Yuqi Wang",
-    "modified_at": "2025-09-04T03:53:15.867051"
+    "instruction_images": []
   }
 ]

@@ -1129,7 +1129,7 @@
         "taken_at": "2025-08-21T10:44:22"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1140,11 +1140,7 @@
     "has_hook": false,
     "clip_type": "indoor",
     "clip_activity": "hanging",
-    "description_ja": "木製の天井からぶら下がっているステンドグラスのライト",
-    "taken_by": "Yuki",
-    "taken_at": "2025-09-05T03:57:18.241012",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の天井からぶら下がっているステンドグラスのライト"
   },
   {
     "id": 47,

@@ -8,7 +8,7 @@
         "taken_at": "2025-08-21T09:21:34"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [
       "wall"
@@ -19,11 +19,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "reading",
-    "description_ja": "ポスターが建物の横にぶら下がっています",
-    "taken_by": "Shen Tongzhou",
-    "taken_at": "2025-09-05T02:56:30.887950",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ポスターが建物の横にぶら下がっています"
   },
   {
     "id": 2,
@@ -1830,7 +1826,7 @@
         "taken_at": "2025-08-21T09:29:14"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ground",
@@ -1842,11 +1838,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sitting",
-    "description_ja": "木製の床と池の景色を望む窓",
-    "taken_by": "ZHANG Yuan",
-    "taken_at": "2025-09-05T02:59:07.503012",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の床と池の景色を望む窓"
   },
   {
     "id": 77,
@@ -2019,7 +2011,7 @@
         "taken_at": "2025-08-21T09:36:39"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -2028,11 +2020,7 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "sitting",
-    "description_ja": "マットの上に黒いトップがある小さなテーブル",
-    "taken_by": "ZHANG Yuan",
-    "taken_at": "2025-09-05T02:59:24.016370",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "マットの上に黒いトップがある小さなテーブル"
   },
   {
     "id": 84,

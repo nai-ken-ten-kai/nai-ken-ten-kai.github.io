@@ -2,7 +2,7 @@
   {
     "id": 1,
     "description": "a poster is hanging on the side of a building",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0001.jpg",
@@ -752,7 +752,7 @@
   {
     "id": 76,
     "description": "a window with a wooden floor and a view of a pond",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0076.jpg",
@@ -834,7 +834,7 @@
   {
     "id": 83,
     "description": "a small table with a black top on a mat",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0083.jpg",

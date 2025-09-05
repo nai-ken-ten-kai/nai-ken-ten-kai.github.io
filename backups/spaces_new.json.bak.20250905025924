@@ -2019,7 +2019,7 @@
         "taken_at": "2025-08-21T09:36:39"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -2028,11 +2028,7 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "sitting",
-    "description_ja": "マットの上に黒いトップがある小さなテーブル",
-    "taken_by": "ZHANG Yuan",
-    "taken_at": "2025-09-05T02:59:24.016370",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "マットの上に黒いトップがある小さなテーブル"
   },
   {
     "id": 84,

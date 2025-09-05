@@ -804,7 +804,7 @@
   {
     "id": 80,
     "description": "a small room with a desk and a window",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0080.jpg",

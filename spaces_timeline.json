@@ -2290,5 +2290,85 @@
     "text": "zu klar",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 20,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-20-20250905070643/DSC0939.jpg",
+        "taken_at": "2025-09-05T12:43:02",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T12:43:02",
+    "author": "Lennart Haffner",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 74,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-74-20250905071719/DSC0949.jpg",
+        "taken_at": "2025-09-05T13:46:45",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T13:46:45",
+    "author": "Samridhi Pokhrel & Nirvik Maskey",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 80,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-80-20250905064419/DSC0990.jpg",
+        "taken_at": "2025-09-05T14:28:51",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T14:28:51",
+    "author": "Juli Lee",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 140,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-140-20250905070002/DSC0998.jpg",
+        "taken_at": "2025-09-05T15:34:49",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T15:34:49",
+    "author": " Dongchen Daniel Zheng",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 140,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-140-20250905070518/DSC1002.jpg",
+        "taken_at": "2025-09-05T15:47:49",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T15:47:49",
+    "author": "Yun Hyejeong",
+    "text": "",
+    "action": "update",
+    "status": "published"
   }
 ]

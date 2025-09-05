@@ -1816,24 +1816,10 @@
         ],
         "created_at": "2025-09-04T01:02:54.822925",
         "status": "published"
-      },
-      {
-        "author": "Samridhi Pokhrel & Nirvik Maskey",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-74-20250905071719/DSC0949.jpg",
-            "taken_at": "2025-09-05T13:46:45",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T07:17:19.449772",
-        "status": "published"
       }
     ],
     "modified_by": "Samridhi Pokhrel & Nirvik Maskey",
-    "modified_at": "2025-09-05T07:17:19.449799"
+    "modified_at": "2025-09-04T01:02:54.822946"
   },
   {
     "id": 75,

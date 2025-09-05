@@ -52,7 +52,7 @@
   {
     "id": 6,
     "description": "a man is sitting on a bench in front of a building",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0006.jpg",
@@ -132,7 +132,7 @@
   {
     "id": 14,
     "description": "a wooden floor with a bench",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0014.jpg",
@@ -924,7 +924,7 @@
   {
     "id": 92,
     "description": "a window in a japanese house with a view of a tree",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0092.jpg",
@@ -944,7 +944,7 @@
   {
     "id": 94,
     "description": "a window with a windowpane in it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0094.jpg",
@@ -1004,7 +1004,7 @@
   {
     "id": 100,
     "description": "a tree trunk with a bird on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0100.jpg",

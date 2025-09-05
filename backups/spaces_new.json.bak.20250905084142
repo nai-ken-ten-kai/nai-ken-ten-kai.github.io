@@ -122,7 +122,7 @@
         "taken_at": "2025-08-21T09:24:50"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -131,11 +131,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "standing",
-    "description_ja": "男が建物の前のベンチに座っています",
-    "taken_by": "BLUE BUTTON（藍釦子）aka Yellow Dot Dot （黃點點）aka（Huang Yu Ting）",
-    "taken_at": "2025-09-05T08:51:20.237354",
-    "instruction_text": "用室內的那杯食用水在附近寫「我出門了」，並畫一隻室內的那隻蝴蝶。",
-    "instruction_images": []
+    "description_ja": "男が建物の前のベンチに座っています"
   },
   {
     "id": 7,
@@ -326,7 +322,7 @@
         "taken_at": "2025-08-21T09:17:03"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ground"
@@ -337,11 +333,7 @@
     "has_hook": false,
     "clip_type": "floor",
     "clip_activity": "standing",
-    "description_ja": "ベンチ付きの木製の床",
-    "taken_by": "BLUE BUTTON aka Yellow Dot Dot aka Huang Yu Ting",
-    "taken_at": "2025-09-05T08:49:49.613023",
-    "instruction_text": "在這個角落用手指與室外的水寫「我進來了」，並畫一隻外面的那隻蝴蝶。",
-    "instruction_images": []
+    "description_ja": "ベンチ付きの木製の床"
   },
   {
     "id": 15,
@@ -2283,7 +2275,7 @@
         "taken_at": "2025-08-21T10:42:24"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -2294,11 +2286,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sleeping",
-    "description_ja": "木の景色を望む日本の家の窓",
-    "taken_by": "Piu Lee",
-    "taken_at": "2025-09-05T08:41:42.139671",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木の景色を望む日本の家の窓"
   },
   {
     "id": 93,
@@ -2332,7 +2320,7 @@
         "taken_at": "2025-08-21T10:43:02"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -2343,11 +2331,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓のある窓が入っています",
-    "taken_by": "BLUE BUTTON aka Yellow Dot Dot aka Huang Yu Ting",
-    "taken_at": "2025-09-05T08:49:19.129415",
-    "instruction_text": "在窗台附近用食用水畫另一隻蝴蝶（可以長得跟戶外的不一樣）",
-    "instruction_images": []
+    "description_ja": "窓のある窓が入っています"
   },
   {
     "id": 95,
@@ -2491,7 +2475,7 @@
         "taken_at": "2025-08-21T09:29:08"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -2500,11 +2484,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "hanging",
-    "description_ja": "鳥が付いた木の幹",
-    "taken_by": "BLUE BUTTON（藍釦子）aka Yellow Dot Dot （黃點點）aka（Huang Yu Ting）",
-    "taken_at": "2025-09-05T08:50:44.871672",
-    "instruction_text": "在這附近用食用水寫上「等等要回家了」。",
-    "instruction_images": []
+    "description_ja": "鳥が付いた木の幹"
   },
   {
     "id": 101,

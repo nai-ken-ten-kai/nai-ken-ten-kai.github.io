@@ -298,7 +298,7 @@
         "taken_at": "2025-08-21T07:44:39"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -307,11 +307,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "resting",
-    "description_ja": "木製のハンドルが付いた石盆地",
-    "taken_by": "Chiaki ",
-    "taken_at": "2025-09-05T03:56:28.386289",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製のハンドルが付いた石盆地"
   },
   {
     "id": 14,

@@ -286,24 +286,10 @@
         ],
         "created_at": "2025-09-04T04:18:10.523645",
         "status": "published"
-      },
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-11-20250905094136/DSC1012.jpg",
-            "taken_at": "2025-09-05T16:52:02",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:41:36.354088",
-        "status": "published"
       }
     ],
     "modified_by": "Piu Lee",
-    "modified_at": "2025-09-05T09:41:36.354107"
+    "modified_at": "2025-09-04T04:18:10.523672"
   },
   {
     "id": 12,
@@ -1637,7 +1623,7 @@
         "taken_at": "2025-08-21T09:17:32"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-02T00:56:57",
     "note": "",
@@ -1651,25 +1637,7 @@
     "has_hook": true,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "フックがぶら下がっている木製の天井",
-    "updates": [
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-66-20250905094301/DSC1008.jpg",
-            "taken_at": "2025-09-05T16:40:42",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:43:02.043577",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Piu Lee",
-    "modified_at": "2025-09-05T09:43:02.043607"
+    "description_ja": "フックがぶら下がっている木製の天井"
   },
   {
     "id": 67,
@@ -2159,7 +2127,7 @@
         "taken_at": "2025-08-21T09:36:52"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ground"
@@ -2174,25 +2142,7 @@
     "taken_by": "Jimi",
     "taken_at": "2025-09-04T17:28:06.779382",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Jimi",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-84-20250905094203/DSC1010.jpg",
-            "taken_at": "2025-09-05T16:49:16",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:42:03.392662",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Jimi",
-    "modified_at": "2025-09-05T09:42:03.392693"
+    "instruction_images": []
   },
   {
     "id": 85,

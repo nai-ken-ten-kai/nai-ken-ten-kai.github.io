@@ -1637,7 +1637,7 @@
         "taken_at": "2025-08-21T09:17:32"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-02T00:56:57",
     "note": "",
@@ -1651,25 +1651,7 @@
     "has_hook": true,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "フックがぶら下がっている木製の天井",
-    "updates": [
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-66-20250905094301/DSC1008.jpg",
-            "taken_at": "2025-09-05T16:40:42",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:43:02.043577",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Piu Lee",
-    "modified_at": "2025-09-05T09:43:02.043607"
+    "description_ja": "フックがぶら下がっている木製の天井"
   },
   {
     "id": 67,

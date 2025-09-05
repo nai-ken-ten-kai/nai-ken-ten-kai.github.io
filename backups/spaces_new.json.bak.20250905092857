@@ -8,7 +8,7 @@
         "taken_at": "2025-08-21T09:21:34"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "outside",
     "element": [
       "wall"
@@ -23,25 +23,7 @@
     "taken_by": "Shen Tongzhou",
     "taken_at": "2025-09-05T02:56:30.887950",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "沈 同舟（Shen Tongzhou）",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-1-20250905092857/DSC1020.jpg",
-            "taken_at": "2025-09-05T18:22:33",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:28:57.698065",
-        "status": "published"
-      }
-    ],
-    "modified_by": "沈 同舟（Shen Tongzhou）",
-    "modified_at": "2025-09-05T09:28:57.698091"
+    "instruction_images": []
   },
   {
     "id": 2,
@@ -286,24 +268,10 @@
         ],
         "created_at": "2025-09-04T04:18:10.523645",
         "status": "published"
-      },
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-11-20250905094136/DSC1012.jpg",
-            "taken_at": "2025-09-05T16:52:02",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:41:36.354088",
-        "status": "published"
       }
     ],
     "modified_by": "Piu Lee",
-    "modified_at": "2025-09-05T09:41:36.354107"
+    "modified_at": "2025-09-04T04:18:10.523672"
   },
   {
     "id": 12,
@@ -1637,7 +1605,7 @@
         "taken_at": "2025-08-21T09:17:32"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-02T00:56:57",
     "note": "",
@@ -1651,25 +1619,7 @@
     "has_hook": true,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "フックがぶら下がっている木製の天井",
-    "updates": [
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-66-20250905094301/DSC1008.jpg",
-            "taken_at": "2025-09-05T16:40:42",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:43:02.043577",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Piu Lee",
-    "modified_at": "2025-09-05T09:43:02.043607"
+    "description_ja": "フックがぶら下がっている木製の天井"
   },
   {
     "id": 67,
@@ -2159,7 +2109,7 @@
         "taken_at": "2025-08-21T09:36:52"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ground"
@@ -2174,25 +2124,7 @@
     "taken_by": "Jimi",
     "taken_at": "2025-09-04T17:28:06.779382",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Jimi",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-84-20250905094203/DSC1010.jpg",
-            "taken_at": "2025-09-05T16:49:16",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:42:03.392662",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Jimi",
-    "modified_at": "2025-09-05T09:42:03.392693"
+    "instruction_images": []
   },
   {
     "id": 85,
@@ -2871,7 +2803,7 @@
         "taken_at": "2025-08-21T10:49:48"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [],
     "style": [
@@ -2880,7 +2812,11 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "木製の梁のクローズアップ"
+    "description_ja": "木製の梁のクローズアップ",
+    "taken_by": "Lin Anpeng",
+    "taken_at": "2025-09-04T17:28:21.933577",
+    "instruction_text": "",
+    "instruction_images": []
   },
   {
     "id": 115,
@@ -2935,7 +2871,7 @@
         "taken_at": "2025-08-21T10:50:22"
       }
     ],
-    "status": "published",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -2946,37 +2882,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "ワイヤーがぶら下がっている木製の天井",
-    "taken_by": "Lin Anpeng",
-    "taken_at": "2025-09-04T17:28:21.933577",
-    "instruction_text": "",
-    "instruction_images": [],
-    "taken_artists": [
-      {
-        "name": "Guo Mengke",
-        "taken_at": "2025-09-05T09:31:24.754667",
-        "instructions": [],
-        "instruction_images": []
-      }
-    ],
-    "updates": [
-      {
-        "author": "Guo Mengke",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-114-20250905093124/DSC1014.jpg",
-            "taken_at": "2025-09-05T16:55:36",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T09:31:24.754667",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Guo Mengke",
-    "modified_at": "2025-09-05T09:31:24.754696"
+    "description_ja": "ワイヤーがぶら下がっている木製の天井"
   },
   {
     "id": 118,

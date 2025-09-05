@@ -2,7 +2,7 @@
   {
     "id": 1,
     "description": "a poster is hanging on the side of a building",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0001.jpg",
@@ -652,7 +652,7 @@
   {
     "id": 66,
     "description": "a wooden ceiling with a hook hanging from it",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0066.jpg",
@@ -844,7 +844,7 @@
   {
     "id": 84,
     "description": "a small wooden table in a room with a rug",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0084.jpg",
@@ -1144,7 +1144,7 @@
   {
     "id": 114,
     "description": "a close up of a wooden beam",
-    "status": "taken",
+    "status": "available",
     "artist": [],
     "original_image": {
       "src": "img/0114.jpg",
@@ -1174,8 +1174,20 @@
   {
     "id": 117,
     "description": "a wooden ceiling with a wire hanging from it",
-    "status": "available",
-    "artist": [],
+    "status": "published",
+    "artist": [
+      {
+        "name": "Guo Mengke",
+        "taken_at": "2025-09-05T09:31:24.754667",
+        "instructions": [],
+        "instruction_images": [],
+        "final_image": {
+          "src": "img/update-114-20250905093124/DSC1014.jpg",
+          "taken_at": "2025-09-05T16:55:36",
+          "role": "primary"
+        }
+      }
+    ],
     "original_image": {
       "src": "img/0117.jpg",
       "taken_at": "2025-08-21T10:50:22"

@@ -3533,27 +3533,13 @@
         ],
         "created_at": "2025-09-05T07:05:18.186757",
         "status": "published"
-      },
-      {
-        "author": "周伟智 Weizhi Zhou",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-140-20250905115052/DSC1022.jpg",
-            "taken_at": "2025-09-05T18:57:26",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-05T11:50:52.801015",
-        "status": "published"
       }
     ],
     "taken_by": "Yuqi Wang",
     "taken_at": "2025-09-04T00:44:05.247152",
     "instruction_text": "",
     "instruction_images": [],
-    "modified_by": "周伟智 Weizhi Zhou",
-    "modified_at": "2025-09-05T11:50:52.801041"
+    "modified_by": "Yun Hyejeong",
+    "modified_at": "2025-09-05T07:05:18.186782"
   }
 ]

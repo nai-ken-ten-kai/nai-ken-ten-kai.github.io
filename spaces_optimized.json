@@ -1114,7 +1114,7 @@
   {
     "id": 111,
     "description": "a wooden floor with a wooden window",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0111.jpg",

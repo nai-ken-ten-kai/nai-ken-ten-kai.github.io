@@ -2712,7 +2712,7 @@
         "taken_at": "2025-08-21T10:48:38"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ground",
@@ -2724,11 +2724,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製の窓のある木製の床",
-    "taken_by": "Suhyun Roh",
-    "taken_at": "2025-09-05T07:26:49.168631",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の床"
   },
   {
     "id": 112,

@@ -1961,7 +1961,7 @@
         "taken_at": "2025-08-21T09:35:28"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -1972,11 +1972,7 @@
     "has_hook": false,
     "clip_type": "kitchen",
     "clip_activity": "meditating",
-    "description_ja": "机と窓のある小さな部屋",
-    "taken_by": "Juli Lee",
-    "taken_at": "2025-09-05T05:24:50.867741",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "机と窓のある小さな部屋"
   },
   {
     "id": 81,

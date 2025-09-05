@@ -4,11 +4,11 @@
   }
 }
 /* Import Minion Concept font for logo */
-@import url('https://fonts.googleapis.com/css2?family=Minion+Variable+Concept:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap');
 
 /* Overlap title styling for spaces page (smaller than main gallery) */
 h1, .main-title, .main-title-ja, .main-title-en {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   font-size: 2rem;
   font-weight: 300;
   color: #222;
@@ -18,7 +18,7 @@ h1, .main-title, .main-title-ja, .main-title-en {
   z-index: 1;
 }
 .header-sub {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   font-size: 2rem;
   font-weight: 400;
   color: #888;
@@ -38,7 +38,7 @@ h1, .main-title, .main-title-ja, .main-title-en {
   margin-right: 0.5em;
 }
 .overlap, .overlap-en {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   font-size: 2rem;
   font-weight: 400;
   color: #222;
@@ -65,12 +65,12 @@ h1 {
 .main-title-ja {
   font-weight: bold;
   margin-right: 0.5em;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
 }
 .main-title-en {
   font-size: 1.1rem;
   color: #888;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   font-weight: 400;
   margin-right: 0.5em;
 }
@@ -149,7 +149,7 @@ body {
   background: none;
   border: none;
   padding: 0;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   font-size: 1.4rem;
   font-weight: 400;
   color: #666;
@@ -478,7 +478,7 @@ body {
 .header-main h1 {
   font-size: 2rem;
   margin: 0;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
 }
 .header-sub {
   font-size: 1.1rem;
@@ -496,7 +496,7 @@ body {
   border-radius: 0;
   transition: all 0.3s ease;
   border: 1px solid transparent;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
 }
 .header-nav a:hover {
   color: #333;
@@ -513,7 +513,7 @@ body {
   cursor: pointer;
   transition: color 0.2s;
   font-weight: normal;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   border-radius: 0;
   letter-spacing: 0.1em;
 }
@@ -533,7 +533,7 @@ body {
   background: none;
   border: none;
   padding: 0;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   font-size: 1.4rem;
   font-weight: 400;
   color: #666;
@@ -600,7 +600,7 @@ body {
 }
 
 .spaces-header h1 {
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   font-size: 2rem;
   margin: 0;
   padding: 0;
@@ -683,7 +683,7 @@ body {
 }
 
 .space-title {
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   font-size: 1.2rem;
   margin: 0 0 10px 0;
   font-weight: 400;
@@ -716,6 +716,7 @@ body {
   background: #43c97f;
   color: #fff;
 }
+
 
 /* Modal for space details */
 .modal {
@@ -799,7 +800,7 @@ body {
 .modal-info h2 {
   font-size: 1.2rem;
   margin: 0 0 0.5em 0;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
 }
 .modal-info p {
   margin: 0.3em 0;
@@ -836,7 +837,7 @@ body {
 .map-section h4 {
   margin-bottom: 1em;
   color: rgb(253, 98, 120);
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
 }
 
 .map-section h4 {
@@ -1187,7 +1188,7 @@ body {
   cursor: pointer;
   transition: color 0.2s;
   font-weight: normal;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Serif JP', 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif TC', serif;
   border-radius: 0;
   letter-spacing: 0.1em;
 }

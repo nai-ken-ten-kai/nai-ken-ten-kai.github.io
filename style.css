@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap');
+
 @media (max-width: 600px) {
   .titles {
     top: 0;
@@ -132,7 +134,7 @@ html, body {
   box-sizing: border-box;
 }
 body {
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   min-height: 100vh;
   /* height: 100vh; */
   /* overflow: hidden; */
@@ -173,7 +175,7 @@ body {
 }
 
 .main-img {
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   font-size: 2.2rem;
   font-weight: 400;
   margin: 0;

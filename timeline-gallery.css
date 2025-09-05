@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap');
+
 .update-modal {
   position: fixed;
   top: 0;
@@ -68,7 +70,7 @@
   text-align: left;
   font-size: 1rem;
   color: #222;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
 }
 
 #timeline-app {
@@ -108,7 +110,7 @@
   color: #181818;
   padding-right: 12px;
   padding-top: 8px;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   white-space: pre-line;
   background: none;
   box-sizing: border-box;
@@ -118,7 +120,7 @@
 }
 
 .timeline-date-label {
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   font-size: 1.1rem;
   font-weight: bold;
   color: #181818;
@@ -214,7 +216,7 @@
   text-align: center;
   font-size: 1rem;
   color: #333;
-  font-family: "Noto Serif JP", Arial, serif;
+  font-family: "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", Arial, serif;
   margin-bottom: 4px;
   line-height: 1.4;
   padding: 0 16px;

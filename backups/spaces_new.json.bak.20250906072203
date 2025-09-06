@@ -142,7 +142,7 @@
         "taken_at": "2025-08-21T09:24:42"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -151,11 +151,7 @@
     "has_hook": false,
     "clip_type": "threshold",
     "clip_activity": "standing",
-    "description_ja": "建物の上に座っているキリン",
-    "taken_by": "曹珮瑜 Peyu Cao from 园丁公寓 Gardener's Apartment",
-    "taken_at": "2025-09-06T07:22:03.537609",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "建物の上に座っているキリン"
   },
   {
     "id": 6,

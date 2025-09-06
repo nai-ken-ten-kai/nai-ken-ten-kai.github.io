@@ -42,7 +42,7 @@
   {
     "id": 5,
     "description": "a giraffe sitting on top of a building",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0005.jpg",

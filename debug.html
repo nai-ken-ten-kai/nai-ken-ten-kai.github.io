@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Debug Test</title>
+    <style>
+        .test-image {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    
+    <h2>Direct Image Load</h2>
+    <img src="img/0001.jpg" class="test-image" alt="Original">
+    <img src="img/thumbnails/0001.jpg" class="test-image" alt="Thumbnail">
+    
+    <h2>JavaScript Generated</h2>
+    <div id="js-test"></div>
+    
+    <h2>Thumbnail with Fallback</h2>
+    <img src="img/thumbnails/0001.jpg" class="test-image" alt="Thumbnail with fallback" 
+         onerror="this.src='img/0001.jpg'; this.onerror=null;">
+    
+    <script>
+        // Test the JavaScript path generation
+        const image = 'img/0001.jpg';
+        const thumbnailSrc = image.replace('img/', 'img/thumbnails/');
+        
+        console.log('Original:', image);
+        console.log('Thumbnail:', thumbnailSrc);
+        
+        const jsTest = document.getElementById('js-test');
+        jsTest.innerHTML = `
+            <img src="${thumbnailSrc}" data-full-src="${image}" class="test-image" 
+                 alt="JS Generated" loading="lazy" 
+                 onerror="this.src='${image}'; this.onerror=null;">
+        `;
+        
+        // Test JSON loading
+        fetch('spaces_optimized.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('JSON loaded successfully:', data.length, 'spaces');
+                const space = data[0];
+                console.log('First space:', space);
+                const imageObj = space.original_image;
+                const imagePath = imageObj && (typeof imageObj === 'string' ? imageObj : imageObj.src);
+                console.log('Extracted image path:', imagePath);
+            })
+            .catch(error => {
+                console.error('JSON loading failed:', error);
+            });
+        
+        // Test grid element existence
+        setTimeout(() => {
+            const grid = document.getElementById('spaces-grid');
+            console.log('Grid element found:', !!grid);
+            if (grid) {
+                console.log('Grid innerHTML length:', grid.innerHTML.length);
+            }
+        }, 2000);
+    </script>
+</body>
+</html>

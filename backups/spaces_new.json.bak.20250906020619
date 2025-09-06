@@ -3346,7 +3346,7 @@
         "taken_at": "2025-08-21T11:05:56"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -3355,11 +3355,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "部屋の木製のスラットスクリーン",
-    "taken_by": "Takasugi Runa",
-    "taken_at": "2025-09-06T02:06:19.448657",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "部屋の木製のスラットスクリーン"
   },
   {
     "id": 134,

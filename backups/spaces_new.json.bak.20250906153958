@@ -531,6 +531,20 @@
         "status": "published"
       },
       {
+        "author": "Piu Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-66-20250906054927/DSC1047.jpg",
+            "taken_at": "2025-09-06T13:35:14",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T05:49:28.057636",
+        "status": "published"
+      },
+      {
         "author": "Tim Loehde",
         "text": "",
         "action": "update",
@@ -1898,7 +1912,7 @@
         "taken_at": "2025-08-21T09:19:35"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "air"
@@ -1913,25 +1927,7 @@
     "taken_by": "Peiyu Cao",
     "taken_at": "2025-09-06T05:37:24.122306",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "曹佩瑜Peiyu Cao from 园丁公寓",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-69-20250906154908/DSC1083.jpg",
-            "taken_at": "2025-09-06T17:30:14",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T15:49:08.192232",
-        "status": "published"
-      }
-    ],
-    "modified_by": "曹佩瑜Peiyu Cao from 园丁公寓",
-    "modified_at": "2025-09-06T15:49:08.192252"
+    "instruction_images": []
   },
   {
     "id": 70,
@@ -3482,7 +3478,7 @@
         "taken_at": "2025-08-21T10:53:18"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "air"
@@ -3497,25 +3493,7 @@
     "taken_by": "Jingwei",
     "taken_at": "2025-09-06T15:38:43.553999",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Ou Jing Wei",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-126-20250906153958/DSC1076.jpg",
-            "taken_at": "2025-09-06T15:57:07",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T15:39:58.760937",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Ou Jing Wei",
-    "modified_at": "2025-09-06T15:39:58.760946"
+    "instruction_images": []
   },
   {
     "id": 127,
@@ -3921,45 +3899,5 @@
     "instruction_images": [],
     "modified_by": "Yuqi Wang",
     "modified_at": "2025-09-06T07:16:20.361953"
-  },
-  {
-    "id": 141,
-    "description": "Pending...",
-    "images": [
-      {
-        "src": "img/141-20250906154943/DSC1082.jpg",
-        "taken_at": "2025-09-06T16:58:34"
-      }
-    ],
-    "created_by": "Admin",
-    "created_at": "2025-09-06T15:49:43.644769",
-    "status": "published",
-    "updates": [
-      {
-        "author": "Pardis",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-141-20250906155054/DSC1091.jpg",
-            "taken_at": "2025-09-06T19:22:54",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T15:50:54.890228",
-        "status": "published"
-      }
-    ],
-    "taken_by": "Pardis",
-    "taken_at": "2025-09-06T15:50:36.149442",
-    "instruction_text": "",
-    "instruction_images": [
-      {
-        "src": "img/instruction-141-20250906155036/DSC1091.jpg",
-        "taken_at": "2025-09-06T19:22:54"
-      }
-    ],
-    "modified_by": "Pardis",
-    "modified_at": "2025-09-06T15:50:54.890251"
   }
 ]

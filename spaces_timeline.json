@@ -1875,6 +1875,21 @@
     "description": "a green clothespin hanging from a window"
   },
   {
+    "space_id": 126,
+    "type": "original",
+    "images": [
+      {
+        "src": "img/0126.jpg",
+        "taken_at": "2025-08-21T10:53:18"
+      }
+    ],
+    "taken_at": "2025-08-21T10:53:18",
+    "author": "Original",
+    "text": "Original state",
+    "action": "original",
+    "description": "a blue glass hanging from a window sill"
+  },
+  {
     "space_id": 129,
     "type": "original",
     "images": [
@@ -2389,6 +2404,22 @@
     "status": "published"
   },
   {
+    "space_id": 92,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-66-20250905094301/DSC1008.jpg",
+        "taken_at": "2025-09-05T16:40:42",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T16:40:42",
+    "author": "Piu Lee",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 84,
     "type": "update",
     "images": [
@@ -2512,22 +2543,6 @@
     ],
     "taken_at": "2025-09-06T05:04:28.906198",
     "author": "Mariana",
-    "text": "",
-    "action": "update",
-    "status": "published"
-  },
-  {
-    "space_id": 92,
-    "type": "update",
-    "images": [
-      {
-        "src": "img/update-92-20250906054927/DSC1047.jpg",
-        "taken_at": "2025-09-06T13:35:14",
-        "role": "primary"
-      }
-    ],
-    "taken_at": "2025-09-06T13:35:14",
-    "author": "Piu Lee",
     "text": "",
     "action": "update",
     "status": "published"
@@ -2693,6 +2708,22 @@
     "status": "published"
   },
   {
+    "space_id": 126,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-126-20250906153958/DSC1076.jpg",
+        "taken_at": "2025-09-06T15:57:07",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:57:07",
+    "author": "Ou Jing Wei",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 132,
     "type": "update",
     "images": [
@@ -2720,6 +2751,53 @@
     ],
     "taken_at": "2025-09-06T15:58:09",
     "author": "Wendi",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 141,
+    "type": "original",
+    "images": [
+      {
+        "src": "img/141-20250906154943/DSC1082.jpg",
+        "taken_at": "2025-09-06T16:58:34"
+      }
+    ],
+    "taken_at": "2025-09-06T16:58:34",
+    "author": "Admin",
+    "text": "Original state",
+    "action": "original",
+    "description": "Pending..."
+  },
+  {
+    "space_id": 69,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-69-20250906154908/DSC1083.jpg",
+        "taken_at": "2025-09-06T17:30:14",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T17:30:14",
+    "author": "曹佩瑜Peiyu Cao from 园丁公寓",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 141,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-141-20250906155054/DSC1091.jpg",
+        "taken_at": "2025-09-06T19:22:54",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T19:22:54",
+    "author": "Pardis",
     "text": "",
     "action": "update",
     "status": "published"

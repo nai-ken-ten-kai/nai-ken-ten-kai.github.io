@@ -531,6 +531,20 @@
         "status": "published"
       },
       {
+        "author": "Piu Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-66-20250906054927/DSC1047.jpg",
+            "taken_at": "2025-09-06T13:35:14",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T05:49:28.057636",
+        "status": "published"
+      },
+      {
         "author": "Tim Loehde",
         "text": "",
         "action": "update",
@@ -3921,45 +3935,5 @@
     "instruction_images": [],
     "modified_by": "Yuqi Wang",
     "modified_at": "2025-09-06T07:16:20.361953"
-  },
-  {
-    "id": 141,
-    "description": "Pending...",
-    "images": [
-      {
-        "src": "img/141-20250906154943/DSC1082.jpg",
-        "taken_at": "2025-09-06T16:58:34"
-      }
-    ],
-    "created_by": "Admin",
-    "created_at": "2025-09-06T15:49:43.644769",
-    "status": "published",
-    "updates": [
-      {
-        "author": "Pardis",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-141-20250906155054/DSC1091.jpg",
-            "taken_at": "2025-09-06T19:22:54",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T15:50:54.890228",
-        "status": "published"
-      }
-    ],
-    "taken_by": "Pardis",
-    "taken_at": "2025-09-06T15:50:36.149442",
-    "instruction_text": "",
-    "instruction_images": [
-      {
-        "src": "img/instruction-141-20250906155036/DSC1091.jpg",
-        "taken_at": "2025-09-06T19:22:54"
-      }
-    ],
-    "modified_by": "Pardis",
-    "modified_at": "2025-09-06T15:50:54.890251"
   }
 ]

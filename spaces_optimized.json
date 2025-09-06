@@ -92,7 +92,7 @@
   {
     "id": 10,
     "description": "a wooden gate with bamboo sticks on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0010.jpg",

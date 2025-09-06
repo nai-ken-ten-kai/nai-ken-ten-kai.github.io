@@ -2329,6 +2329,22 @@
     "type": "update",
     "images": [
       {
+        "src": "img/update-140-20250906071620/DSC0995.jpg",
+        "taken_at": "2025-09-05T14:31:44",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-05T14:31:44",
+    "author": "Yuqi Wang",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 140,
+    "type": "update",
+    "images": [
+      {
         "src": "img/update-140-20250905070002/DSC0998.jpg",
         "taken_at": "2025-09-05T15:34:49",
         "role": "primary"
@@ -2624,6 +2640,54 @@
     ],
     "taken_at": "2025-09-06T15:01:04",
     "author": "Utako",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 17,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-17-20250906071332/DSC1071.jpg",
+        "taken_at": "2025-09-06T15:46:06",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:46:06",
+    "author": "Tim Loehde",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 140,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-140-20250906071522/DSC1075.jpg",
+        "taken_at": "2025-09-06T15:56:41",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:56:41",
+    "author": "Yun Hyejeong",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 26,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-26-20250906071641/DSC1079.jpg",
+        "taken_at": "2025-09-06T15:58:09",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:58:09",
+    "author": "Wendi",
     "text": "",
     "action": "update",
     "status": "published"

@@ -250,7 +250,7 @@
         "taken_at": "2025-08-21T09:24:09"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -259,11 +259,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "竹の棒が付いた木製の門",
-    "taken_by": "Sam",
-    "taken_at": "2025-09-06T07:18:22.921796",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "竹の棒が付いた木製の門"
   },
   {
     "id": 11,
@@ -832,24 +828,10 @@
         ],
         "created_at": "2025-09-04T08:43:19.722360",
         "status": "published"
-      },
-      {
-        "author": "Wendi",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-26-20250906071641/DSC1079.jpg",
-            "taken_at": "2025-09-06T15:58:09",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T07:16:41.245424",
-        "status": "published"
       }
     ],
     "modified_by": "Wendi",
-    "modified_at": "2025-09-06T07:16:41.245450"
+    "modified_at": "2025-09-04T08:43:19.722389"
   },
   {
     "id": 27,
@@ -3783,41 +3765,13 @@
         ],
         "created_at": "2025-09-05T11:50:52.801015",
         "status": "published"
-      },
-      {
-        "author": "Yun Hyejeong",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-140-20250906071522/DSC1075.jpg",
-            "taken_at": "2025-09-06T15:56:41",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T07:15:22.431593",
-        "status": "published"
-      },
-      {
-        "author": "Yuqi Wang",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-140-20250906071620/DSC0995.jpg",
-            "taken_at": "2025-09-05T14:31:44",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T07:16:20.361926",
-        "status": "published"
       }
     ],
     "taken_by": "Yuqi Wang",
     "taken_at": "2025-09-04T00:44:05.247152",
     "instruction_text": "",
     "instruction_images": [],
-    "modified_by": "Yuqi Wang",
-    "modified_at": "2025-09-06T07:16:20.361953"
+    "modified_by": "周伟智 Weizhi Zhou",
+    "modified_at": "2025-09-05T11:50:52.801041"
   }
 ]

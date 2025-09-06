@@ -12,7 +12,7 @@
   {
     "id": 2,
     "description": "a cat is sitting on the steps of a wooden building",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0002.jpg",
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "description": "a close up of a metal vent grate",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0009.jpg",
@@ -582,7 +582,7 @@
   {
     "id": 59,
     "description": "a small hole in the wall of a room",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0059.jpg",
@@ -672,7 +672,7 @@
   {
     "id": 68,
     "description": "a room with a bed and a curtain",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0068.jpg",
@@ -722,7 +722,7 @@
   {
     "id": 73,
     "description": "a close up of a wooden shelf with a brown stain",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0073.jpg",
@@ -1236,7 +1236,7 @@
   {
     "id": 122,
     "description": "a small bird sitting on a window sill",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0122.jpg",
@@ -1406,7 +1406,7 @@
   {
     "id": 139,
     "description": "a blue door with a ring on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0139.jpg",

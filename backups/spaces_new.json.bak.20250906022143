@@ -3128,7 +3128,7 @@
         "taken_at": "2025-08-21T10:52:21"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -3139,11 +3139,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓枠に座っている小さな鳥",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:43.737056",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓枠に座っている小さな鳥"
   },
   {
     "id": 123,
@@ -3496,7 +3492,7 @@
         "taken_at": "2025-08-21T08:53:36"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -3505,11 +3501,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "playing",
-    "description_ja": "リングが付いた青いドア",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:52.867315",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "リングが付いた青いドア"
   },
   {
     "id": 140,

@@ -52,7 +52,7 @@
         "taken_at": "2025-08-21T09:21:05"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -61,11 +61,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "猫が木製の建物の階段に座っています",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:14:39.396911",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "猫が木製の建物の階段に座っています"
   },
   {
     "id": 3,
@@ -208,7 +204,7 @@
         "taken_at": "2025-08-21T09:23:28"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -217,11 +213,7 @@
     "has_hook": false,
     "clip_type": "wall",
     "clip_activity": "hanging",
-    "description_ja": "金属換気のクローズアップ",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:05.915799",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "金属換気のクローズアップ"
   },
   {
     "id": 10,
@@ -1512,7 +1504,7 @@
         "taken_at": "2025-08-21T09:16:41"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -1523,11 +1515,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "sleeping",
-    "description_ja": "部屋の壁の小さな穴",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:20.409544",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "部屋の壁の小さな穴"
   },
   {
     "id": 60,
@@ -1732,7 +1720,7 @@
         "taken_at": "2025-08-21T09:19:00"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1741,11 +1729,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "ベッドとカーテンのある部屋",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:29.023402",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ベッドとカーテンのある部屋"
   },
   {
     "id": 69,
@@ -1846,7 +1830,7 @@
         "taken_at": "2025-08-21T09:22:09"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -1855,11 +1839,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "茶色の汚れのある木製の棚のクローズアップ",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:36.285552",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ"
   },
   {
     "id": 74,
@@ -3128,7 +3108,7 @@
         "taken_at": "2025-08-21T10:52:21"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -3139,11 +3119,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓枠に座っている小さな鳥",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:43.737056",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓枠に座っている小さな鳥"
   },
   {
     "id": 123,
@@ -3496,7 +3472,7 @@
         "taken_at": "2025-08-21T08:53:36"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -3505,11 +3481,7 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "playing",
-    "description_ja": "リングが付いた青いドア",
-    "taken_by": "Yuandinggongyu",
-    "taken_at": "2025-09-06T02:21:52.867315",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "リングが付いた青いドア"
   },
   {
     "id": 140,

@@ -272,7 +272,7 @@
   {
     "id": 28,
     "description": "a wooden shelf with a small nail in it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0028.jpg",
@@ -432,7 +432,7 @@
   {
     "id": 44,
     "description": "a close up of a wooden ceiling",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0044.jpg",
@@ -442,7 +442,7 @@
   {
     "id": 45,
     "description": "a stained glass pendant light hanging from a wooden ceiling",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0045.jpg",
@@ -1266,7 +1266,7 @@
   {
     "id": 125,
     "description": "a green clothespin hanging from a window",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0125.jpg",

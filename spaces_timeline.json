@@ -2498,5 +2498,37 @@
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 125,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-125-20250906050428/Screenshot_2025-09-06_at_14.03.40.png",
+        "taken_at": "2025-09-06T05:04:28.906198",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T05:04:28.906198",
+    "author": "Mariana",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 125,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-125-20250906050247/IMG_3463.HEIC",
+        "taken_at": "2025-09-06T13:53:16",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T13:53:16",
+    "author": "Mariana",
+    "text": "",
+    "action": "update",
+    "status": "published"
   }
 ]

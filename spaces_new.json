@@ -808,7 +808,7 @@
         "taken_at": "2025-08-21T08:51:27"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [],
     "style": [
@@ -817,7 +817,11 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "standing",
-    "description_ja": "小さな爪が入った木製の棚"
+    "description_ja": "小さな爪が入った木製の棚",
+    "taken_by": "moiji",
+    "taken_at": "2025-09-06T05:11:47.192162",
+    "instruction_text": "",
+    "instruction_images": []
   },
   {
     "id": 29,
@@ -1165,7 +1169,7 @@
         "taken_at": "2025-08-21T09:12:15"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1176,7 +1180,11 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "lying",
-    "description_ja": "木製の天井のクローズアップ"
+    "description_ja": "木製の天井のクローズアップ",
+    "taken_by": "Coco Kashiwara",
+    "taken_at": "2025-09-06T04:58:36.232141",
+    "instruction_text": "",
+    "instruction_images": []
   },
   {
     "id": 45,
@@ -1187,7 +1195,7 @@
         "taken_at": "2025-08-21T09:12:29"
       }
     ],
-    "status": "available",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1198,7 +1206,11 @@
     "has_hook": false,
     "clip_type": "nook",
     "clip_activity": "hanging",
-    "description_ja": "木製の天井からぶら下がっているステンドグラスペンダントライト"
+    "description_ja": "木製の天井からぶら下がっているステンドグラスペンダントライト",
+    "taken_by": "Sirui",
+    "taken_at": "2025-09-06T04:57:41.847426",
+    "instruction_text": "",
+    "instruction_images": []
   },
   {
     "id": 46,
@@ -3202,7 +3214,7 @@
         "taken_at": "2025-08-21T10:53:03"
       }
     ],
-    "status": "available",
+    "status": "published",
     "location": "inside",
     "element": [
       "air"
@@ -3213,7 +3225,43 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓からぶら下がっている緑色の洗濯"
+    "description_ja": "窓からぶら下がっている緑色の洗濯",
+    "taken_by": "Mariana",
+    "taken_at": "2025-09-06T05:02:12.879519",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Mariana",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-125-20250906050247/IMG_3463.HEIC",
+            "taken_at": "2025-09-06T13:53:16",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T05:02:47.801709",
+        "status": "published"
+      },
+      {
+        "author": "Mariana",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-125-20250906050428/Screenshot_2025-09-06_at_14.03.40.png",
+            "taken_at": "2025-09-06T05:04:28.906198",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T05:04:28.906238",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Mariana",
+    "modified_at": "2025-09-06T05:04:28.906261"
   },
   {
     "id": 126,

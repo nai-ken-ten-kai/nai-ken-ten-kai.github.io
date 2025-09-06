@@ -1768,7 +1768,7 @@
         "taken_at": "2025-08-21T09:19:35"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -1779,11 +1779,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製のシャッター付きの日本の家の窓",
-    "taken_by": "Peiyu Cao",
-    "taken_at": "2025-09-06T05:37:24.122306",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製のシャッター付きの日本の家の窓"
   },
   {
     "id": 70,

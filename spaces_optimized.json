@@ -682,7 +682,7 @@
   {
     "id": 69,
     "description": "a window in a japanese house with wooden shutters",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0069.jpg",
@@ -1271,16 +1271,6 @@
     "original_image": {
       "src": "img/0125.jpg",
       "taken_at": "2025-08-21T10:53:03"
-    }
-  },
-  {
-    "id": 126,
-    "description": "a blue glass hanging from a window sill",
-    "status": "available",
-    "artist": [],
-    "original_image": {
-      "src": "img/0126.jpg",
-      "taken_at": "2025-08-21T10:53:18"
     }
   },
   {

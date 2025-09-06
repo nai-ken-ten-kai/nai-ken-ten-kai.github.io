@@ -1875,21 +1875,6 @@
     "description": "a green clothespin hanging from a window"
   },
   {
-    "space_id": 126,
-    "type": "original",
-    "images": [
-      {
-        "src": "img/0126.jpg",
-        "taken_at": "2025-08-21T10:53:18"
-      }
-    ],
-    "taken_at": "2025-08-21T10:53:18",
-    "author": "Original",
-    "text": "Original state",
-    "action": "original",
-    "description": "a blue glass hanging from a window sill"
-  },
-  {
     "space_id": 129,
     "type": "original",
     "images": [
@@ -2510,22 +2495,6 @@
       }
     ],
     "taken_at": "2025-09-06T05:04:28.906198",
-    "author": "Mariana",
-    "text": "",
-    "action": "update",
-    "status": "published"
-  },
-  {
-    "space_id": 125,
-    "type": "update",
-    "images": [
-      {
-        "src": "img/update-125-20250906050247/IMG_3463.HEIC",
-        "taken_at": "2025-09-06T13:53:16",
-        "role": "primary"
-      }
-    ],
-    "taken_at": "2025-09-06T13:53:16",
     "author": "Mariana",
     "text": "",
     "action": "update",

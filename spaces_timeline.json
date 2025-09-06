@@ -2787,6 +2787,22 @@
     "status": "published"
   },
   {
+    "space_id": 43,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-43-20250906160317/DSC1090.jpg",
+        "taken_at": "2025-09-06T19:22:08",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T19:22:08",
+    "author": "KOHARU Project",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 141,
     "type": "update",
     "images": [

@@ -2499,5 +2499,133 @@
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 92,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-92-20250906054927/DSC1047.jpg",
+        "taken_at": "2025-09-06T13:35:14",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T13:35:14",
+    "author": "Piu Lee",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 76,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-76-20250906063838/DSC1049.jpg",
+        "taken_at": "2025-09-06T14:31:51",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T14:31:51",
+    "author": "ZHANG Yuan",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 44,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-44-20250906063752/DSC1050.jpg",
+        "taken_at": "2025-09-06T14:32:42",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T14:32:42",
+    "author": "Coco Kashiwara",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 2,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-2-20250906062602/DSC1052.jpg",
+        "taken_at": "2025-09-06T14:34:18",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T14:34:18",
+    "author": "园丁公寓 (Gardener's Apartment)",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 83,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-83-20250906063903/DSC1053.jpg",
+        "taken_at": "2025-09-06T14:43:48",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T14:43:48",
+    "author": "ZHANG Yuan",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 15,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-15-20250906063630/DSC1054.jpg",
+        "taken_at": "2025-09-06T14:44:19",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T14:44:19",
+    "author": "Jana Rippmann",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 45,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-45-20250906060629/DSC1057.jpg",
+        "taken_at": "2025-09-06T15:00:46",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:00:46",
+    "author": "Sirui",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 49,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-49-20250906060728/DSC1058.jpg",
+        "taken_at": "2025-09-06T15:01:04",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:01:04",
+    "author": "Utako",
+    "text": "",
+    "action": "update",
+    "status": "published"
   }
 ]

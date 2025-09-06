@@ -12,7 +12,7 @@
   {
     "id": 2,
     "description": "a cat is sitting on the steps of a wooden building",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0002.jpg",
@@ -142,7 +142,7 @@
   {
     "id": 15,
     "description": "a wooden table with a plastic bag in it",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0015.jpg",
@@ -432,7 +432,7 @@
   {
     "id": 44,
     "description": "a close up of a wooden ceiling",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0044.jpg",
@@ -442,7 +442,7 @@
   {
     "id": 45,
     "description": "a stained glass pendant light hanging from a wooden ceiling",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0045.jpg",
@@ -482,7 +482,7 @@
   {
     "id": 49,
     "description": "a wooden shelf with nails on it",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0049.jpg",
@@ -492,7 +492,7 @@
   {
     "id": 50,
     "description": "a wooden shelf with a nail sticking out of it",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0050.jpg",
@@ -752,7 +752,7 @@
   {
     "id": 76,
     "description": "a window with a wooden floor and a view of a pond",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0076.jpg",
@@ -834,7 +834,7 @@
   {
     "id": 83,
     "description": "a small table with a black top on a mat",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0083.jpg",
@@ -924,7 +924,7 @@
   {
     "id": 92,
     "description": "a window in a japanese house with a view of a tree",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0092.jpg",

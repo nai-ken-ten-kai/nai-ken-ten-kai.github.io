@@ -52,7 +52,7 @@
         "taken_at": "2025-08-21T09:21:05"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "outside",
     "element": [],
     "style": [
@@ -65,25 +65,7 @@
     "taken_by": "Yuandinggongyu",
     "taken_at": "2025-09-06T02:14:39.396911",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "园丁公寓 (Gardener's Apartment)",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-2-20250906062602/DSC1052.jpg",
-            "taken_at": "2025-09-06T14:34:18",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:26:02.342637",
-        "status": "published"
-      }
-    ],
-    "modified_by": "园丁公寓 (Gardener's Apartment)",
-    "modified_at": "2025-09-06T06:26:02.342664"
+    "instruction_images": []
   },
   {
     "id": 3,
@@ -428,7 +410,7 @@
         "taken_at": "2025-08-21T09:17:26"
       }
     ],
-    "status": "published",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -437,29 +419,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "reading",
-    "description_ja": "ビニール袋が入った木製のテーブル",
-    "taken_by": "Jana Rippmann",
-    "taken_at": "2025-09-06T06:35:59.846009",
-    "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Jana Rippmann",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-15-20250906063630/DSC1054.jpg",
-            "taken_at": "2025-09-06T14:44:19",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:36:30.668233",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Jana Rippmann",
-    "modified_at": "2025-09-06T06:36:30.668260"
+    "description_ja": "ビニール袋が入った木製のテーブル"
   },
   {
     "id": 16,
@@ -1209,7 +1169,7 @@
         "taken_at": "2025-08-21T09:12:15"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1224,25 +1184,7 @@
     "taken_by": "Coco Kashiwara",
     "taken_at": "2025-09-06T04:58:36.232141",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Coco Kashiwara",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-44-20250906063752/DSC1050.jpg",
-            "taken_at": "2025-09-06T14:32:42",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:37:52.266765",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Coco Kashiwara",
-    "modified_at": "2025-09-06T06:37:52.266794"
+    "instruction_images": []
   },
   {
     "id": 45,
@@ -1253,7 +1195,7 @@
         "taken_at": "2025-08-21T09:12:29"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1268,25 +1210,7 @@
     "taken_by": "Sirui",
     "taken_at": "2025-09-06T04:57:41.847426",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Sirui",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-45-20250906060629/DSC1057.jpg",
-            "taken_at": "2025-09-06T15:00:46",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:06:30.074462",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Sirui",
-    "modified_at": "2025-09-06T06:06:30.074500"
+    "instruction_images": []
   },
   {
     "id": 46,
@@ -1367,7 +1291,7 @@
         "taken_at": "2025-08-21T09:13:10"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [],
     "style": [
@@ -1380,25 +1304,7 @@
     "taken_by": "Utako",
     "taken_at": "2025-09-04T17:27:07.795551",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Utako",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-49-20250906060728/DSC1058.jpg",
-            "taken_at": "2025-09-06T15:01:04",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:07:28.468164",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Utako",
-    "modified_at": "2025-09-06T06:07:28.468199"
+    "instruction_images": []
   },
   {
     "id": 50,
@@ -1409,7 +1315,7 @@
         "taken_at": "2025-08-21T09:13:30"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [],
     "style": [
@@ -2072,7 +1978,7 @@
         "taken_at": "2025-08-21T09:29:14"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ground",
@@ -2088,25 +1994,7 @@
     "taken_by": "ZHANG Yuan",
     "taken_at": "2025-09-05T02:59:07.503012",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "ZHANG Yuan",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-76-20250906063838/DSC1049.jpg",
-            "taken_at": "2025-09-06T14:31:51",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:38:38.592975",
-        "status": "published"
-      }
-    ],
-    "modified_by": "ZHANG Yuan",
-    "modified_at": "2025-09-06T06:38:38.593006"
+    "instruction_images": []
   },
   {
     "id": 77,
@@ -2301,7 +2189,7 @@
         "taken_at": "2025-08-21T09:36:39"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [],
     "style": [
@@ -2314,25 +2202,7 @@
     "taken_by": "ZHANG Yuan",
     "taken_at": "2025-09-05T02:59:24.016370",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "ZHANG Yuan",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-83-20250906063903/DSC1053.jpg",
-            "taken_at": "2025-09-06T14:43:48",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T06:39:03.950920",
-        "status": "published"
-      }
-    ],
-    "modified_by": "ZHANG Yuan",
-    "modified_at": "2025-09-06T06:39:03.950943"
+    "instruction_images": []
   },
   {
     "id": 84,
@@ -2535,7 +2405,7 @@
         "taken_at": "2025-08-21T10:42:24"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "air"
@@ -2550,25 +2420,7 @@
     "taken_by": "Piu Lee",
     "taken_at": "2025-09-05T08:41:42.139671",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Piu Lee",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-92-20250906054927/DSC1047.jpg",
-            "taken_at": "2025-09-06T13:35:14",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T05:49:28.057636",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Piu Lee",
-    "modified_at": "2025-09-06T05:49:28.057658"
+    "instruction_images": []
   },
   {
     "id": 93,

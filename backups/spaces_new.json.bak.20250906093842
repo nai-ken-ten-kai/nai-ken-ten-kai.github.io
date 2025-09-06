@@ -3570,7 +3570,7 @@
         "taken_at": "2025-08-21T11:05:13"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "wall"
@@ -3585,25 +3585,7 @@
     "taken_by": "kimosato",
     "taken_at": "2025-09-06T03:57:32.840494",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Kimosato",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-132-20250906093842/DSC1077.jpg",
-            "taken_at": "2025-09-06T15:57:23",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T09:38:42.403182",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Kimosato",
-    "modified_at": "2025-09-06T09:38:42.403217"
+    "instruction_images": []
   },
   {
     "id": 133,

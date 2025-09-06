@@ -2661,6 +2661,22 @@
     "status": "published"
   },
   {
+    "space_id": 83,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-83-20250906083431/DSC1072.jpg",
+        "taken_at": "2025-09-06T15:55:35",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:55:35",
+    "author": "葉姵萱",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 140,
     "type": "update",
     "images": [
@@ -2672,6 +2688,22 @@
     ],
     "taken_at": "2025-09-06T15:56:41",
     "author": "Yun Hyejeong",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 132,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-132-20250906093842/DSC1077.jpg",
+        "taken_at": "2025-09-06T15:57:23",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:57:23",
+    "author": "Kimosato",
     "text": "",
     "action": "update",
     "status": "published"

@@ -3352,7 +3352,7 @@
         "taken_at": "2025-08-21T11:05:13"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -3363,11 +3363,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "standing",
-    "description_ja": "木製のフレーム付きの木製の戸口",
-    "taken_by": "kimosato",
-    "taken_at": "2025-09-06T03:57:32.840494",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製のフレーム付きの木製の戸口"
   },
   {
     "id": 133,

@@ -1336,7 +1336,7 @@
   {
     "id": 132,
     "description": "a wooden doorway with a wooden frame",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0132.jpg",

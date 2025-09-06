@@ -3106,7 +3106,7 @@
         "taken_at": "2025-08-21T10:52:02"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -3117,11 +3117,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓枠からぶら下がっている緑のリング",
-    "taken_by": "OO",
-    "taken_at": "2025-09-06T02:48:19.077188",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 122,

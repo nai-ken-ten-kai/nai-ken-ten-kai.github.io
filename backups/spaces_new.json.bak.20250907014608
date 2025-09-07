@@ -1400,7 +1400,7 @@
         "taken_at": "2025-08-21T10:44:22"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1415,25 +1415,7 @@
     "taken_by": "Yuki",
     "taken_at": "2025-09-05T03:57:18.241012",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Yuki",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-46-20250907014607/DSC1093.jpg",
-            "taken_at": "2025-09-06T19:47:39",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-07T01:46:08.037314",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Yuki",
-    "modified_at": "2025-09-07T01:46:08.037345"
+    "instruction_images": []
   },
   {
     "id": 47,

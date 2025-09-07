@@ -592,7 +592,7 @@
   {
     "id": 60,
     "description": "a small room with a bed and a small table",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0060.jpg",

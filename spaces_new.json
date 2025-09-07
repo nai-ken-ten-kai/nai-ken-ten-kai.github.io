@@ -1769,7 +1769,7 @@
         "taken_at": "2025-08-21T07:52:36"
       }
     ],
-    "status": "available",
+    "status": "published",
     "location": "inside",
     "element": [],
     "style": [
@@ -1778,7 +1778,29 @@
     "has_hook": false,
     "clip_type": "door",
     "clip_activity": "standing",
-    "description_ja": "ベッドと小さなテーブルのある小さな部屋"
+    "description_ja": "ベッドと小さなテーブルのある小さな部屋",
+    "taken_by": "Mochan",
+    "taken_at": "2025-09-07T06:29:55.050095",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Motoki Watanabe",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-60-20250907063102/DSC1155.jpg",
+            "taken_at": "2025-09-07T13:51:15",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T06:31:02.835355",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Motoki Watanabe",
+    "modified_at": "2025-09-07T06:31:02.835470"
   },
   {
     "id": 61,

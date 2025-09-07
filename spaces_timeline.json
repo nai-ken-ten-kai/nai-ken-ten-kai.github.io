@@ -2960,5 +2960,21 @@
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 60,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-60-20250907063102/DSC1155.jpg",
+        "taken_at": "2025-09-07T13:51:15",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:51:15",
+    "author": "Motoki Watanabe",
+    "text": "",
+    "action": "update",
+    "status": "published"
   }
 ]

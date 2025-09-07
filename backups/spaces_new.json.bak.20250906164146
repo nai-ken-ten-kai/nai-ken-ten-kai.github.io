@@ -2927,7 +2927,7 @@
         "taken_at": "2025-08-21T09:28:48"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -2936,11 +2936,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "standing",
-    "description_ja": "ツタで覆われた岩",
-    "taken_by": "Kami",
-    "taken_at": "2025-09-06T23:12:11.642550",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ツタで覆われた岩"
   },
   {
     "id": 100,
@@ -4042,7 +4038,7 @@
     "instruction_text": "",
     "instruction_images": [],
     "modified_by": "Yuqi Wang",
-    "modified_at": "2025-09-06T16:41:46.769709"
+    "modified_at": "2025-09-06T07:16:20.361953"
   },
   {
     "id": 141,

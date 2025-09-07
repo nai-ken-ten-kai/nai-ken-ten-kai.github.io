@@ -2740,6 +2740,22 @@
     "status": "published"
   },
   {
+    "space_id": 117,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-117-20250906161305/DSC1078.jpg",
+        "taken_at": "2025-09-06T15:57:41",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T15:57:41",
+    "author": "Guo Mengke",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 26,
     "type": "update",
     "images": [
@@ -2782,6 +2798,70 @@
     ],
     "taken_at": "2025-09-06T17:30:14",
     "author": "曹佩瑜Peiyu Cao from 园丁公寓",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 38,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-38-20250906162304/DSC1084.jpg",
+        "taken_at": "2025-09-06T19:00:19",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T19:00:19",
+    "author": "Chie",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 70,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-70-20250906162554/DSC1085.jpg",
+        "taken_at": "2025-09-06T19:01:05",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T19:01:05",
+    "author": "Chie",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 42,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-42-20250906161002/DSC1086.jpg",
+        "taken_at": "2025-09-06T19:01:41",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T19:01:41",
+    "author": "Ku, Cheng-Yang",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 84,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-84-20250906162919/DSC1088.jpg",
+        "taken_at": "2025-09-06T19:15:13",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T19:15:13",
+    "author": "HUANG YU TING (YELLOW DOT DOT)",
     "text": "",
     "action": "update",
     "status": "published"

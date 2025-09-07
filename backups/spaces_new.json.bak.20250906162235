@@ -1107,7 +1107,7 @@
         "taken_at": "2025-08-21T09:07:15"
       }
     ],
-    "status": "published",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -1118,34 +1118,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "木製のフレームのある木製の棚のクローズアップ",
-    "taken_by": "Chie",
-    "taken_at": "2025-09-06T16:22:35.978031",
-    "instruction_text": "",
-    "instruction_images": [
-      {
-        "src": "img/instruction-38-20250906162235/DSC1084.jpg",
-        "taken_at": "2025-09-06T19:00:19"
-      }
-    ],
-    "updates": [
-      {
-        "author": "Chie",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-38-20250906162304/DSC1084.jpg",
-            "taken_at": "2025-09-06T19:00:19",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T16:23:04.833738",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Chie",
-    "modified_at": "2025-09-06T16:23:04.833771"
+    "description_ja": "木製のフレームのある木製の棚のクローズアップ"
   },
   {
     "id": 39,
@@ -2005,7 +1978,7 @@
         "taken_at": "2025-08-21T09:20:07"
       }
     ],
-    "status": "published",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -2017,34 +1990,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "木製のフレームとシャッターのある窓",
-    "taken_by": "Chie",
-    "taken_at": "2025-09-06T16:25:40.009724",
-    "instruction_text": "",
-    "instruction_images": [
-      {
-        "src": "img/instruction-70-20250906162539/DSC1085.jpg",
-        "taken_at": "2025-09-06T19:01:05"
-      }
-    ],
-    "updates": [
-      {
-        "author": "Chie",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-70-20250906162554/DSC1085.jpg",
-            "taken_at": "2025-09-06T19:01:05",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T16:25:54.255547",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Chie",
-    "modified_at": "2025-09-06T16:25:54.255596"
+    "description_ja": "木製のフレームとシャッターのある窓"
   },
   {
     "id": 71,
@@ -2531,24 +2477,10 @@
         ],
         "created_at": "2025-09-05T09:42:03.392662",
         "status": "published"
-      },
-      {
-        "author": "HUANG YU TING (YELLOW DOT DOT)",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-84-20250906162919/DSC1088.jpg",
-            "taken_at": "2025-09-06T19:15:13",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-06T16:29:20.101358",
-        "status": "published"
       }
     ],
-    "modified_by": "HUANG YU TING (YELLOW DOT DOT)",
-    "modified_at": "2025-09-06T16:29:20.101392"
+    "modified_by": "Jimi",
+    "modified_at": "2025-09-05T09:42:03.392693"
   },
   {
     "id": 85,
@@ -2927,7 +2859,7 @@
         "taken_at": "2025-08-21T09:28:48"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -2936,11 +2868,7 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "standing",
-    "description_ja": "ツタで覆われた岩",
-    "taken_by": "Kami",
-    "taken_at": "2025-09-06T23:12:11.642550",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ツタで覆われた岩"
   },
   {
     "id": 100,
@@ -4042,7 +3970,7 @@
     "instruction_text": "",
     "instruction_images": [],
     "modified_by": "Yuqi Wang",
-    "modified_at": "2025-09-06T16:41:46.769709"
+    "modified_at": "2025-09-06T07:16:20.361953"
   },
   {
     "id": 141,

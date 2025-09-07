@@ -372,7 +372,7 @@
   {
     "id": 38,
     "description": "a close up of a wooden shelf with a wooden frame",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0038.jpg",
@@ -412,7 +412,7 @@
   {
     "id": 42,
     "description": "a wooden floor with a drain",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0042.jpg",
@@ -692,7 +692,7 @@
   {
     "id": 70,
     "description": "a window with a wooden frame and shutters",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0070.jpg",
@@ -994,7 +994,7 @@
   {
     "id": 99,
     "description": "a rock covered in ivy",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0099.jpg",
@@ -1182,8 +1182,8 @@
         "instructions": [],
         "instruction_images": [],
         "final_image": {
-          "src": "img/update-114-20250905093124/DSC1014.jpg",
-          "taken_at": "2025-09-05T16:55:36",
+          "src": "img/update-117-20250906161305/DSC1078.jpg",
+          "taken_at": "2025-09-06T15:57:41",
           "role": "primary"
         }
       }

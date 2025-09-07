@@ -2962,6 +2962,54 @@
     "status": "published"
   },
   {
+    "space_id": 84,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-84-20250907065132/DSC1116.jpg",
+        "taken_at": "2025-09-07T13:29:16",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:29:16",
+    "author": "Jimi",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 140,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-140-20250907065406/DSC1140.jpg",
+        "taken_at": "2025-09-07T13:47:39",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:47:39",
+    "author": "カミ Kami",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 18,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-18-20250907065457/DSC1147.jpg",
+        "taken_at": "2025-09-07T13:49:24",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:49:24",
+    "author": "jeloshy",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 60,
     "type": "update",
     "images": [

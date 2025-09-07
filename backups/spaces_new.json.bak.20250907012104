@@ -1040,7 +1040,7 @@
         "taken_at": "2025-08-21T09:01:19"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -1051,11 +1051,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "lying",
-    "description_ja": "小さな窓のある窓",
-    "taken_by": "Sophie Heck",
-    "taken_at": "2025-09-07T01:21:49.228148",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "小さな窓のある窓"
   },
   {
     "id": 36,
@@ -2441,7 +2437,7 @@
         "taken_at": "2025-08-21T09:36:26"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -2452,11 +2448,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "meditating",
-    "description_ja": "窓とタータミマットのある部屋",
-    "taken_by": "Mica",
-    "taken_at": "2025-09-07T01:21:04.427511",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓とタータミマットのある部屋"
   },
   {
     "id": 83,
@@ -3455,7 +3447,7 @@
         "taken_at": "2025-08-21T10:51:28"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -3466,11 +3458,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓枠からぶら下がっている緑のリング",
-    "taken_by": "Ayoung Woo",
-    "taken_at": "2025-09-07T01:21:36.256709",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 120,

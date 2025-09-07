@@ -342,7 +342,7 @@
   {
     "id": 35,
     "description": "a window with a small window on it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0035.jpg",
@@ -824,7 +824,7 @@
   {
     "id": 82,
     "description": "a room with a window and a tatami mat",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0082.jpg",
@@ -1114,7 +1114,7 @@
   {
     "id": 111,
     "description": "a wooden floor with a wooden window",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0111.jpg",
@@ -1206,7 +1206,7 @@
   {
     "id": 119,
     "description": "a green ring hanging from a window sill",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0119.jpg",

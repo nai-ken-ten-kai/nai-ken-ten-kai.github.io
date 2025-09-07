@@ -2877,7 +2877,7 @@
       }
     ],
     "taken_at": "2025-09-06T19:22:08",
-    "author": "KOHARU Project",
+    "author": "Koharu Kashiwagi from KOHARU Project",
     "text": "",
     "action": "update",
     "status": "published"
@@ -2894,6 +2894,38 @@
     ],
     "taken_at": "2025-09-06T19:22:54",
     "author": "Pardis",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 111,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-111-20250907011105/DSC1095.jpg",
+        "taken_at": "2025-09-06T20:04:29",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T20:04:29",
+    "author": "Sui Roh 노수현",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 69,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-69-20250907011207/DSC1096.jpg",
+        "taken_at": "2025-09-06T20:05:30",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-06T20:05:30",
+    "author": "Peiyu Cao",
     "text": "",
     "action": "update",
     "status": "published"

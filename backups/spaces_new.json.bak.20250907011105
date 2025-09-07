@@ -1040,7 +1040,7 @@
         "taken_at": "2025-08-21T09:01:19"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -1051,11 +1051,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "lying",
-    "description_ja": "小さな窓のある窓",
-    "taken_by": "Sophie Heck",
-    "taken_at": "2025-09-07T01:21:49.228148",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "小さな窓のある窓"
   },
   {
     "id": 36,
@@ -1286,7 +1282,7 @@
     "instruction_images": [],
     "updates": [
       {
-        "author": "Koharu Kashiwagi from KOHARU Project",
+        "author": "KOHARU Project",
         "text": "",
         "action": "update",
         "images": [
@@ -1300,7 +1296,7 @@
         "status": "published"
       }
     ],
-    "modified_by": "Koharu Kashiwagi from KOHARU Project",
+    "modified_by": "KOHARU Project",
     "modified_at": "2025-09-06T16:03:17.541903"
   },
   {
@@ -1995,24 +1991,10 @@
         ],
         "created_at": "2025-09-06T15:49:08.192232",
         "status": "published"
-      },
-      {
-        "author": "Peiyu Cao",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-69-20250907011207/DSC1096.jpg",
-            "taken_at": "2025-09-06T20:05:30",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-07T01:12:08.044382",
-        "status": "published"
       }
     ],
-    "modified_by": "Peiyu Cao",
-    "modified_at": "2025-09-07T01:12:08.044412"
+    "modified_by": "曹佩瑜Peiyu Cao from 园丁公寓",
+    "modified_at": "2025-09-06T15:49:08.192252"
   },
   {
     "id": 70,
@@ -2441,7 +2423,7 @@
         "taken_at": "2025-08-21T09:36:26"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -2452,11 +2434,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "meditating",
-    "description_ja": "窓とタータミマットのある部屋",
-    "taken_by": "Mica",
-    "taken_at": "2025-09-07T01:21:04.427511",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓とタータミマットのある部屋"
   },
   {
     "id": 83,
@@ -3214,7 +3192,7 @@
         "taken_at": "2025-08-21T10:48:38"
       }
     ],
-    "status": "published",
+    "status": "taken",
     "location": "inside",
     "element": [
       "ground",
@@ -3230,25 +3208,7 @@
     "taken_by": "Suhyun Roh",
     "taken_at": "2025-09-05T07:26:49.168631",
     "instruction_text": "",
-    "instruction_images": [],
-    "updates": [
-      {
-        "author": "Sui Roh 노수현",
-        "text": "",
-        "action": "update",
-        "images": [
-          {
-            "src": "img/update-111-20250907011105/DSC1095.jpg",
-            "taken_at": "2025-09-06T20:04:29",
-            "role": "primary"
-          }
-        ],
-        "created_at": "2025-09-07T01:11:05.458000",
-        "status": "published"
-      }
-    ],
-    "modified_by": "Sui Roh 노수현",
-    "modified_at": "2025-09-07T01:11:05.458028"
+    "instruction_images": []
   },
   {
     "id": 112,
@@ -3455,7 +3415,7 @@
         "taken_at": "2025-08-21T10:51:28"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "air"
@@ -3466,11 +3426,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "窓枠からぶら下がっている緑のリング",
-    "taken_by": "Ayoung Woo",
-    "taken_at": "2025-09-07T01:21:36.256709",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "窓枠からぶら下がっている緑のリング"
   },
   {
     "id": 120,

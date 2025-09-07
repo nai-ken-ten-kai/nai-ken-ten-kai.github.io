@@ -1418,8 +1418,8 @@
     "instruction_images": [],
     "updates": [
       {
-        "author": "Yuki Hori",
-        "text": "It's more a king of pushing myself to leave the comfortableness and consequential relaxing  just possess my body. Since I listern from a dream/ sleep researcher that red light is ideal for nighttime use because it helps preserve human night vision, disrupts the melatonin hormone less than blue light, reducing the risk to imcrease my insonia.\n\n• Cover the lamp with red transparent material (in a stylish way).\n• Create a shortcut in the iPhone Control Center to set your screen to red (search for \"Color\" in the iPhone settings).\n• Lie down in this \"red room\" for about an hour.\n• During that time, you can:\n- Read a book.\n- Put on a calm soundtrack or listen (only listen) to a podcast or a video that doesn't excite you.",
+        "author": "Yuki",
+        "text": "",
         "action": "update",
         "images": [
           {
@@ -1432,7 +1432,7 @@
         "status": "published"
       }
     ],
-    "modified_by": "Yuki Hori",
+    "modified_by": "Yuki",
     "modified_at": "2025-09-07T01:46:08.037345"
   },
   {
@@ -1466,7 +1466,7 @@
         "taken_at": "2025-08-21T09:12:58"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -1477,11 +1477,7 @@
     "has_hook": true,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "部屋の壁にフック",
-    "taken_by": "Naida Takuma 内田拓海",
-    "taken_at": "2025-09-07T05:59:16.888630",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "部屋の壁にフック"
   },
   {
     "id": 49,
@@ -1941,7 +1937,7 @@
         "taken_at": "2025-08-21T09:18:30"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1952,11 +1948,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "ペーパータオルがぶら下がっている木製の天井",
-    "taken_by": "Zhao Chen",
-    "taken_at": "2025-09-07T06:08:03.874961",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ペーパータオルがぶら下がっている木製の天井"
   },
   {
     "id": 68,
@@ -3914,7 +3906,7 @@
         "taken_at": "2025-08-21T10:55:35"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -3923,11 +3915,7 @@
     "has_hook": false,
     "clip_type": "kitchen",
     "clip_activity": "sleeping",
-    "description_ja": "ベッドとドレッサーのある小さな部屋",
-    "taken_by": "Zhao Chen",
-    "taken_at": "2025-09-07T06:05:31.803675",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ベッドとドレッサーのある小さな部屋"
   },
   {
     "id": 136,
@@ -4169,11 +4157,7 @@
     ],
     "created_by": "Admin",
     "created_at": "2025-09-07T02:11:49.414491",
-    "status": "taken",
-    "updates": [],
-    "taken_by": "Tetsuko",
-    "taken_at": "2025-09-07T02:12:22.378657",
-    "instruction_text": "",
-    "instruction_images": []
+    "status": "available",
+    "updates": []
   }
 ]

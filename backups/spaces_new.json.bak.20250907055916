@@ -1466,7 +1466,7 @@
         "taken_at": "2025-08-21T09:12:58"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall"
@@ -1477,11 +1477,7 @@
     "has_hook": true,
     "clip_type": "window",
     "clip_activity": "hanging",
-    "description_ja": "部屋の壁にフック",
-    "taken_by": "Naida Takuma 内田拓海",
-    "taken_at": "2025-09-07T05:59:16.888630",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "部屋の壁にフック"
   },
   {
     "id": 49,
@@ -1941,7 +1937,7 @@
         "taken_at": "2025-08-21T09:18:30"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1952,11 +1948,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "ペーパータオルがぶら下がっている木製の天井",
-    "taken_by": "Zhao Chen",
-    "taken_at": "2025-09-07T06:08:03.874961",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ペーパータオルがぶら下がっている木製の天井"
   },
   {
     "id": 68,
@@ -3914,7 +3906,7 @@
         "taken_at": "2025-08-21T10:55:35"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [],
     "style": [
@@ -3923,11 +3915,7 @@
     "has_hook": false,
     "clip_type": "kitchen",
     "clip_activity": "sleeping",
-    "description_ja": "ベッドとドレッサーのある小さな部屋",
-    "taken_by": "Zhao Chen",
-    "taken_at": "2025-09-07T06:05:31.803675",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "ベッドとドレッサーのある小さな部屋"
   },
   {
     "id": 136,

@@ -2772,6 +2772,21 @@
     "status": "published"
   },
   {
+    "space_id": 142,
+    "type": "original",
+    "images": [
+      {
+        "src": "img/142-20250907021149/DSC1081.jpg",
+        "taken_at": "2025-09-06T16:56:52"
+      }
+    ],
+    "taken_at": "2025-09-06T16:56:52",
+    "author": "Admin",
+    "text": "Original state",
+    "action": "original",
+    "description": "Pending..."
+  },
+  {
     "space_id": 141,
     "type": "original",
     "images": [
@@ -2909,8 +2924,8 @@
       }
     ],
     "taken_at": "2025-09-06T19:47:39",
-    "author": "Yuki",
-    "text": "",
+    "author": "Yuki Hori",
+    "text": "It's more a king of pushing myself to leave the comfortableness and consequential relaxing  just possess my body. Since I listern from a dream/ sleep researcher that red light is ideal for nighttime use because it helps preserve human night vision, disrupts the melatonin hormone less than blue light, reducing the risk to imcrease my insonia.\n\n• Cover the lamp with red transparent material (in a stylish way).\n• Create a shortcut in the iPhone Control Center to set your screen to red (search for \"Color\" in the iPhone settings).\n• Lie down in this \"red room\" for about an hour.\n• During that time, you can:\n- Read a book.\n- Put on a calm soundtrack or listen (only listen) to a podcast or a video that doesn't excite you.",
     "action": "update",
     "status": "published"
   },

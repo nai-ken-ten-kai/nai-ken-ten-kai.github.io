@@ -1020,7 +1020,7 @@
         "taken_at": "2025-08-21T08:54:12"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1031,11 +1031,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "天井からぶら下がっているカーテンロッド",
-    "taken_by": "7up",
-    "taken_at": "2025-09-07T09:38:26.998341",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "天井からぶら下がっているカーテンロッド"
   },
   {
     "id": 34,

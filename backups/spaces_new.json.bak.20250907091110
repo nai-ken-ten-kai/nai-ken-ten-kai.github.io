@@ -348,7 +348,7 @@
         "taken_at": "2025-08-21T09:25:49"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "outside",
     "element": [],
     "style": [
@@ -357,11 +357,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "そこから垂れ下がった金属棒のある木製の屋根",
-    "taken_by": "Natalie",
-    "taken_at": "2025-09-07T09:11:35.111773",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "そこから垂れ下がった金属棒のある木製の屋根"
   },
   {
     "id": 13,
@@ -1020,7 +1016,7 @@
         "taken_at": "2025-08-21T08:54:12"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1031,11 +1027,7 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "天井からぶら下がっているカーテンロッド",
-    "taken_by": "7up",
-    "taken_at": "2025-09-07T09:38:26.998341",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "天井からぶら下がっているカーテンロッド"
   },
   {
     "id": 34,
@@ -1114,7 +1106,7 @@
         "taken_at": "2025-08-21T09:06:04"
       }
     ],
-    "status": "taken",
+    "status": "available",
     "location": "inside",
     "element": [
       "wall",
@@ -1126,11 +1118,7 @@
     "has_hook": false,
     "clip_type": "window",
     "clip_activity": "sleeping",
-    "description_ja": "木製の窓のある木製の窓",
-    "taken_by": "Siné",
-    "taken_at": "2025-09-07T09:11:10.694225",
-    "instruction_text": "",
-    "instruction_images": []
+    "description_ja": "木製の窓のある木製の窓"
   },
   {
     "id": 38,

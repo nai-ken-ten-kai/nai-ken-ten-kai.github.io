@@ -112,7 +112,7 @@
   {
     "id": 12,
     "description": "a wooden roof with a metal rod hanging from it",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0012.jpg",
@@ -322,7 +322,7 @@
   {
     "id": 33,
     "description": "a curtain rod hanging from the ceiling",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0033.jpg",
@@ -362,7 +362,7 @@
   {
     "id": 37,
     "description": "a wooden window with a wooden frame",
-    "status": "available",
+    "status": "taken",
     "artist": [],
     "original_image": {
       "src": "img/0037.jpg",

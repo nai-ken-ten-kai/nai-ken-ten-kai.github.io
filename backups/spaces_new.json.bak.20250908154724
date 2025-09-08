@@ -1,0 +1,4287 @@
+[
+  {
+    "id": 1,
+    "description": "a poster is hanging on the side of a building",
+    "images": [
+      {
+        "src": "img/0001.jpg",
+        "taken_at": "2025-08-21T09:21:34"
+      }
+    ],
+    "status": "published",
+    "location": "outside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "reading",
+    "description_ja": "ポスターが建物の横にぶら下がっています",
+    "taken_by": "Shen Tongzhou",
+    "taken_at": "2025-09-05T02:56:30.887950",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "沈 同舟（Shen Tongzhou）",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-1-20250905092857/DSC1020.jpg",
+            "taken_at": "2025-09-05T18:22:33",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T09:28:57.698065",
+        "status": "published"
+      }
+    ],
+    "modified_by": "沈 同舟（Shen Tongzhou）",
+    "modified_at": "2025-09-05T09:28:57.698091"
+  },
+  {
+    "id": 2,
+    "description": "a cat is sitting on the steps of a wooden building",
+    "images": [
+      {
+        "src": "img/0002.jpg",
+        "taken_at": "2025-08-21T09:21:05"
+      }
+    ],
+    "status": "published",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "猫が木製の建物の階段に座っています",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:14:39.396911",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "园丁公寓 (Gardener's Apartment)",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-2-20250906062602/DSC1052.jpg",
+            "taken_at": "2025-09-06T14:34:18",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:26:02.342637",
+        "status": "published"
+      }
+    ],
+    "modified_by": "园丁公寓 (Gardener's Apartment)",
+    "modified_at": "2025-09-06T06:26:02.342664"
+  },
+  {
+    "id": 3,
+    "description": "a metal bell hanging on a wooden door",
+    "images": [
+      {
+        "src": "img/0003.jpg",
+        "taken_at": "2025-08-21T09:19:55"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のドアにぶら下がっている金属ベル",
+    "taken_by": "Nagisa ",
+    "taken_at": "2025-09-04T17:26:32.008090",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 4,
+    "description": "a wooden bird house with a wooden door",
+    "images": [
+      {
+        "src": "img/0004.jpg",
+        "taken_at": "2025-08-21T09:20:25"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "木製のドアが付いた木製の鳥の家",
+    "taken_by": "Beilin",
+    "taken_at": "2025-09-04T17:26:39.124494",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 5,
+    "description": "a giraffe sitting on top of a building",
+    "images": [
+      {
+        "src": "img/0005.jpg",
+        "taken_at": "2025-08-21T09:24:42"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "standing",
+    "description_ja": "建物の上に座っているキリン",
+    "taken_by": "曹珮瑜 Peyu Cao from 园丁公寓 Gardener's Apartment",
+    "taken_at": "2025-09-06T07:22:03.537609",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 6,
+    "description": "a man is sitting on a bench in front of a building",
+    "images": [
+      {
+        "src": "img/0006.jpg",
+        "taken_at": "2025-08-21T09:24:50"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "description_ja": "男が建物の前のベンチに座っています",
+    "taken_by": "BLUE BUTTON（藍釦子）aka Yellow Dot Dot （黃點點）aka（Huang Yu Ting）",
+    "taken_at": "2025-09-05T08:51:20.237354",
+    "instruction_text": "用室內的那杯食用水在附近寫「我出門了」，並畫一隻室內的那隻蝴蝶。",
+    "instruction_images": []
+  },
+  {
+    "id": 7,
+    "description": "a blackboard with a blackboard on it",
+    "images": [
+      {
+        "src": "img/0007.jpg",
+        "taken_at": "2025-08-21T09:21:20"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "黒板が付いた黒板"
+  },
+  {
+    "id": 8,
+    "description": "a brown roof",
+    "images": [
+      {
+        "src": "img/0008.jpg",
+        "taken_at": "2025-08-21T09:23:10"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging",
+    "description_ja": "茶色の屋根"
+  },
+  {
+    "id": 9,
+    "description": "a close up of a metal vent grate",
+    "images": [
+      {
+        "src": "img/0009.jpg",
+        "taken_at": "2025-08-21T09:23:28"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "description_ja": "金属換気のクローズアップ",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:21:05.915799",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 10,
+    "description": "a wooden gate with bamboo sticks on it",
+    "images": [
+      {
+        "src": "img/0010.jpg",
+        "taken_at": "2025-08-21T09:24:09"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "description_ja": "竹の棒が付いた木製の門",
+    "taken_by": "Sam",
+    "taken_at": "2025-09-06T07:18:22.921796",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 11,
+    "description": "a tree with a tv antenna",
+    "images": [
+      {
+        "src": "img/0011.jpg",
+        "taken_at": "2025-08-21T09:26:40"
+      }
+    ],
+    "status": "published",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "description_ja": "テレビアンテナのある木",
+    "taken_by": "Piu Lee",
+    "taken_at": "2025-09-01T05:50:36.950710",
+    "taken_note": "",
+    "unpublished_at": "2025-09-03T16:20:17.308490",
+    "updates": [
+      {
+        "author": "Piu Lee",
+        "text": "I think there has to be a Spiutze.In the description, it says there is a TV antenna, but I don't think the antenna is important.But the tree branch—I think there should be a bird.A bird I always see in front of my room window.Every time I look out of the window,I see a very certain bird.I call this friend Spiutze.It always sits there,sits there very nonchalant and peaceful.When I discover him sitting there, he flies away after a few seconds.And he returns back when I am looking out of the window the following day.So I assumethat it is a very loyal birb.But I heard that it recently moved out with his bigger family,on a bunch of tree branches, which are actually left overs from people cutting down the trees for a new living area.I don't actually know if it is its new family, it might be also its buddies.And when I'm seeing Nr 11, it reminds me of it,in a very melancholic way.Nowadays, when I look out the window,I rarely see Spiutze. And every time Spiutze is not there, I feel like I'm the protagonist of a tragedy movie.As background music, I have Arirang in my head.Instruction for 11:-Print this image as big as possible, and cut out only the bird without destroying the branch he sits on or the windowframe.-Use the rest of the cut paper, frame it with anything you find, and hang it under the branch.- If you have a speaker, I want to send a sound that is played nearby.Nr 66.Orange juice is very modern. It might not have existed when the first still-life paintings were drawn. Have you ever see a classical painting, which shows orange juice?A super still still-life painting, with orange juice in a vase—The still-life is so still that it makes you feel very comfortable and calm.You live in a very fast, hectic, and stressed world, and then you get this \"Themenwechsel\" (topic change).For example, Mama and Papa are fighting each other, and Father has a very strong voice.Mama balances Father through another topic, so his ups and downs can be released before it escalates more.She changes the fighting-topic to an insignificant topic.In my daily life, I like to write short stories because they give me a good start to a more optimistic and brighter day.As written before, it is like a topic change for the hectic life, and creates for me a calm space to think a little bit about minor but actually really precious things in this sometimes too systematized life.",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-11-20250904035441/DSC0907.jpg",
+            "taken_at": "2025-09-04T12:46:02",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T03:54:41.773826",
+        "status": "published"
+      },
+      {
+        "author": "Piu Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-11-20250904041810/DSC0911.jpg",
+            "taken_at": "2025-09-04T13:01:59",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T04:18:10.523645",
+        "status": "published"
+      },
+      {
+        "author": "Piu Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-11-20250905094136/DSC1012.jpg",
+            "taken_at": "2025-09-05T16:52:02",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T09:41:36.354088",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Piu Lee",
+    "modified_at": "2025-09-05T09:41:36.354107"
+  },
+  {
+    "id": 12,
+    "description": "a wooden roof with a metal rod hanging from it",
+    "images": [
+      {
+        "src": "img/0012.jpg",
+        "taken_at": "2025-08-21T09:25:49"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "そこから垂れ下がった金属棒のある木製の屋根",
+    "taken_by": "Natalie",
+    "taken_at": "2025-09-07T09:11:35.111773",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 13,
+    "description": "a stone basin with a wooden handle",
+    "images": [
+      {
+        "src": "img/0013.jpg",
+        "taken_at": "2025-08-21T07:44:39"
+      }
+    ],
+    "status": "published",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "resting",
+    "description_ja": "木製のハンドルが付いた石盆地",
+    "taken_by": "Chiaki ",
+    "taken_at": "2025-09-05T03:56:28.386289",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Chiaki Haibara",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-13-20250905111220/DSC1044-Enhanced-NR.jpg",
+            "taken_at": "2025-09-05T19:48:35",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T11:12:20.255225",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Chiaki Haibara",
+    "modified_at": "2025-09-05T11:12:20.255250"
+  },
+  {
+    "id": 14,
+    "description": "a wooden floor with a bench",
+    "images": [
+      {
+        "src": "img/0014.jpg",
+        "taken_at": "2025-08-21T09:17:03"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "standing",
+    "description_ja": "ベンチ付きの木製の床",
+    "taken_by": "BLUE BUTTON aka Yellow Dot Dot aka Huang Yu Ting",
+    "taken_at": "2025-09-05T08:49:49.613023",
+    "instruction_text": "在這個角落用手指與室外的水寫「我進來了」，並畫一隻外面的那隻蝴蝶。",
+    "instruction_images": []
+  },
+  {
+    "id": 15,
+    "description": "a wooden table with a plastic bag in it",
+    "images": [
+      {
+        "src": "img/0015.jpg",
+        "taken_at": "2025-08-21T09:17:26"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading",
+    "description_ja": "ビニール袋が入った木製のテーブル",
+    "taken_by": "Jana Rippmann",
+    "taken_at": "2025-09-06T06:35:59.846009",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Jana Rippmann",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-15-20250906063630/DSC1054.jpg",
+            "taken_at": "2025-09-06T14:44:19",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:36:30.668233",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Jana Rippmann",
+    "modified_at": "2025-09-06T06:36:30.668260"
+  },
+  {
+    "id": 16,
+    "description": "a wooden door with a cross on it",
+    "images": [
+      {
+        "src": "img/0016.jpg",
+        "taken_at": "2025-08-21T09:17:51"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "十字架のある木製のドア"
+  },
+  {
+    "id": 17,
+    "description": "a light fixture on a wall",
+    "images": [
+      {
+        "src": "img/0017.jpg",
+        "taken_at": "2025-08-21T09:18:51"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "wall",
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "lying",
+    "description_ja": "壁の照明器具",
+    "taken_by": "Tim Lode",
+    "taken_at": "2025-09-03T03:39:34.765551",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Tim Loehde",
+        "text": "zu klar",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-17-20250904090609/DSC0931.jpg",
+            "taken_at": "2025-09-04T17:27:49",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T09:06:09.217945",
+        "status": "published"
+      },
+      {
+        "author": "Tim Loehde",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-17-20250906071332/DSC1071.jpg",
+            "taken_at": "2025-09-06T15:46:06",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T07:13:32.370041",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Tim Loehde",
+    "modified_at": "2025-09-06T07:13:32.370074"
+  },
+  {
+    "id": 18,
+    "description": "a close up of a wooden shelf with a brown stain",
+    "images": [
+      {
+        "src": "img/0018.jpg",
+        "taken_at": "2025-08-21T08:39:32"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ",
+    "updates": [
+      {
+        "author": "jeloshy",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-18-20250907065457/DSC1147.jpg",
+            "taken_at": "2025-09-07T13:49:24",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T06:54:57.745783",
+        "status": "published"
+      }
+    ],
+    "modified_by": "jeloshy",
+    "modified_at": "2025-09-07T06:54:57.745812"
+  },
+  {
+    "id": 19,
+    "description": "a window with a black bird in it",
+    "images": [
+      {
+        "src": "img/0019.jpg",
+        "taken_at": "2025-08-21T08:42:51"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "黒い鳥が入った窓"
+  },
+  {
+    "id": 20,
+    "description": "a wooden door with paper taped to it",
+    "images": [
+      {
+        "src": "img/0020.jpg",
+        "taken_at": "2025-08-21T08:44:18"
+      }
+    ],
+    "status": "published",
+    "taken_by": "Lennart Haffner",
+    "taken_at": "2025-09-03T09:44:50.189192",
+    "note": "",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "description_ja": "紙が貼り付けられた木製のドア",
+    "updates": [
+      {
+        "author": "Lennart Haffner",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-20-20250903094334/DSC0886.jpg",
+            "taken_at": "2025-09-03T18:18:42",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-03T09:43:34.492798",
+        "status": "published"
+      },
+      {
+        "author": "Lennart Haffner",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-20-20250904010817/DSC0891.jpg",
+            "taken_at": "2025-09-04T10:04:01",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T01:08:17.819234",
+        "status": "published"
+      },
+      {
+        "author": "Lennart Haffner",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-20-20250904073200/DSC0899.jpg",
+            "taken_at": "2025-09-04T11:03:12",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T07:32:00.934875",
+        "status": "published"
+      },
+      {
+        "author": "Lennart Haffner",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-20-20250905070643/DSC0939.jpg",
+            "taken_at": "2025-09-05T12:43:02",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T07:06:43.310727",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Lennart Haffner",
+    "modified_at": "2025-09-05T07:06:43.310757",
+    "instruction_text": "",
+    "instruction_images": [
+      {
+        "src": "img/instruction-20-20250903094450/Screenshot_2025-09-03_at_18.42.23.png",
+        "taken_at": "2025-09-03T09:44:50.189160"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "description": "a close up of a wooden wall with a wooden frame",
+    "images": [
+      {
+        "src": "img/0021.jpg",
+        "taken_at": "2025-08-21T08:44:36"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製の壁のある木製の壁のクローズアップ"
+  },
+  {
+    "id": 22,
+    "description": "a wooden table with a wooden frame and a wooden table top",
+    "images": [
+      {
+        "src": "img/0022.jpg",
+        "taken_at": "2025-08-21T08:44:54"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "木製のフレームと木製のテーブルトップのある木製のテーブル"
+  },
+  {
+    "id": 23,
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      {
+        "src": "img/0023.jpg",
+        "taken_at": "2025-08-21T08:45:21"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の窓",
+    "taken_by": "Jiawei",
+    "taken_at": "2025-09-04T04:19:40.402771",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 24,
+    "description": "a close up of a wooden window frame",
+    "images": [
+      {
+        "src": "img/0024.jpg",
+        "taken_at": "2025-08-21T08:46:02"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓枠のクローズアップ"
+  },
+  {
+    "id": 25,
+    "description": "a wooden frame with a wooden frame",
+    "images": [
+      {
+        "src": "img/0025.jpg",
+        "taken_at": "2025-08-21T08:50:21"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "threshold",
+    "clip_activity": "reading",
+    "description_ja": "木製のフレームの木製フレーム"
+  },
+  {
+    "id": 26,
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      {
+        "src": "img/0026.jpg",
+        "taken_at": "2025-08-21T08:50:39"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の窓",
+    "taken_by": "Wendi",
+    "taken_at": "2025-09-03T03:46:56.560319",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Wendi",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-26-20250904084319/DSC0928.jpg",
+            "taken_at": "2025-09-04T17:11:40",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T08:43:19.722360",
+        "status": "published"
+      },
+      {
+        "author": "Wendi",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-26-20250906071641/DSC1079.jpg",
+            "taken_at": "2025-09-06T15:58:09",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T07:16:41.245424",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Wendi",
+    "modified_at": "2025-09-06T07:16:41.245450"
+  },
+  {
+    "id": 27,
+    "description": "a small wooden shelf with a small wooden rod",
+    "images": [
+      {
+        "src": "img/0027.jpg",
+        "taken_at": "2025-08-21T08:50:53"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "小さな木製の棒が付いた小さな木製の棚"
+  },
+  {
+    "id": 28,
+    "description": "a wooden shelf with a small nail in it",
+    "images": [
+      {
+        "src": "img/0028.jpg",
+        "taken_at": "2025-08-21T08:51:27"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "小さな爪が入った木製の棚",
+    "taken_by": "moiji",
+    "taken_at": "2025-09-06T05:11:47.192162",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 29,
+    "description": "a shelf with a shelf on it",
+    "images": [
+      {
+        "src": "img/0029.jpg",
+        "taken_at": "2025-08-21T08:52:42"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "alcove",
+    "clip_activity": "standing",
+    "description_ja": "棚が付いた棚",
+    "taken_by": "Karyn",
+    "taken_at": "2025-09-03T06:18:17.219490",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 30,
+    "description": "a small bug on the edge of a wooden door",
+    "images": [
+      {
+        "src": "img/0030.jpg",
+        "taken_at": "2025-08-21T08:52:55"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のドアの端にある小さな虫",
+    "taken_by": "LU XIAOYAN",
+    "taken_at": "2025-09-04T00:43:39.026872",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 31,
+    "description": "a desk with a laptop on top of it",
+    "images": [
+      {
+        "src": "img/0031.jpg",
+        "taken_at": "2025-08-21T08:53:32"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "corner",
+    "clip_activity": "meditating",
+    "description_ja": "その上にラップトップを備えた机"
+  },
+  {
+    "id": 32,
+    "description": "a small metal hook on the wall of a room",
+    "images": [
+      {
+        "src": "img/0032.jpg",
+        "taken_at": "2025-08-21T08:54:01"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "部屋の壁にある小さな金属フック"
+  },
+  {
+    "id": 33,
+    "description": "a curtain rod hanging from the ceiling",
+    "images": [
+      {
+        "src": "img/0033.jpg",
+        "taken_at": "2025-08-21T08:54:12"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "天井からぶら下がっているカーテンロッド",
+    "taken_by": "7up",
+    "taken_at": "2025-09-07T09:38:26.998341",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 34,
+    "description": "a small wooden shelf with a wooden shelf",
+    "images": [
+      {
+        "src": "img/0034.jpg",
+        "taken_at": "2025-08-21T08:54:59"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製の棚のある小さな木製の棚"
+  },
+  {
+    "id": 35,
+    "description": "a window with a small window on it",
+    "images": [
+      {
+        "src": "img/0035.jpg",
+        "taken_at": "2025-08-21T09:01:19"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying",
+    "description_ja": "小さな窓のある窓",
+    "taken_by": "Sophie Heck",
+    "taken_at": "2025-09-07T01:21:49.228148",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 36,
+    "description": "a small bug on the window sill",
+    "images": [
+      {
+        "src": "img/0036.jpg",
+        "taken_at": "2025-08-21T09:05:52"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓枠の小さなバグ"
+  },
+  {
+    "id": 37,
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      {
+        "src": "img/0037.jpg",
+        "taken_at": "2025-08-21T09:06:04"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping",
+    "description_ja": "木製の窓のある木製の窓",
+    "taken_by": "Siné",
+    "taken_at": "2025-09-07T09:11:10.694225",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 38,
+    "description": "a close up of a wooden shelf with a wooden frame",
+    "images": [
+      {
+        "src": "img/0038.jpg",
+        "taken_at": "2025-08-21T09:07:15"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームのある木製の棚のクローズアップ",
+    "taken_by": "Chie",
+    "taken_at": "2025-09-06T16:22:35.978031",
+    "instruction_text": "",
+    "instruction_images": [
+      {
+        "src": "img/instruction-38-20250906162235/DSC1084.jpg",
+        "taken_at": "2025-09-06T19:00:19"
+      }
+    ],
+    "updates": [
+      {
+        "author": "Chie",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-38-20250906162304/DSC1084.jpg",
+            "taken_at": "2025-09-06T19:00:19",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T16:23:04.833738",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Chie",
+    "modified_at": "2025-09-06T16:23:04.833771"
+  },
+  {
+    "id": 39,
+    "description": "a close up of a wooden frame with a wooden frame",
+    "images": [
+      {
+        "src": "img/0039.jpg",
+        "taken_at": "2025-08-21T09:08:52"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "sleeping",
+    "description_ja": "木製のフレームの木製フレームのクローズアップ"
+  },
+  {
+    "id": 40,
+    "description": "a wooden door with a metal bracket on it",
+    "images": [
+      {
+        "src": "img/0040.jpg",
+        "taken_at": "2025-08-21T09:09:31"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "金属製のブラケットが付いた木製のドア"
+  },
+  {
+    "id": 41,
+    "description": "a wooden door with a metal handle",
+    "images": [
+      {
+        "src": "img/0041.jpg",
+        "taken_at": "2025-08-21T09:10:32"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "金属製のハンドル付きの木製のドア",
+    "taken_by": "Miao Sup",
+    "taken_at": "2025-09-04T17:43:06.972161",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 42,
+    "description": "a wooden floor with a drain",
+    "images": [
+      {
+        "src": "img/0042.jpg",
+        "taken_at": "2025-08-21T09:11:10"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "description_ja": "排水溝のある木製の床",
+    "taken_by": "Ku",
+    "taken_at": "2025-09-04T17:41:17.246836",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Ku, Cheng-Yang",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-42-20250906161002/DSC1086.jpg",
+            "taken_at": "2025-09-06T19:01:41",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T16:10:02.812415",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Ku, Cheng-Yang",
+    "modified_at": "2025-09-06T16:10:02.812454"
+  },
+  {
+    "id": 43,
+    "description": "a sign on a door",
+    "images": [
+      {
+        "src": "img/0043.jpg",
+        "taken_at": "2025-08-21T09:11:35"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "ドアのサイン",
+    "taken_by": "Koharu",
+    "taken_at": "2025-09-04T17:39:04.266032",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Koharu Kashiwagi from KOHARU Project",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-43-20250906160317/DSC1090.jpg",
+            "taken_at": "2025-09-06T19:22:08",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T16:03:17.541878",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Koharu Kashiwagi from KOHARU Project",
+    "modified_at": "2025-09-06T16:03:17.541903"
+  },
+  {
+    "id": 44,
+    "description": "a close up of a wooden ceiling",
+    "images": [
+      {
+        "src": "img/0044.jpg",
+        "taken_at": "2025-08-21T09:12:15"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying",
+    "description_ja": "木製の天井のクローズアップ",
+    "taken_by": "Coco Kashiwara",
+    "taken_at": "2025-09-06T04:58:36.232141",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Coco Kashiwara",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-44-20250906063752/DSC1050.jpg",
+            "taken_at": "2025-09-06T14:32:42",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:37:52.266765",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Coco Kashiwara",
+    "modified_at": "2025-09-06T06:37:52.266794"
+  },
+  {
+    "id": 45,
+    "description": "a stained glass pendant light hanging from a wooden ceiling",
+    "images": [
+      {
+        "src": "img/0045.jpg",
+        "taken_at": "2025-08-21T09:12:29"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging",
+    "description_ja": "木製の天井からぶら下がっているステンドグラスペンダントライト",
+    "taken_by": "Sirui",
+    "taken_at": "2025-09-06T04:57:41.847426",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Sirui",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-45-20250906060629/DSC1057.jpg",
+            "taken_at": "2025-09-06T15:00:46",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:06:30.074462",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Sirui",
+    "modified_at": "2025-09-06T06:06:30.074500"
+  },
+  {
+    "id": 46,
+    "description": "a stained glass light hanging from a wooden ceiling",
+    "images": [
+      {
+        "src": "img/0046.jpg",
+        "taken_at": "2025-08-21T10:44:22"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging",
+    "description_ja": "木製の天井からぶら下がっているステンドグラスのライト",
+    "taken_by": "Yuki",
+    "taken_at": "2025-09-05T03:57:18.241012",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Yuki Hori",
+        "text": "It's more a king of pushing myself to leave the comfortableness and consequential relaxing  just possess my body. Since I listern from a dream/ sleep researcher that red light is ideal for nighttime use because it helps preserve human night vision, disrupts the melatonin hormone less than blue light, reducing the risk to imcrease my insonia.\n\n• Cover the lamp with red transparent material (in a stylish way).\n• Create a shortcut in the iPhone Control Center to set your screen to red (search for \"Color\" in the iPhone settings).\n• Lie down in this \"red room\" for about an hour.\n• During that time, you can:\n- Read a book.\n- Put on a calm soundtrack or listen (only listen) to a podcast or a video that doesn't excite you.",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-46-20250907014607/DSC1093.jpg",
+            "taken_at": "2025-09-06T19:47:39",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T01:46:08.037314",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Yuki Hori",
+    "modified_at": "2025-09-07T01:46:08.037345"
+  },
+  {
+    "id": 47,
+    "description": "a hook hanging on the wall of a room",
+    "images": [
+      {
+        "src": "img/0047.jpg",
+        "taken_at": "2025-08-21T09:12:47"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "部屋の壁にぶら下がっているフック"
+  },
+  {
+    "id": 48,
+    "description": "a hook on the wall of a room",
+    "images": [
+      {
+        "src": "img/0048.jpg",
+        "taken_at": "2025-08-21T09:12:58"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "部屋の壁にフック",
+    "taken_by": "Naida Takuma 内田拓海",
+    "taken_at": "2025-09-07T05:59:16.888630",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 49,
+    "description": "a wooden shelf with nails on it",
+    "images": [
+      {
+        "src": "img/0049.jpg",
+        "taken_at": "2025-08-21T09:13:10"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "爪が付いた木製の棚",
+    "taken_by": "Utako",
+    "taken_at": "2025-09-04T17:27:07.795551",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Utako",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-49-20250906060728/DSC1058.jpg",
+            "taken_at": "2025-09-06T15:01:04",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:07:28.468164",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Utako",
+    "modified_at": "2025-09-06T06:07:28.468199"
+  },
+  {
+    "id": 50,
+    "description": "a wooden shelf with a nail sticking out of it",
+    "images": [
+      {
+        "src": "img/0050.jpg",
+        "taken_at": "2025-08-21T09:13:30"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "爪が突き出た木製の棚",
+    "taken_by": "Utako",
+    "taken_at": "2025-09-04T17:27:28.348849",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 51,
+    "description": "a close up of a wooden door with a small bug",
+    "images": [
+      {
+        "src": "img/0051.jpg",
+        "taken_at": "2025-08-21T09:14:32"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "sleeping",
+    "description_ja": "小さな虫のある木製のドアのクローズアップ"
+  },
+  {
+    "id": 52,
+    "description": "a close up of a wooden door with a metal handle",
+    "images": [
+      {
+        "src": "img/0052.jpg",
+        "taken_at": "2025-08-21T09:15:01"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "金属製のハンドルを備えた木製のドアのクローズアップ"
+  },
+  {
+    "id": 53,
+    "description": "a small insect is sitting on the edge of a table",
+    "images": [
+      {
+        "src": "img/0053.jpg",
+        "taken_at": "2025-08-21T09:15:36"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging",
+    "description_ja": "小さな昆虫がテーブルの端に座っています",
+    "taken_by": "Utako",
+    "taken_at": "2025-09-04T17:27:32.942165",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 54,
+    "description": "a small wooden door with a wooden frame",
+    "images": [
+      {
+        "src": "img/0054.jpg",
+        "taken_at": "2025-08-21T09:15:49"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームのある小さな木製のドア"
+  },
+  {
+    "id": 55,
+    "description": "a wooden shelf on the wall of a room",
+    "images": [
+      {
+        "src": "img/0055.jpg",
+        "taken_at": "2025-08-21T09:16:00"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "部屋の壁に木製の棚",
+    "taken_by": "Utako",
+    "taken_at": "2025-09-04T17:27:47.344089",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 56,
+    "description": "a wooden shelf with a piece of wood on it",
+    "images": [
+      {
+        "src": "img/0056.jpg",
+        "taken_at": "2025-08-21T09:16:09"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "その上に木片が付いた木製の棚",
+    "taken_by": "Utako",
+    "taken_at": "2025-09-04T17:27:51.922959",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 57,
+    "description": "a wooden beam hanging from a wall",
+    "images": [
+      {
+        "src": "img/0057.jpg",
+        "taken_at": "2025-08-21T09:16:15"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "壁からぶら下がっている木製の梁",
+    "taken_by": "Utako",
+    "taken_at": "2025-09-04T17:27:55.660856",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 58,
+    "description": "a small hole in the surface of a brown table",
+    "images": [
+      {
+        "src": "img/0058.jpg",
+        "taken_at": "2025-08-21T09:16:27"
+      }
+    ],
+    "status": "taken",
+    "taken_by": "ACONITO",
+    "taken_at": "2025-09-02T01:44:34",
+    "note": "",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "ceiling",
+    "clip_activity": "sleeping",
+    "description_ja": "茶色のテーブルの表面の小さな穴"
+  },
+  {
+    "id": 59,
+    "description": "a small hole in the wall of a room",
+    "images": [
+      {
+        "src": "img/0059.jpg",
+        "taken_at": "2025-08-21T09:16:41"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "sleeping",
+    "description_ja": "部屋の壁の小さな穴",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:21:20.409544",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 60,
+    "description": "a small room with a bed and a small table",
+    "images": [
+      {
+        "src": "img/0060.jpg",
+        "taken_at": "2025-08-21T07:52:36"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "description_ja": "ベッドと小さなテーブルのある小さな部屋",
+    "taken_by": "Mochan",
+    "taken_at": "2025-09-07T06:29:55.050095",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Motoki Watanabe",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-60-20250907063102/DSC1155.jpg",
+            "taken_at": "2025-09-07T13:51:15",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T06:31:02.835355",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Motoki Watanabe",
+    "modified_at": "2025-09-07T06:31:02.835470"
+  },
+  {
+    "id": 61,
+    "description": "a doorway with a wooden floor",
+    "images": [
+      {
+        "src": "img/0061.jpg",
+        "taken_at": "2025-08-21T08:56:12"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "corridor",
+    "clip_activity": "standing",
+    "description_ja": "木製の床がある戸口"
+  },
+  {
+    "id": 62,
+    "description": "a door with a handle in the background",
+    "images": [
+      {
+        "src": "img/0062.jpg",
+        "taken_at": "2025-08-21T09:14:08"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "door"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "背景にハンドルがあるドア"
+  },
+  {
+    "id": 63,
+    "description": "a small bug on the edge of a wooden shelf",
+    "images": [
+      {
+        "src": "img/0063.jpg",
+        "taken_at": "2025-08-21T09:14:58"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "description_ja": "木製の棚の端にある小さな虫"
+  },
+  {
+    "id": 64,
+    "description": "a close up of a wooden window frame",
+    "images": [
+      {
+        "src": "img/0064.jpg",
+        "taken_at": "2025-08-21T09:16:34"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "indoor",
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓枠のクローズアップ"
+  },
+  {
+    "id": 65,
+    "description": "a wooden ceiling with a brown trim",
+    "images": [
+      {
+        "src": "img/0065.jpg",
+        "taken_at": "2025-08-21T09:17:11"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "茶色のトリムのある木製の天井"
+  },
+  {
+    "id": 66,
+    "description": "a wooden ceiling with a hook hanging from it",
+    "images": [
+      {
+        "src": "img/0066.jpg",
+        "taken_at": "2025-08-21T09:17:32"
+      }
+    ],
+    "status": "published",
+    "taken_by": "Piu Lee",
+    "taken_at": "2025-09-02T00:56:57",
+    "note": "",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "フックがぶら下がっている木製の天井",
+    "updates": [
+      {
+        "author": "Piu Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-66-20250905094301/DSC1008.jpg",
+            "taken_at": "2025-09-05T16:40:42",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T09:43:02.043577",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Piu Lee",
+    "modified_at": "2025-09-05T09:43:02.043607"
+  },
+  {
+    "id": 67,
+    "description": "a wooden ceiling with a paper towel hanging from it",
+    "images": [
+      {
+        "src": "img/0067.jpg",
+        "taken_at": "2025-08-21T09:18:30"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "ペーパータオルがぶら下がっている木製の天井",
+    "taken_by": "Zhao Chen",
+    "taken_at": "2025-09-07T06:08:03.874961",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 68,
+    "description": "a room with a bed and a curtain",
+    "images": [
+      {
+        "src": "img/0068.jpg",
+        "taken_at": "2025-08-21T09:19:00"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "ベッドとカーテンのある部屋",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:21:29.023402",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 69,
+    "description": "a window in a japanese house with wooden shutters",
+    "images": [
+      {
+        "src": "img/0069.jpg",
+        "taken_at": "2025-08-21T09:19:35"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製のシャッター付きの日本の家の窓",
+    "taken_by": "Peiyu Cao",
+    "taken_at": "2025-09-06T05:37:24.122306",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "曹佩瑜Peiyu Cao from 园丁公寓",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-69-20250906154908/DSC1083.jpg",
+            "taken_at": "2025-09-06T17:30:14",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T15:49:08.192232",
+        "status": "published"
+      },
+      {
+        "author": "Peiyu Cao",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-69-20250907011207/DSC1096.jpg",
+            "taken_at": "2025-09-06T20:05:30",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T01:12:08.044382",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Peiyu Cao",
+    "modified_at": "2025-09-07T01:12:08.044412"
+  },
+  {
+    "id": 70,
+    "description": "a window with a wooden frame and shutters",
+    "images": [
+      {
+        "src": "img/0070.jpg",
+        "taken_at": "2025-08-21T09:20:07"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームとシャッターのある窓",
+    "taken_by": "Chie",
+    "taken_at": "2025-09-06T16:25:40.009724",
+    "instruction_text": "",
+    "instruction_images": [
+      {
+        "src": "img/instruction-70-20250906162539/DSC1085.jpg",
+        "taken_at": "2025-09-06T19:01:05"
+      }
+    ],
+    "updates": [
+      {
+        "author": "Chie",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-70-20250906162554/DSC1085.jpg",
+            "taken_at": "2025-09-06T19:01:05",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T16:25:54.255547",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Chie",
+    "modified_at": "2025-09-06T16:25:54.255596"
+  },
+  {
+    "id": 71,
+    "description": "a woman is sitting in front of a window",
+    "images": [
+      {
+        "src": "img/0071.jpg",
+        "taken_at": "2025-08-21T09:20:34"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "女性が窓の前に座っています"
+  },
+  {
+    "id": 72,
+    "description": "a window with a wooden frame and a window",
+    "images": [
+      {
+        "src": "img/0072.jpg",
+        "taken_at": "2025-08-21T09:21:44"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームと窓のある窓"
+  },
+  {
+    "id": 73,
+    "description": "a close up of a wooden shelf with a brown stain",
+    "images": [
+      {
+        "src": "img/0073.jpg",
+        "taken_at": "2025-08-21T09:22:09"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "茶色の汚れのある木製の棚のクローズアップ",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:21:36.285552",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 74,
+    "description": "a window with a small window in it",
+    "images": [
+      {
+        "src": "img/0074.jpg",
+        "taken_at": "2025-08-21T09:23:40"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "小さな窓のある窓",
+    "taken_by": "Samridhi P.",
+    "taken_at": "2025-09-02T13:10:36.759403",
+    "updates": [
+      {
+        "author": "Samridhi Pokhrel & Nirvik Maskey",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-74-20250903155607/DSC0881.jpg",
+            "taken_at": "2025-09-03T17:28:47",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-03T15:56:07.219128",
+        "status": "published"
+      },
+      {
+        "author": "Samridhi Pokhrel & Nirvik Maskey",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-74-20250904010254/DSC0890.jpg",
+            "taken_at": "2025-09-04T09:58:02",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T01:02:54.822925",
+        "status": "published"
+      },
+      {
+        "author": "Samridhi Pokhrel & Nirvik Maskey",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-74-20250905071719/DSC0949.jpg",
+            "taken_at": "2025-09-05T13:46:45",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T07:17:19.449772",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Samridhi Pokhrel & Nirvik Maskey",
+    "modified_at": "2025-09-05T07:17:19.449799"
+  },
+  {
+    "id": 75,
+    "description": "a small wooden shelf with a metal frame",
+    "images": [
+      {
+        "src": "img/0075.jpg",
+        "taken_at": "2025-08-21T09:24:10"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading",
+    "description_ja": "金属フレームのある小さな木製の棚"
+  },
+  {
+    "id": 76,
+    "description": "a window with a wooden floor and a view of a pond",
+    "images": [
+      {
+        "src": "img/0076.jpg",
+        "taken_at": "2025-08-21T09:29:14"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sitting",
+    "description_ja": "木製の床と池の景色を望む窓",
+    "taken_by": "ZHANG Yuan",
+    "taken_at": "2025-09-05T02:59:07.503012",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "ZHANG Yuan",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-76-20250906063838/DSC1049.jpg",
+            "taken_at": "2025-09-06T14:31:51",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:38:38.592975",
+        "status": "published"
+      }
+    ],
+    "modified_by": "ZHANG Yuan",
+    "modified_at": "2025-09-06T06:38:38.593006"
+  },
+  {
+    "id": 77,
+    "description": "a wooden door with a wooden frame",
+    "images": [
+      {
+        "src": "img/0077.jpg",
+        "taken_at": "2025-08-21T09:29:47"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレーム付きの木製のドア"
+  },
+  {
+    "id": 78,
+    "description": "a wooden ceiling with a light shining on it",
+    "images": [
+      {
+        "src": "img/0078.jpg",
+        "taken_at": "2025-08-21T09:31:12"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "光が輝いている木製の天井"
+  },
+  {
+    "id": 79,
+    "description": "a wooden ceiling with a wooden beam",
+    "images": [
+      {
+        "src": "img/0079.jpg",
+        "taken_at": "2025-08-21T09:33:12"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製の梁のある木製の天井",
+    "taken_by": "Tim Lode",
+    "taken_at": "2025-09-03T03:39:46.768554",
+    "instruction_text": "",
+    "instruction_images": [],
+    "taken_artists": [
+      {
+        "name": "Tim Loehde",
+        "taken_at": "2025-09-03T03:39:46.768554",
+        "instructions": [],
+        "instruction_images": []
+      }
+    ],
+    "updates": [
+      {
+        "author": "Tim Loehde",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-17-20250904042455/DSC0904.jpg",
+            "taken_at": "2025-09-04T12:40:10",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T04:24:55.679133",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Tim Loehde",
+    "modified_at": "2025-09-04T04:24:55.679154"
+  },
+  {
+    "id": 80,
+    "description": "a small room with a desk and a window",
+    "images": [
+      {
+        "src": "img/0080.jpg",
+        "taken_at": "2025-08-21T09:35:28"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "meditating",
+    "description_ja": "机と窓のある小さな部屋",
+    "taken_by": "Juli Lee",
+    "taken_at": "2025-09-05T05:24:50.867741",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Juli Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-80-20250905064419/DSC0990.jpg",
+            "taken_at": "2025-09-05T14:28:51",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T06:44:19.241077",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Juli Lee",
+    "modified_at": "2025-09-05T06:44:19.241096"
+  },
+  {
+    "id": 81,
+    "description": "a small room with a lamp and a door",
+    "images": [
+      {
+        "src": "img/0081.jpg",
+        "taken_at": "2025-08-21T09:36:14"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "hanging",
+    "description_ja": "ランプとドアのある小さな部屋"
+  },
+  {
+    "id": 82,
+    "description": "a room with a window and a tatami mat",
+    "images": [
+      {
+        "src": "img/0082.jpg",
+        "taken_at": "2025-08-21T09:36:26"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "meditating",
+    "description_ja": "窓とタータミマットのある部屋",
+    "taken_by": "Mica",
+    "taken_at": "2025-09-07T01:21:04.427511",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 83,
+    "description": "a small table with a black top on a mat",
+    "images": [
+      {
+        "src": "img/0083.jpg",
+        "taken_at": "2025-08-21T09:36:39"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "nook",
+    "clip_activity": "sitting",
+    "description_ja": "マットの上に黒いトップがある小さなテーブル",
+    "taken_by": "ZHANG Yuan",
+    "taken_at": "2025-09-05T02:59:24.016370",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "ZHANG Yuan",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-83-20250906063903/DSC1053.jpg",
+            "taken_at": "2025-09-06T14:43:48",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T06:39:03.950920",
+        "status": "published"
+      },
+      {
+        "author": "葉姵萱",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-83-20250906083431/DSC1072.jpg",
+            "taken_at": "2025-09-06T15:55:35",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T08:34:31.365147",
+        "status": "published"
+      }
+    ],
+    "modified_by": "葉姵萱",
+    "modified_at": "2025-09-06T08:34:31.365174"
+  },
+  {
+    "id": 84,
+    "description": "a small wooden table in a room with a rug",
+    "images": [
+      {
+        "src": "img/0084.jpg",
+        "taken_at": "2025-08-21T09:36:52"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "reading",
+    "description_ja": "敷物のある部屋の小さな木製のテーブル",
+    "taken_by": "Jimi",
+    "taken_at": "2025-09-04T17:28:06.779382",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Jimi",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-84-20250905094203/DSC1010.jpg",
+            "taken_at": "2025-09-05T16:49:16",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T09:42:03.392662",
+        "status": "published"
+      },
+      {
+        "author": "HUANG YU TING (YELLOW DOT DOT)",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-84-20250906162919/DSC1088.jpg",
+            "taken_at": "2025-09-06T19:15:13",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T16:29:20.101358",
+        "status": "published"
+      },
+      {
+        "author": "Jimi",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-84-20250907065132/DSC1116.jpg",
+            "taken_at": "2025-09-07T13:29:16",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T06:51:32.905123",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Jimi",
+    "modified_at": "2025-09-07T06:51:32.905145"
+  },
+  {
+    "id": 85,
+    "description": "a small piece of wood with a small piece of wood",
+    "images": [
+      {
+        "src": "img/0085.jpg",
+        "taken_at": "2025-08-21T10:38:31"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "reading",
+    "description_ja": "小さな木片のある小さな木片"
+  },
+  {
+    "id": 86,
+    "description": "a wooden door with a wooden rod hanging from it",
+    "images": [
+      {
+        "src": "img/0086.jpg",
+        "taken_at": "2025-08-21T10:38:42"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のドアからぶら下がっている木製のドア"
+  },
+  {
+    "id": 87,
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      {
+        "src": "img/0087.jpg",
+        "taken_at": "2025-08-21T10:39:09"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 88,
+    "description": "a window with a light shining through it",
+    "images": [
+      {
+        "src": "img/0088.jpg",
+        "taken_at": "2025-08-21T10:57:59"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "bright"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping",
+    "description_ja": "光が輝いている窓"
+  },
+  {
+    "id": 89,
+    "description": "a wooden shelf with a wooden railing",
+    "images": [
+      {
+        "src": "img/0089.jpg",
+        "taken_at": "2025-08-21T10:43:38"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "lying",
+    "description_ja": "木製の手すりのある木製の棚"
+  },
+  {
+    "id": 90,
+    "description": "a wooden building with a metal pipe",
+    "images": [
+      {
+        "src": "img/0090.jpg",
+        "taken_at": "2025-08-21T09:34:29"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "standing",
+    "description_ja": "金属パイプのある木製の建物"
+  },
+  {
+    "id": 91,
+    "description": "a window with a wooden frame and a wooden shutter",
+    "images": [
+      {
+        "src": "img/0091.jpg",
+        "taken_at": "2025-08-21T10:41:15"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "meditating",
+    "description_ja": "木製のフレームと木製のシャッター付きの窓"
+  },
+  {
+    "id": 92,
+    "description": "a window in a japanese house with a view of a tree",
+    "images": [
+      {
+        "src": "img/0092.jpg",
+        "taken_at": "2025-08-21T10:42:24"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "sleeping",
+    "description_ja": "木の景色を望む日本の家の窓",
+    "taken_by": "Piu Lee",
+    "taken_at": "2025-09-05T08:41:42.139671",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Piu Lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-66-20250905094301/DSC1008.jpg",
+            "taken_at": "2025-09-05T16:40:42",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T09:43:02.043577",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Piu Lee",
+    "modified_at": "2025-09-06T05:49:28.057658"
+  },
+  {
+    "id": 93,
+    "description": "a window with a wooden floor and a mirror",
+    "images": [
+      {
+        "src": "img/0093.jpg",
+        "taken_at": "2025-08-21T10:42:53"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "resting",
+    "description_ja": "木製の床と鏡のある窓"
+  },
+  {
+    "id": 94,
+    "description": "a window with a windowpane in it",
+    "images": [
+      {
+        "src": "img/0094.jpg",
+        "taken_at": "2025-08-21T10:43:02"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓のある窓が入っています",
+    "taken_by": "BLUE BUTTON aka Yellow Dot Dot aka Huang Yu Ting",
+    "taken_at": "2025-09-05T08:49:19.129415",
+    "instruction_text": "在窗台附近用食用水畫另一隻蝴蝶（可以長得跟戶外的不一樣）",
+    "instruction_images": []
+  },
+  {
+    "id": 95,
+    "description": "a man is holding a cigarette",
+    "images": [
+      {
+        "src": "img/0095.jpg",
+        "taken_at": "2025-08-21T11:25:05"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "description_ja": "男がタバコを持っています",
+    "taken_by": "leo je-eon lee",
+    "taken_at": "2025-09-03T16:00:56.999126",
+    "instruction_text": "print this picture and hang it in that space",
+    "instruction_images": [
+      {
+        "src": "img/instruction-95-20250903160056/leo.jpg",
+        "taken_at": "2025-09-03T16:00:56.999067"
+      }
+    ],
+    "updates": [
+      {
+        "author": "leo je-eon lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-95-20250904073037/DSC0922.jpg",
+            "taken_at": "2025-09-04T15:25:53",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T07:30:37.984288",
+        "status": "published"
+      },
+      {
+        "author": "leo je-eon lee",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-95-20250905111040/DSC1026.jpg",
+            "taken_at": "2025-09-05T19:40:00",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T11:10:40.869491",
+        "status": "published"
+      }
+    ],
+    "modified_by": "leo je-eon lee",
+    "modified_at": "2025-09-05T11:10:40.869517"
+  },
+  {
+    "id": 96,
+    "description": "a man is sitting in a chair",
+    "images": [
+      {
+        "src": "img/0096.jpg",
+        "taken_at": "2025-08-21T11:25:19"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "description_ja": "男が椅子に座っています",
+    "taken_by": "Chuchun Hsu",
+    "taken_at": "2025-09-03T03:38:00.867615",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 97,
+    "description": "a small wooden bench is surrounded by a tree and rocks",
+    "images": [
+      {
+        "src": "img/0097.jpg",
+        "taken_at": "2025-08-21T09:27:23"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "resting",
+    "description_ja": "小さな木製のベンチは木と岩に囲まれています"
+  },
+  {
+    "id": 98,
+    "description": "a tree trunk with a tree growing out of it",
+    "images": [
+      {
+        "src": "img/0098.jpg",
+        "taken_at": "2025-08-21T09:27:42"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing",
+    "description_ja": "木が成長している木の幹"
+  },
+  {
+    "id": 99,
+    "description": "a rock covered in ivy",
+    "images": [
+      {
+        "src": "img/0099.jpg",
+        "taken_at": "2025-08-21T09:28:48"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing",
+    "description_ja": "ツタで覆われた岩",
+    "taken_by": "Kami",
+    "taken_at": "2025-09-06T23:12:11.642550",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 100,
+    "description": "a tree trunk with a bird on it",
+    "images": [
+      {
+        "src": "img/0100.jpg",
+        "taken_at": "2025-08-21T09:29:08"
+      }
+    ],
+    "status": "taken",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "hanging",
+    "description_ja": "鳥が付いた木の幹",
+    "taken_by": "BLUE BUTTON（藍釦子）aka Yellow Dot Dot （黃點點）aka（Huang Yu Ting）",
+    "taken_at": "2025-09-05T08:50:44.871672",
+    "instruction_text": "在這附近用食用水寫上「等等要回家了」。",
+    "instruction_images": []
+  },
+  {
+    "id": 101,
+    "description": "a tree with a barbed wire fence",
+    "images": [
+      {
+        "src": "img/0101.jpg",
+        "taken_at": "2025-08-21T09:29:18"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "garden",
+    "clip_activity": "standing",
+    "description_ja": "有刺鉄線のフェンスが付いた木"
+  },
+  {
+    "id": 102,
+    "description": "a tree trunk with a rope hanging from it",
+    "images": [
+      {
+        "src": "img/0102.jpg",
+        "taken_at": "2025-08-21T09:29:37"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "hanging",
+    "description_ja": "ロープがぶら下がっている木の幹"
+  },
+  {
+    "id": 103,
+    "description": "a metal rod hanging from a wooden ceiling",
+    "images": [
+      {
+        "src": "img/0103.jpg",
+        "taken_at": "2025-08-21T09:30:10"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製の天井からぶら下がっている金属棒"
+  },
+  {
+    "id": 104,
+    "description": "a cat sitting on a window",
+    "images": [
+      {
+        "src": "img/0104.jpg",
+        "taken_at": "2025-08-21T09:32:41"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "窓に座っている猫"
+  },
+  {
+    "id": 105,
+    "description": "a wooden window with a wooden rod in it",
+    "images": [
+      {
+        "src": "img/0105.jpg",
+        "taken_at": "2025-08-21T09:33:01"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "description_ja": "木製の窓が入った木製の窓"
+  },
+  {
+    "id": 106,
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      {
+        "src": "img/0106.jpg",
+        "taken_at": "2025-08-21T09:33:37"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 107,
+    "description": "a wooden window with a wooden frame",
+    "images": [
+      {
+        "src": "img/0107.jpg",
+        "taken_at": "2025-08-21T09:33:59"
+      }
+    ],
+    "status": "available",
+    "location": "outside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の窓"
+  },
+  {
+    "id": 108,
+    "description": "a wooden beam with a small hole in it",
+    "images": [
+      {
+        "src": "img/0108.jpg",
+        "taken_at": "2025-08-21T10:45:31"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "小さな穴のある木製の梁"
+  },
+  {
+    "id": 109,
+    "description": "a wooden window frame",
+    "images": [
+      {
+        "src": "img/0109.jpg",
+        "taken_at": "2025-08-21T10:47:51"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "description_ja": "木製の窓枠"
+  },
+  {
+    "id": 110,
+    "description": "a wooden window with a hook hanging from it",
+    "images": [
+      {
+        "src": "img/0110.jpg",
+        "taken_at": "2025-08-21T10:48:15"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "フックがぶら下がっている木製の窓"
+  },
+  {
+    "id": 111,
+    "description": "a wooden floor with a wooden window",
+    "images": [
+      {
+        "src": "img/0111.jpg",
+        "taken_at": "2025-08-21T10:48:38"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ground",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "木製の窓のある木製の床",
+    "taken_by": "Suhyun Roh",
+    "taken_at": "2025-09-05T07:26:49.168631",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Sui Roh 노수현",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-111-20250907011105/DSC1095.jpg",
+            "taken_at": "2025-09-06T20:04:29",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T01:11:05.458000",
+        "status": "published"
+      },
+      {
+        "author": "Sui Roh 노수현",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-111-20250908154542/DSC1128.jpg",
+            "taken_at": "2025-09-07T13:38:17",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-08T15:45:42.963702",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Sui Roh 노수현",
+    "modified_at": "2025-09-08T15:45:42.963727"
+  },
+  {
+    "id": 112,
+    "description": "a wooden beam is hanging from a wall",
+    "images": [
+      {
+        "src": "img/0112.jpg",
+        "taken_at": "2025-08-21T10:49:04"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製の梁が壁からぶら下がっています"
+  },
+  {
+    "id": 113,
+    "description": "a wooden wall with a brown woven pattern",
+    "images": [
+      {
+        "src": "img/0113.jpg",
+        "taken_at": "2025-08-21T10:49:23"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "ceiling",
+    "clip_activity": "meditating",
+    "description_ja": "茶色の織りパターンの木製の壁"
+  },
+  {
+    "id": 114,
+    "description": "a close up of a wooden beam",
+    "images": [
+      {
+        "src": "img/0114.jpg",
+        "taken_at": "2025-08-21T10:49:48"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製の梁のクローズアップ"
+  },
+  {
+    "id": 115,
+    "description": "a wooden beam is hanging from the ceiling of a room",
+    "images": [
+      {
+        "src": "img/0115.jpg",
+        "taken_at": "2025-08-21T11:07:56"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "reading",
+    "description_ja": "部屋の天井から木製の梁がぶら下がっています"
+  },
+  {
+    "id": 116,
+    "description": "a window with a bunch of green keys hanging from it",
+    "images": [
+      {
+        "src": "img/0116.jpg",
+        "taken_at": "2025-08-21T10:50:09"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "緑の鍵がたくさんある窓からぶら下がっています"
+  },
+  {
+    "id": 117,
+    "description": "a wooden ceiling with a wire hanging from it",
+    "images": [
+      {
+        "src": "img/0117.jpg",
+        "taken_at": "2025-08-21T10:50:22"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "ceiling"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "ワイヤーがぶら下がっている木製の天井",
+    "taken_by": "Lin Anpeng",
+    "taken_at": "2025-09-04T17:28:21.933577",
+    "instruction_text": "",
+    "instruction_images": [],
+    "taken_artists": [
+      {
+        "name": "Guo Mengke",
+        "taken_at": "2025-09-05T09:31:24.754667",
+        "instructions": [],
+        "instruction_images": []
+      }
+    ],
+    "updates": [
+      {
+        "author": "Guo Mengke",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-114-20250905093124/DSC1014.jpg",
+            "taken_at": "2025-09-05T16:55:36",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T09:31:24.754667",
+        "status": "published"
+      },
+      {
+        "author": "Guo Mengke",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-117-20250906161305/DSC1078.jpg",
+            "taken_at": "2025-09-06T15:57:41",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T16:13:05.522404",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Guo Mengke",
+    "modified_at": "2025-09-06T16:13:05.522449"
+  },
+  {
+    "id": 118,
+    "description": "a wooden window with a hook hanging from it",
+    "images": [
+      {
+        "src": "img/0118.jpg",
+        "taken_at": "2025-08-21T10:51:02"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": true,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "フックがぶら下がっている木製の窓"
+  },
+  {
+    "id": 119,
+    "description": "a green ring hanging from a window sill",
+    "images": [
+      {
+        "src": "img/0119.jpg",
+        "taken_at": "2025-08-21T10:51:28"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている緑のリング",
+    "taken_by": "Ayoung Woo",
+    "taken_at": "2025-09-07T01:21:36.256709",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 120,
+    "description": "a window with a wooden frame and a window",
+    "images": [
+      {
+        "src": "img/0120.jpg",
+        "taken_at": "2025-08-21T10:51:44"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "wall",
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "木製のフレームと窓のある窓"
+  },
+  {
+    "id": 121,
+    "description": "a green ring hanging from a window sill",
+    "images": [
+      {
+        "src": "img/0121.jpg",
+        "taken_at": "2025-08-21T10:52:02"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている緑のリング",
+    "taken_by": "OO",
+    "taken_at": "2025-09-06T02:48:19.077188",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 122,
+    "description": "a small bird sitting on a window sill",
+    "images": [
+      {
+        "src": "img/0122.jpg",
+        "taken_at": "2025-08-21T10:52:21"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓枠に座っている小さな鳥",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:21:43.737056",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 123,
+    "description": "a window with a blue and green hanging ornament",
+    "images": [
+      {
+        "src": "img/0123.jpg",
+        "taken_at": "2025-08-21T10:52:29"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "青と緑の吊り下げ飾りのある窓",
+    "taken_by": "Mika",
+    "taken_at": "2025-09-06T09:24:36.568918",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 124,
+    "description": "a small blue snail hanging from a window sill",
+    "images": [
+      {
+        "src": "img/0124.jpg",
+        "taken_at": "2025-08-21T10:52:46"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている小さな青いカタツムリ"
+  },
+  {
+    "id": 125,
+    "description": "a green clothespin hanging from a window",
+    "images": [
+      {
+        "src": "img/0125.jpg",
+        "taken_at": "2025-08-21T10:53:03"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "hanging",
+    "description_ja": "窓からぶら下がっている緑色の洗濯",
+    "taken_by": "Mariana",
+    "taken_at": "2025-09-06T05:02:12.879519",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Mariana",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-125-20250906050428/Screenshot_2025-09-06_at_14.03.40.png",
+            "taken_at": "2025-09-06T05:04:28.906198",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T05:04:28.906238",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Mariana",
+    "modified_at": "2025-09-06T05:04:28.906261"
+  },
+  {
+    "id": 126,
+    "description": "a blue glass hanging from a window sill",
+    "images": [
+      {
+        "src": "img/0126.jpg",
+        "taken_at": "2025-08-21T10:53:18"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "balcony",
+    "clip_activity": "hanging",
+    "description_ja": "窓枠からぶら下がっている青いガラス",
+    "taken_by": "Jingwei",
+    "taken_at": "2025-09-06T15:38:43.553999",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Ou Jing Wei",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-126-20250906153958/DSC1076.jpg",
+            "taken_at": "2025-09-06T15:57:07",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T15:39:58.760937",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Ou Jing Wei",
+    "modified_at": "2025-09-06T15:39:58.760946"
+  },
+  {
+    "id": 127,
+    "description": "a blurry image of a tree in the background",
+    "images": [
+      {
+        "src": "img/0127.jpg",
+        "taken_at": "2025-08-21T11:25:42"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "standing",
+    "description_ja": "背景の木のぼやけた画像"
+  },
+  {
+    "id": 128,
+    "description": "a blurry image of a tree in the background",
+    "images": [
+      {
+        "src": "img/0128.jpg",
+        "taken_at": "2025-08-21T11:25:54"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "wall",
+    "clip_activity": "walking",
+    "description_ja": "背景の木のぼやけた画像"
+  },
+  {
+    "id": 129,
+    "description": "a close up of a metal door with a metal handle",
+    "images": [
+      {
+        "src": "img/0129.jpg",
+        "taken_at": "2025-08-21T10:54:03"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "金属製のハンドルを備えた金属ドアのクローズアップ"
+  },
+  {
+    "id": 130,
+    "description": "a small shelf in a room with a window",
+    "images": [
+      {
+        "src": "img/0130.jpg",
+        "taken_at": "2025-08-21T10:54:57"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "air"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "hanging",
+    "description_ja": "窓のある部屋の小さな棚"
+  },
+  {
+    "id": 131,
+    "description": "a wooden door with a paper covering on it",
+    "images": [
+      {
+        "src": "img/0131.jpg",
+        "taken_at": "2025-08-21T11:04:31"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "hanging",
+    "description_ja": "紙が覆われた木製のドア"
+  },
+  {
+    "id": 132,
+    "description": "a wooden doorway with a wooden frame",
+    "images": [
+      {
+        "src": "img/0132.jpg",
+        "taken_at": "2025-08-21T11:05:13"
+      }
+    ],
+    "status": "published",
+    "location": "inside",
+    "element": [
+      "wall"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "window",
+    "clip_activity": "standing",
+    "description_ja": "木製のフレーム付きの木製の戸口",
+    "taken_by": "kimosato",
+    "taken_at": "2025-09-06T03:57:32.840494",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Kimosato",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-132-20250906093842/DSC1077.jpg",
+            "taken_at": "2025-09-06T15:57:23",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T09:38:42.403182",
+        "status": "published"
+      },
+      {
+        "author": "Kimosato",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-132-20250908154458/DSC1129.jpg",
+            "taken_at": "2025-09-07T13:39:12",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-08T15:44:58.735996",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Kimosato",
+    "modified_at": "2025-09-08T15:44:58.736024"
+  },
+  {
+    "id": 133,
+    "description": "a wooden slatted screen in a room",
+    "images": [
+      {
+        "src": "img/0133.jpg",
+        "taken_at": "2025-08-21T11:05:56"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "description_ja": "部屋の木製のスラットスクリーン",
+    "taken_by": "Takasugi Runa",
+    "taken_at": "2025-09-06T02:06:19.448657",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 134,
+    "description": "a wooden floor with a rug on it",
+    "images": [
+      {
+        "src": "img/0134.jpg",
+        "taken_at": "2025-08-21T11:14:37"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [
+      "ground"
+    ],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "floor",
+    "clip_activity": "standing",
+    "description_ja": "敷物が付いた木製の床"
+  },
+  {
+    "id": 135,
+    "description": "a small room with a bed and a dresser",
+    "images": [
+      {
+        "src": "img/0135.jpg",
+        "taken_at": "2025-08-21T10:55:35"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "kitchen",
+    "clip_activity": "sleeping",
+    "description_ja": "ベッドとドレッサーのある小さな部屋",
+    "taken_by": "Zhao Chen",
+    "taken_at": "2025-09-07T06:05:31.803675",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 136,
+    "description": "a wooden cabinet with drawers in it",
+    "images": [
+      {
+        "src": "img/0136.jpg",
+        "taken_at": "2025-08-21T09:06:19"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "引き出しが入った木製のキャビネット"
+  },
+  {
+    "id": 137,
+    "description": "a wooden door with a knob on it",
+    "images": [
+      {
+        "src": "img/0137.jpg",
+        "taken_at": "2025-08-21T09:08:39"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "standing",
+    "description_ja": "ノブが付いた木製のドア"
+  },
+  {
+    "id": 138,
+    "description": "a bathroom with a toilet and a sink",
+    "images": [
+      {
+        "src": "img/0138.jpg",
+        "taken_at": "2025-08-21T09:05:53"
+      }
+    ],
+    "status": "available",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "attic",
+    "clip_activity": "hanging",
+    "description_ja": "トイレと流し台のあるバスルーム"
+  },
+  {
+    "id": 139,
+    "description": "a blue door with a ring on it",
+    "images": [
+      {
+        "src": "img/0139.jpg",
+        "taken_at": "2025-08-21T08:53:36"
+      }
+    ],
+    "status": "taken",
+    "location": "inside",
+    "element": [],
+    "style": [
+      "neutral"
+    ],
+    "has_hook": false,
+    "clip_type": "door",
+    "clip_activity": "playing",
+    "description_ja": "リングが付いた青いドア",
+    "taken_by": "Yuandinggongyu",
+    "taken_at": "2025-09-06T02:21:52.867315",
+    "instruction_text": "",
+    "instruction_images": []
+  },
+  {
+    "id": 140,
+    "description": "a computer screen is shown in a room",
+    "images": [
+      {
+        "src": "img/140-20250903034601/DSC0879.jpg",
+        "taken_at": "2025-09-03T10:27:18"
+      }
+    ],
+    "created_by": "Admin",
+    "created_at": "2025-09-03T12:00:01.452481",
+    "status": "published",
+    "updates": [
+      {
+        "author": "Yuqi Wang",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250904035315/DSC0901.jpg",
+            "taken_at": "2025-09-04T12:38:32",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-04T03:53:15.867029",
+        "status": "published"
+      },
+      {
+        "author": " Dongchen Daniel Zheng",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250905070002/DSC0998.jpg",
+            "taken_at": "2025-09-05T15:34:49",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T07:00:02.948034",
+        "status": "published"
+      },
+      {
+        "author": "Yun Hyejeong",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250905070518/DSC1002.jpg",
+            "taken_at": "2025-09-05T15:47:49",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T07:05:18.186757",
+        "status": "published"
+      },
+      {
+        "author": "周伟智 Weizhi Zhou",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250905115052/DSC1022.jpg",
+            "taken_at": "2025-09-05T18:57:26",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-05T11:50:52.801015",
+        "status": "published"
+      },
+      {
+        "author": "Yun Hyejeong",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250906071522/DSC1075.jpg",
+            "taken_at": "2025-09-06T15:56:41",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T07:15:22.431593",
+        "status": "published"
+      },
+      {
+        "author": "Yuqi Wang",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250906071620/DSC0995.jpg",
+            "taken_at": "2025-09-05T14:31:44",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T07:16:20.361926",
+        "status": "published"
+      },
+      {
+        "author": "カミ Kami",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-140-20250907065406/DSC1140.jpg",
+            "taken_at": "2025-09-07T13:47:39",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-07T06:54:07.121328",
+        "status": "published"
+      }
+    ],
+    "taken_by": "Yuqi Wang",
+    "taken_at": "2025-09-04T00:44:05.247152",
+    "instruction_text": "",
+    "instruction_images": [],
+    "modified_by": "カミ Kami",
+    "modified_at": "2025-09-07T06:54:07.121354"
+  },
+  {
+    "id": 141,
+    "description": "Pending...",
+    "images": [
+      {
+        "src": "img/141-20250906154943/DSC1082.jpg",
+        "taken_at": "2025-09-06T16:58:34"
+      }
+    ],
+    "created_by": "Admin",
+    "created_at": "2025-09-06T15:49:43.644769",
+    "status": "published",
+    "updates": [
+      {
+        "author": "Pardis",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-141-20250906155054/DSC1091.jpg",
+            "taken_at": "2025-09-06T19:22:54",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-06T15:50:54.890228",
+        "status": "published"
+      }
+    ],
+    "taken_by": "Pardis",
+    "taken_at": "2025-09-06T15:50:36.149442",
+    "instruction_text": "",
+    "instruction_images": [
+      {
+        "src": "img/instruction-141-20250906155036/DSC1091.jpg",
+        "taken_at": "2025-09-06T19:22:54"
+      }
+    ],
+    "modified_by": "Pardis",
+    "modified_at": "2025-09-06T15:50:54.890251"
+  },
+  {
+    "id": 142,
+    "description": "Pending...",
+    "images": [
+      {
+        "src": "img/142-20250907021149/DSC1081.jpg",
+        "taken_at": "2025-09-06T16:56:52"
+      }
+    ],
+    "created_by": "Admin",
+    "created_at": "2025-09-07T02:11:49.414491",
+    "status": "taken",
+    "updates": [],
+    "taken_by": "Tetsuko",
+    "taken_at": "2025-09-07T02:12:22.378657",
+    "instruction_text": "",
+    "instruction_images": []
+  }
+]

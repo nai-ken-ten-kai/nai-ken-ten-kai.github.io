@@ -22,7 +22,7 @@
   {
     "id": 3,
     "description": "a metal bell hanging on a wooden door",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0003.jpg",
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "description": "a wooden gate with bamboo sticks on it",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0010.jpg",
@@ -1144,7 +1144,7 @@
   {
     "id": 114,
     "description": "a close up of a wooden beam",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0114.jpg",
@@ -1436,7 +1436,7 @@
   {
     "id": 142,
     "description": "Pending...",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/142-20250907021149/DSC1081.jpg",

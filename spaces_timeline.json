@@ -2962,6 +2962,38 @@
     "status": "published"
   },
   {
+    "space_id": 3,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-3-20250908162134/DSC1097.jpg",
+        "taken_at": "2025-09-07T13:20:06",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:20:06",
+    "author": "Nagisa Mizuno",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 10,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-10-20250908161918/DSC1102.jpg",
+        "taken_at": "2025-09-07T13:22:41",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:22:41",
+    "author": "Sam",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 84,
     "type": "update",
     "images": [
@@ -2978,6 +3010,54 @@
     "status": "published"
   },
   {
+    "space_id": 111,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-111-20250908154542/DSC1128.jpg",
+        "taken_at": "2025-09-07T13:38:17",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:38:17",
+    "author": "Sui Roh 노수현",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 132,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-132-20250908154458/DSC1129.jpg",
+        "taken_at": "2025-09-07T13:39:12",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:39:12",
+    "author": "Kimosato",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 114,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-114-20250908154724/DSC1134.jpg",
+        "taken_at": "2025-09-07T13:43:32",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:43:32",
+    "author": "Lin An-Peng",
+    "text": "Reconstructing Space 114",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 140,
     "type": "update",
     "images": [
@@ -2989,6 +3069,22 @@
     ],
     "taken_at": "2025-09-07T13:47:39",
     "author": "カミ Kami",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 142,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-142-20250908160550/DSC1146.jpg",
+        "taken_at": "2025-09-07T13:48:45",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:48:45",
+    "author": "Tetsuko",
     "text": "",
     "action": "update",
     "status": "published"
@@ -3021,6 +3117,38 @@
     ],
     "taken_at": "2025-09-07T13:51:15",
     "author": "Motoki Watanabe",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 15,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-15-20250908161616/DSC1174.jpg",
+        "taken_at": "2025-09-07T15:13:23",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T15:13:23",
+    "author": "Jana Rippmann",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
+    "space_id": 80,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-80-20250908160611/DSC1186.jpg",
+        "taken_at": "2025-09-07T17:06:20",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T17:06:20",
+    "author": " ",
     "text": "",
     "action": "update",
     "status": "published"

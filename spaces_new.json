@@ -136,7 +136,7 @@
         "taken_at": "2025-08-21T09:20:25"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -149,7 +149,25 @@
     "taken_by": "Beilin",
     "taken_at": "2025-09-04T17:26:39.124494",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Qi Beilin",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-4-20250908163319/DSC1099.jpg",
+            "taken_at": "2025-09-07T13:21:03",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-08T16:33:19.813018",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Qi Beilin",
+    "modified_at": "2025-09-08T16:33:19.813043"
   },
   {
     "id": 5,
@@ -3065,7 +3083,7 @@
         "taken_at": "2025-08-21T09:27:23"
       }
     ],
-    "status": "available",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -3074,7 +3092,34 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "resting",
-    "description_ja": "小さな木製のベンチは木と岩に囲まれています"
+    "description_ja": "小さな木製のベンチは木と岩に囲まれています",
+    "taken_by": "Kami カミ",
+    "taken_at": "2025-09-08T16:30:17.168422",
+    "instruction_text": "",
+    "instruction_images": [
+      {
+        "src": "img/instruction-97-20250908163017/DSC1105.jpg",
+        "taken_at": "2025-09-07T13:23:48"
+      }
+    ],
+    "updates": [
+      {
+        "author": "Kami カミ",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-97-20250908163040/DSC1105.jpg",
+            "taken_at": "2025-09-07T13:23:48",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-08T16:30:40.384078",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Kami カミ",
+    "modified_at": "2025-09-08T16:30:40.384103"
   },
   {
     "id": 98,
@@ -3153,7 +3198,7 @@
         "taken_at": "2025-08-21T09:29:18"
       }
     ],
-    "status": "available",
+    "status": "published",
     "location": "outside",
     "element": [],
     "style": [
@@ -3162,7 +3207,34 @@
     "has_hook": false,
     "clip_type": "garden",
     "clip_activity": "standing",
-    "description_ja": "有刺鉄線のフェンスが付いた木"
+    "description_ja": "有刺鉄線のフェンスが付いた木",
+    "taken_by": "ningning",
+    "taken_at": "2025-09-08T16:27:39.416591",
+    "instruction_text": "",
+    "instruction_images": [
+      {
+        "src": "img/instruction-101-20250908162739/DSC1104.jpg",
+        "taken_at": "2025-09-07T13:23:22"
+      }
+    ],
+    "updates": [
+      {
+        "author": "ningning",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-101-20250908162811/DSC1104.jpg",
+            "taken_at": "2025-09-07T13:23:22",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-08T16:28:11.546592",
+        "status": "published"
+      }
+    ],
+    "modified_by": "ningning",
+    "modified_at": "2025-09-08T16:28:11.546634"
   },
   {
     "id": 102,

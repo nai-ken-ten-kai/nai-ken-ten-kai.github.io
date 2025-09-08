@@ -32,7 +32,7 @@
   {
     "id": 4,
     "description": "a wooden bird house with a wooden door",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0004.jpg",
@@ -974,7 +974,7 @@
   {
     "id": 97,
     "description": "a small wooden bench is surrounded by a tree and rocks",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0097.jpg",
@@ -1014,7 +1014,7 @@
   {
     "id": 101,
     "description": "a tree with a barbed wire fence",
-    "status": "available",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0101.jpg",

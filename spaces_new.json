@@ -1022,7 +1022,7 @@
         "taken_at": "2025-08-21T08:52:55"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "inside",
     "element": [],
     "style": [
@@ -1035,7 +1035,25 @@
     "taken_by": "LU XIAOYAN",
     "taken_at": "2025-09-04T00:43:39.026872",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "LU XIAOYAN",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-30-20250908163539/DSC1250.jpg",
+            "taken_at": "2025-09-08T13:26:55",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-08T16:35:39.622806",
+        "status": "published"
+      }
+    ],
+    "modified_by": "LU XIAOYAN",
+    "modified_at": "2025-09-08T16:35:39.622838"
   },
   {
     "id": 31,

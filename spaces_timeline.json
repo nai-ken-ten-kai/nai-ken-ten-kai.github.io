@@ -3200,5 +3200,21 @@
     "text": "",
     "action": "update",
     "status": "published"
+  },
+  {
+    "space_id": 30,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-30-20250908163539/DSC1250.jpg",
+        "taken_at": "2025-09-08T13:26:55",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-08T13:26:55",
+    "author": "LU XIAOYAN",
+    "text": "",
+    "action": "update",
+    "status": "published"
   }
 ]

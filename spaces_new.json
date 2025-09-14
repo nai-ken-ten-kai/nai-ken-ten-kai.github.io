@@ -779,7 +779,7 @@
         "taken_at": "2025-08-21T08:44:36"
       }
     ],
-    "status": "available",
+    "status": "published",
     "location": "inside",
     "element": [
       "wall"
@@ -790,7 +790,29 @@
     "has_hook": false,
     "clip_type": "attic",
     "clip_activity": "hanging",
-    "description_ja": "木製の壁のある木製の壁のクローズアップ"
+    "description_ja": "木製の壁のある木製の壁のクローズアップ",
+    "taken_by": "Kitty",
+    "taken_at": "2025-09-14T17:02:40.848123",
+    "instruction_text": "",
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Kitty Lam",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-21-20250914170411/DSC11141.jpg",
+            "taken_at": "2025-09-07T13:28:11",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:04:12.045805",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Kitty Lam",
+    "modified_at": "2025-09-14T17:04:12.045823"
   },
   {
     "id": 22,

@@ -3042,6 +3042,22 @@
     "status": "published"
   },
   {
+    "space_id": 21,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-21-20250914170411/DSC11141.jpg",
+        "taken_at": "2025-09-07T13:28:11",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T13:28:11",
+    "author": "Kitty Lam",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 84,
     "type": "update",
     "images": [

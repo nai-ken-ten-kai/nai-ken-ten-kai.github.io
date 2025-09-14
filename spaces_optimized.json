@@ -322,7 +322,7 @@
   {
     "id": 33,
     "description": "a curtain rod hanging from the ceiling",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0033.jpg",
@@ -1346,7 +1346,7 @@
   {
     "id": 133,
     "description": "a wooden slatted screen in a room",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0133.jpg",
@@ -1366,7 +1366,7 @@
   {
     "id": 135,
     "description": "a small room with a bed and a dresser",
-    "status": "taken",
+    "status": "published",
     "artist": [],
     "original_image": {
       "src": "img/0135.jpg",

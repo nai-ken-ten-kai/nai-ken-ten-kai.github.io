@@ -1128,7 +1128,7 @@
         "taken_at": "2025-08-21T08:54:12"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "inside",
     "element": [
       "ceiling"
@@ -1143,7 +1143,39 @@
     "taken_by": "7up",
     "taken_at": "2025-09-07T09:38:26.998341",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Sevenup(7xi)",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-33-20250914171706/DSC1167.jpg",
+            "taken_at": "2025-09-07T15:10:17",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:17:06.977854",
+        "status": "published"
+      },
+      {
+        "author": "Sevenup(7xi)",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-33-20250914171722/DSC1168.jpg",
+            "taken_at": "2025-09-07T15:10:34",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:17:23.188398",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Sevenup(7xi)",
+    "modified_at": "2025-09-14T17:17:23.188426"
   },
   {
     "id": 34,
@@ -3611,10 +3643,24 @@
         ],
         "created_at": "2025-09-08T15:47:24.213046",
         "status": "published"
+      },
+      {
+        "author": "Lin An-Peng",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-114-20250914171308/DSC1123.jpg",
+            "taken_at": "2025-09-07T13:35:13",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:13:08.670933",
+        "status": "published"
       }
     ],
     "modified_by": "Lin An-Peng",
-    "modified_at": "2025-09-08T15:47:24.213073",
+    "modified_at": "2025-09-14T17:13:08.670962",
     "description_ja": "木製の梁のクローズアップ"
   },
   {
@@ -4159,7 +4205,7 @@
         "taken_at": "2025-08-21T11:05:56"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "inside",
     "element": [],
     "style": [
@@ -4172,7 +4218,25 @@
     "taken_by": "Takasugi Runa",
     "taken_at": "2025-09-06T02:06:19.448657",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Takasugi Runa",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-133-20250914170821/DSC1202.jpg",
+            "taken_at": "2025-09-07T17:16:33",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:08:22.431269",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Takasugi Runa",
+    "modified_at": "2025-09-14T17:08:22.431298"
   },
   {
     "id": 134,
@@ -4205,7 +4269,7 @@
         "taken_at": "2025-08-21T10:55:35"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "inside",
     "element": [],
     "style": [
@@ -4218,7 +4282,25 @@
     "taken_by": "Zhao Chen",
     "taken_at": "2025-09-07T06:05:31.803675",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "Sevenup(7xi)",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-135-20250914171830/DSC1166.jpg",
+            "taken_at": "2025-09-07T15:09:54",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:18:30.492839",
+        "status": "published"
+      }
+    ],
+    "modified_by": "Sevenup(7xi)",
+    "modified_at": "2025-09-14T17:18:30.492879"
   },
   {
     "id": 136,

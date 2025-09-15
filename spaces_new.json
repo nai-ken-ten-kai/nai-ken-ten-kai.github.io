@@ -996,7 +996,7 @@
         "taken_at": "2025-08-21T08:51:27"
       }
     ],
-    "status": "taken",
+    "status": "published",
     "location": "inside",
     "element": [],
     "style": [
@@ -1009,7 +1009,25 @@
     "taken_by": "moiji",
     "taken_at": "2025-09-06T05:11:47.192162",
     "instruction_text": "",
-    "instruction_images": []
+    "instruction_images": [],
+    "updates": [
+      {
+        "author": "池上木 moiji",
+        "text": "",
+        "action": "update",
+        "images": [
+          {
+            "src": "img/update-28-20250914173120/DSC1187.jpg",
+            "taken_at": "2025-09-07T17:07:00",
+            "role": "primary"
+          }
+        ],
+        "created_at": "2025-09-14T17:31:20.539498",
+        "status": "published"
+      }
+    ],
+    "modified_by": "池上木 moiji",
+    "modified_at": "2025-09-14T17:31:20.539526"
   },
   {
     "id": 29,

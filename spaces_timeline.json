@@ -3282,6 +3282,22 @@
     "status": "published"
   },
   {
+    "space_id": 28,
+    "type": "update",
+    "images": [
+      {
+        "src": "img/update-28-20250914173120/DSC1187.jpg",
+        "taken_at": "2025-09-07T17:07:00",
+        "role": "primary"
+      }
+    ],
+    "taken_at": "2025-09-07T17:07:00",
+    "author": "池上木 moiji",
+    "text": "",
+    "action": "update",
+    "status": "published"
+  },
+  {
     "space_id": 133,
     "type": "update",
     "images": [
